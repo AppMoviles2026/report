@@ -184,25 +184,25 @@ Esta situación reduce la confianza entre ambas partes y limita la posibilidad d
 
 **How (¿Cómo se manifiesta?)**
 
-La problemática se manifiesta mediante conversaciones dispersas por mensajes directos, acuerdos realizados verbalmente o mediante mensajes informales, ausencia de contratos o condiciones estructuradas, entregables poco definidos, retrasos en las publicaciones, contenido que no cumple con las especificaciones de la empresa y dificultades para comprobar el cumplimiento de una colaboración.
+La problemática se manifiesta mediante conversaciones dispersas por mensajes directos, acuerdos informales o verbales, ausencia de contratos formales, entregables poco definidos, retrasos en las publicaciones y dificultades para auditar el cumplimiento comercial. De acuerdo con el Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual (INDECOPI, 2024), una parte significativa de las colaboraciones comerciales locales se realiza bajo modalidades como canjes, envíos de productos o acuerdos verbales sin contratos integrales que precisen los deberes de las partes, tales como el control editorial, la acreditación de testimonios auténticos o el cumplimiento de las normas de autenticidad publicitaria.  
 
 Asimismo, las empresas suelen tener que recopilar manualmente información de las publicaciones para analizar métricas como alcance, visualizaciones e interacciones, dificultando la evaluación objetiva del rendimiento de cada campaña.
 
 **How much (¿Cuál es la magnitud?)**
 
-Las micro, pequeñas y medianas empresas constituyen una parte importante del ecosistema empresarial peruano y utilizan cada vez más los canales digitales para promocionar productos y servicios. Dentro de este contexto, las redes sociales se han convertido en un canal accesible para que los negocios puedan llegar a nuevos clientes sin requerir las inversiones asociadas a medios publicitarios tradicionales.
+La relevancia de esta problemática se sustenta en el acelerado crecimiento del ecosistema publicitario digital en el Perú. De acuerdo con el Informe de Inversión Publicitaria Digital 2024 elaborado por IAB Perú y PwC (2024), el gasto publicitario digital en el país alcanzó los 296 millones de dólares en 2024, consolidando una trayectoria de expansión continua desde los 140 millones reportados en 2020.
 
-Sin embargo, el acceso a creadores de contenido no necesariamente implica que las empresas cuenten con procesos profesionales para gestionar las colaboraciones. En especial, las pymes pueden depender de negociaciones individuales mediante redes sociales, lo que genera una operación fragmentada y dificulta la medición de resultados.
-
-Por otro lado, el crecimiento de los creadores de contenido ha generado nuevas oportunidades para que negocios de diferentes tamaños desarrollen campañas de micro-marketing orientadas a comunidades específicas. Sin embargo, la ausencia de mecanismos estandarizados para definir campañas, verificar entregables y gestionar compensaciones representa una barrera para escalar este tipo de colaboraciones.
+Sin embargo, a pesar de este importante flujo de capital, las micro, pequeñas y medianas empresas enfrentan serias limitaciones para profesionalizar su participación dentro del ecosistema digital. Si bien las redes sociales representan el canal de entrada más accesible frente a los altos costos de los medios tradicionales, la gestión de colaboraciones con creadores de contenido se mantiene atomizada. La falta de herramientas estructuradas para pactar compensaciones, supervisar entregables bajo estándares regulatorios vigentes y auditar el retorno sobre la inversión frena la capacidad de las pymes para escalar estas estrategias de micro-marketing de manera predecible y formal.  
 
 En este contexto, existe una oportunidad para desarrollar una plataforma especializada que permita estructurar las colaboraciones entre empresas y creadores, reduciendo la informalidad y facilitando la medición de los resultados obtenidos.
 
-**Figura 1** Distribución del ecosistema de empresas y creadores de contenido dentro del marketing digital
+**Figura 1** Evolución de la inversión en publicidad digital en el Perú (2014-2024)
 
-![EcosistemaMarketing](./assets/images/ChapterI/EcosistemaMarketing.png)
 
-_Nota._ Elaboración propia.
+
+![EcosistemaMarketing](./assets/C01/fuente1.png)
+
+_Nota._ Adaptado de Informe de Inversión Publicitaria Digital 2024 (p. 2), por PwC e Interactive Advertising Bureau Perú (IAB Perú), 2024.
 
 #### 1.2.2. Lean UX Process
 
@@ -307,21 +307,12 @@ CollabPro está dirigido a dos segmentos principales que forman parte del ecosis
 
   Estas empresas pueden contar con recursos limitados para desarrollar campañas de marketing y, en muchos casos, gestionan directamente las colaboraciones con creadores mediante Instagram, WhatsApp u otros canales informales. Esta situación dificulta comparar propuestas, establecer condiciones claras, controlar los entregables y determinar si una colaboración generó resultados suficientes para justificar la inversión.
 
-  La principal motivación de este segmento para utilizar CollabPro es profesionalizar la gestión de sus campañas con creadores, reduciendo el tiempo dedicado a la coordinación y obteniendo mayor control sobre los entregables y resultados. El panel de métricas constituye además un elemento importante de la propuesta de valor, debido a que permite centralizar información sobre el rendimiento de las publicaciones y facilitar la evaluación de las campañas.
-
-  Dentro de CollabPro, este segmento representa el principal cliente del modelo de negocio, ya que las empresas son quienes pagan la suscripción mensual para mantener campañas activas y acceder a funcionalidades de gestión y medición.
-
 - **Segmento 2: Creadores de Contenido**
 
   El segundo segmento está conformado por creadores de contenido que utilizan plataformas digitales como Instagram, TikTok, YouTube u otras redes sociales para desarrollar y compartir contenido con sus comunidades.
 
   Dentro de este segmento pueden coexistir creadores pequeños y medianos, microcreadores especializados en determinados nichos y creadores que buscan establecer relaciones comerciales con marcas y negocios. A pesar de sus diferencias en tamaño y alcance, todos comparten la necesidad de encontrar oportunidades de colaboración y conocer claramente las condiciones antes de aceptar una campaña.
 
-  Actualmente, muchos creadores reciben propuestas mediante mensajes directos o canales informales, lo que puede generar falta de claridad respecto a los entregables, fechas de publicación, características del contenido y compensación. Además, una colaboración gestionada informalmente puede estar sujeta a cambios en las condiciones o a problemas relacionados con el cumplimiento del pago.
-
-  La principal motivación de este segmento para utilizar CollabPro es acceder a campañas relevantes, conocer previamente los requisitos de cada colaboración y contar con un proceso estructurado que proporcione mayor seguridad sobre el cumplimiento de los acuerdos. La plataforma también puede permitirles construir un historial de colaboraciones y fortalecer su relación comercial con las empresas.
-
-  A diferencia de las empresas, los creadores no constituyen inicialmente el segmento que genera los ingresos principales del modelo SaaS, sino que representan un componente fundamental del marketplace, ya que la disponibilidad y diversidad de creadores aumenta el valor que CollabPro puede ofrecer a las empresas.
 
 ---
 
@@ -341,7 +332,31 @@ CollabPro está dirigido a dos segmentos principales que forman parte del ecosis
 
 #### 2.2.1. Diseño de entrevistas
 
-[Ingresar preguntas diseñadas]
+- **Segmento 1: Pequeñas y Medianas Empresas**
+
+1. ¿Actualmente utilizan redes sociales para promocionar su negocio? ¿Cuáles utilizan principalmente?
+2. ¿Han realizado alguna colaboración con un creador de contenido o influencer? Cuéntame cómo fue esa experiencia.
+3. ¿Cómo encuentran actualmente a los creadores con los que trabajan?
+4. ¿Cómo suelen negociar las condiciones de una colaboración, como precio, productos, publicaciones, fechas y entregables?
+5. ¿Alguna vez han tenido problemas porque un creador no entregó el contenido acordado, lo publicó tarde o no cumplió con los requisitos? ¿Qué ocurrió?
+6. ¿Cómo verifican actualmente que una colaboración cumplió con lo que habían acordado?
+7. Después de realizar una colaboración, ¿cómo determinan si realmente valió la pena la inversión? ¿Qué métricas revisan?
+8. ¿Qué es lo que más tiempo o esfuerzo les toma cuando trabajan con creadores?
+9. Si pudieran mejorar una sola cosa del proceso actual de trabajar con creadores, ¿qué cambiarían?
+10. ¿Estarían dispuestos a pagar una suscripción mensual por una plataforma que les permita encontrar creadores, estructurar campañas, controlar entregables y medir resultados? ¿Qué tendría que ofrecer para que consideren que vale la pena pagar?
+
+- **Segmento 2: Creadores de Contenido**
+
+1. ¿Actualmente creas contenido en redes sociales? ¿En cuáles y qué tipo de contenido produces?
+2. ¿Has realizado colaboraciones pagadas o mediante intercambio de productos con alguna marca o negocio? Cuéntame sobre la última.
+3. ¿Cómo suelen llegar actualmente las propuestas de colaboración?
+4. ¿Qué información te proporciona normalmente una empresa cuando te propone una colaboración?
+5. ¿Alguna vez has aceptado una colaboración y posteriormente descubriste que los requisitos eran diferentes a lo que esperabas? ¿Qué ocurrió?
+6. ¿Has tenido problemas con empresas respecto al pago, productos ofrecidos, cambios en los requisitos o fechas de entrega?
+7. Antes de aceptar una colaboración, ¿qué información consideras indispensable conocer?
+8. ¿Qué dificultades tienes actualmente para encontrar marcas o negocios que realmente encajen con tu contenido y audiencia?
+9. ¿Qué opinas de un sistema donde puedas ver campañas disponibles, revisar sus requisitos antes de postular y conocer claramente la compensación? ¿Qué ventajas o problemas tendría para ti?
+10. ¿Qué tendría que ofrecer una plataforma de este tipo para que prefieras utilizarla en lugar de negociar directamente por Instagram o WhatsApp?
 
 #### 2.2.2. Registro de entrevistas
 
@@ -433,91 +448,6 @@ CollabPro está dirigido a dos segmentos principales que forman parte del ecosis
 
 ###### 2.6.x.6.2. Bounded Context Database Design Diagram
 
----
-
-## Capítulo III: Solution UI/UX Design
-
-### 3.1. Product design
-
-#### 3.1.1. Style Guidelines
-
-##### 3.1.1.1. General Style Guidelines
-
-[Ingresar branding, typography, colors, etc.]
-
-#### 3.1.2. Information Architecture
-
-##### 3.1.2.1. Organization Systems
-
-##### 3.1.2.2. Labelling Systems
-
-##### 3.1.2.3. SEO Tags and Meta Tags
-
-##### 3.1.2.4. Searching Systems
-
-##### 3.1.2.5. Navigation Systems
-
-#### 3.1.3. Landing Page UI Design
-
-##### 3.1.3.1. Landing Page Wireframe
-
-##### 3.1.3.2. Landing Page Mock-up
-
-#### 3.1.4. Mobile Applications UX/UI Design
-
-##### 3.1.4.1. Mobile Applications Wireframes
-
-##### 3.1.4.2. Mobile Applications Wireflow Diagrams
-
-##### 3.1.4.3. Mobile Applications Mock-ups
-
-##### 3.1.4.4. Mobile Applications User Flow Diagrams
-
-##### 3.1.4.5. Mobile Applications Prototyping
-
----
-
-## Capítulo IV: Product Implementation & Validation
-
-### 4.1. Software Configuration Management
-
-#### 4.1.1. Software Development Environment Configuration
-
-#### 4.1.2. Source Code Management
-
-#### 4.1.3. Source Code Style Guide & Conventions
-
-#### 4.1.4. Software Deployment Configuration
-
-### 4.2. Landing Page & Mobile Application Implementation
-
-#### 4.2.1. Sprint [n]
-
-##### 4.2.1.1. Sprint Planning [n]
-
-##### 4.2.1.2. Aspect Leaders and Collaborators
-
-##### 4.2.1.3. Sprint Backlog [n]
-
-##### 4.2.1.4. Development Evidence for Sprint Review
-
-##### 4.2.1.5. Testing Suite Evidence for Sprint Review
-
-##### 4.2.1.6. Execution Evidence for Sprint Review
-
-##### 4.2.1.7. Services Documentation Evidence for Sprint Review
-
-##### 4.2.1.8. Software Deployment Evidence for Sprint Review
-
-##### 4.2.1.9. Team Collaboration Insights during Sprint
-
-### 4.3. Validation Interviews
-
-#### 4.3.1. Diseño de Entrevistas
-
-#### 4.3.2. Registro de Entrevistas
-
-#### 4.3.3. Evaluaciones según heurísticas
 
 ---
 
@@ -525,35 +455,16 @@ CollabPro está dirigido a dos segmentos principales que forman parte del ecosis
 
 [Ingresar conclusiones y recomendaciones del proyecto]
 
----
-
-## Video App Validation
-
-[Ingresar Firebase App Distribution logs, UX feedback y Kenlace del video]
-
----
-
-## Video About the product
-
-[Ingresar enlace y explicación]
-
----
-
-## Video About the team
-
-[Ingresar enlace y testimonios]
-
----
-
-## Glosario
-
-[Ingresar términos clave relacionados con la arquitectura y diseño de software]
 
 ---
 
 ## Bibliografía
 
-[Ingresar citas en formato APA. Recordatorio: Deben ser al menos 4 papers de fuentes académicas Q1 o Q2]
+* Interactive Advertising Bureau Perú, & PricewaterhouseCoopers. (2024). *Informe de inversión publicitaria digital 2024*. IAB Perú. https://iabperu.com/wp-content/uploads/2025/03/PwC-e-IAB-Informe-de-Inversion-en-Publicidad-Digital-2024-version-reducida.pdf
+
+
+* Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual. (2024). *Guía de publicidad para influencers 2024*. INDECOPI. https://www.gob.pe/institucion/indecopi/informes-publicaciones/5870366-guia-de-publicidad-para-influencers-2024
+
 
 ---
 
