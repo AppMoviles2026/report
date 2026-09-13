@@ -303,7 +303,7 @@ Estas necesidades son interdependientes, ya que una empresa requiere confianza e
 
 CollabPro está dirigido a dos segmentos principales que forman parte del ecosistema del marketing de creadores de contenido.
 
-- **Segmento 1: Pequeñas y Medianas Empresas**
+- **Segmento 1: Pequeñas y Medianas Empresas (Pymes)**
 
   El primer segmento está conformado por pequeñas y medianas empresas que utilizan o desean utilizar las redes sociales como canal de promoción y adquisición de clientes. Dentro de este segmento pueden encontrarse restaurantes, tiendas, emprendimientos, marcas de productos, servicios profesionales y otros negocios que buscan aumentar su visibilidad mediante colaboraciones con creadores de contenido.
 
@@ -389,7 +389,91 @@ Estas tácticas deben priorizarse como un MVP: primero campaña estructurada, po
 
 #### 2.2.2. Registro de entrevistas
 
-[Ingresar enlaces y resumen de entrevistas]
+- **Segmento 1: Pequeñas y Medianas Empresas (Pymes)**
+
+**Entrevista 1: Frank Loayza**
+
+| Campo | Detalle |
+|---|---|
+| **Nombre y Apellidos** | Frank Loayza |
+| **Edad** | 24 |
+| **Distrito / Zona de residencia** | Santiago de Surco |
+| **Segmento** | Emprendedor / Dueño de negocio (Fast Food Delivery) |
+| **Inicio en video** | 0:00 |
+| **Fin de video** | 14:30 |
+| **Duración** | 14:30 |
+| **URL del video** | [https://youtu.be/dvb_GWTTWyg](https://youtu.be/dvb_GWTTWyg) |
+| **Screenshot** | ![Entrevista Frank](./assets//C02/Entrevistas/FrankLoayza.png) |
+
+## Resumen Descriptivo de la Entrevista
+
+### Características Objetivas y Entorno
+
+Frank es un joven emprendedor que, junto con un socio, dirige desde hace más de un año un negocio de makis y sushi operado exclusivamente bajo el formato de dark kitchen o full delivery (sin atención en mesa). El negocio cuenta con un catálogo de más de 20 variedades y tiene a dos empleados adicionales.
+
+El 80% de su público objetivo está compuesto por clientes jóvenes, por lo que su estrategia de exposición digital se centra en plataformas como TikTok e Instagram, descartando Facebook por considerarlo para un segmento de mayor edad.
+
+### Herramientas y Proceso Actual
+
+Actualmente, el manejo del marketing y la creación de contenido se realizan de manera empírica. El negocio no emplea plataformas formales para contactar influencers ni agencias de publicidad.
+
+El proceso actual se basa en:
+
+- Creación de contenido orgánico y casero con los propios trabajadores.
+- Contacto informal con conocidos o "amigos de amigos" de la etapa universitaria que poseen cierta audiencia (ej. 8,000 seguidores en Instagram).
+- Negociación directa vía mensajes (DM) para realizar "canjes": a cambio de productos (ej. 72 cortes de makis), el creador publica historias promocionales.
+- El seguimiento de resultados se hace observando empíricamente el aumento de visualizaciones, likes, comentarios y percibiendo si hay un ligero pico de demanda temporal en los días posteriores a la publicación.
+
+### Problemas Detectados (Pain Points)
+
+El entrevistado expone limitaciones claras en su proceso de marketing de influencers:
+
+- **Red de contactos limitada:** Al depender de amigos, es difícil escalar la exposición o encontrar creadores nuevos de forma constante.
+- **Dificultad de segmentación (Match):** Considera "una gestión tremenda" encontrar perfiles de creadores cuya audiencia haga match exacto con su público objetivo juvenil.
+- **Falta de tiempo:** Al ser dos socios liderando la empresa en fase de arranque, están enfocados en la operación y desarrollo del producto, relegando la búsqueda de influencers.
+- **Presupuesto restringido:** No cuentan con capital para inversiones grandes o contrataciones formales recurrentes.
+
+### Necesidades y Oportunidades
+
+Frank muestra interés en profesionalizar su búsqueda de creadores, pero requiere herramientas que se adapten a la realidad de un negocio emergente.
+
+Valora positivamente una plataforma que le ofrezca:
+
+- Un espacio (Marketplace) para recibir postulaciones de creadores alineados a su nicho, sin tener que buscarlos manualmente.
+- Herramientas integradas para medir con precisión las métricas de rendimiento (vistas, interacción) y controlar los entregables.
+- Opciones de pago justas, mostrando preferencia inicial por modelos de pago basados en resultados (pago por interacción, vistas o rendimiento) en lugar de cargos fijos.
+
+### Aspectos Subjetivos y Comportamiento
+
+Frank es un emprendedor cauteloso con los gastos y fuertemente enfocado en el núcleo de su negocio operativo. Su toma de decisiones es pragmática y consensuada (siempre consulta con su socio).
+
+Es receptivo a probar nuevas tecnologías o plataformas, pero exige que la herramienta demuestre su valor agregado, especialmente en el área analítica (métricas exactas que le eviten hacer estimaciones manuales).
+
+No busca fama inmediata, sino exposición rentable y dirigida exclusivamente al nicho universitario/juvenil.
+
+### Tecnología y Riesgos Percibidos
+
+El riesgo principal que percibe Frank frente a la propuesta de valor es el modelo de negocio por suscripción mensual.
+
+Para un emprendimiento en fase de crecimiento y con poco capital sobrante, asumir un costo fijo mensual solo para acceder a una plataforma de contacto representa una barrera de entrada alta.
+
+Estaría dispuesto a evaluar la herramienta y pagar si se le demuestra que la automatización, las métricas y la calidad de los creadores compensan el gasto de la suscripción mensual.
+
+### Validación del Arquetipo
+
+Los hallazgos validan el arquetipo del **Emprendedor de Pequeña Empresa con Recursos Limitados**.
+
+Se confirma que este segmento reconoce el valor del marketing de influencers, pero necesita soluciones que reduzcan la fricción de gestión (tiempo) y ofrezcan modelos de entrada de bajo riesgo financiero.
+
+Esto respalda la necesidad de desarrollar funciones dentro de la plataforma enfocadas en:
+
+- **Algoritmos de Matchmaking preciso por nicho de mercado:** filtros por audiencia joven/delivery.
+- **Panel de control automatizado para medir ROI (Retorno de Inversión):** mediante vistas e interacciones.
+- **Flexibilidad en los modelos de contratación:** canjes estandarizados, pagos por resultados o suscripciones escalables adaptadas a pymes.
+
+
+
+- **Segmento 2: Creadores de Contenido**
 
 #### 2.2.3. Análisis de entrevistas
 
