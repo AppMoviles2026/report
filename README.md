@@ -632,7 +632,19 @@ El journey del creador de contenido muestra un proceso basado en propuestas reci
 
 #### 2.3.4. Empathy Mapping
 
-[Insertar mapas de empatía]
+Los mapas de empatía permiten sintetizar lo que cada segmento necesita realizar, observa, escucha, dice, hace, piensa y siente durante el proceso de colaboración entre una pyme y un creador de contenido. También permiten organizar sus principales problemas y beneficios esperados.
+
+**Empathy Map 1: Pyme**
+
+![Empathy Map - Pyme](./assets/C02/Needfinding/Empathy%20map%20Pyme.png)
+
+El mapa de empatía de la pyme se construyó a partir de la entrevista realizada a Frank Loayza. El segmento busca promocionar su negocio y llegar a una audiencia joven, pero enfrenta dificultades para encontrar creadores adecuados, coordinar las condiciones, verificar los entregables y medir el retorno de inversión. Sus principales beneficios esperados son ahorrar tiempo, encontrar colaboradores relevantes, reducir el riesgo de las campañas y obtener métricas objetivas.
+
+**Empathy Map 2: Creador de contenido**
+
+![Empathy Map - Creador de contenido](./assets/C02/Needfinding/Empathy%20map%20Creador.png)
+
+El mapa de empatía del creador de contenido representa una proto-persona basada en los supuestos identificados para este segmento. El creador busca encontrar campañas compatibles con su audiencia, conocer los requisitos antes de aceptar, publicar el contenido acordado y recibir una compensación clara y puntual. Sus principales problemas son las propuestas incompletas, los cambios de última hora, la falta de confirmación y la coordinación dispersa mediante distintos canales. Este mapa deberá validarse mediante entrevistas con creadores reales.
 
 #### 2.3.5. Big Picture EventStorming
 
