@@ -497,7 +497,124 @@ Camila representa a una creadora de contenido que busca campañas relacionadas c
 
 #### 2.3.2. User Task Matrix
 
-[Insertar cuadro y análisis]
+En esta sección se presentan las tareas que realizan los dos segmentos de CollabPro para cumplir sus objetivos durante una colaboración de marketing. Las tareas describen actividades que las personas realizan independientemente de la existencia de una solución de software; por ello, no se consideran funcionalidades como publicar una campaña, consultar un dashboard o recibir notificaciones. Se consideran las personas **Frank Loayza**, representante del segmento de pequeñas y medianas empresas, y **Camila Rojas**, representante del segmento de creadores de contenido.
+
+La frecuencia se interpreta de la siguiente manera: **Alta** significa que la tarea ocurre habitualmente en el ciclo de una colaboración o se repite con frecuencia; **Media** significa que ocurre en algunas colaboraciones o en momentos puntuales; y **Baja** significa que ocurre ocasionalmente. La importancia indica cuánto afecta la tarea al logro del objetivo del segmento.
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">User task</th>
+      <th colspan="2">Frank Loayza<br><em>Pyme</em></th>
+      <th colspan="2">Camila Rojas<br><em>Creadora de contenido</em></th>
+    </tr>
+    <tr>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Definir el objetivo de la colaboración</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Identificar el público objetivo y el nicho adecuado</td>
+      <td>Alta</td>
+      <td>Media</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Buscar posibles colaboradores o campañas</td>
+      <td>Media</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Evaluar si existe compatibilidad entre la marca, el creador y la audiencia</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Contactar al posible colaborador e intercambiar una propuesta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Negociar la compensación y las condiciones de la colaboración</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Acordar entregables, fechas y criterios de aceptación</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Preparar los productos, recursos o contenido necesarios</td>
+      <td>Media</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Publicar o entregar el contenido acordado</td>
+      <td>Media</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Verificar el cumplimiento y entregar evidencias</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Gestionar y confirmar la compensación</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Medir y evaluar el desempeño de la colaboración</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Baja</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Decidir si se mantiene o repite la relación comercial</td>
+      <td>Media</td>
+      <td>Media</td>
+      <td>Media</td>
+      <td>Media</td>
+    </tr>
+  </tbody>
+</table>
+
+Las tareas de mayor frecuencia e importancia para ambos segmentos son evaluar la compatibilidad, contactar al posible colaborador, negociar las condiciones, acordar los entregables, cumplir con la publicación y gestionar la compensación. Estas actividades son críticas porque determinan si la colaboración será clara, confiable y beneficiosa para ambas partes.
+
+La principal diferencia entre los segmentos se observa en la etapa posterior a la publicación. Para la pyme, medir el desempeño y determinar si la inversión generó resultados es una tarea de alta importancia y frecuencia. Para el creador, esta actividad es menos frecuente porque su prioridad es producir, publicar y demostrar que cumplió con los entregables. Asimismo, la búsqueda de campañas es más frecuente para el creador, mientras que la pyme suele buscar colaboradores únicamente cuando necesita ejecutar una campaña.
+
+La principal coincidencia es que ambos segmentos necesitan claridad sobre el acuerdo, los entregables, las fechas y la compensación. Actualmente estas tareas se realizan mediante conversaciones dispersas en Instagram, WhatsApp u otros canales, lo que genera pérdida de información, cambios de última hora, dificultades para verificar el cumplimiento e incertidumbre sobre los resultados.
 
 #### 2.3.3. User Journey Mapping
 
@@ -523,7 +640,41 @@ El journey del creador de contenido muestra un proceso basado en propuestas reci
 
 #### 2.3.6. Ubiquitous Language
 
-[Glosario de términos del negocio en inglés]
+El siguiente glosario define los términos del dominio de marketing de creadores utilizados por el equipo de CollabPro. Los conceptos se mantienen en inglés para establecer un lenguaje común con los stakeholders y las referencias de la industria. Las definiciones buscan evitar ambigüedades entre la perspectiva de la pyme y la del creador de contenido. No se incluyen términos técnicos de ingeniería de software.
+
+| Term (equivalente en español) | Definition |
+|---|---|
+| **Brand (Marca)** | Business or organization that promotes a product or service and initiates or finances a collaboration with a creator. |
+| **Creator (Creador de contenido)** | Person who produces and publishes original content for an audience through one or more social media channels. |
+| **Influencer (Influencer)** | Creator whose opinions, recommendations or presence can influence the behavior or purchasing decisions of an audience. Not every creator must be considered an influencer. |
+| **Micro-creator (Microcreador)** | Creator with a relatively small and specific audience who may offer strong relevance and interaction within a particular niche. |
+| **Audience (Audiencia)** | Group of people who follow, view or interact with a creator's content. |
+| **Niche (Nicho)** | Specific category, interest or market segment around which a creator produces content or a brand offers products. |
+| **Campaign (Campaña)** | Time-bound marketing initiative with an objective, target audience, deliverables, deadline and compensation. |
+| **Collaboration (Colaboración)** | Commercial relationship in which a brand and a creator agree to exchange content and value under defined conditions. |
+| **Brief (Brief de campaña)** | Concise description of the campaign objective, message, audience, requirements, deliverables, dates and acceptance criteria. |
+| **Proposal (Propuesta)** | Offer made by a brand or creator that describes the intended collaboration and its initial conditions. |
+| **Agreement (Acuerdo)** | Set of conditions accepted by both the brand and the creator before the collaboration begins. |
+| **Deliverable (Entregable)** | Specific piece of content or activity that the creator must produce or complete as part of the agreement. |
+| **Deadline (Fecha límite)** | Date or time by which a deliverable, publication or other agreed activity must be completed. |
+| **Content (Contenido)** | Material created for an audience, such as a story, post, video, reel, review or live stream. |
+| **Sponsored content (Contenido patrocinado)** | Content created in exchange for compensation or another commercial benefit from a brand. |
+| **Compensation (Compensación)** | Value received by the creator for fulfilling the agreement. It may be cash, products, services, credits or a combination of these. |
+| **Barter (Canje)** | Collaboration arrangement in which products or services are exchanged for content instead of, or in addition to, cash. |
+| **Evidence (Evidencia de cumplimiento)** | Proof that a creator completed or published an agreed deliverable, such as a link, screenshot or publication record. |
+| **Approval (Aprobación)** | Confirmation by the brand that a submitted deliverable satisfies the agreed requirements. |
+| **Disclosure (Declaración publicitaria)** | Clear indication that a piece of content is part of a commercial collaboration or has received compensation from a brand. |
+| **Brand fit (Compatibilidad con la marca)** | Degree to which the creator's content, values, style and audience are aligned with the brand and its campaign objective. |
+| **Match (Coincidencia)** | Degree to which the characteristics of a brand, campaign, creator and audience correspond to one another. |
+| **Reach (Alcance)** | Number of unique people who have seen or may have seen a piece of content. |
+| **Impressions (Impresiones)** | Total number of times a piece of content has been displayed, including repeated views by the same person. |
+| **Engagement (Interacción)** | Actions generated by content, such as likes, comments, shares, saves, clicks or replies. |
+| **Conversion (Conversión)** | Desired action attributed to a campaign, such as a purchase, inquiry, registration or visit. |
+| **Performance (Desempeño)** | Results achieved by a campaign or piece of content in relation to its objective and expected outcomes. |
+| **Return on investment — ROI (Retorno de inversión)** | Relationship between the value generated by a collaboration and the money, products or resources invested in it. |
+| **Repeat collaboration (Colaboración recurrente)** | New collaboration between the same brand and creator after a previous collaboration has been completed. |
+
+Para mantener la consistencia del lenguaje, el equipo utilizará **Brand** para referirse a la pyme que contrata o propone una colaboración y **Creator** para referirse a la persona que produce el contenido. **Compensation** es el término general e incluye dinero, productos, servicios o créditos; **Barter** se utilizará únicamente cuando la compensación consista en un intercambio de productos o servicios. Finalmente, **Reach**, **Impressions**, **Engagement** y **Conversion** representan métricas diferentes y no deben utilizarse como sinónimos.
 
 ### 2.4. Requirements specification
 
@@ -593,6 +744,7 @@ El journey del creador de contenido muestra un proceso basado en propuestas reci
 
 ## Bibliografía
 
+* Evans, Eric. (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley.
 * BrandMe. (s.f.). *Membresías para marcas*. Consultado el 12 de septiembre de 2026. https://brandme.la/membresias-marcas/
 * Influencity. (s.f.). *Influencer marketing platform for brands & agencies*. Consultado el 12 de septiembre de 2026. https://influencity.com/platform/
 * Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual. (2024). *Guía de publicidad para influencers 2024*. INDECOPI. https://www.gob.pe/institucion/indecopi/informes-publicaciones/5870366-guia-de-publicidad-para-influencers-2024
