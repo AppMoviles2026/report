@@ -483,7 +483,17 @@ Esto respalda la necesidad de desarrollar funciones dentro de la plataforma enfo
 
 #### 2.3.1. User Personas
 
-[Insertar fichas]
+**Persona 1: Emprendedor de pequeña empresa con recursos limitados**
+
+![User Persona Frank Loayza](./assets/C02/Needfinding/User%20Persona%20Frank%20Loayza.png)
+
+Frank representa al propietario de una pyme que busca promocionar su negocio mediante creadores de contenido, pero dispone de poco tiempo, una red de contactos limitada y un presupuesto restringido. Sus principales necesidades son encontrar creadores alineados con su público, definir condiciones claras, controlar los entregables y medir objetivamente los resultados de una colaboración.
+
+**Persona 2: Creadora de contenido y microinfluencer**
+
+![User Persona Camila Rojas](./assets/C02/Needfinding/User%20Persona%20Camila%20Rojas.png)
+
+Camila representa a una creadora de contenido que busca campañas relacionadas con su audiencia y necesita conocer los requisitos, fechas y compensación antes de aceptar una colaboración. Sus principales necesidades son recibir propuestas completas, evitar cambios de última hora, enviar evidencias de sus entregables y contar con mayor seguridad respecto al cumplimiento de la compensación. Esta persona es una proto-persona y sus características deben validarse con investigación adicional.
 
 #### 2.3.2. User Task Matrix
 
@@ -491,7 +501,17 @@ Esto respalda la necesidad de desarrollar funciones dentro de la plataforma enfo
 
 #### 2.3.3. User Journey Mapping
 
-[Insertar diagramas As-Is]
+**Journey 1: Pyme**
+
+![As-Is User Journey - Pyme](./assets/C02/Needfinding/Journey%201_%20Pyme.png)
+
+El journey de la pyme muestra que el proceso comienza con la necesidad de aumentar la exposición del negocio y continúa con la búsqueda informal de creadores, la negociación mediante mensajes directos, el envío de productos, la verificación manual de publicaciones y la evaluación empírica de los resultados. Los principales puntos de dolor son la dificultad para encontrar perfiles adecuados, la falta de trazabilidad de los acuerdos, el riesgo de incumplimiento y la ausencia de métricas centralizadas.
+
+**Journey 2: Creador de contenido**
+
+![As-Is User Journey - Creador de contenido](./assets/C02/Needfinding/Journey%202_%20Creador%20de%20contenido.png)
+
+El journey del creador de contenido muestra un proceso basado en propuestas recibidas por Instagram o WhatsApp. El creador debe solicitar información adicional, negociar las condiciones, producir y publicar el contenido y esperar la confirmación de la empresa y la compensación acordada. Los principales puntos de dolor son los briefs incompletos, los cambios posteriores al acuerdo, la incertidumbre sobre la aprobación del contenido y la falta de seguimiento del pago. Este journey se considera una hipótesis de trabajo debido a que aún no se cuenta con entrevistas directas a creadores.
 
 #### 2.3.4. Empathy Mapping
 
