@@ -5,24 +5,24 @@
 Universidad Peruana de Ciencias Aplicadas<br>
 Carrera de Ingeniería de Software<br><br>
 
-<strong>1ACC0238</strong>
+<strong>1ACC0238</strong> <br>
 <strong>Aplicaciones para Dispositivos Móviles</strong>
 
-NRC
-<strong>3690</strong>
+NRC <br>
+<strong>4950</strong>
 
 <strong>Informe del Trabajo Final</strong>
 
-Docente
+Docente <br>
 <strong>Mayta Guillermo, Jorge Luis</strong><br><br>
 
-Equipo
+Equipo <br>
 <strong>CollabTech</strong>
 
-Proyecto
+Proyecto <br>
 <strong>CollabPro</strong><br><br>
 
-<strong>Integrantes</strong><br><br>
+<strong>Integrantes</strong><br>
 
 <table border="0" style="border-collapse: collapse; border: none; margin: 0 auto; background-color: transparent;">
   <tr style="border: none;">
@@ -42,8 +42,8 @@ Proyecto
     <td style="border: none; text-align: left; padding: 5px 15px;">[Ingresar Apellidos, Nombres]</td>
   </tr>
   <tr style="border: none;">
-    <td style="border: none; text-align: center; padding: 5px 15px;">[Ingresar Código]</td>
-    <td style="border: none; text-align: left; padding: 5px 15px;">[Ingresar Apellidos, Nombres]</td>
+    <td style="border: none; text-align: center; padding: 5px 15px;">U20231H059</td>
+    <td style="border: none; text-align: left; padding: 5px 15px;">Garcia Villanueva, Leonardo Rafael</td>
   </tr>
   <tr style="border: none;">
     <td style="border: none; text-align: center; padding: 5px 15px;">U20211D989</td>
@@ -53,9 +53,11 @@ Proyecto
 
 <br><br>
 <strong>Período 202620</strong><br>
-<strong>Julio 2026</strong><br><br>
+<strong>Setiembre 2026</strong><br><br>
 
 </div>
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -66,6 +68,9 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 | Versión | Fecha      | Autor            | Descripción de modificación                                                                                                                                                                                           |
 | ------- | ---------- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | V1.0    | 10/09/2026 | Equipo CollabPro | Creación de la primera versión del informe para la entrega AV1. Se incluyen las secciones preliminares, el Capítulo I (Startup Profile, Solution Profile, Segmentos) y el Capítulo II (Requirements y Strategic DDD). |
+
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -79,6 +84,9 @@ Durante la entrega AV1, las actividades de elaboración del informe se gestionar
 
 [falta imagen]
 
+
+<div style="page-break-after: always;"></div>
+
 ---
 
 ## Contenido
@@ -86,22 +94,46 @@ Durante la entrega AV1, las actividades de elaboración del informe se gestionar
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
+- [Objetivos SMART](#objetivos-smart)
+- [Capítulo I: Presentación](#capítulo-i-presentación)
   - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 - [Capítulo II: Requirements Development and Software Solution Design](#capítulo-ii-requirements-development-and-software-solution-design)
   - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.3.5. Big Picture EventStorming](#235-big-picture-eventstorming)
+    - [2.3.6. Ubiquitous Language](#236-ubiquitous-language)
   - [2.4. Requirements Specification](#24-requirements-specification)
+    - [2.4.1. User Stories](#241-user-stories)
+    - [2.4.2. Impact Mapping](#242-impact-mapping)
+    - [2.4.3. Product Backlog](#243-product-backlog)
   - [2.5. Strategic-Level Domain-Driven Design](#25-strategic-level-domain-driven-design)
+    - [2.5.1. EventStorming](#251-eventstorming)
+    - [2.5.2. Context Mapping](#252-context-mapping)
+    - [2.5.3. Software Architecture](#253-software-architecture)
   - [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
 
 - [Conclusiones](#conclusiones)
 - [Glosario](#glosario)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -111,14 +143,59 @@ Durante la entrega AV1, las actividades de elaboración del informe se gestionar
 
 | Criterio específico                                                                                                                         | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Conclusiones                                                                                                                                                                                                                                                                                                               |
 | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Quispe Serrano, Julio Frank:** AV1: Actualicé mis conocimientos investigando de forma autónoma la metodología ágil Lean UX y la técnica de las 5W's y 2H's para redactar correctamente el Solution Profile, los Assumptions y el Canvas del proyecto.<br><br>**Vallejo Trujillo, Fabio Cesar:** AV1: Aprendí a utilizar la herramienta UXPressia de manera autodidacta para estructurar el Needfinding (User Personas y Journey Maps) y actualicé mis nociones sobre métricas para el análisis competitivo de plataformas de marketing.<br><br>**Garcia Villanueva, Leonardo Rafael:** AV1: Para especificar los requisitos (sección 2.4), actualicé mis conocimientos técnicos sobre Behavior-Driven Development (BDD), estudiando a fondo la sintaxis del estándar Gherkin para redactar historias de usuario sin ambigüedades.<br><br>**Revilla Quispe, Renzo Zamir:** AV1: Tuve que investigar y actualizar mis conocimientos teóricos sobre Domain-Driven Design (DDD) y modelado EventStorming para poder definir correctamente el lenguaje ubicuo y los Bounded Contexts a nivel estratégico.<br><br>**Rocca León, Anhelo:** AV1: Para el desarrollo de la arquitectura, investigué de manera autónoma los fundamentos del modelo C4 (Context, Container, Component, Code) y cómo aplicarlo para diagramar la infraestructura técnica del sistema.        | **AV1:** Durante esta entrega, todo el equipo demostró la capacidad de investigar y aplicar metodologías y estándares de la industria (como Lean UX, Gherkin, DDD y C4 Model) que no se dominaban al inicio del ciclo, integrándolos exitosamente en la documentación formal de requerimientos y arquitectura del sistema. |
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**  | **Quispe Serrano, Julio Frank:** AV1: Comprendí que estructurar un modelo de negocio B2B requiere investigar constantemente el mercado y validar las hipótesis (Hypothesis Statements) iterativamente para asegurar que el software brinde valor real.<br><br>**Vallejo Trujillo, Fabio Cesar:** AV1: Reconocí la importancia de adaptar las herramientas de investigación a los usuarios reales; entender las frustraciones de los creadores de contenido me exigió buscar continuamente nuevos enfoques de empatía (Empathy Mapping).<br><br>**Garcia Villanueva, Leonardo Rafael:** AV1: Identifiqué que la gestión del Product Backlog y el Impact Mapping requieren una lectura constante de buenas prácticas ágiles para asegurar que los objetivos comerciales se traduzcan bien a nivel técnico.<br><br>**Revilla Quispe, Renzo Zamir:** AV1: Asimilé que el diseño a nivel estratégico nunca es estático; dominar los flujos de dominio y la delimitación de contextos (Context Mapping) me exigió mantener una postura de estudio constante de la literatura técnica.<br><br>**Rocca León, Anhelo:** AV1: Evidencié la necesidad de consultar fuentes académicas (papers Q1/Q2) y documentación oficial constantemente para justificar decisiones de arquitectura de bases de datos y garantizar la viabilidad del despliegue tecnológico. | **AV1:** Como equipo, comprendemos que el ecosistema de startups y las tecnologías de desarrollo evolucionan rápidamente. Reconocemos que adoptar una postura proactiva hacia la lectura de documentación oficial y literatura especializada es fundamental para el éxito y la escalabilidad del proyecto.                 |
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Quispe Serrano, Julio Frank:** AV1: Actualicé mis conocimientos investigando de forma autónoma la metodología ágil Lean UX y la técnica de las 5W's y 2H's para redactar correctamente el Solution Profile, los Assumptions y el Canvas del proyecto.<br><br>**Vallejo Trujillo, Fabio Cesar:** AV1: Aprendí a utilizar la herramienta UXPressia de manera autodidacta para estructurar el Needfinding (User Personas y Journey Maps) y actualicé mis nociones sobre métricas para el análisis competitivo de plataformas de marketing.<br><br>**Garcia Villanueva, Leonardo Rafael:** AV1: En este avance tuve que realizar la especificación de los requisitos del proyecto, y para ello actualicé mis conocimientos técnicos sobre Behavior-Driven Development (BDD), estudiando a fondo la sintaxis del estándar Gherkin para redactar historias de usuario sin ambigüedades.<br><br>**Revilla Quispe, Renzo Zamir:** AV1: Tuve que investigar y actualizar mis conocimientos teóricos sobre Domain-Driven Design (DDD) y modelado EventStorming para poder definir correctamente el lenguaje ubicuo y los Bounded Contexts a nivel estratégico.<br><br>**Rocca León, Anhelo:** AV1: Para el desarrollo de la arquitectura, investigué de manera autónoma los fundamentos del modelo C4 (Context, Container, Component, Code) y cómo aplicarlo para diagramar la infraestructura técnica del sistema.        | **AV1:** Durante esta entrega, todo el equipo demostró la capacidad de investigar y aplicar metodologías y estándares de la industria (como Lean UX, Gherkin, DDD y C4 Model) que no se dominaban del todo al inicio del ciclo, integrándolos exitosamente en la documentación formal de requerimientos y arquitectura del sistema. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**  | **Quispe Serrano, Julio Frank:** AV1: Comprendí que estructurar un modelo de negocio B2B requiere investigar constantemente el mercado y validar las hipótesis (Hypothesis Statements) iterativamente para asegurar que el software brinde valor real.<br><br>**Vallejo Trujillo, Fabio Cesar:** AV1: Reconocí la importancia de adaptar las herramientas de investigación a los usuarios reales; entender las frustraciones de los creadores de contenido me exigió buscar continuamente nuevos enfoques de empatía (Empathy Mapping).<br><br>**Garcia Villanueva, Leonardo Rafael:** AV1: Identifiqué que mis conocimientos sobre Gherkin para la elaboración de las User Stories necesitaban ser reforzados, y también reconocí la necesidad de continuar investigando y aprendiendo sobre la correcta gestión del Product Backlog y la elaboración del Impact Mapping para aplicarlos correctamente durante el desarrollo de este proyecto y así mejorar tanto como mi desempeño como la calidad del proyecto.<br><br>**Revilla Quispe, Renzo Zamir:** AV1: Asimilé que el diseño a nivel estratégico nunca es estático; dominar los flujos de dominio y la delimitación de contextos (Context Mapping) me exigió mantener una postura de estudio constante de la literatura técnica.<br><br>**Rocca León, Anhelo:** AV1: Evidencié la necesidad de consultar fuentes académicas (papers Q1/Q2) y documentación oficial constantemente para justificar decisiones de arquitectura de bases de datos y garantizar la viabilidad del despliegue tecnológico. | **AV1:** Como equipo, comprendemos que el ecosistema de startups y las tecnologías de desarrollo evolucionan rápidamente. Reconocemos que adoptar una postura proactiva hacia la lectura de documentación oficial y literatura especializada es fundamental para el éxito y la escalabilidad del proyecto.                 |
+
+<div style="page-break-after: always;"></div>
+
+---
+
+## Objetivos SMART
+
+<!--Cada miembro del equipo de trabajo formule un plan que incluya al
+menos dos objetivos SMART. Estos objetivos deben centrarse en el desarrollo
+profesional del estudiante una vez finalizada su carrera.-->
+
+**Nombre integrante 1:**
+<br>
+Plan:
+<br>
+Objetivo N:
+<br>
+
+**Nombre integrante 2:**
+<br>
+Plan:
+<br>
+Objetivo N:
+<br>
+
+**Nombre integrante 3:**
+<br>
+Plan:
+<br>
+Objetivo N:
+<br>
+
+**Nombre integrante 4:**
+<br>
+Plan:
+<br>
+Objetivo N:
+<br>
+
+**Nombre integrante 5:**
+<br>
+Plan:
+<br>
+Objetivo N:
+<br>
+
+<div style="page-break-after: always;"></div>
 
 ---
 
 ## Capítulo I: Presentación
-
-## Capítulo I: Introducción
 
 ### 1.1. Startup Profile
 
@@ -136,7 +213,7 @@ CollabPro busca reemplazar la gestión informal mediante mensajes directos y otr
 |:---------------------------------------------------:|:------------------------------|:----------:|:-----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |       ![foto](./assets/C01/Team/frankFT.png)        | Quispe Serrano, Julio Frank   | U20241D922 | Ingeniería de Software | Soy Julio Frank Quispe Serrano, alumno de 5to ciclo de Ingeniería de Software en la UPC. Cuento con una marcada inclinación hacia la programación y la gestión eficiente del tiempo. Mi aporte principal a este grupo de trabajo será la resolución de conflictos técnicos y operativos, aportando una visión pragmática que permita superar eventuales estancamientos en las fases de elaboración del proyecto. |
 | ![foto](./assets/C01/Team/perfil-fabio-vallejo.png) | Vallejo Trujillo, Fabio Cesar | U20211D989 | Ingeniería de Software | Soy estudiante de séptimo ciclo de Ingeniería de Software. Me caracterizo por tener conocimientos técnicos en múltiples áreas de software y mantener en orden mis equipos de trabajo para mantener entregables de alta calidad. Puedo aportar al proyecto con mis conocimientos de arquitectura limpia, infraestructura cloud, programación y manteniendo al equipo organizado.                                  |
-|                   [Insertar foto]                   | [Apellidos, Nombres]          |  [Código]  | [Carrera]              | [Breve resumen de habilidades y aportes al equipo]                                                                                                                                                                                                                                                                                                                                                               |
+| ![foto](./assets/C01/Team/leonardo.png) | Garcia Villanueva, Leonardo Rafael | U20231H059 | Ingeniería de Software | Actualmente soy estudiante de sexto ciclo de la carrera de Ingeniería de Software. Tengo conocimientos sobre el manejo de bases de datos, varios lenguajes de programación, y de metodologías ágiles. Además, puedo dar solución a problemas que requieran de un enfoque lógico y creativo mediante el desarrollo de software. Dentro del equipo puedo aportar con la resolución de dificultades técnicas o de documentación que se presenten de forma eficiente. |
 |                   [Insertar foto]                   | [Apellidos, Nombres]          |  [Código]  | [Carrera]              | [Breve resumen de habilidades y aportes al equipo]                                                                                                                                                                                                                                                                                                                                                               |
 |                   [Insertar foto]                   | [Apellidos, Nombres]          |  [Código]  | [Carrera]              | [Breve resumen de habilidades y aportes al equipo]                                                                                                                                                                                                                                                                                                                                                               |
 
@@ -693,6 +770,8 @@ Para mantener la consistencia del lenguaje, el equipo utilizará **Brand** para 
 #### 2.4.1. User Stories
 
 [Insertar tabla de Epics, User Stories y Acceptance Criteria]
+
+
 
 #### 2.4.2. Impact Mapping
 
