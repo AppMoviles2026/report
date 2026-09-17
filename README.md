@@ -160,8 +160,10 @@ profesional del estudiante una vez finalizada su carrera.-->
 <br>
 Plan: 
 <br>
+
 Objetivo SMART 1:
 <br>
+
 Objetivo SMART 2:
 <br>
 
@@ -169,8 +171,10 @@ Objetivo SMART 2:
 <br>
 Plan: 
 <br>
+
 Objetivo SMART 1:
 <br>
+
 Objetivo SMART 2:
 <br>
 
@@ -178,8 +182,10 @@ Objetivo SMART 2:
 <br>
 Plan:
 <br>
+
 Objetivo SMART 1: 
 <br>
+
 Objetivo SMART 2:
 <br>
 
@@ -188,8 +194,10 @@ Objetivo SMART 2:
 Plan: Al concluir con mi carrera, continuaré desarrollando mis competencias profesionales mediante un proceso
 de aprendizaje continuo donde prácticare el desarrollo de software con las nuevas tecnologías relevantes que salgan en el mercado, incluyendo las emergentes como la inteligencia artificial, agentes de IA, y automatización de procesos de programación. De este modo reforzaré mis conocimientos adquiridos durante la carrera e incorporaré nuevos conocimientos que me permitan tener un perfil profesional actualizado. 
 <br>
+
 Objetivo SMART 1: En los 12 primeros meses después de haber finalizado la carrera ampliaré mis conocimientos y habilidades para el desarrollo Full Stack, enfocándome principalmente en Java con Spring Boot para el backend, Vue.js para el frontend, y MongoDB para la base de datos. Para ello, crearé 2 proyectos personales de complejidad media y alta, con el propósito de consolidar mi aprendizaje y tener un portafolio que demuestre mis crecimientos profesionales.
 <br>
+
 Objetivo SMART 2: Durante los primeros 18 meses después de haber finalizado la carrera tomaré 2 o más cursos relacionados con las tecnologías emergentes, priorizando especialmente áreas como el uso profesional y ético de inteligencia artificial, agentes de IA y automatización aplicada al desarrollo de software. Luego, aplicaré lo aprendido elaborando un proyecto personal pequeño o mediano por cada curso finalizado, para mantener actualizados mis conocimientos y reforzar mi perfil como Ingeniero de Software.
 <br>
 
@@ -197,8 +205,10 @@ Objetivo SMART 2: Durante los primeros 18 meses después de haber finalizado la 
 <br>
 Plan: 
 <br>
+
 Objetivo SMART 1:
 <br>
+
 Objetivo SMART 2:
 <br>
 
