@@ -739,8 +739,6 @@ Para mantener la consistencia del lenguaje, el equipo utilizará **Brand** para 
 
 #### 2.4.1. User Stories
 
-**Épicas**
-
 <table>
 <thead>
 <tr>
