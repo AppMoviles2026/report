@@ -680,7 +680,19 @@ El mapa de empatía del creador de contenido representa una proto-persona basada
 
 #### 2.3.5. Big Picture EventStorming
 
-[Insertar imágenes y explicar proceso de EventStorming]
+El equipo aplicó **Big Picture EventStorming** para representar visualmente el ciclo general de una colaboración entre una pyme y un creador de contenido. La sesión parte de los hallazgos de las entrevistas, User Personas, User Journey Maps y Empathy Maps de CollabPro. Los eventos se ordenan cronológicamente y se complementan con actores, acciones, reglas y puntos problemáticos del dominio.
+
+El flujo central que debe observarse en los post-its es: **Promotion need identified → Campaign objective defined → Creator discovered → Proposal exchanged → Agreement reached → Content published → Evidence submitted → Deliverable approved → Compensation released → Campaign evaluated**. También deben representarse los caminos alternativos: propuesta rechazada, colaboración cancelada, entregable rechazado, solicitud de revisión, disputa y compensación retrasada.
+
+![Big Picture Domain Events](./assets/C02/Needfinding/BigPicture/big-picture-collabpro-1.png)
+
+![Big Picture Domain Events](./assets/C02/Needfinding/BigPicture/big-picture-collabpro-2.png)
+
+![Big Picture Business Clusters](./assets/C02/Needfinding/BigPicture/big-picture-collabpro-3.png)
+
+![Big Picture Bounded Context Candidates](./assets/C02/Needfinding/BigPicture/big-picture-collabpro-4.png)
+
+Enlace del Miro: https://miro.com/app/board/uXjVHl9jh_M=/?share_link_id=159650084488
 
 #### 2.3.6. Ubiquitous Language
 
@@ -704,9 +716,12 @@ El siguiente glosario define los términos del dominio de marketing de creadores
 | **Content (Contenido)** | Material created for an audience, such as a story, post, video, reel, review or live stream. |
 | **Sponsored content (Contenido patrocinado)** | Content created in exchange for compensation or another commercial benefit from a brand. |
 | **Compensation (Compensación)** | Value received by the creator for fulfilling the agreement. It may be cash, products, services, credits or a combination of these. |
+| **Cash compensation (Compensación monetaria)** | Monetary value that the creator receives for fulfilling the agreement. |
 | **Barter (Canje)** | Collaboration arrangement in which products or services are exchanged for content instead of, or in addition to, cash. |
 | **Evidence (Evidencia de cumplimiento)** | Proof that a creator completed or published an agreed deliverable, such as a link, screenshot or publication record. |
 | **Approval (Aprobación)** | Confirmation by the brand that a submitted deliverable satisfies the agreed requirements. |
+| **Revision (Revisión)** | Modification or new submission requested when a deliverable does not satisfy the agreed requirements. |
+| **Dispute (Disputa)** | Unresolved disagreement between the brand and the creator regarding the agreement, a deliverable, the approval or the compensation. |
 | **Disclosure (Declaración publicitaria)** | Clear indication that a piece of content is part of a commercial collaboration or has received compensation from a brand. |
 | **Brand fit (Compatibilidad con la marca)** | Degree to which the creator's content, values, style and audience are aligned with the brand and its campaign objective. |
 | **Match (Coincidencia)** | Degree to which the characteristics of a brand, campaign, creator and audience correspond to one another. |
