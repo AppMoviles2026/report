@@ -38,8 +38,8 @@ Proyecto <br>
     <td style="border: none; text-align: left; padding: 5px 15px;">Quispe Serrano, Julio Frank</td>
   </tr>
   <tr style="border: none;">
-    <td style="border: none; text-align: center; padding: 5px 15px;">[Ingresar Código]</td>
-    <td style="border: none; text-align: left; padding: 5px 15px;">[Ingresar Apellidos, Nombres]</td>
+    <td style="border: none; text-align: center; padding: 5px 15px;">U20221C803</td>
+    <td style="border: none; text-align: left; padding: 5px 15px;">Rocca Leon, Anhelo Rodrigo</td>
   </tr>
   <tr style="border: none;">
     <td style="border: none; text-align: center; padding: 5px 15px;">U20231H059</td>
@@ -150,6 +150,72 @@ Durante la entrega AV1, las actividades de elaboración del informe se gestionar
 
 ---
 
+## Objetivos SMART
+
+<!--Cada miembro del equipo de trabajo formule un plan que incluya al
+menos dos objetivos SMART. Estos objetivos deben centrarse en el desarrollo
+profesional del estudiante una vez finalizada su carrera.-->
+
+**Nombre integrante 1:**
+<br>
+Plan: 
+<br>
+
+Objetivo SMART 1:
+<br>
+
+Objetivo SMART 2:
+<br>
+
+**Nombre integrante 2:**
+<br>
+Plan: 
+<br>
+
+Objetivo SMART 1:
+<br>
+
+Objetivo SMART 2:
+<br>
+
+**Nombre integrante 3:**
+<br>
+Plan:
+<br>
+
+Objetivo SMART 1: 
+<br>
+
+Objetivo SMART 2:
+<br>
+
+**Garcia Villanueva, Leonardo Rafael:**
+<br>
+Plan: Al concluir con mi carrera, continuaré desarrollando mis competencias profesionales mediante un proceso
+de aprendizaje continuo donde prácticare el desarrollo de software con las nuevas tecnologías relevantes que salgan en el mercado, incluyendo las emergentes como la inteligencia artificial, agentes de IA, y automatización de procesos de programación. De este modo reforzaré mis conocimientos adquiridos durante la carrera e incorporaré nuevos conocimientos que me permitan tener un perfil profesional actualizado. 
+<br>
+
+Objetivo SMART 1: En los 12 primeros meses después de haber finalizado la carrera ampliaré mis conocimientos y habilidades para el desarrollo Full Stack, enfocándome principalmente en Java con Spring Boot para el backend, Vue.js para el frontend, y MongoDB para la base de datos. Para ello, crearé 2 proyectos personales de complejidad media y alta, con el propósito de consolidar mi aprendizaje y tener un portafolio que demuestre mis crecimientos profesionales.
+<br>
+
+Objetivo SMART 2: Durante los primeros 18 meses después de haber finalizado la carrera tomaré 2 o más cursos relacionados con las tecnologías emergentes, priorizando especialmente áreas como el uso profesional y ético de inteligencia artificial, agentes de IA y automatización aplicada al desarrollo de software. Luego, aplicaré lo aprendido elaborando un proyecto personal pequeño o mediano por cada curso finalizado, para mantener actualizados mis conocimientos y reforzar mi perfil como Ingeniero de Software.
+<br>
+
+**Nombre integrante 5:**
+<br>
+Plan: 
+<br>
+
+Objetivo SMART 1:
+<br>
+
+Objetivo SMART 2:
+<br>
+
+<div style="page-break-after: always;"></div>
+
+---
+
 ## Capítulo I: Presentación
 
 ### 1.1. Startup Profile
@@ -164,13 +230,13 @@ CollabPro busca reemplazar la gestión informal mediante mensajes directos y otr
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
-|                        Foto                         | Apellidos y Nombres           |   Código   | Carrera                | Resumen                                                                                                                                                                                                                                                                                                                                                                                                          |
-|:---------------------------------------------------:|:------------------------------|:----------:|:-----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       ![foto](./assets/C01/Team/frankFT.png)        | Quispe Serrano, Julio Frank   | U20241D922 | Ingeniería de Software | Soy Julio Frank Quispe Serrano, alumno de 6to ciclo de Ingeniería de Software en la UPC. Cuento con una marcada inclinación hacia la programación y la gestión eficiente del tiempo. Mi aporte principal a este grupo de trabajo será la resolución de conflictos técnicos y operativos, aportando una visión pragmática que permita superar eventuales estancamientos en las fases de elaboración del proyecto. |
-| ![foto](./assets/C01/Team/perfil-fabio-vallejo.png) | Vallejo Trujillo, Fabio Cesar | U20211D989 | Ingeniería de Software | Soy estudiante de séptimo ciclo de Ingeniería de Software. Me caracterizo por tener conocimientos técnicos en múltiples áreas de software y mantener en orden mis equipos de trabajo para mantener entregables de alta calidad. Puedo aportar al proyecto con mis conocimientos de arquitectura limpia, infraestructura cloud, programación y manteniendo al equipo organizado.                                  |
-| ![foto](./assets/C01/Team/leonardo.png) | Garcia Villanueva, Leonardo Rafael | U20231H059 | Ingeniería de Software | Actualmente soy estudiante de sexto ciclo de la carrera de Ingeniería de Software. Tengo conocimientos sobre el manejo de bases de datos, varios lenguajes de programación, y de metodologías ágiles. Además, puedo dar solución a problemas que requieran de un enfoque lógico y creativo mediante el desarrollo de software. Dentro del equipo puedo aportar con la resolución de dificultades técnicas o de documentación que se presenten de forma eficiente. |
-|                   [Insertar foto]                   | [Apellidos, Nombres]          |  [Código]  | [Carrera]              | [Breve resumen de habilidades y aportes al equipo]                                                                                                                                                                                                                                                                                                                                                               |
-|                   [Insertar foto]                   | [Apellidos, Nombres]          |  [Código]  | [Carrera]              | [Breve resumen de habilidades y aportes al equipo]                                                                                                                                                                                                                                                                                                                                                               |
+|                        Foto                         | Apellidos y Nombres                |   Código   | Carrera                | Resumen                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|:---------------------------------------------------:|:-----------------------------------|:----------:|:-----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|       ![foto](./assets/C01/Team/frankFT.png)        | Quispe Serrano, Julio Frank        | U20241D922 | Ingeniería de Software | Soy Julio Frank Quispe Serrano, alumno de 5to ciclo de Ingeniería de Software en la UPC. Cuento con una marcada inclinación hacia la programación y la gestión eficiente del tiempo. Mi aporte principal a este grupo de trabajo será la resolución de conflictos técnicos y operativos, aportando una visión pragmática que permita superar eventuales estancamientos en las fases de elaboración del proyecto.                                                                                        |
+| ![foto](./assets/C01/Team/perfil-fabio-vallejo.png) | Vallejo Trujillo, Fabio Cesar      | U20211D989 | Ingeniería de Software | Soy estudiante de séptimo ciclo de Ingeniería de Software. Me caracterizo por tener conocimientos técnicos en múltiples áreas de software y mantener en orden mis equipos de trabajo para mantener entregables de alta calidad. Puedo aportar al proyecto con mis conocimientos de arquitectura limpia, infraestructura cloud, programación y manteniendo al equipo organizado.                                                                                                                         |
+|       ![foto](./assets/C01/Team/leonardo.png)       | Garcia Villanueva, Leonardo Rafael | U20231H059 | Ingeniería de Software | Actualmente soy estudiante de sexto ciclo de la carrera de Ingeniería de Software. Tengo conocimientos sobre el manejo de bases de datos, varios lenguajes de programación, y de metodologías ágiles. Además, puedo dar solución a problemas que requieran de un enfoque lógico y creativo mediante el desarrollo de software. Dentro del equipo puedo aportar con la resolución de dificultades técnicas o de documentación que se presenten de forma eficiente.                                       |
+|                   [Insertar foto]                   | [Apellidos, Nombres]               |  [Código]  | [Carrera]              | [Breve resumen de habilidades y aportes al equipo]                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|     ![foto](./assets/C01/Team/anhelo-photo.png)     | Rocca Leon, Anhelo Rodrigo         | U20221C803 | Ingeniería de Software | Soy estudiante de Ingeniería de Software. Cuento con conocimientos en programación, bases de datos y desarrollo de soluciones digitales, utilizando tecnologías como C++, Python y SQL. Asimismo, me desenvuelvo con facilidad en Bash. En el equipo, aporto en actividades relacionadas con experiencia de usuario, flujos de interacción, mock-ups y documentación visual del producto. Mi contribución se enfoca en que el productor tenga una experiencia clara, ordenada y útil para sus usuarios. |
 
 ### 1.2. Solution Profile
 
@@ -430,7 +496,7 @@ Estas tácticas deben priorizarse como un MVP: primero campaña estructurada, po
 | **Nombre y Apellidos** | Frank Loayza |
 | **Edad** | 24 |
 | **Distrito / Zona de residencia** | Santiago de Surco |
-| **Segmento** | Pymes |
+| **Segmento** | Emprendedor / Dueño de negocio (Fast Food Delivery) |
 | **Inicio en video** | 0:00 |
 | **Fin de video** | 14:30 |
 | **Duración** | 14:30 |
@@ -716,12 +782,9 @@ El siguiente glosario define los términos del dominio de marketing de creadores
 | **Content (Contenido)** | Material created for an audience, such as a story, post, video, reel, review or live stream. |
 | **Sponsored content (Contenido patrocinado)** | Content created in exchange for compensation or another commercial benefit from a brand. |
 | **Compensation (Compensación)** | Value received by the creator for fulfilling the agreement. It may be cash, products, services, credits or a combination of these. |
-| **Cash compensation (Compensación monetaria)** | Monetary value that the creator receives for fulfilling the agreement. |
 | **Barter (Canje)** | Collaboration arrangement in which products or services are exchanged for content instead of, or in addition to, cash. |
 | **Evidence (Evidencia de cumplimiento)** | Proof that a creator completed or published an agreed deliverable, such as a link, screenshot or publication record. |
 | **Approval (Aprobación)** | Confirmation by the brand that a submitted deliverable satisfies the agreed requirements. |
-| **Revision (Revisión)** | Modification or new submission requested when a deliverable does not satisfy the agreed requirements. |
-| **Dispute (Disputa)** | Unresolved disagreement between the brand and the creator regarding the agreement, a deliverable, the approval or the compensation. |
 | **Disclosure (Declaración publicitaria)** | Clear indication that a piece of content is part of a commercial collaboration or has received compensation from a brand. |
 | **Brand fit (Compatibilidad con la marca)** | Degree to which the creator's content, values, style and audience are aligned with the brand and its campaign objective. |
 | **Match (Coincidencia)** | Degree to which the characteristics of a brand, campaign, creator and audience correspond to one another. |
@@ -2922,6 +2985,8 @@ CollabPro sin depender de información privada de las empresas.
 </tr>
 </tbody>
 </table>
+
+
 
 #### 2.4.2. Impact Mapping
 
