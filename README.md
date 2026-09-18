@@ -792,8 +792,7 @@ Para mantener la consistencia del lenguaje, el equipo utilizará **Brand** para 
 </tbody>
 </table>
 
-<table border="1">
-
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
 <thead>
 <tr>
 <th>Story ID</th>
@@ -802,264 +801,403 @@ Para mantener la consistencia del lenguaje, el equipo utilizará **Brand** para 
 <th>Epic</th>
 </tr>
 </thead>
-
 <tbody>
-
 <tr>
 <td><strong>US-01</strong></td>
 <td>Visitante del segmento de pymes</td>
 <td>Alta</td>
 <td>EP-01</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Presentación de CollabPro para empresas</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Presentación de CollabPro para empresas<br><br>
-
-<strong>Description:</strong>
-Como visitante del segmento de pymes, quiero conocer la propuesta de valor
-de CollabPro, para determinar si la plataforma puede ayudarme a gestionar
-colaboraciones con creadores de contenido.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+Como visitante del segmento de pymes, quiero conocer la propuesta de valor de CollabPro,
+para determinar si la plataforma puede ayudarme a gestionar colaboraciones con creadores de contenido.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Comprensión de la propuesta</strong><br><br>
 <strong>Dado que</strong> el visitante ingresa a la Landing Page<br><br>
 <strong>Cuando</strong> consulta la información principal de CollabPro<br><br>
 <strong>Entonces</strong> comprende que la plataforma permite gestionar campañas con creadores de contenido de forma profesional y justa.<br><br>
-
 <strong>Escenario 2: Identificación de beneficios</strong><br><br>
 <strong>Dado que</strong> el visitante consulta la propuesta de valor<br><br>
 <strong>Cuando</strong> revisa los beneficios de CollabPro<br><br>
 <strong>Entonces</strong> identifica que puede centralizar campañas, requisitos, entregables, compensaciones y seguimiento.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-02</strong></td>
 <td>Visitante del segmento de creadores</td>
 <td>Alta</td>
 <td>EP-01</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Presentación de CollabPro para creadores</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Presentación de CollabPro para creadores<br><br>
-
-<strong>Description:</strong>
 Como visitante del segmento de creadores, quiero conocer la propuesta de
 valor de CollabPro, para determinar si la plataforma puede ayudarme a
-encontrar y gestionar colaboraciones con empresas.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+encontrar y gestionar colaboraciones con empresas.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Comprensión de la propuesta</strong><br><br>
 <strong>Dado que</strong> el visitante ingresa a la Landing Page<br><br>
 <strong>Cuando</strong> consulta la información principal de CollabPro<br><br>
 <strong>Entonces</strong> comprende que la plataforma permite encontrar y gestionar campañas con empresas.<br><br>
-
 <strong>Escenario 2: Identificación de beneficios</strong><br><br>
 <strong>Dado que</strong> el visitante consulta los beneficios de la plataforma<br><br>
 <strong>Cuando</strong> revisa las características principales<br><br>
 <strong>Entonces</strong> identifica que puede conocer los requisitos, entregables, fechas y compensaciones de una empresa antes de aceptar una colaboración.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-03</strong></td>
 <td>Visitante del segmento de pymes</td>
 <td>Media</td>
 <td>EP-01</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Información sobre el funcionamiento de CollabPro para empresas</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Información sobre el funcionamiento de CollabPro para empresas<br><br>
-
-<strong>Description:</strong>
 Como visitante del segmento de pymes, quiero conocer cómo se desarrolla una
-colaboración en CollabPro, para saber cómo manejar correctamente la herramienta antes de registrarme.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+colaboración en CollabPro, para saber cómo manejar correctamente la herramienta antes de registrarme.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Proceso de colaboración</strong><br><br>
 <strong>Dado que</strong> el visitante revisa el funcionamiento de CollabPro<br><br>
 <strong>Cuando</strong> revisa el proceso de colaboración<br><br>
 <strong>Entonces</strong> identifica las etapas de creación de campaña, recepción de postulaciones, selección, ejecución y validación.<br><br>
-
 <strong>Escenario 2: Cumplimiento de colaboración</strong><br><br>
 <strong>Dado que</strong> el visitante revisa el proceso de una colaboración<br><br>
 <strong>Cuando</strong> consulta cómo se verifica su cumplimiento<br><br>
 <strong>Entonces</strong> comprende que los entregables son validados antes de completar el proceso del pago de la colaboración.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-04</strong></td>
 <td>Visitante del segmento de creadores</td>
 <td>Media</td>
 <td>EP-01</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Información sobre el funcionamiento de CollabPro para creadores</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Información sobre el funcionamiento de CollabPro para creadores<br><br>
-
-<strong>Description:</strong>
 Como visitante del segmento de creadores, quiero conocer cómo participar en
 una colaboración dentro de CollabPro, para conocer mis responsabilidades y 
-condiciones de la colaboración antes de registrarme.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+condiciones de la colaboración antes de registrarme.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Participación en campañas</strong><br><br>
 <strong>Dado que</strong> el visitante consulta el funcionamiento de CollabPro<br><br>
 <strong>Cuando</strong> revisa el proceso detallado de colaboración para creadores<br><br>
 <strong>Entonces</strong> identifica las etapas de búsqueda, postulación, aceptación, entrega y validación.<br><br>
-
 <strong>Escenario 2: Revisión de las condiciones de colaboración</strong><br><br>
 <strong>Dado que</strong> el visitante consulta el proceso de una colaboración<br><br>
 <strong>Cuando</strong> revisa cómo se dan las condiciones de participación y de cumplimiento<br><br>
 <strong>Entonces</strong> comprende que las condiciones se conocen antes de confirmar una colaboración.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-05</strong></td>
 <td>Visitante del segmento de pymes o de creadores</td>
 <td>Media</td>
 <td>EP-01</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Contacto con CollabPro</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Contacto con CollabPro<br><br>
-
-<strong>Description:</strong>
 Como visitante del segmento de pymes o de creadores, quiero comunicarme con
 CollabPro, para solicitar información adicional o realizar una consulta sobre
-el servicio.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+el servicio.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Envío de consulta</strong><br><br>
 <strong>Dado que</strong> el visitante proporciona la información requerida de contacto<br><br>
 <strong>Cuando</strong> envía una consulta<br><br>
 <strong>Entonces</strong> se registra la solicitud y se le confirma su recepción.<br><br>
-
 <strong>Escenario 2: Información incompleta</strong><br><br>
 <strong>Dado que</strong> el visitante omite información requerida de contacto<br><br>
 <strong>Cuando</strong> intenta enviar una consulta<br><br>
 <strong>Entonces</strong> se le impide registrar la solicitud hasta completar la información requerida.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-06</strong></td>
 <td>Visitante del segmento de pymes o de creadores</td>
 <td>Media</td>
 <td>EP-01</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Cambio de idioma</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Cambio de idioma<br><br>
-
-<strong>Description:</strong>
 Como visitante del segmento de pymes o de creadores, quiero consultar la
 información de CollabPro en español o inglés, para comprender la propuesta
-de acuerdo al idioma seleccionado.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+de acuerdo al idioma seleccionado.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Idioma inglés</strong><br><br>
 <strong>Dado que</strong> el visitante ingresa a la Landing Page<br><br>
 <strong>Cuando</strong> selecciona la opción de visualización en inglés<br><br>
 <strong>Entonces</strong> el contenido disponible se muestra en este idioma.<br><br>
-
 <strong>Escenario 2: Idioma español</strong><br><br>
 <strong>Dado que</strong> el visitante ingresa a la Landing Page<br><br>
 <strong>Cuando</strong> selecciona la opción de visualización en español<br><br>
 <strong>Entonces</strong> el contenido disponible se muestra en este idioma.<br><br>
-
 <strong>Escenario 3: Conservación del idioma</strong><br><br>
 <strong>Dado que</strong> el visitante ha seleccionado un idioma<br><br>
 <strong>Cuando</strong> continúa navegando por la Landing Page<br><br>
 <strong>Entonces</strong> el contenido mantiene el idioma seleccionado.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-07</strong></td>
 <td>Visitante del segmento de pymes o de creadores</td>
 <td>Media</td>
 <td>EP-01</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Compatibilidad visual de la Landing Page con varios dispositivos</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Compatibilidad visual de la Landing Page con varios dispositivos<br><br>
-
-<strong>Description:</strong>
 Como visitante del segmento de pymes o de creadores, quiero consultar la
 landing desde diferentes dispositivos, para acceder a la información sin
-importar el tamaño de pantalla.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+importar el tamaño de pantalla.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Acceso desde dispositivo móvil</strong><br><br>
 <strong>Dado que</strong> el visitante accede desde un dispositivo móvil<br><br>
 <strong>Cuando</strong> consulta la Landing Page<br><br>
 <strong>Entonces</strong> puede acceder al contenido y a las funcionalidades disponibles en formato móvil sin pérdida de información esencial.<br><br>
-
 <strong>Escenario 2: Acceso desde computadora de escritorio</strong><br><br>
 <strong>Dado que</strong> el visitante accede desde una computadora<br><br>
 <strong>Cuando</strong> consulta la Landing Page<br><br>
 <strong>Entonces</strong> puede acceder al contenido y a las funcionalidades disponibles en formato de escritorio.<br><br>
-
 <strong>Escenario 3: Cambio de orientación</strong><br><br>
 <strong>Dado que</strong> el visitante utiliza un dispositivo que permite cambiar de orientación<br><br>
 <strong>Cuando</strong> cambia la orientación del dispositivo<br><br>
 <strong>Entonces</strong> el contenido continúa siendo visible y comprensible.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-08</strong></td>
 <td>Visitante del segmento de pymes o de creadores</td>
 <td>Alta</td>
 <td>EP-01</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Registro desde la Landing Page</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Registro desde la Landing Page<br><br>
-
-<strong>Description:</strong>
 Como visitante del segmento de pymes o de creadores, quiero acceder al
-registro correspondiente a mi segmento, para comenzar a utilizar CollabPro.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+registro correspondiente a mi segmento, para comenzar a utilizar CollabPro.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Registro empresarial</strong><br><br>
 <strong>Dado que</strong> el visitante pertenece al segmento de pymes<br><br>
 <strong>Cuando</strong> selecciona el registro de cuenta empresarial<br><br>
 <strong>Entonces</strong> es dirigido al proceso de registro correspondiente.<br><br>
-
 <strong>Escenario 2: Registro de creador de contenido</strong><br><br>
 <strong>Dado que</strong> el visitante pertenece al segmento de creadores<br><br>
 <strong>Cuando</strong> selecciona el registro de cuenta de creador de contenido<br><br>
 <strong>Entonces</strong> es dirigido al proceso de registro correspondiente.
 </td>
 </tr>
-
 </tbody>
 </table>
 
-<table border="1">
+<hr>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
 <thead>
 <tr>
 <th>Story ID</th>
@@ -1068,203 +1206,301 @@ registro correspondiente a mi segmento, para comenzar a utilizar CollabPro.<br><
 <th>Epic</th>
 </tr>
 </thead>
-
 <tbody>
-
 <tr>
 <td><strong>US-09</strong></td>
 <td>Representante de una pyme</td>
 <td>Alta</td>
 <td>EP-02</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Registro de empresa</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Registro de empresa<br><br>
-
-<strong>Description:</strong>
 Como representante de una pyme, quiero crear una cuenta en CollabPro,
-para gestionar campañas con creadores.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+para gestionar campañas con creadores.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Registro válido</strong><br><br>
 <strong>Dado que</strong> la empresa proporciona la información obligatoria y un correo no registrado<br><br>
 <strong>Cuando</strong> completa el registro<br><br>
 <strong>Entonces</strong> se le crea una cuenta empresarial.<br><br>
-
 <strong>Escenario 2: Cuenta existente</strong><br><br>
 <strong>Dado que</strong> el correo ya está asociado a una cuenta<br><br>
 <strong>Cuando</strong> la empresa intenta registrarse nuevamente<br><br>
 <strong>Entonces</strong> se le impide crear una cuenta duplicada.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-10</strong></td>
 <td>Creador de contenido</td>
 <td>Alta</td>
 <td>EP-02</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Registro de creador</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Registro de creador<br><br>
-
-<strong>Description:</strong>
 Como creador de contenido, quiero crear una cuenta en CollabPro,
-para encontrar oportunidades de colaboración con empresas.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+para encontrar oportunidades de colaboración con empresas.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Registro válido</strong><br><br>
 <strong>Dado que</strong> el creador proporciona la información obligatoria y un correo no registrado<br><br>
 <strong>Cuando</strong> completa el registro<br><br>
 <strong>Entonces</strong> se le crea la cuenta de creador.<br><br>
-
 <strong>Escenario 2: Cuenta existente</strong><br><br>
 <strong>Dado que</strong> el correo ya está asociado a una cuenta<br><br>
 <strong>Cuando</strong> el creador intenta registrarse nuevamente<br><br>
 <strong>Entonces</strong> se le impide crear una cuenta duplicada.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-11</strong></td>
 <td>Usuario de CollabPro</td>
 <td>Alta</td>
 <td>EP-02</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Inicio de sesión y recuperación de cuenta</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Inicio de sesión y recuperación de cuenta<br><br>
-
-<strong>Description:</strong>
 Como usuario de CollabPro, quiero iniciar sesión y recuperar el acceso a mi
-cuenta, para utilizar la plataforma cuando lo necesite.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+cuenta, para utilizar la plataforma cuando lo necesite.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Inicio de sesión válido</strong><br><br>
 <strong>Dado que</strong> existe una cuenta activa<br><br>
 <strong>Cuando</strong> el usuario proporciona credenciales de acceso válidas<br><br>
 <strong>Entonces</strong> se le concede acceso a las funcionalidades correspondientes a su tipo de cuenta.<br><br>
-
 <strong>Escenario 2: Credenciales inválidas</strong><br><br>
 <strong>Dado que</strong> las credenciales proporcionadas no son válidas<br><br>
 <strong>Cuando</strong> el usuario intenta iniciar sesión<br><br>
 <strong>Entonces</strong> se le rechaza el acceso.<br><br>
-
 <strong>Escenario 3: Recuperación de cuenta</strong><br><br>
 <strong>Dado que</strong> existe una cuenta asociada al correo proporcionado<br><br>
 <strong>Cuando</strong> el usuario solicita recuperar el acceso<br><br>
 <strong>Entonces</strong> se inicia el proceso de recuperación correspondiente.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-12</strong></td>
 <td>Representante de una pyme</td>
 <td>Media</td>
 <td>EP-02</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Gestión del perfil empresarial</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Gestión del perfil empresarial<br><br>
-
-<strong>Description:</strong>
 Como representante de una pyme, quiero administrar la información de mi empresa,
-para proporcionar a los creadores de contenido información relevante antes de una colaboración.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+para proporcionar a los creadores de contenido información relevante antes de una colaboración.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Registro de información</strong><br><br>
 <strong>Dado que</strong> la empresa tiene una cuenta activa<br><br>
 <strong>Cuando</strong> registra información válida del negocio<br><br>
 <strong>Entonces</strong> el sistema guarda la información del perfil.<br><br>
-
 <strong>Escenario 2: Actualización de información</strong><br><br>
 <strong>Dado que</strong> existe información empresarial registrada<br><br>
 <strong>Cuando</strong> la empresa cambia datos modificables<br><br>
 <strong>Entonces</strong> se actualiza la información correspondiente.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-13</strong></td>
 <td>Creador de contenido</td>
 <td>Media</td>
 <td>EP-02</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Gestión del perfil de creadores</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Gestión del perfil de creadores<br><br>
-
-<strong>Description:</strong>
 Como creador de contenido, quiero administrar la información de mi perfil,
-para mostrar información relevante para las empresas.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+para mostrar información relevante para las empresas.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Registro de perfil</strong><br><br>
 <strong>Dado que</strong> el creador tiene una cuenta activa<br><br>
 <strong>Cuando</strong> proporciona información válida sobre su contenido y audiencia<br><br>
 <strong>Entonces</strong> se guarda la información de su perfil.<br><br>
-
 <strong>Escenario 2: Actualización del perfil</strong><br><br>
 <strong>Dado que</strong> existe un perfil guardado<br><br>
 <strong>Cuando</strong> el creador modifica información permitida<br><br>
 <strong>Entonces</strong> se le actualiza el perfil.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-14</strong></td>
 <td>Creador de contenido</td>
 <td>Media</td>
 <td>EP-02</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Vinculación de redes sociales</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Vinculación de redes sociales<br><br>
-
-<strong>Description:</strong>
 Como creador de contenido, quiero vincular mis redes sociales a CollabPro,
 para acreditar mi presencia digital y permitir obtener información autorizada
-de mis publicaciones.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+de mis publicaciones.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Vinculación autorizada</strong><br><br>
 <strong>Dado que</strong> el creador dispone de una cuenta compatible<br><br>
 <strong>Cuando</strong> autoriza la vinculación solicitada desde esa cuenta<br><br>
 <strong>Entonces</strong> el sistema registra la red social como vinculada.<br><br>
-
 <strong>Escenario 2: Autorización rechazada</strong><br><br>
 <strong>Dado que</strong> el creador no concede los permisos solicitados<br><br>
 <strong>Cuando</strong> finaliza el proceso de autorización<br><br>
 <strong>Entonces</strong> no se registra la cuenta como vinculada.<br><br>
-
 <strong>Escenario 3: Cuenta ya vinculada</strong><br><br>
 <strong>Dado que</strong> una cuenta social ya está asociada a su perfil<br><br>
 <strong>Cuando</strong> un creador intenta vincularla nuevamente<br><br>
 <strong>Entonces</strong> se le impide duplicar la vinculación.
 </td>
 </tr>
-
 </tbody>
 </table>
 
-<table border="1">
+<hr>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
 <thead>
 <tr>
 <th>Story ID</th>
@@ -1273,370 +1509,559 @@ de mis publicaciones.<br><br>
 <th>Epic</th>
 </tr>
 </thead>
-
 <tbody>
-
 <tr>
 <td><strong>US-15</strong></td>
 <td>Representante de una pyme</td>
 <td>Alta</td>
 <td>EP-03</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Creación de campaña</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Creación de campaña<br><br>
-
-<strong>Description:</strong>
 Como representante de una pyme, quiero publicar una campaña,
-para encontrar creadores de contenido que puedan cumplir mis objetivos de marketing.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+para encontrar creadores de contenido que puedan cumplir mis objetivos de marketing.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Creación válida</strong><br><br>
 <strong>Dado que</strong> la empresa tiene una cuenta habilitada<br><br>
 <strong>Cuando</strong> registra la información obligatoria de la campaña<br><br>
 <strong>Entonces</strong> se crea la campaña y se vuelve visible para todos los creadores registrados.<br><br>
-
 <strong>Escenario 2: Información incompleta</strong><br><br>
 <strong>Dado que</strong> falta información obligatoria sobre la campaña<br><br>
 <strong>Cuando</strong> la empresa intenta publicar la campaña<br><br>
 <strong>Entonces</strong> se impide la publicación.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-16</strong></td>
 <td>Representante de una pyme</td>
 <td>Alta</td>
 <td>EP-03</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Definición de condiciones de campaña</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Definición de condiciones de campaña<br><br>
-
-<strong>Description:</strong>
 Como representante de una pyme, quiero definir requisitos, entregables,
 plazos y compensación, para establecer las condiciones de la colaboración
-antes de recibir postulaciones.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+antes de recibir postulaciones.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Condiciones válidas</strong><br><br>
 <strong>Dado que</strong> existe una campaña en preparación<br><br>
 <strong>Cuando</strong> la empresa registra las condiciones obligatorias<br><br>
 <strong>Entonces</strong> se asocian estas condiciones a la campaña.<br><br>
-
 <strong>Escenario 2: Condiciones incompatibles</strong><br><br>
 <strong>Dado que</strong> existe una condición incompatible con las fechas o reglas de la campaña<br><br>
 <strong>Cuando</strong> la empresa intenta guardar las condiciones<br><br>
 <strong>Entonces</strong> se impide guardar la campaña con estas condiciones.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-17</strong></td>
 <td>Creador de contenido</td>
 <td>Alta</td>
 <td>EP-03</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Búsqueda de campañas</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Búsqueda de campañas<br><br>
-
-<strong>Description:</strong>
 Como creador de contenido, quiero buscar campañas según mis intereses y
-características, para encontrar oportunidades de colaboración relevantes.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+características, para encontrar oportunidades de colaboración relevantes.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Búsqueda con coincidencias</strong><br><br>
 <strong>Dado que</strong> existen campañas publicadas<br><br>
 <strong>Cuando</strong> el creador utiliza criterios de búsqueda<br><br>
 <strong>Entonces</strong> se muestran las campañas que cumplen con los criterios.<br><br>
-
 <strong>Escenario 2: Búsqueda sin coincidencias</strong><br><br>
 <strong>Dado que</strong> ninguna campaña cumple los criterios definidos<br><br>
 <strong>Cuando</strong> el creador realiza la búsqueda<br><br>
 <strong>Entonces</strong> se le informa que no existen coincidencias.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-18</strong></td>
 <td>Creador de contenido</td>
 <td>Alta</td>
 <td>EP-03</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Consulta de condiciones de una campaña</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Consulta de condiciones de una campaña<br><br>
-
-<strong>Description:</strong>
 Como creador de contenido, quiero consultar las condiciones a detalle de una
-campaña, para determinar si puedo cumplirlas antes de postular.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+campaña, para determinar si puedo cumplirlas antes de postular.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Campaña disponible</strong><br><br>
 <strong>Dado que</strong> existe una campaña abierta<br><br>
 <strong>Cuando</strong> el creador consulta la campaña<br><br>
 <strong>Entonces</strong> se le muestra el objetivo, requisitos, entregables, fechas y pago.<br><br>
-
 <strong>Escenario 2: Campaña cerrada</strong><br><br>
 <strong>Dado que</strong> la campaña ya no acepta postulaciones<br><br>
 <strong>Cuando</strong> el creador consulta la campaña<br><br>
 <strong>Entonces</strong> se informa que la campaña no admite nuevas postulaciones.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-19</strong></td>
 <td>Creador de contenido</td>
 <td>Alta</td>
 <td>EP-03</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Postulación a campaña</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Postulación a campaña<br><br>
-
-<strong>Description:</strong>
 Como creador de contenido, quiero postular a una campaña,
-para participar en oportunidades comerciales relevantes.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+para participar en oportunidades comerciales relevantes.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Postulación válida</strong><br><br>
 <strong>Dado que</strong> la campaña acepta nuevas postulaciones<br><br>
 <strong>Cuando</strong> el creador cumple las condiciones requeridas y presenta su postulación<br><br>
 <strong>Entonces</strong> se registra la postulación como pendiente.<br><br>
-
 <strong>Escenario 2: Postulación duplicada</strong><br><br>
 <strong>Dado que</strong> el creador ya se ha postulado<br><br>
 <strong>Cuando</strong> intenta postular nuevamente<br><br>
 <strong>Entonces</strong> se le impide duplicar la postulación.<br><br>
-
 <strong>Escenario 3: Incumplimiento de requisito</strong><br><br>
 <strong>Dado que</strong> el creador no cumple una condición obligatoria<br><br>
 <strong>Cuando</strong> intenta presentar la postulación<br><br>
-<strong>Entonces</strong> se le impide registrar la postulación y se le muestra la condición incumplida.
-
+<strong>Entonces</strong> se le impide registrar la postulación y se le muestra la condición incumplida.<br><br>
 <strong>Escenario 4: Edición de postulación</strong><br><br>
 <strong>Dado que</strong> el creador ya se ha postulado<br><br>
 <strong>Cuando</strong> la postulación se encuentra pendiente<br><br>
 <strong>Entonces</strong> se le permite editar la postulación.<br><br>
-
 <strong>Escenario 4: Cancelación de postulación</strong><br><br>
 <strong>Dado que</strong> el creador ya se ha postulado<br><br>
 <strong>Cuando</strong> la postulación se encuentra pendiente<br><br>
-<strong>Entonces</strong> se le permite cancelar su postulación.<br><br>
-
+<strong>Entonces</strong> se le permite cancelar su postulación.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-20</strong></td>
 <td>Representante de una pyme</td>
 <td>Alta</td>
 <td>EP-03</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Evaluación de postulaciones</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Evaluación de postulaciones<br><br>
-
-<strong>Description:</strong>
 Como representante de una pyme, quiero revisar las postulaciones recibidas,
-para seleccionar al creador que cumpla las condiciones de mi campaña.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+para seleccionar al creador que cumpla las condiciones de mi campaña.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Consulta de postulaciones</strong><br><br>
 <strong>Dado que</strong> existen postulaciones para una campaña<br><br>
 <strong>Cuando</strong> la empresa las consulta<br><br>
 <strong>Entonces</strong> se proporciona la información de cada postulante.<br><br>
-
 <strong>Escenario 2: Selección de postulantes</strong><br><br>
 <strong>Dado que</strong> existen postulaciones para una campaña<br><br>
 <strong>Cuando</strong> la empresa elige a los creadores y los acepta<br><br>
 <strong>Entonces</strong> se registra la elección.<br><br>
-
 <strong>Escenario 3: Rechazo de postulante</strong><br><br>
 <strong>Dado que</strong> se revisó una postulación<br><br>
 <strong>Cuando</strong> la empresa la rechaza<br><br>
 <strong>Entonces</strong> se le informa el resultado de su postulacion al creador de contenido.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-21</strong></td>
 <td>Representante de una pyme</td>
 <td>Alta</td>
 <td>EP-03</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Aceptación de una colaboración</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Aceptación de una colaboración<br><br>
-
-<strong>Description:</strong>
 Como representante de una pyme, quiero formalizar la colaboración con un creador
-seleccionado, para dejar establecidas las condiciones que ambas partes deben cumplir.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+seleccionado, para dejar establecidas las condiciones que ambas partes deben cumplir.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Aceptación de ambas partes</strong><br><br>
 <strong>Dado que</strong> existe una postulación seleccionada<br><br>
 <strong>Cuando</strong> ambas partes se comunican y aceptan las condiciones<br><br>
 <strong>Entonces</strong> se crea la colaboración con las condiciones acordadas.<br><br>
-
 <strong>Escenario 2: Rechazo de las condiciones</strong><br><br>
 <strong>Dado que</strong> una de las partes no acepta las condiciones<br><br>
 <strong>Cuando</strong> finaliza el proceso de aceptación<br><br>
 <strong>Entonces</strong> no se inicia la colaboración.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-22</strong></td>
 <td>Empresa o creador de contenido</td>
 <td>Alta</td>
 <td>EP-03</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Consulta del estado de una colaboración</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Consulta del estado de una colaboración<br><br>
-
-<strong>Description:</strong>
 Como empresa o creador de contenido, quiero consultar el estado de una
-colaboración, para conocer las acciones pendientes y las etapas completadas.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+colaboración, para conocer las acciones pendientes y las etapas completadas.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Colaboración activa</strong><br><br>
 <strong>Dado que</strong> existe una colaboración vigente<br><br>
 <strong>Cuando</strong> el usuario consulta su estado<br><br>
 <strong>Entonces</strong> se le muestra la etapa actual y las acciones pendientes.<br><br>
-
 <strong>Escenario 2: Colaboración vencida</strong><br><br>
 <strong>Dado que</strong> se ha superado una fecha límite sin completar los requisitos correspondientes<br><br>
 <strong>Cuando</strong> se actualiza el estado de la colaboración<br><br>
 <strong>Entonces</strong> se marca como vencida según las reglas establecidas.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-23</strong></td>
 <td>Creador de contenido</td>
 <td>Alta</td>
 <td>EP-03</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Entrega de contenido y evidencias</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Entrega de contenido y evidencias<br><br>
-
-<strong>Description:</strong>
 Como creador de contenido, quiero registrar mis entregables y evidencias,
-para demostrar el cumplimiento de la colaboración.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+para demostrar el cumplimiento de la colaboración.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Entrega válida</strong><br><br>
 <strong>Dado que</strong> la colaboración permite registrar entregables<br><br>
 <strong>Cuando</strong> el creador presenta el contenido y la evidencia requerida<br><br>
 <strong>Entonces</strong> se registra la entrega como pendiente de validación.<br><br>
-
 <strong>Escenario 2: Entrega fuera de plazo</strong><br><br>
 <strong>Dado que</strong> se ha superado la fecha límite<br><br>
 <strong>Cuando</strong> el creador presenta la entrega<br><br>
 <strong>Entonces</strong> se registra la entrega como fuera del plazo establecido.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-24</strong></td>
 <td>Representante de una pyme</td>
 <td>Alta</td>
 <td>EP-03</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Validación de entregables</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Validación de entregables<br><br>
-
-<strong>Description:</strong>
 Como representante de una pyme, quiero validar los entregables recibidos,
-para determinar si cumplen las condiciones acordadas.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+para determinar si cumplen las condiciones acordadas.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Entregable aprobado</strong><br><br>
 <strong>Dado que</strong> existe un entregable pendiente de validación<br><br>
 <strong>Cuando</strong> la empresa determina que cumple las condiciones<br><br>
 <strong>Entonces</strong> se registra el entregable como aprobado.<br><br>
-
 <strong>Escenario 2: Entregable rechazado</strong><br><br>
 <strong>Dado que</strong> el entregable incumple una condición<br><br>
 <strong>Cuando</strong> la empresa lo rechaza<br><br>
 <strong>Entonces</strong> se registra el rechazo y las observaciones.<br><br>
-
 <strong>Escenario 3: Corrección del entregable</strong><br><br>
 <strong>Dado que</strong> la colaboración permite corregir un entregable<br><br>
 <strong>Cuando</strong> el creador presenta una nueva versión<br><br>
 <strong>Entonces</strong> se registra la nueva entrega para validación.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-25</strong></td>
 <td>Empresa o creador de contenido</td>
 <td>Media</td>
 <td>EP-03</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Gestión de incidencias</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Gestión de incidencias<br><br>
-
-<strong>Description:</strong>
 Como empresa o creador de contenido, quiero registrar una incidencia sobre una
 colaboración, para resolver desacuerdos relacionados con las condiciones,
-los entregables o el cumplimiento.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+los entregables o el cumplimiento.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Registro de incidencia</strong><br><br>
 <strong>Dado que</strong> existe una colaboración activa o recientemente finalizada<br><br>
 <strong>Cuando</strong> una de las partes registra una incidencia válida<br><br>
 <strong>Entonces</strong> se registra la incidencia asociada a la colaboración y se guarda en un historial.<br><br>
-
 <strong>Escenario 2: Resolución de incidencia</strong><br><br>
 <strong>Dado que</strong> existe una incidencia pendiente<br><br>
 <strong>Cuando</strong> se registra una resolución válida<br><br>
 <strong>Entonces</strong> se actualiza el estado de la incidencia y se guarda en un historial.
 </td>
 </tr>
-
 </tbody>
 </table>
 
-<table border="1">
+<hr>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
 <thead>
 <tr>
 <th>Story ID</th>
@@ -1645,189 +2070,265 @@ los entregables o el cumplimiento.<br><br>
 <th>Epic</th>
 </tr>
 </thead>
-
 <tbody>
-
 <tr>
 <td><strong>US-26</strong></td>
 <td>Empresa o creador de contenido</td>
 <td>Alta</td>
 <td>EP-04</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Vinculación de medio de pago</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Vinculación de medio de pago<br><br>
-
-<strong>Description:</strong>
 Como empresa o creador de contenido, quiero vincular un medio de pago,
 para cumplir las condiciones necesarias para participar en operaciones
-económicas dentro de CollabPro.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+económicas dentro de CollabPro.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Vinculación correcta</strong><br><br>
 <strong>Dado que</strong> el usuario dispone de un medio de pago válido<br><br>
 <strong>Cuando</strong> completa el proceso de vinculación<br><br>
 <strong>Entonces</strong> se registra este medio de pago.<br><br>
-
 <strong>Escenario 2: Vinculación fallida</strong><br><br>
 <strong>Dado que</strong> el medio de pago no puede ser validado<br><br>
 <strong>Cuando</strong> el usuario intenta asociarlo<br><br>
 <strong>Entonces</strong> se informa que el medio de pago no fue vinculado.<br><br>
-
 <strong>Escenario 3: Operación sin medio de pago</strong><br><br>
 <strong>Dado que</strong> una operación económica requiere un medio de pago asociado<br><br>
 <strong>Cuando</strong> el usuario intenta iniciar una operación sin tener ninguno asociado<br><br>
 <strong>Entonces</strong> se le impide continuar con esa operación.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-27</strong></td>
 <td>Representante de una pyme</td>
 <td>Alta</td>
 <td>EP-04</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Suscripción de la empresa</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Suscripción de la empresa<br><br>
-
-<strong>Description:</strong>
 Como representante de una pyme, quiero tener una suscripción de pago de CollabPro,
-para utilizar las funcionalidades incluidas en el plan seleccionado.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+para utilizar las funcionalidades incluidas en el plan seleccionado.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Suscripción válida</strong><br><br>
 <strong>Dado que</strong> la empresa tiene un medio de pago válido<br><br>
 <strong>Cuando</strong> elige una suscripción disponible y la confirma<br><br>
 <strong>Entonces</strong> se registra la suscripción como activa.<br><br>
-
 <strong>Escenario 2: Cobro fallido</strong><br><br>
 <strong>Dado que</strong> el medio de pago no permite completar el cobro<br><br>
 <strong>Cuando</strong> se procesa el pago de la suscripción<br><br>
 <strong>Entonces</strong> se registra el fallo y no se activa la suscripción.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-28</strong></td>
 <td>Creador de contenido</td>
 <td>Alta</td>
 <td>EP-04</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Consulta del estado de la compensación</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Consulta del estado de la compensación<br><br>
-
-<strong>Description:</strong>
 Como creador de contenido, quiero consultar el estado de mi paga,
 para conocer si se encuentra pendiente, pagada o afectada
-por una incidencia.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+por una incidencia.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Compensación pendiente</strong><br><br>
 <strong>Dado que</strong> existen entregables pendientes de validación<br><br>
 <strong>Cuando</strong> el creador consulta la compensación<br><br>
 <strong>Entonces</strong> se le informa que el pago no se realiza hasta que todos los entregables hayan sido validados.<br><br>
-
 <strong>Escenario 2: Compensación pagada</strong><br><br>
 <strong>Dado que</strong> se han validado todos los entregables<br><br>
 <strong>Cuando</strong> la empresa se confirma el pago<br><br>
 <strong>Entonces</strong> se registra la compensación como pagada.<br><br>
-
 <strong>Escenario 3: Compensación afectada por una incidencia</strong><br><br>
 <strong>Dado que</strong> existe una incidencia que afecta el proceso de compensación<br><br>
 <strong>Cuando</strong> el creador consulta el estado<br><br>
 <strong>Entonces</strong> se le informa que la compensación se encuentra afectada por la incidencia.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-29</strong></td>
 <td>Representante de una pyme</td>
 <td>Media</td>
 <td>EP-04</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Consulta y atribución de resultados de campaña</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Consulta y atribución de resultados de campaña<br><br>
-
-<strong>Description:</strong>
 Como representante de una pyme, quiero consultar los resultados verificables
-de una colaboración, para evaluar el desempeño obtenido con la información disponible.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+de una colaboración, para evaluar el desempeño obtenido con la información disponible.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Métricas disponibles</strong><br><br>
 <strong>Dado que</strong> una colaboración tiene contenido publicado y existen métricas autorizadas disponibles<br><br>
 <strong>Cuando</strong> la empresa consulta los resultados<br><br>
 <strong>Entonces</strong> se presentan las métricas disponibles junto con su fuente y periodo de referencia.<br><br>
-
 <strong>Escenario 2: Métricas no disponibles</strong><br><br>
 <strong>Dado que</strong> la red social donde se publicó el contenido no proporciona las métricas requeridas<br><br>
 <strong>Cuando</strong> la empresa consulta los resultados<br><br>
 <strong>Entonces</strong> se informa que no existen métricas disponibles.<br><br>
-
 <strong>Escenario 3: Evidencia proporcionada por el creador</strong><br><br>
 <strong>Dado que</strong> no existen datos automatizados pero la colaboración permite presentar evidencias<br><br>
 <strong>Cuando</strong> el creador proporciona una evidencia válida<br><br>
 <strong>Entonces</strong> se registra la evidencia como información de referencia de la colaboración.<br><br>
-
 <strong>Escenario 4: Atribución de resultados</strong><br><br>
 <strong>Dado que</strong> la campaña utiliza un enlace o código asociado a una colaboración<br><br>
 <strong>Cuando</strong> se registra una interacción atribuible<br><br>
 <strong>Entonces</strong> se asocian estos datos a la colaboración correspondiente.<br><br>
-
 <strong>Escenario 5: Interpretación de resultados</strong><br><br>
 <strong>Dado que</strong> existen resultados atribuibles registrados<br><br>
 <strong>Cuando</strong> la empresa consulta la información de la campaña<br><br>
 <strong>Entonces</strong> se presentan los resultados atribuibles con la advertencia de que solo son estimaciones y se debe considerarlos con cautela.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
 
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>US-30</strong></td>
 <td>Empresa o creador de contenido</td>
 <td>Media</td>
 <td>EP-04</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Historial de colaboraciones</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Historial de colaboraciones<br><br>
-
-<strong>Description:</strong>
 Como empresa o creador de contenido, quiero consultar el historial de mis
-colaboraciones, para revisar acuerdos, entregables y resultados anteriores.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+colaboraciones, para revisar acuerdos, entregables y resultados anteriores.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Historial existente</strong><br><br>
 <strong>Dado que</strong> el usuario ha participado en colaboraciones anteriores<br><br>
 <strong>Cuando</strong> consulta su historial<br><br>
 <strong>Entonces</strong> se le proporciona la lista de colaboraciones asociadas y detalles relevantes.<br><br>
-
 <strong>Escenario 2: Historial vacío</strong><br><br>
 <strong>Dado que</strong> el usuario no tiene colaboraciones anteriores<br><br>
 <strong>Cuando</strong> consulta su historial<br><br>
 <strong>Entonces</strong> se le informa que no existen colaboraciones registradas.
 </td>
 </tr>
-
 </tbody>
 </table>
 
-<table border="1">
+<hr>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
 <thead>
 <tr>
 <th>Story ID</th>
@@ -1836,323 +2337,52 @@ colaboraciones, para revisar acuerdos, entregables y resultados anteriores.<br><
 <th>Epic</th>
 </tr>
 </thead>
-
 <tbody>
-
 <tr>
 <td><strong>TS-01</strong></td>
 <td>Developer</td>
 <td>Alta</td>
 <td>EP-05</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Servicios de autenticación de cuentas</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Servicios de autenticación de cuentas<br><br>
-
-<strong>Description:</strong>
 Como Developer, quiero implementar los servicios REST para registrar usuarios,
 autenticar cuentas y gestionar el acceso, para que las aplicaciones móviles
-puedan utilizar las funciones correspondientes a cada tipo de usuario.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+puedan utilizar las funciones correspondientes a cada tipo de usuario.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Registro</strong><br><br>
 <strong>Dado que</strong> no existe una cuenta con el correo proporcionado<br><br>
 <strong>Cuando</strong> la aplicación realiza una petición <strong>POST /api/v1/auth/register</strong><br><br>
 <strong>Entonces</strong> la API responde con código <strong>201 Created</strong> y confirma la creación de la cuenta.<br><br>
-
 <strong>Escenario 2: Inicio de sesión</strong><br><br>
 <strong>Dado que</strong> existen credenciales válidas<br><br>
 <strong>Cuando</strong> la aplicación realiza una petición <strong>POST /api/v1/auth/login</strong><br><br>
 <strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona las credenciales necesarias para utilizar los servicios protegidos.<br><br>
-
 <strong>Escenario 3: Acceso inválido</strong><br><br>
 <strong>Dado que</strong> las credenciales no son válidas<br><br>
 <strong>Cuando</strong> la aplicación intenta iniciar sesión<br><br>
 <strong>Entonces</strong> la API responde con código <strong>401 Unauthorized</strong> y rechaza el acceso.
 </td>
 </tr>
-
-
-<tr>
-<td><strong>TS-02</strong></td>
-<td>Developer</td>
-<td>Alta</td>
-<td>EP-05</td>
-</tr>
-
-<tr>
-<td colspan="4">
-<strong>Title:</strong> Servicios de perfiles y redes sociales<br><br>
-
-<strong>Description:</strong>
-Como Developer, quiero implementar los servicios REST para consultar y actualizar
-perfiles y gestionar vinculaciones con redes sociales, para que las aplicaciones
-puedan administrar la información de empresas y creadores.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
-<strong>Escenario 1: Consulta de perfil</strong><br><br>
-<strong>Dado que</strong> existe una sesión autenticada<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/user/{id}</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona la información del perfil correspondiente al usuario autenticado.<br><br>
-
-<strong>Escenario 2: Actualización de perfil</strong><br><br>
-<strong>Dado que</strong> existe un perfil válido<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>PATCH /api/v1/user/{id}</strong> con información permitida<br><br>
-<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y confirma la actualización del perfil.<br><br>
-
-<strong>Escenario 3: Vinculación de red social</strong><br><br>
-<strong>Dado que</strong> el proceso de autorización de una red social fue completado correctamente<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/user/{id}/social-media</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>201 Created</strong> y registra la asociación con la cuenta de la red social.<br><br>
-
-<strong>Escenario 4: Consulta de redes vinculadas</strong><br><br>
-<strong>Dado que</strong> el usuario posee redes sociales vinculadas<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/user/{id}/social-media</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona las asociaciones registradas.
-</td>
-</tr>
-
-
-<tr>
-<td><strong>TS-03</strong></td>
-<td>Developer</td>
-<td>Alta</td>
-<td>EP-05</td>
-</tr>
-
-<tr>
-<td colspan="4">
-<strong>Title:</strong> Servicios de campañas y postulaciones<br><br>
-
-<strong>Description:</strong>
-Como Developer, quiero implementar los servicios REST para gestionar campañas
-y postulaciones, para que empresas y creadores puedan utilizar el marketplace
-desde las aplicaciones móviles.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
-<strong>Escenario 1: Crear campaña</strong><br><br>
-<strong>Dado que</strong> existe una empresa autenticada y autorizada<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/campaigns</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>201 Created</strong> y confirma la creación de la campaña.<br><br>
-
-<strong>Escenario 2: Actualizar campaña</strong><br><br>
-<strong>Dado que</strong> existe una campaña y se le quiere realizar modificaciones<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>PATCH /api/v1/campaigns/{id}</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y confirma la actualización de la campaña.<br><br>
-
-<strong>Escenario 3: Consultar campañas</strong><br><br>
-<strong>Dado que</strong> existen campañas disponibles<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/campaigns</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona las campañas disponibles.<br><br>
-
-<strong>Escenario 4: Consultar una campaña</strong><br><br>
-<strong>Dado que</strong> se elige una campaña disponible<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/campaigns/{id}</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona los datos de la campaña.<br><br>
-
-<strong>Escenario 5: Registrar postulación</strong><br><br>
-<strong>Dado que</strong> la campaña acepta postulaciones<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/campaigns/{id}/applications</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>201 Created</strong> y confirma la postulación.<br><br>
-
-<strong>Escenario 6: Consultar postulaciones</strong><br><br>
-<strong>Dado que</strong> existen postulaciones para una campaña<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/campaigns/{id}/applications</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona las postulaciones disponibles para esa empresa.<br><br>
-
-<strong>Escenario 7: Actualizar postulación</strong><br><br>
-<strong>Dado que</strong> existe una postulación válida y se quiere editarla<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>PATCH /api/v1/applications/{id}</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y confirma la actualización de la postulación.
-</td>
-</tr>
-
-
-<tr>
-<td><strong>TS-04</strong></td>
-<td>Developer</td>
-<td>Alta</td>
-<td>EP-05</td>
-</tr>
-
-<tr>
-<td colspan="4">
-<strong>Title:</strong> Servicios de colaboraciones y entregables<br><br>
-
-<strong>Description:</strong>
-Como Developer, quiero implementar los servicios REST de colaboraciones y
-entregables, para permitir que las aplicaciones gestionen la ejecución de los acuerdos.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
-<strong>Escenario 1: Crear colaboración</strong><br><br>
-<strong>Dado que</strong> una postulación ha sido seleccionada y las partes aceptaron las condiciones<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/collaborations</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>201 Created</strong> y confirma la creación de la colaboración.<br><br>
-
-<strong>Escenario 2: Consultar colaboración</strong><br><br>
-<strong>Dado que</strong> existe una colaboración<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/collaborations/{id}</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona el estado, las fechas, las condiciones y los entregables asociados.<br><br>
-
-<strong>Escenario 3: Registrar entrega</strong><br><br>
-<strong>Dado que</strong> la colaboración permite realizar una entrega<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/collaborations/{id}/deliverables</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>201 Created</strong> y confirma el registro de la entrega.<br><br>
-
-<strong>Escenario 4: Consultar entregas</strong><br><br>
-<strong>Dado que</strong> existen entregables registrados<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/collaborations/{id}/deliverables</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona las entregas y su estado de validación.
-</td>
-</tr>
-
-
-<tr>
-<td><strong>TS-05</strong></td>
-<td>Developer</td>
-<td>Alta</td>
-<td>EP-05</td>
-</tr>
-
-<tr>
-<td colspan="4">
-<strong>Title:</strong> Servicios de validación, incidencias y compensaciones<br><br>
-
-<strong>Description:</strong>
-Como Developer, quiero implementar los servicios REST para validar entregables,
-gestionar incidencias y consultar compensaciones, para mantener la trazabilidad
-del cumplimiento de las colaboraciones.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
-<strong>Escenario 1: Aprobar entrega</strong><br><br>
-<strong>Dado que</strong> existe un entregable pendiente de revisión<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/deliverables/{id}/validation</strong> con una aprobación<br><br>
-<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y confirma la validación.<br><br>
-
-<strong>Escenario 2: Rechazar entrega</strong><br><br>
-<strong>Dado que</strong> existe un entregable que incumple las condiciones<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/deliverables/{id}/rejection</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y conserva el motivo registrado.<br><br>
-
-<strong>Escenario 3: Registrar incidencia</strong><br><br>
-<strong>Dado que</strong> existe una colaboración válida<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/collaborations/{id}/incidents</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>201 Created</strong> y registra la incidencia.<br><br>
-
-<strong>Escenario 4: Consultar incidencia</strong><br><br>
-<strong>Dado que</strong> existe una incidencia registrada<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/collaborations/{id}/incidents</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona el estado actual de la incidencia.<br><br>
-
-<strong>Escenario 5: Consultar compensación</strong><br><br>
-<strong>Dado que</strong> existe una colaboración con compensación asociada<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/collaborations/{id}/compensation</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona el estado actual de la compensación.
-</td>
-</tr>
-
-
-<tr>
-<td><strong>TS-06</strong></td>
-<td>Developer</td>
-<td>Alta</td>
-<td>EP-05</td>
-</tr>
-
-<tr>
-<td colspan="4">
-<strong>Title:</strong> Servicios de suscripciones y pagos<br><br>
-
-<strong>Description:</strong>
-Como Developer, quiero implementar los servicios REST para gestionar medios de
-pago, suscripciones y pagos de colaboraciones, para que las aplicaciones puedan
-utilizar los servicios financieros de CollabPro.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
-<strong>Escenario 1: Preparación del medio de pago</strong><br><br>
-<strong>Dado que</strong> un usuario necesita asociar un medio de pago<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/user/{id}/billing</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>201 Created</strong> y proporciona la información necesaria para completar el proceso mediante el proveedor de pagos.<br><br>
-
-<strong>Escenario 2: Creación de suscripción</strong><br><br>
-<strong>Dado que</strong> existe un medio de pago de prueba válido<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/user/{id}/subscription</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>201 Created</strong> y confirma la creación de la suscripción.<br><br>
-
-<strong>Escenario 3: Consulta de suscripción</strong><br><br>
-<strong>Dado que</strong> existe una suscripción registrada<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/user/{id}/subscription</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona el estado actual de la suscripción.<br><br>
-
-<strong>Escenario 4: Inicio de pago de colaboración</strong><br><br>
-<strong>Dado que</strong> una colaboración cumple las condiciones necesarias para iniciar su compensación<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/collaborations/{id}/payment</strong><br><br>
-<strong>Entonces</strong> la API responde confirmando el inicio del proceso de pago.<br><br>
-
-<strong>Escenario 5: Recepción de evento de pago</strong><br><br>
-<strong>Dado que</strong> el proveedor de pagos genera un evento relacionado con una transacción<br><br>
-<strong>Cuando</strong> el backend recibe <strong>POST /api/v1/webhooks/payments</strong><br><br>
-<strong>Entonces</strong> valida el evento y actualiza el estado correspondiente sin duplicar la operación.
-</td>
-</tr>
-
-
-<tr>
-<td><strong>TS-07</strong></td>
-<td>Developer</td>
-<td>Media</td>
-<td>EP-05</td>
-</tr>
-
-<tr>
-<td colspan="4">
-<strong>Title:</strong> Servicios de métricas, evidencias y atribución<br><br>
-
-<strong>Description:</strong>
-Como Developer, quiero implementar los servicios REST para consultar métricas
-disponibles, registrar evidencias y gestionar mecanismos de atribución, para que
-las aplicaciones puedan presentar resultados verificables de las colaboraciones.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
-<strong>Escenario 1: Consulta de métricas</strong><br><br>
-<strong>Dado que</strong> una colaboración dispone de métricas autorizadas<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/collaborations/{id}/metrics</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona las métricas disponibles, su origen y el periodo correspondiente.<br><br>
-
-<strong>Escenario 2: Métricas no disponibles</strong><br><br>
-<strong>Dado que</strong> no existen métricas automatizadas disponibles<br><br>
-<strong>Cuando</strong> la aplicación consulta el recurso<br><br>
-<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> indicando que no existen métricas disponibles.<br><br>
-
-<strong>Escenario 3: Registro de evidencia</strong><br><br>
-<strong>Dado que</strong> una colaboración permite registrar evidencias adicionales<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/collaborations/{id}/evidence</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>201 Created</strong> y registra la evidencia asociada a la colaboración.<br><br>
-
-<strong>Escenario 4: Creación de mecanismo de atribución</strong><br><br>
-<strong>Dado que</strong> la colaboración permite utilizar un mecanismo de atribución por un enlace personalizado en la publicación del creador de contenido<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/collaborations/{id}/attribution</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>201 Created</strong> y confirma la creación del mecanismo correspondiente.<br><br>
-
-<strong>Escenario 5: Consulta de resultados atribuibles</strong><br><br>
-<strong>Dado que</strong> existen resultados asociados a un mecanismo de atribución<br><br>
-<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/collaborations/{id}/attribution</strong><br><br>
-<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona los resultados atribuibles disponibles.
-</td>
-</tr>
-
 </tbody>
 </table>
 
-<table border="1">
+<hr>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
 <thead>
 <tr>
 <th>Story ID</th>
@@ -2161,129 +2391,537 @@ las aplicaciones puedan presentar resultados verificables de las colaboraciones.
 <th>Epic</th>
 </tr>
 </thead>
-
 <tbody>
+<tr>
+<td><strong>TS-02</strong></td>
+<td>Developer</td>
+<td>Alta</td>
+<td>EP-05</td>
+</tr>
+<tr>
+<th>Title:</th>
+<td colspan="3">Servicios de perfiles y redes sociales</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
+<tr>
+<td colspan="4">
+Como Developer, quiero implementar los servicios REST para consultar y actualizar
+perfiles y gestionar vinculaciones con redes sociales, para que las aplicaciones
+puedan administrar la información de empresas y creadores.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
+<strong>Escenario 1: Consulta de perfil</strong><br><br>
+<strong>Dado que</strong> existe una sesión autenticada<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/user/{id}</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona la información del perfil correspondiente al usuario autenticado.<br><br>
+<strong>Escenario 2: Actualización de perfil</strong><br><br>
+<strong>Dado que</strong> existe un perfil válido<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>PATCH /api/v1/user/{id}</strong> con información permitida<br><br>
+<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y confirma la actualización del perfil.<br><br>
+<strong>Escenario 3: Vinculación de red social</strong><br><br>
+<strong>Dado que</strong> el proceso de autorización de una red social fue completado correctamente<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/user/{id}/social-media</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>201 Created</strong> y registra la asociación con la cuenta de la red social.<br><br>
+<strong>Escenario 4: Consulta de redes vinculadas</strong><br><br>
+<strong>Dado que</strong> el usuario posee redes sociales vinculadas<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/user/{id}/social-media</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona las asociaciones registradas.
+</td>
+</tr>
+</tbody>
+</table>
 
+<hr>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TS-03</strong></td>
+<td>Developer</td>
+<td>Alta</td>
+<td>EP-05</td>
+</tr>
+<tr>
+<th>Title:</th>
+<td colspan="3">Servicios de campañas y postulaciones</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
+<tr>
+<td colspan="4">
+Como Developer, quiero implementar los servicios REST para gestionar campañas
+y postulaciones, para que empresas y creadores puedan utilizar el marketplace
+desde las aplicaciones móviles.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
+<strong>Escenario 1: Crear campaña</strong><br><br>
+<strong>Dado que</strong> existe una empresa autenticada y autorizada<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/campaigns</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>201 Created</strong> y confirma la creación de la campaña.<br><br>
+<strong>Escenario 2: Actualizar campaña</strong><br><br>
+<strong>Dado que</strong> existe una campaña y se le quiere realizar modificaciones<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>PATCH /api/v1/campaigns/{id}</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y confirma la actualización de la campaña.<br><br>
+<strong>Escenario 3: Consultar campañas</strong><br><br>
+<strong>Dado que</strong> existen campañas disponibles<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/campaigns</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona las campañas disponibles.<br><br>
+<strong>Escenario 4: Consultar una campaña</strong><br><br>
+<strong>Dado que</strong> se elige una campaña disponible<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/campaigns/{id}</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona los datos de la campaña.<br><br>
+<strong>Escenario 5: Registrar postulación</strong><br><br>
+<strong>Dado que</strong> la campaña acepta postulaciones<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/campaigns/{id}/applications</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>201 Created</strong> y confirma la postulación.<br><br>
+<strong>Escenario 6: Consultar postulaciones</strong><br><br>
+<strong>Dado que</strong> existen postulaciones para una campaña<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/campaigns/{id}/applications</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona las postulaciones disponibles para esa empresa.<br><br>
+<strong>Escenario 7: Actualizar postulación</strong><br><br>
+<strong>Dado que</strong> existe una postulación válida y se quiere editarla<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>PATCH /api/v1/applications/{id}</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y confirma la actualización de la postulación.
+</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TS-04</strong></td>
+<td>Developer</td>
+<td>Alta</td>
+<td>EP-05</td>
+</tr>
+<tr>
+<th>Title:</th>
+<td colspan="3">Servicios de colaboraciones y entregables</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
+<tr>
+<td colspan="4">
+Como Developer, quiero implementar los servicios REST de colaboraciones y
+entregables, para permitir que las aplicaciones gestionen la ejecución de los acuerdos.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
+<strong>Escenario 1: Crear colaboración</strong><br><br>
+<strong>Dado que</strong> una postulación ha sido seleccionada y las partes aceptaron las condiciones<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/collaborations</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>201 Created</strong> y confirma la creación de la colaboración.<br><br>
+<strong>Escenario 2: Consultar colaboración</strong><br><br>
+<strong>Dado que</strong> existe una colaboración<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/collaborations/{id}</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona el estado, las fechas, las condiciones y los entregables asociados.<br><br>
+<strong>Escenario 3: Registrar entrega</strong><br><br>
+<strong>Dado que</strong> la colaboración permite realizar una entrega<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/collaborations/{id}/deliverables</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>201 Created</strong> y confirma el registro de la entrega.<br><br>
+<strong>Escenario 4: Consultar entregas</strong><br><br>
+<strong>Dado que</strong> existen entregables registrados<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/collaborations/{id}/deliverables</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona las entregas y su estado de validación.
+</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TS-05</strong></td>
+<td>Developer</td>
+<td>Alta</td>
+<td>EP-05</td>
+</tr>
+<tr>
+<th>Title:</th>
+<td colspan="3">Servicios de validación, incidencias y compensaciones</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
+<tr>
+<td colspan="4">
+Como Developer, quiero implementar los servicios REST para validar entregables,
+gestionar incidencias y consultar compensaciones, para mantener la trazabilidad
+del cumplimiento de las colaboraciones.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
+<strong>Escenario 1: Aprobar entrega</strong><br><br>
+<strong>Dado que</strong> existe un entregable pendiente de revisión<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/deliverables/{id}/validation</strong> con una aprobación<br><br>
+<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y confirma la validación.<br><br>
+<strong>Escenario 2: Rechazar entrega</strong><br><br>
+<strong>Dado que</strong> existe un entregable que incumple las condiciones<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/deliverables/{id}/rejection</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y conserva el motivo registrado.<br><br>
+<strong>Escenario 3: Registrar incidencia</strong><br><br>
+<strong>Dado que</strong> existe una colaboración válida<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/collaborations/{id}/incidents</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>201 Created</strong> y registra la incidencia.<br><br>
+<strong>Escenario 4: Consultar incidencia</strong><br><br>
+<strong>Dado que</strong> existe una incidencia registrada<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/collaborations/{id}/incidents</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona el estado actual de la incidencia.<br><br>
+<strong>Escenario 5: Consultar compensación</strong><br><br>
+<strong>Dado que</strong> existe una colaboración con compensación asociada<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/collaborations/{id}/compensation</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona el estado actual de la compensación.
+</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TS-06</strong></td>
+<td>Developer</td>
+<td>Alta</td>
+<td>EP-05</td>
+</tr>
+<tr>
+<th>Title:</th>
+<td colspan="3">Servicios de suscripciones y pagos</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
+<tr>
+<td colspan="4">
+Como Developer, quiero implementar los servicios REST para gestionar medios de
+pago, suscripciones y pagos de colaboraciones, para que las aplicaciones puedan
+utilizar los servicios financieros de CollabPro.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
+<strong>Escenario 1: Preparación del medio de pago</strong><br><br>
+<strong>Dado que</strong> un usuario necesita asociar un medio de pago<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/user/{id}/billing</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>201 Created</strong> y proporciona la información necesaria para completar el proceso mediante el proveedor de pagos.<br><br>
+<strong>Escenario 2: Creación de suscripción</strong><br><br>
+<strong>Dado que</strong> existe un medio de pago de prueba válido<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/user/{id}/subscription</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>201 Created</strong> y confirma la creación de la suscripción.<br><br>
+<strong>Escenario 3: Consulta de suscripción</strong><br><br>
+<strong>Dado que</strong> existe una suscripción registrada<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/user/{id}/subscription</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona el estado actual de la suscripción.<br><br>
+<strong>Escenario 4: Inicio de pago de colaboración</strong><br><br>
+<strong>Dado que</strong> una colaboración cumple las condiciones necesarias para iniciar su compensación<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/collaborations/{id}/payment</strong><br><br>
+<strong>Entonces</strong> la API responde confirmando el inicio del proceso de pago.<br><br>
+<strong>Escenario 5: Recepción de evento de pago</strong><br><br>
+<strong>Dado que</strong> el proveedor de pagos genera un evento relacionado con una transacción<br><br>
+<strong>Cuando</strong> el backend recibe <strong>POST /api/v1/webhooks/payments</strong><br><br>
+<strong>Entonces</strong> valida el evento y actualiza el estado correspondiente sin duplicar la operación.
+</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TS-07</strong></td>
+<td>Developer</td>
+<td>Media</td>
+<td>EP-05</td>
+</tr>
+<tr>
+<th>Title:</th>
+<td colspan="3">Servicios de métricas, evidencias y atribución</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
+<tr>
+<td colspan="4">
+Como Developer, quiero implementar los servicios REST para consultar métricas
+disponibles, registrar evidencias y gestionar mecanismos de atribución, para que
+las aplicaciones puedan presentar resultados verificables de las colaboraciones.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
+<strong>Escenario 1: Consulta de métricas</strong><br><br>
+<strong>Dado que</strong> una colaboración dispone de métricas autorizadas<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/collaborations/{id}/metrics</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona las métricas disponibles, su origen y el periodo correspondiente.<br><br>
+<strong>Escenario 2: Métricas no disponibles</strong><br><br>
+<strong>Dado que</strong> no existen métricas automatizadas disponibles<br><br>
+<strong>Cuando</strong> la aplicación consulta el recurso<br><br>
+<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> indicando que no existen métricas disponibles.<br><br>
+<strong>Escenario 3: Registro de evidencia</strong><br><br>
+<strong>Dado que</strong> una colaboración permite registrar evidencias adicionales<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/collaborations/{id}/evidence</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>201 Created</strong> y registra la evidencia asociada a la colaboración.<br><br>
+<strong>Escenario 4: Creación de mecanismo de atribución</strong><br><br>
+<strong>Dado que</strong> la colaboración permite utilizar un mecanismo de atribución por un enlace personalizado en la publicación del creador de contenido<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>POST /api/v1/collaborations/{id}/attribution</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>201 Created</strong> y confirma la creación del mecanismo correspondiente.<br><br>
+<strong>Escenario 5: Consulta de resultados atribuibles</strong><br><br>
+<strong>Dado que</strong> existen resultados asociados a un mecanismo de atribución<br><br>
+<strong>Cuando</strong> la aplicación realiza <strong>GET /api/v1/collaborations/{id}/attribution</strong><br><br>
+<strong>Entonces</strong> la API responde con código <strong>200 OK</strong> y proporciona los resultados atribuibles disponibles.
+</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>SS-01</strong></td>
 <td>Developer</td>
 <td>Alta</td>
 <td>EP-06</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Viabilidad de Stripe en Sandbox</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Viabilidad de Stripe en Sandbox<br><br>
-
-<strong>Description:</strong>
 Como Developer, quiero investigar y probar la integración de Stripe en Sandbox
 para las suscripciones y las compensaciones de las colaboraciones, para definir
-un flujo técnicamente viable antes de implementar los servicios de pago.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+un flujo técnicamente viable antes de implementar los servicios de pago.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Suscripción</strong><br><br>
 <strong>Dado que</strong> CollabPro requiere cobrar una suscripción a las empresas<br><br>
 <strong>Cuando</strong> el equipo prueba el flujo de suscripción utilizando Stripe Sandbox<br><br>
 <strong>Entonces</strong> documenta el proceso necesario desde la asociación del medio de pago hasta la confirmación del cobro de prueba.<br><br>
-
 <strong>Escenario 2: Compensación</strong><br><br>
 <strong>Dado que</strong> una colaboración puede requerir una compensación económica<br><br>
 <strong>Cuando</strong> el equipo prueba el flujo de pago correspondiente en Sandbox<br><br>
 <strong>Entonces</strong> documenta cómo se representa, confirma y actualiza el estado del pago de prueba.<br><br>
-
 <strong>Escenario 3: Incumplimiento</strong><br><br>
 <strong>Dado que</strong> una colaboración puede presentar un incumplimiento<br><br>
 <strong>Cuando</strong> el equipo prueba las operaciones disponibles para revertir, reembolsar o ajustar un pago de prueba<br><br>
 <strong>Entonces</strong> documenta qué alternativas permiten representar el flujo requerido por CollabPro.<br><br>
-
 <strong>Escenario 4: Resultado</strong><br><br>
 <strong>Dado que</strong> finaliza la investigación<br><br>
 <strong>Cuando</strong> el equipo consolida los resultados<br><br>
 <strong>Entonces</strong> se hace un informe con el flujo probado, dependencias, restricciones y conclusiones técnicas.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>SS-02</strong></td>
 <td>Developer</td>
 <td>Alta</td>
 <td>EP-06</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Viabilidad de OAuth para redes sociales</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Viabilidad de OAuth para redes sociales<br><br>
-
-<strong>Description:</strong>
 Como Developer, quiero investigar y probar OAuth para la vinculación de redes
 sociales, para determinar qué información de los creadores puede obtener
-CollabPro de forma autorizada.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+CollabPro de forma autorizada.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Autorización</strong><br><br>
 <strong>Dado que</strong> un creador necesita vincular una red social<br><br>
 <strong>Cuando</strong> el equipo ejecuta el flujo de autorización correspondiente<br><br>
 <strong>Entonces</strong> documenta los permisos necesarios y el resultado de la autorización.<br><br>
-
 <strong>Escenario 2: Información del perfil</strong><br><br>
 <strong>Dado que</strong> el creador concede los permisos correspondientes<br><br>
 <strong>Cuando</strong> el sistema consulta la información autorizada<br><br>
 <strong>Entonces</strong> documenta qué información puede obtenerse de la cuenta.<br><br>
-
 <strong>Escenario 3: Métricas</strong><br><br>
 <strong>Dado que</strong> una cuenta dispone de datos accesibles mediante la autorización del usuario<br><br>
 <strong>Cuando</strong> el equipo realiza la consulta de prueba<br><br>
 <strong>Entonces</strong> documenta las métricas disponibles encontradas.<br><br>
-
 <strong>Escenario 4: Resultado</strong><br><br>
 <strong>Dado que</strong> finaliza la investigación<br><br>
 <strong>Cuando</strong> el equipo consolida los resultados<br><br>
 <strong>Entonces</strong> se realiza una matriz con las redes sociales analizadas, permisos requeridos, información disponible y limitaciones.
 </td>
 </tr>
+</tbody>
+</table>
 
+<hr>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="8">
+<thead>
+<tr>
+<th>Story ID</th>
+<th>User</th>
+<th>Priority</th>
+<th>Epic</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><strong>SS-03</strong></td>
 <td>Developer</td>
 <td>Media</td>
 <td>EP-06</td>
 </tr>
-
+<tr>
+<th>Title:</th>
+<td colspan="3">Viabilidad de medición de resultados de campañas</td>
+</tr>
+<tr>
+<th colspan="4">Description:</th>
+</tr>
 <tr>
 <td colspan="4">
-<strong>Title:</strong> Viabilidad de medición de resultados de campañas<br><br>
-
-<strong>Description:</strong>
 Como Developer, quiero investigar las alternativas para obtener y registrar
 resultados de las colaboraciones, para determinar qué métricas puede ofrecer
-CollabPro sin depender de información privada de las empresas.<br><br>
-
-<strong>Acceptance Criteria:</strong><br><br>
-
+CollabPro sin depender de información privada de las empresas.
+</td>
+</tr>
+<tr>
+<th colspan="4">Acceptance Criteria:</th>
+</tr>
+<tr>
+<td colspan="4">
 <strong>Escenario 1: Métricas de redes sociales</strong><br><br>
 <strong>Dado que</strong> un creador ha proporcionado el enlace de una publicación de una colaboración en una red social compatible<br><br>
 <strong>Cuando</strong> el equipo prueba la consulta de datos disponibles<br><br>
 <strong>Entonces</strong> documenta qué métricas pueden obtenerse y bajo qué condiciones.<br><br>
-
 <strong>Escenario 2: Evidencia manual</strong><br><br>
 <strong>Dado que</strong> una red social no proporciona una métrica requerida<br><br>
 <strong>Cuando</strong> el equipo analiza el registro de evidencias proporcionadas por el creador<br><br>
 <strong>Entonces</strong> documenta qué información puede utilizarse como evidencia y cómo debe distinguirse de una métrica obtenida automáticamente.<br><br>
-
 <strong>Escenario 3: Atribución</strong><br><br>
 <strong>Dado que</strong> una campaña requiere relacionar resultados con una colaboración concreta<br><br>
 <strong>Cuando</strong> el equipo prueba enlaces de atribución<br><br>
 <strong>Entonces</strong> documenta qué resultados pueden asociarse de forma verificable a la colaboración.<br><br>
-
 <strong>Escenario 4: Resultado</strong><br><br>
 <strong>Dado que</strong> finaliza la investigación<br><br>
 <strong>Cuando</strong> el equipo consolida los hallazgos<br><br>
 <strong>Entonces</strong> existe una propuesta para medir de forma aproximada el impacto de la colaboración con sus fuentes, restricciones y supuestos.
 </td>
 </tr>
-
 </tbody>
 </table>
 
