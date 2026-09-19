@@ -3448,7 +3448,6 @@ La integración concreta con proveedores de redes sociales permanece encapsulada
 
 El Component Diagram de Identity & Profile Management representa la descomposición interna del contexto dentro del backend de CollabPro. El componente de Interface expone los servicios de autenticación, perfiles y redes sociales. Los componentes de Application coordinan los casos de uso, mientras que el Domain Model mantiene las reglas relacionadas con cuentas y perfiles. Finalmente, los adapters de Infrastructure proporcionan persistencia, manejo seguro de credenciales e integración con proveedores de identidad social.
 
-<!-- Insertar aquí C4 Component Diagram de Identity & Profile Management -->
 
 ##### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -3458,13 +3457,12 @@ En esta sección se representa el diseño a nivel de código del Bounded Context
 
 El Class Diagram muestra `Account` como Aggregate Root. Una instancia de `Account` mantiene, según su tipo, un `BrandProfile` o un `CreatorProfile`. El `CreatorProfile` puede mantener múltiples `SocialMediaAccount`. Asimismo, se representan los Value Objects, enumeraciones y la abstracción `AccountRepository`.
 
-<!-- Insertar aquí Domain Layer Class Diagram de Identity & Profile Management -->
 
 ###### 2.6.1.6.2. Bounded Context Database Design Diagram
 
 El Database Design Diagram representa la persistencia correspondiente a cuentas, perfiles empresariales, perfiles de creadores y cuentas sociales vinculadas. Debe conservarse la relación uno a uno entre una cuenta y su perfil, mientras que un creador puede poseer múltiples cuentas sociales asociadas.
 
-<!-- Insertar aquí Database Design Diagram de Identity & Profile Management -->
+![Database Design Diagram de Identity & Profile Management](assets/C02/DDD/DatabaseDiagram/database-diagram-identity-profile.png)
 
 
 #### 2.6.2. Bounded Context: Campaign Management
@@ -3530,7 +3528,6 @@ Las decisiones de persistencia se mantienen separadas del modelo de dominio, per
 
 El Component Diagram de Campaign Management muestra los componentes responsables de la administración de campañas y postulaciones. Los Controllers reciben las solicitudes provenientes de las aplicaciones móviles, los Application Handlers coordinan los casos de uso, el Domain Model implementa las reglas sobre campañas y postulaciones, y los Persistence Adapters almacenan sus estados.
 
-<!-- Insertar aquí C4 Component Diagram de Campaign Management -->
 
 ##### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -3538,13 +3535,12 @@ El Component Diagram de Campaign Management muestra los componentes responsables
 
 El Class Diagram representa los Aggregates `Campaign` y `Application`. Una campaña contiene requisitos, especificaciones de entregables y condiciones de compensación. Las postulaciones referencian la campaña y al creador correspondiente, manteniendo su propio ciclo de vida.
 
-<!-- Insertar aquí Domain Layer Class Diagram de Campaign Management -->
 
 ###### 2.6.2.6.2. Bounded Context Database Design Diagram
 
 La persistencia del contexto contempla la campaña, sus requisitos, especificaciones de entregables, condiciones de compensación y postulaciones. La relación entre campañas y postulaciones es de uno a muchos.
 
-<!-- Insertar aquí Database Design Diagram de Campaign Management -->
+![Database Design Diagram de Campaign Management](assets/C02/DDD/DatabaseDiagram/database-diagram-campaign.png)
 
 
 #### 2.6.3. Bounded Context: Collaboration Management
@@ -3610,7 +3606,6 @@ Cuando una colaboración satisface sus condiciones de cumplimiento, el contexto 
 
 El Component Diagram de Collaboration Management debe mostrar los Controllers de colaboración, entregables e incidencias; los handlers encargados de los casos de uso; el Domain Model compuesto por Collaboration, Deliverable e Incident; y los adapters responsables de persistencia y almacenamiento de evidencias.
 
-<!-- Insertar aquí C4 Component Diagram de Collaboration Management -->
 
 ##### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -3618,13 +3613,12 @@ El Component Diagram de Collaboration Management debe mostrar los Controllers de
 
 El Class Diagram representa `Collaboration` como Aggregate Root y detalla las relaciones con `AgreementSnapshot`, `Deliverable`, `Evidence`, `DeliverableReview` e `Incident`, además de sus enumeraciones y `CollaborationRepository`.
 
-<!-- Insertar aquí Domain Layer Class Diagram de Collaboration Management -->
 
 ###### 2.6.3.6.2. Bounded Context Database Design Diagram
 
 La persistencia de este contexto debe conservar la colaboración y el snapshot de sus condiciones, sus entregables, evidencias, revisiones e incidencias. El modelo debe permitir mantener trazabilidad histórica de las revisiones y correcciones.
 
-<!-- Insertar aquí Database Design Diagram de Collaboration Management -->
+![Database Design Diagram de Collaboration Management](assets/C02/DDD/DatabaseDiagram/database-diagram-collaboration.png)
 
 
 #### 2.6.4. Bounded Context: Billing & Compensation Management
@@ -3691,7 +3685,6 @@ El Spike relacionado con Stripe se utiliza como investigación de viabilidad. Po
 
 El Component Diagram debe mostrar los componentes de medios de pago, suscripciones y compensaciones, así como la integración del backend con el proveedor de pagos externo. La comunicación con dicho proveedor se realiza exclusivamente mediante el adapter definido en Infrastructure Layer.
 
-<!-- Insertar aquí C4 Component Diagram de Billing & Compensation Management -->
 
 ##### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -3699,13 +3692,13 @@ El Component Diagram debe mostrar los componentes de medios de pago, suscripcion
 
 El Class Diagram presenta los Aggregates `PaymentAccount`, `Subscription` y `Compensation`, junto con `PaymentMethod`, `PaymentTransaction`, el Value Object `Money`, sus enumeraciones y las abstracciones de persistencia y comunicación con proveedores financieros.
 
-<!-- Insertar aquí Domain Layer Class Diagram de Billing & Compensation Management -->
 
 ###### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 El Database Design Diagram representa las cuentas financieras, medios de pago tokenizados o referenciados mediante el proveedor, suscripciones, compensaciones y transacciones. No se almacenan directamente datos sensibles completos del medio de pago; se conserva únicamente la referencia necesaria proporcionada por el proveedor seleccionado.
 
-<!-- Insertar aquí Database Design Diagram de Billing & Compensation Management -->
+![Database Design Diagram de Billing & Compensation Management](assets/C02/DDD/DatabaseDiagram/database-diagram-billing.png)
+
 
 
 #### 2.6.5. Bounded Context: Performance & Attribution Management
@@ -3764,7 +3757,6 @@ Las APIs concretas utilizadas para obtener datos de redes sociales se determinar
 
 El Component Diagram representa la coordinación entre los componentes de resultados, métricas, evidencias y atribución. También representa la comunicación con los servicios externos utilizados para obtener información autorizada de las redes sociales.
 
-<!-- Insertar aquí C4 Component Diagram de Performance & Attribution Management -->
 
 ##### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -3772,13 +3764,12 @@ El Component Diagram representa la coordinación entre los componentes de result
 
 El Class Diagram representa `PerformanceReport` como Aggregate Root y sus relaciones con `MetricSnapshot`, `PerformanceEvidence`, `AttributionLink` y `AttributedInteraction`, junto con los Value Objects, enumeraciones y la abstracción `SocialMetricsProvider`.
 
-<!-- Insertar aquí Domain Layer Class Diagram de Performance & Attribution Management -->
 
 ###### 2.6.5.6.2. Bounded Context Database Design Diagram
 
 El Database Design Diagram debe distinguir las métricas obtenidas automáticamente de las evidencias ingresadas manualmente y mantener la relación de cada dato con la colaboración correspondiente. También debe representar los enlaces de atribución y las interacciones asociadas.
 
-<!-- Insertar aquí Database Design Diagram de Performance & Attribution Management -->
+![Database Design Diagram de Performance & Attribution Management](assets/C02/DDD/DatabaseDiagram/database-diagram-performance.png)
 
 
 ---
