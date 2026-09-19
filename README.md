@@ -107,7 +107,7 @@ Repositorio del reporte: https://github.com/AppMoviles2026/report
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
+  - [2.2. s](#22-s)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
@@ -549,8 +549,6 @@ Esto respalda la necesidad de desarrollar funciones dentro de la plataforma enfo
 - **Algoritmos de Matchmaking preciso por nicho de mercado:** filtros por audiencia joven/delivery.
 - **Panel de control automatizado para medir ROI (Retorno de Inversión):** mediante vistas e interacciones.
 - **Flexibilidad en los modelos de contratación:** canjes estandarizados, pagos por resultados o suscripciones escalables adaptadas a pymes.
-
-- **Segmento 1: Pequeñas y Medianas Empresas (Pymes)**
 
 #### Entrevista 2: Andy Pillaca
 
