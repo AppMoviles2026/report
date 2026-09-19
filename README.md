@@ -3146,7 +3146,7 @@ Un creador consulta las oportunidades disponibles, revisa una campaña y registr
 
 Este flujo representa la colaboración principal entre **Identity & Profile Management**, **Campaign Management** y **Collaboration Management**.
 
-<!-- Insertar aquí Domain Storytelling Diagram 1 -->
+![storytelling diagram 1](assets/C02/DDD/storytelling-diagram-1.jpg)
 
 
 **Domain Story 2: Cumplimiento de colaboración y compensación**
@@ -3161,7 +3161,7 @@ Cuando la compensación es monetaria, el proveedor financiero procesa la operaci
 
 Este flujo representa la colaboración entre **Collaboration Management** y **Billing & Compensation Management**.
 
-<!-- Insertar aquí Domain Storytelling Diagram 2 -->
+![storytelling diagram 2](assets/C02/DDD/storytelling-diagram-2.jpg)
 
 
 **Domain Story 3: Obtención y análisis de resultados**
@@ -3176,7 +3176,7 @@ Finalmente, la empresa consulta el reporte de desempeño con la información dis
 
 Este flujo representa la colaboración entre **Identity & Profile Management**, **Collaboration Management** y **Performance & Attribution Management**, además de los proveedores externos de redes sociales.
 
-<!-- Insertar aquí Domain Storytelling Diagram 3 -->
+![storytelling diagram 3](assets/C02/DDD/storytelling-diagram-3.jpg)
 
 
 ##### 2.5.1.3. Bounded Context Canvases
