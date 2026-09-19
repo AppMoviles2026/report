@@ -67,8 +67,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 | Versión | Fecha      | Autor            | Descripción de modificación                                                                                                                                                                                           |
 | ------- | ---------- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| V1.0    | 10/09/2026 | Equipo CollabPro | Creación de la primera versión del informe para la entrega AV1. Se incluyen las secciones preliminares, el Capítulo I (Startup Profile, Solution Profile, Segmentos) y el Capítulo II (Requirements y Strategic DDD). |
-
+| V1.0    | 10/09/2026 | Equipo CollabTech | Creación de la primera versión del informe para la entrega AV1. Se incluyen las secciones preliminares, el Capítulo I (Startup Profile, Solution Profile, Segmentos) y el Capítulo II (Requirements y Strategic DDD). |
 
 <div style="page-break-after: always;"></div>
 
@@ -82,8 +81,7 @@ El repositorio para el Project Report se encuentra alojado en la organización d
 
 Durante la entrega AV1, las actividades de elaboración del informe se gestionaron utilizando un enfoque de trabajo en paralelo. Cada integrante clonó el repositorio y trabajó en su rama correspondiente según la división de los capítulos I y II.
 
-[falta imagen]
-
+![Collab Github](./assets/C02/Collab/AV1.png)
 
 <div style="page-break-after: always;"></div>
 
@@ -141,78 +139,62 @@ Durante la entrega AV1, las actividades de elaboración del informe se gestionar
 
 **ABET EAC - Student Outcome 7:** La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
 
-| Criterio específico                                                                                                                         | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Conclusiones                                                                                                                                                                                                                                                                                                               |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Quispe Serrano, Julio Frank:** AV1: Actualicé mis conocimientos investigando de forma autónoma la metodología ágil Lean UX y la técnica de las 5W's y 2H's para redactar correctamente el Solution Profile, los Assumptions y el Canvas del proyecto.<br><br>**Vallejo Trujillo, Fabio Cesar:** AV1: Aprendí a utilizar la herramienta UXPressia de manera autodidacta para estructurar el Needfinding (User Personas y Journey Maps) y actualicé mis nociones sobre métricas para el análisis competitivo de plataformas de marketing.<br><br>**Garcia Villanueva, Leonardo Rafael:** AV1: En este avance tuve que realizar la especificación de los requisitos del proyecto, y para ello actualicé mis conocimientos técnicos sobre Behavior-Driven Development (BDD), estudiando a fondo la sintaxis del estándar Gherkin para redactar historias de usuario sin ambigüedades.<br><br>**Revilla Quispe, Renzo Zamir:** AV1: Tuve que investigar y actualizar mis conocimientos teóricos sobre Domain-Driven Design (DDD) y modelado EventStorming para poder definir correctamente el lenguaje ubicuo y los Bounded Contexts a nivel estratégico.<br><br>**Rocca León, Anhelo:** AV1: Para el desarrollo de la arquitectura, investigué de manera autónoma los fundamentos del modelo C4 (Context, Container, Component, Code) y cómo aplicarlo para diagramar la infraestructura técnica del sistema.        | **AV1:** Durante esta entrega, todo el equipo demostró la capacidad de investigar y aplicar metodologías y estándares de la industria (como Lean UX, Gherkin, DDD y C4 Model) que no se dominaban del todo al inicio del ciclo, integrándolos exitosamente en la documentación formal de requerimientos y arquitectura del sistema. |
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**  | **Quispe Serrano, Julio Frank:** AV1: Comprendí que estructurar un modelo de negocio B2B requiere investigar constantemente el mercado y validar las hipótesis (Hypothesis Statements) iterativamente para asegurar que el software brinde valor real.<br><br>**Vallejo Trujillo, Fabio Cesar:** AV1: Reconocí la importancia de adaptar las herramientas de investigación a los usuarios reales; entender las frustraciones de los creadores de contenido me exigió buscar continuamente nuevos enfoques de empatía (Empathy Mapping).<br><br>**Garcia Villanueva, Leonardo Rafael:** AV1: Identifiqué que mis conocimientos sobre Gherkin para la elaboración de las User Stories necesitaban ser reforzados, y también reconocí la necesidad de continuar investigando y aprendiendo sobre la correcta gestión del Product Backlog y la elaboración del Impact Mapping para aplicarlos correctamente durante el desarrollo de este proyecto y así mejorar tanto como mi desempeño como la calidad del proyecto.<br><br>**Revilla Quispe, Renzo Zamir:** AV1: Asimilé que el diseño a nivel estratégico nunca es estático; dominar los flujos de dominio y la delimitación de contextos (Context Mapping) me exigió mantener una postura de estudio constante de la literatura técnica.<br><br>**Rocca León, Anhelo:** AV1: Evidencié la necesidad de consultar fuentes académicas (papers Q1/Q2) y documentación oficial constantemente para justificar decisiones de arquitectura de bases de datos y garantizar la viabilidad del despliegue tecnológico. | **AV1:** Como equipo, comprendemos que el ecosistema de startups y las tecnologías de desarrollo evolucionan rápidamente. Reconocemos que adoptar una postura proactiva hacia la lectura de documentación oficial y literatura especializada es fundamental para el éxito y la escalabilidad del proyecto.                 |
+| Criterio específico                                                                                                                         | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Conclusiones                                                                                                                                                                                                                                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Quispe Serrano, Julio Frank:** AV1: Actualicé mis conocimientos investigando de forma autónoma la metodología ágil Lean UX y la técnica de las 5W's y 2H's para redactar correctamente el Solution Profile, los Assumptions y el Canvas del proyecto.<br><br>**Vallejo Trujillo, Fabio Cesar:** AV1: Aprendí a utilizar la herramienta UXPressia de manera autodidacta para estructurar el Needfinding (User Personas y Journey Maps) y actualicé mis nociones sobre métricas para el análisis competitivo de plataformas de marketing.<br><br>**Garcia Villanueva, Leonardo Rafael:** AV1: En este avance tuve que realizar la especificación de los requisitos del proyecto, y para ello actualicé mis conocimientos técnicos sobre Behavior-Driven Development (BDD), estudiando a fondo la sintaxis del estándar Gherkin para redactar historias de usuario sin ambigüedades.<br><br>**Revilla Quispe, Renzo Zamir:** AV1: Tuve que investigar y actualizar mis conocimientos teóricos sobre Domain-Driven Design (DDD) y modelado EventStorming para poder definir correctamente el lenguaje ubicuo y los Bounded Contexts a nivel estratégico.<br><br>**Rocca León, Anhelo:** AV1: Para el desarrollo de la arquitectura, investigué de manera autónoma los fundamentos del modelo C4 (Context, Container, Component, Code) y cómo aplicarlo para diagramar la infraestructura técnica del sistema.                                                                                                                                                    | **AV1:** Durante esta entrega, todo el equipo demostró la capacidad de investigar y aplicar metodologías y estándares de la industria (como Lean UX, Gherkin, DDD y C4 Model) que no se dominaban del todo al inicio del ciclo, integrándolos exitosamente en la documentación formal de requerimientos y arquitectura del sistema. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**  | **Quispe Serrano, Julio Frank:** AV1: Comprendí que estructurar un modelo de negocio B2B requiere investigar constantemente el mercado y validar las hipótesis (Hypothesis Statements) iterativamente para asegurar que el software brinde valor real.<br><br>**Vallejo Trujillo, Fabio Cesar:** AV1: Reconocí la importancia de adaptar las herramientas de investigación a los usuarios reales; entender las frustraciones de los creadores de contenido me exigió buscar continuamente nuevos enfoques de empatía (Empathy Mapping).<br><br>**Garcia Villanueva, Leonardo Rafael:** AV1: Identifiqué que mis conocimientos sobre Gherkin para la elaboración de las User Stories necesitaban ser reforzados, y también reconocí la necesidad de continuar investigando y aprendiendo sobre la correcta gestión del Product Backlog y la elaboración del Impact Mapping para aplicarlos correctamente durante el desarrollo de este proyecto y así mejorar tanto como mi desempeño como la calidad del proyecto.<br><br>**Revilla Quispe, Renzo Zamir:** AV1: Asimilé que el diseño a nivel estratégico nunca es estático; dominar los flujos de dominio y la delimitación de contextos (Context Mapping) me exigió mantener una postura de estudio constante de la literatura técnica.<br><br>**Rocca León, Anhelo:** AV1: Evidencié la necesidad de consultar fuentes académicas y documentación oficial constantemente para justificar decisiones de arquitectura de bases de datos y garantizar la viabilidad del despliegue tecnológico. | **AV1:** Como equipo, comprendemos que el ecosistema de startups y las tecnologías de desarrollo evolucionan rápidamente. Reconocemos que adoptar una postura proactiva hacia la lectura de documentación oficial y literatura especializada es fundamental para el éxito y la escalabilidad del proyecto.                          |
 
 <div style="page-break-after: always;"></div>
-
----
 
 ## Objetivos SMART
 
-<!--Cada miembro del equipo de trabajo formule un plan que incluya al
-menos dos objetivos SMART. Estos objetivos deben centrarse en el desarrollo
-profesional del estudiante una vez finalizada su carrera.-->
+**Quispe Serrano, Julio Frank:**
 
-**Nombre integrante 1:**
-<br>
-Plan: 
-<br>
+Plan: Al finalizar mi carrera, continuaré fortaleciendo mis competencias en desarrollo de software y arquitectura de soluciones, complementando los conocimientos adquiridos durante mi formación universitaria con nuevas tecnologías y buenas prácticas utilizadas en proyectos profesionales. Buscaré mejorar progresivamente mis habilidades técnicas mediante proyectos propios, certificaciones y experiencias prácticas que me permitan asumir mayores responsabilidades dentro de equipos de desarrollo.
 
-Objetivo SMART 1:
+Objetivo SMART 1: Durante los primeros 12 meses después de finalizar la carrera, desarrollaré y desplegaré al menos 2 proyectos de software de complejidad media utilizando tecnologías de backend, frontend, bases de datos y servicios cloud. En cada proyecto aplicaré buenas prácticas de arquitectura de software y documentaré las decisiones técnicas tomadas, con el objetivo de fortalecer mi portafolio profesional y demostrar mi capacidad para desarrollar soluciones completas.
+
+Objetivo SMART 2: Durante los primeros 18 meses después de finalizar la carrera, obtendré al menos 2 certificaciones o completaré 2 programas de especialización relacionados con arquitectura de software, computación en la nube o DevOps. Aplicaré los conocimientos adquiridos en al menos uno de mis proyectos personales, incorporando aspectos como despliegue en la nube, integración continua o contenerización para fortalecer mis competencias profesionales.
+
 <br>
 
-Objetivo SMART 2:
-<br>
+**Vallejo Trujillo, Fabio Cesar:**
 
-**Nombre integrante 2:**
-<br>
-Plan: 
-<br>
+Plan: Al terminar mi carrera, continuaré desarrollando mis conocimientos en arquitectura de software, infraestructura cloud y desarrollo de aplicaciones, buscando fortalecer especialmente mi capacidad para diseñar soluciones mantenibles y escalables. Complementaré la experiencia obtenida en proyectos universitarios con formación especializada y proyectos que me permitan aplicar diferentes patrones, arquitecturas y servicios tecnológicos.
 
-Objetivo SMART 1:
-<br>
+Objetivo SMART 1: En los primeros 12 meses después de finalizar la carrera, diseñaré e implementaré al menos 2 aplicaciones utilizando principios de arquitectura limpia y buenas prácticas de desarrollo, documentando su arquitectura mediante diagramas y explicando las principales decisiones técnicas. Al menos uno de estos proyectos será desplegado utilizando servicios cloud para demostrar conocimientos tanto de desarrollo como de infraestructura.
 
-Objetivo SMART 2:
-<br>
+Objetivo SMART 2: Durante los primeros 18 meses posteriores a mi graduación, completaré al menos 2 cursos o certificaciones relacionados con arquitectura cloud, DevOps o diseño de sistemas escalables. Como evidencia de aprendizaje, implementaré al menos 3 mejoras técnicas en mis proyectos personales, tales como pipelines de integración y despliegue continuo, contenerización, monitoreo o servicios administrados en la nube.
 
-**Nombre integrante 3:**
-<br>
-Plan:
-<br>
-
-Objetivo SMART 1: 
-<br>
-
-Objetivo SMART 2:
 <br>
 
 **Garcia Villanueva, Leonardo Rafael:**
-<br>
-Plan: Al concluir con mi carrera, continuaré desarrollando mis competencias profesionales mediante un proceso
-de aprendizaje continuo donde prácticare el desarrollo de software con las nuevas tecnologías relevantes que salgan en el mercado, incluyendo las emergentes como la inteligencia artificial, agentes de IA, y automatización de procesos de programación. De este modo reforzaré mis conocimientos adquiridos durante la carrera e incorporaré nuevos conocimientos que me permitan tener un perfil profesional actualizado. 
-<br>
 
-Objetivo SMART 1: En los 12 primeros meses después de haber finalizado la carrera ampliaré mis conocimientos y habilidades para el desarrollo Full Stack, enfocándome principalmente en Java con Spring Boot para el backend, Vue.js para el frontend, y MongoDB para la base de datos. Para ello, crearé 2 proyectos personales de complejidad media y alta, con el propósito de consolidar mi aprendizaje y tener un portafolio que demuestre mis crecimientos profesionales.
-<br>
+Plan: Al concluir con mi carrera, continuaré desarrollando mis competencias profesionales mediante un proceso de aprendizaje continuo donde practicaré el desarrollo de software con las nuevas tecnologías relevantes que salgan en el mercado, incluyendo las emergentes como la inteligencia artificial, agentes de IA y automatización de procesos de programación. De este modo reforzaré mis conocimientos adquiridos durante la carrera e incorporaré nuevos conocimientos que me permitan tener un perfil profesional actualizado.
+
+Objetivo SMART 1: En los 12 primeros meses después de haber finalizado la carrera ampliaré mis conocimientos y habilidades para el desarrollo Full Stack, enfocándome principalmente en Java con Spring Boot para el backend, Vue.js para el frontend y MongoDB para la base de datos. Para ello, crearé 2 proyectos personales de complejidad media y alta, con el propósito de consolidar mi aprendizaje y tener un portafolio que demuestre mi crecimiento profesional.
 
 Objetivo SMART 2: Durante los primeros 18 meses después de haber finalizado la carrera tomaré 2 o más cursos relacionados con las tecnologías emergentes, priorizando especialmente áreas como el uso profesional y ético de inteligencia artificial, agentes de IA y automatización aplicada al desarrollo de software. Luego, aplicaré lo aprendido elaborando un proyecto personal pequeño o mediano por cada curso finalizado, para mantener actualizados mis conocimientos y reforzar mi perfil como Ingeniero de Software.
+
 <br>
 
-**Nombre integrante 5:**
-<br>
-Plan: 
+**Revilla Quispe, Renzo Zamir:**
+
+Plan: Al finalizar mi carrera, continuaré fortaleciendo mis conocimientos en desarrollo web y móvil, enfocándome también en mejorar mis competencias en diseño y organización de sistemas de software. Buscaré complementar mis conocimientos técnicos con habilidades de gestión y trabajo colaborativo que me permitan participar progresivamente en proyectos de mayor complejidad y asumir responsabilidades dentro de equipos de desarrollo.
+
+Objetivo SMART 1: Durante los primeros 12 meses después de finalizar la carrera, desarrollaré al menos 2 aplicaciones, una orientada al entorno web y otra al entorno móvil, aplicando principios de Domain-Driven Design y buenas prácticas de arquitectura. Cada proyecto contará con documentación técnica y repositorio público que evidencie el proceso de desarrollo y las decisiones tomadas.
+
+Objetivo SMART 2: En los primeros 18 meses posteriores a mi graduación, completaré al menos 2 cursos especializados relacionados con Domain-Driven Design, arquitectura de software o gestión de proyectos de desarrollo. Aplicaré los conocimientos adquiridos participando en al menos un proyecto colaborativo en el que pueda asumir responsabilidades relacionadas con planificación, organización técnica o coordinación del equipo.
+
 <br>
 
-Objetivo SMART 1:
-<br>
+**Rocca Leon, Anhelo Rodrigo:**
 
-Objetivo SMART 2:
-<br>
+Plan: Después de finalizar mi carrera, continuaré desarrollando mis competencias en diseño de soluciones de software, experiencia de usuario y arquitectura, buscando complementar mis conocimientos de programación y bases de datos con herramientas que me permitan participar en todo el proceso de construcción de un producto digital. Mantendré un aprendizaje continuo mediante cursos especializados y proyectos prácticos que integren tanto aspectos técnicos como de diseño.
 
-<div style="page-break-after: always;"></div>
+Objetivo SMART 1: Durante los primeros 12 meses después de finalizar la carrera, desarrollaré al menos 2 proyectos de software en los que participe tanto en la definición de la experiencia de usuario como en su implementación técnica. Para cada proyecto elaboraré prototipos, flujos de interacción y una aplicación funcional, con el objetivo de fortalecer mi capacidad para transformar necesidades de usuarios en soluciones digitales.
+
+Objetivo SMART 2: En un periodo máximo de 18 meses después de finalizar la carrera, completaré al menos 2 cursos o certificaciones relacionados con UX/UI, arquitectura de software o diseño de soluciones digitales. Aplicaré los conocimientos obtenidos mejorando al menos 2 proyectos de mi portafolio mediante prototipos, diagramas de arquitectura o evaluaciones de usabilidad que permitan evidenciar mi crecimiento profesional.
 
 ---
 
@@ -230,13 +212,13 @@ CollabPro busca reemplazar la gestión informal mediante mensajes directos y otr
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
-|                        Foto                         | Apellidos y Nombres                |   Código   | Carrera                | Resumen                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|:---------------------------------------------------:|:-----------------------------------|:----------:|:-----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       ![foto](./assets/C01/Team/frankFT.png)        | Quispe Serrano, Julio Frank        | U20241D922 | Ingeniería de Software | Soy Julio Frank Quispe Serrano, alumno de 5to ciclo de Ingeniería de Software en la UPC. Cuento con una marcada inclinación hacia la programación y la gestión eficiente del tiempo. Mi aporte principal a este grupo de trabajo será la resolución de conflictos técnicos y operativos, aportando una visión pragmática que permita superar eventuales estancamientos en las fases de elaboración del proyecto.                                                                                        |
-| ![foto](./assets/C01/Team/perfil-fabio-vallejo.png) | Vallejo Trujillo, Fabio Cesar      | U20211D989 | Ingeniería de Software | Soy estudiante de séptimo ciclo de Ingeniería de Software. Me caracterizo por tener conocimientos técnicos en múltiples áreas de software y mantener en orden mis equipos de trabajo para mantener entregables de alta calidad. Puedo aportar al proyecto con mis conocimientos de arquitectura limpia, infraestructura cloud, programación y manteniendo al equipo organizado.                                                                                                                         |
-|       ![foto](./assets/C01/Team/leonardo.png)       | Garcia Villanueva, Leonardo Rafael | U20231H059 | Ingeniería de Software | Actualmente soy estudiante de sexto ciclo de la carrera de Ingeniería de Software. Tengo conocimientos sobre el manejo de bases de datos, varios lenguajes de programación, y de metodologías ágiles. Además, puedo dar solución a problemas que requieran de un enfoque lógico y creativo mediante el desarrollo de software. Dentro del equipo puedo aportar con la resolución de dificultades técnicas o de documentación que se presenten de forma eficiente.                                       |
-| ![foto](./assets/C01/Team/renzo.png) | Revilla Quispe, Renzo Zamir              |  U201717085  | Ingenieria de Software              | Soy Renzo Revilla, estudiante de Ingenieria de Software en la Universidad Peruana de Ciencias Aplicadas, con experiencia en desarrollo web y movil. Me destaco por mis habilidades en comunicacion efectiva y trabajo en equipo, lo que facilita la coordinación y el cumplimiento de objetivos dentro del grupo. Disfruto de la natacion y del aprendizaje continuo. Mi aporte al equipo se centra en el desarrollo tecnico y en la gestion del proyecto, contribuyendo a mantener un trabajo organizado y eficiente.                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|     ![foto](./assets/C01/Team/anhelo-photo.png)     | Rocca Leon, Anhelo Rodrigo         | U20221C803 | Ingeniería de Software | Soy estudiante de Ingeniería de Software. Cuento con conocimientos en programación, bases de datos y desarrollo de soluciones digitales, utilizando tecnologías como C++, Python y SQL. Asimismo, me desenvuelvo con facilidad en Bash. En el equipo, aporto en actividades relacionadas con experiencia de usuario, flujos de interacción, mock-ups y documentación visual del producto. Mi contribución se enfoca en que el productor tenga una experiencia clara, ordenada y útil para sus usuarios. |
+|                        Foto                         | Apellidos y Nombres                |   Código   | Carrera                | Resumen                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| :-------------------------------------------------: | :--------------------------------- | :--------: | :--------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|       ![foto](./assets/C01/Team/frankFT.png)        | Quispe Serrano, Julio Frank        | U20241D922 | Ingeniería de Software | Soy Julio Frank Quispe Serrano, alumno de 5to ciclo de Ingeniería de Software en la UPC. Cuento con una marcada inclinación hacia la programación y la gestión eficiente del tiempo. Mi aporte principal a este grupo de trabajo será la resolución de conflictos técnicos y operativos, aportando una visión pragmática que permita superar eventuales estancamientos en las fases de elaboración del proyecto.                                                                                                       |
+| ![foto](./assets/C01/Team/perfil-fabio-vallejo.png) | Vallejo Trujillo, Fabio Cesar      | U20211D989 | Ingeniería de Software | Soy estudiante de séptimo ciclo de Ingeniería de Software. Me caracterizo por tener conocimientos técnicos en múltiples áreas de software y mantener en orden mis equipos de trabajo para mantener entregables de alta calidad. Puedo aportar al proyecto con mis conocimientos de arquitectura limpia, infraestructura cloud, programación y manteniendo al equipo organizado.                                                                                                                                        |
+|       ![foto](./assets/C01/Team/leonardo.png)       | Garcia Villanueva, Leonardo Rafael | U20231H059 | Ingeniería de Software | Actualmente soy estudiante de sexto ciclo de la carrera de Ingeniería de Software. Tengo conocimientos sobre el manejo de bases de datos, varios lenguajes de programación, y de metodologías ágiles. Además, puedo dar solución a problemas que requieran de un enfoque lógico y creativo mediante el desarrollo de software. Dentro del equipo puedo aportar con la resolución de dificultades técnicas o de documentación que se presenten de forma eficiente.                                                      |
+|        ![foto](./assets/C01/Team/renzo.png)         | Revilla Quispe, Renzo Zamir        | U201717085 | Ingenieria de Software | Soy Renzo Revilla, estudiante de Ingenieria de Software en la Universidad Peruana de Ciencias Aplicadas, con experiencia en desarrollo web y movil. Me destaco por mis habilidades en comunicacion efectiva y trabajo en equipo, lo que facilita la coordinación y el cumplimiento de objetivos dentro del grupo. Disfruto de la natacion y del aprendizaje continuo. Mi aporte al equipo se centra en el desarrollo tecnico y en la gestion del proyecto, contribuyendo a mantener un trabajo organizado y eficiente. |
+|     ![foto](./assets/C01/Team/anhelo-photo.png)     | Rocca Leon, Anhelo Rodrigo         | U20221C803 | Ingeniería de Software | Soy estudiante de Ingeniería de Software. Cuento con conocimientos en programación, bases de datos y desarrollo de soluciones digitales, utilizando tecnologías como C++, Python y SQL. Asimismo, me desenvuelvo con facilidad en Bash. En el equipo, aporto en actividades relacionadas con experiencia de usuario, flujos de interacción, mock-ups y documentación visual del producto. Mi contribución se enfoca en que el productor tenga una experiencia clara, ordenada y útil para sus usuarios.                |
 
 ### 1.2. Solution Profile
 
@@ -284,7 +266,7 @@ Esta situación reduce la confianza entre ambas partes y limita la posibilidad d
 
 **How (¿Cómo se manifiesta?)**
 
-La problemática se manifiesta mediante conversaciones dispersas por mensajes directos, acuerdos informales o verbales, ausencia de contratos formales, entregables poco definidos, retrasos en las publicaciones y dificultades para auditar el cumplimiento comercial. De acuerdo con el Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual (INDECOPI, 2024), una parte significativa de las colaboraciones comerciales locales se realiza bajo modalidades como canjes, envíos de productos o acuerdos verbales sin contratos integrales que precisen los deberes de las partes, tales como el control editorial, la acreditación de testimonios auténticos o el cumplimiento de las normas de autenticidad publicitaria.  
+La problemática se manifiesta mediante conversaciones dispersas por mensajes directos, acuerdos informales o verbales, ausencia de contratos formales, entregables poco definidos, retrasos en las publicaciones y dificultades para auditar el cumplimiento comercial. De acuerdo con el Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual (INDECOPI, 2024), una parte significativa de las colaboraciones comerciales locales se realiza bajo modalidades como canjes, envíos de productos o acuerdos verbales sin contratos integrales que precisen los deberes de las partes, tales como el control editorial, la acreditación de testimonios auténticos o el cumplimiento de las normas de autenticidad publicitaria.
 
 Asimismo, las empresas suelen tener que recopilar manualmente información de las publicaciones para analizar métricas como alcance, visualizaciones e interacciones, dificultando la evaluación objetiva del rendimiento de cada campaña.
 
@@ -292,13 +274,11 @@ Asimismo, las empresas suelen tener que recopilar manualmente información de la
 
 La relevancia de esta problemática se sustenta en el acelerado crecimiento del ecosistema publicitario digital en el Perú. De acuerdo con el Informe de Inversión Publicitaria Digital 2024 elaborado por IAB Perú y PwC (2024), el gasto publicitario digital en el país alcanzó los 296 millones de dólares en 2024, consolidando una trayectoria de expansión continua desde los 140 millones reportados en 2020.
 
-Sin embargo, a pesar de este importante flujo de capital, las micro, pequeñas y medianas empresas enfrentan serias limitaciones para profesionalizar su participación dentro del ecosistema digital. Si bien las redes sociales representan el canal de entrada más accesible frente a los altos costos de los medios tradicionales, la gestión de colaboraciones con creadores de contenido se mantiene atomizada. La falta de herramientas estructuradas para pactar compensaciones, supervisar entregables bajo estándares regulatorios vigentes y auditar el retorno sobre la inversión frena la capacidad de las pymes para escalar estas estrategias de micro-marketing de manera predecible y formal.  
+Sin embargo, a pesar de este importante flujo de capital, las micro, pequeñas y medianas empresas enfrentan serias limitaciones para profesionalizar su participación dentro del ecosistema digital. Si bien las redes sociales representan el canal de entrada más accesible frente a los altos costos de los medios tradicionales, la gestión de colaboraciones con creadores de contenido se mantiene atomizada. La falta de herramientas estructuradas para pactar compensaciones, supervisar entregables bajo estándares regulatorios vigentes y auditar el retorno sobre la inversión frena la capacidad de las pymes para escalar estas estrategias de micro-marketing de manera predecible y formal.
 
 En este contexto, existe una oportunidad para desarrollar una plataforma especializada que permita estructurar las colaboraciones entre empresas y creadores, reduciendo la informalidad y facilitando la medición de los resultados obtenidos.
 
 **Figura 1** Evolución de la inversión en publicidad digital en el Perú (2014-2024)
-
-
 
 ![EcosistemaMarketing](./assets/C01/fuente1.png)
 
@@ -413,7 +393,6 @@ CollabPro está dirigido a dos segmentos principales que forman parte del ecosis
 
   Dentro de este segmento pueden coexistir creadores pequeños y medianos, microcreadores especializados en determinados nichos y creadores que buscan establecer relaciones comerciales con marcas y negocios. A pesar de sus diferencias en tamaño y alcance, todos comparten la necesidad de encontrar oportunidades de colaboración y conocer claramente las condiciones antes de aceptar una campaña.
 
-
 ---
 
 ## Capítulo II: Requirements Development and Software Solution Design
@@ -424,19 +403,19 @@ CollabPro está dirigido a dos segmentos principales que forman parte del ecosis
 
 El análisis considera competidores directos que conectan marcas con creadores o gestionan ese ciclo de campaña. La comparación se construyó a partir de las funcionalidades y condiciones publicadas en los sitios oficiales de cada empresa (consultados el 12 de septiembre de 2026); por ello, las debilidades y oportunidades son inferencias competitivas para el segmento de pymes de Lima y deben validarse con entrevistas y pruebas de mercado.
 
-| Competitive analysis landscape | CollabPro                                                                                                                                                                                                                                     | BrandMe                                                                                                                                                                           | SocialPubli                                                                                                                                                        | Influencity                                                                                                                                                                   |
-| :--- |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Overview** | Marketplace B2B para que pymes publiquen campañas y los creadores postulen. Centraliza objetivos, entregables, plazos, compensación, validación y métricas.                                                                                   | Hub de influencer marketing: buscador, análisis de perfiles, gestión y medición de campañas; combina software, marketplace y servicio gestionado.                                 | Plataforma de influencer marketing para crear campañas, analizar perfiles, seleccionar creadores y aprobar publicaciones antes de su difusión.                     | Plataforma SaaS de gestión de influencers: descubrimiento, CRM, campañas, briefs, entregables, pagos, reportes y social listening. Declara no ser un marketplace.             |
-| **Ventaja competitiva / valor ofrecido** | Flujo simple y trazable diseñado desde el problema de la pyme: campaña estructurada, aceptación explícita de condiciones, evidencia de entrega y liberación de compensación tras validación. Enfoque inicial en creadores y negocios de Lima. | Escala, datos y experiencia: su sitio declara más de 750 000 influencers y empresas; ofrece filtros, análisis de autenticidad/audiencia, automatización y servicios expertos.     | Facilita campañas con creadores de distinto tamaño —incluidos nano y microinfluencers— y permite controlar/aprobar el avance antes de publicar.                    | Suite internacional con una base declarada de más de 300 millones de perfiles, filtros de audiencia, automatización y analítica de desempeño en tiempo real.                  |
-| **Mercado objetivo** | Pymes urbanas de Lima que realizan o desean realizar marketing con creadores y microcreadores que buscan acuerdos claros.                                                                                                                     | Marcas y agencias de habla hispana e internacionales que requieren software o ejecución experta de campañas.                                                                      | Marcas, empresas y anunciantes que buscan ejecutar campañas con creadores de redes sociales; atiende desde nano hasta megainfluencers.                             | Marcas, agencias y equipos de marketing que gestionan campañas a escala y necesitan un repositorio global de creadores.                                                       |
-| **Estrategias de marketing** | Captación bilateral local: pilotos con pymes, referidos de creadores y contenido educativo sobre campañas, brief y cumplimiento. Prueba social basada en casos locales.                                                                       | Marketing de contenidos, comunidad de creadores, prueba/demo del software, planes de membresía y venta consultiva de servicios completos.                                         | Promoción de la plataforma como medio para crear, gestionar y medir campañas; enfatiza beneficios del influencer marketing y oportunidades de pago para creadores. | Prueba o demo del SaaS, contenido especializado y posicionamiento como plataforma integral para marcas y agencias; presencia internacional.                                   |
-| **Productos y servicios** | Publicación y postulación a campañas; definición de requisitos, entregables, plazo y compensación; seguimiento de estado; validación antes de liberar la compensación; panel de métricas e historial.                                         | BrandMe Finder, análisis de cuentas, suite de campañas y métricas, marketplace de propuestas y servicios personalizados.                                                          | Creación de campañas, selección/análisis de influencers, seguimiento y aprobación de publicaciones; campañas en redes sociales.                                    | Descubrimiento y análisis de creadores, IRM/CRM, outreach, campañas, seguimiento de contenido, pagos, reportes, social media management y social listening.                   |
-| **Precios y costos** | Modelo SaaS de suscripción mensual para empresas, pendiente de validación de precio. La modalidad de cobro por tipo de usuario y la compensación de cada campaña se definirán y validarán con los pilotos.                                    | Plan gratuito limitado y plan Marca Premium publicado a US$150 mensuales (US$1 560 anuales); los servicios gestionados se cotizan por propuesta.                                  | No publica una tarifa única en la página de campañas; el presupuesto depende de la campaña y de los creadores seleccionados.                                       | No publica una tarifa estándar en su página de plataforma; invita a solicitar prueba o demo.                                                                                  |
+| Competitive analysis landscape              | CollabPro                                                                                                                                                                                                                                     | BrandMe                                                                                                                                                                           | SocialPubli                                                                                                                                                        | Influencity                                                                                                                                                                   |
+| :------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Overview**                                | Marketplace B2B para que pymes publiquen campañas y los creadores postulen. Centraliza objetivos, entregables, plazos, compensación, validación y métricas.                                                                                   | Hub de influencer marketing: buscador, análisis de perfiles, gestión y medición de campañas; combina software, marketplace y servicio gestionado.                                 | Plataforma de influencer marketing para crear campañas, analizar perfiles, seleccionar creadores y aprobar publicaciones antes de su difusión.                     | Plataforma SaaS de gestión de influencers: descubrimiento, CRM, campañas, briefs, entregables, pagos, reportes y social listening. Declara no ser un marketplace.             |
+| **Ventaja competitiva / valor ofrecido**    | Flujo simple y trazable diseñado desde el problema de la pyme: campaña estructurada, aceptación explícita de condiciones, evidencia de entrega y liberación de compensación tras validación. Enfoque inicial en creadores y negocios de Lima. | Escala, datos y experiencia: su sitio declara más de 750 000 influencers y empresas; ofrece filtros, análisis de autenticidad/audiencia, automatización y servicios expertos.     | Facilita campañas con creadores de distinto tamaño —incluidos nano y microinfluencers— y permite controlar/aprobar el avance antes de publicar.                    | Suite internacional con una base declarada de más de 300 millones de perfiles, filtros de audiencia, automatización y analítica de desempeño en tiempo real.                  |
+| **Mercado objetivo**                        | Pymes urbanas de Lima que realizan o desean realizar marketing con creadores y microcreadores que buscan acuerdos claros.                                                                                                                     | Marcas y agencias de habla hispana e internacionales que requieren software o ejecución experta de campañas.                                                                      | Marcas, empresas y anunciantes que buscan ejecutar campañas con creadores de redes sociales; atiende desde nano hasta megainfluencers.                             | Marcas, agencias y equipos de marketing que gestionan campañas a escala y necesitan un repositorio global de creadores.                                                       |
+| **Estrategias de marketing**                | Captación bilateral local: pilotos con pymes, referidos de creadores y contenido educativo sobre campañas, brief y cumplimiento. Prueba social basada en casos locales.                                                                       | Marketing de contenidos, comunidad de creadores, prueba/demo del software, planes de membresía y venta consultiva de servicios completos.                                         | Promoción de la plataforma como medio para crear, gestionar y medir campañas; enfatiza beneficios del influencer marketing y oportunidades de pago para creadores. | Prueba o demo del SaaS, contenido especializado y posicionamiento como plataforma integral para marcas y agencias; presencia internacional.                                   |
+| **Productos y servicios**                   | Publicación y postulación a campañas; definición de requisitos, entregables, plazo y compensación; seguimiento de estado; validación antes de liberar la compensación; panel de métricas e historial.                                         | BrandMe Finder, análisis de cuentas, suite de campañas y métricas, marketplace de propuestas y servicios personalizados.                                                          | Creación de campañas, selección/análisis de influencers, seguimiento y aprobación de publicaciones; campañas en redes sociales.                                    | Descubrimiento y análisis de creadores, IRM/CRM, outreach, campañas, seguimiento de contenido, pagos, reportes, social media management y social listening.                   |
+| **Precios y costos**                        | Modelo SaaS de suscripción mensual para empresas, pendiente de validación de precio. La modalidad de cobro por tipo de usuario y la compensación de cada campaña se definirán y validarán con los pilotos.                                    | Plan gratuito limitado y plan Marca Premium publicado a US$150 mensuales (US$1 560 anuales); los servicios gestionados se cotizan por propuesta.                                  | No publica una tarifa única en la página de campañas; el presupuesto depende de la campaña y de los creadores seleccionados.                                       | No publica una tarifa estándar en su página de plataforma; invita a solicitar prueba o demo.                                                                                  |
 | **Canales de distribución (web y/o móvil)** | Plataforma web responsiva; captación mediante redes sociales, alianzas con comunidades de emprendimiento y creadores, y referidos.                                                                                                            | Plataforma web, demostraciones, servicio consultivo y comunidad digital de creadores.                                                                                             | Plataforma web para marcas y creadores; captación por contenido y presencia en redes sociales.                                                                     | Plataforma web/SaaS, prueba o demo, contenidos y ventas dirigidas a equipos de marketing y agencias.                                                                          |
-| **FODA: fortalezas** | Propuesta enfocada en reducir la informalidad: condiciones visibles, entregables verificables y compensación condicionada. Especialización inicial en la realidad operativa de las pymes de Lima.                                             | Ecosistema amplio de creadores y marcas, capacidades de búsqueda, medición y acompañamiento experto.                                                                              | Modelo de conexión marca-creador y mecanismo de aprobación previa a la publicación.                                                                                | Cobertura funcional muy amplia, datos globales y automatización para operaciones complejas.                                                                                   |
-| **FODA: debilidades** | Startup en etapa temprana: red de usuarios, reputación, integración de pagos y datos históricos aún deben construirse y validarse.                                                                                                            | Para una pyme local, el plan Premium y la amplitud de funciones pueden representar una barrera de presupuesto o aprendizaje; su propuesta no se especializa públicamente en Lima. | La información pública se centra en la campaña y no detalla una propuesta localizada para pymes peruanas ni un flujo de liberación condicionada de pagos.          | No es un marketplace: la marca debe identificar y gestionar la relación con creadores; su amplitud funcional puede exceder las necesidades y capacidades de una pyme inicial. |
-| **FODA: oportunidades** | Convertir la coordinación informal de Instagram/WhatsApp en un flujo confiable para microcampañas; construir una red local de microcreadores por rubro y generar datos de desempeño relevantes para pymes.                                    | Profundizar su presencia y alianzas locales en Perú, aprovechando la demanda de marketing de creadores en Latinoamérica.                                                          | Aumentar la oferta de campañas de micro y nanocreadores y facilitar presupuestos de entrada para pequeños negocios.                                                | Traducir su capacidad global en ofertas accesibles para pymes y ampliar el soporte/localización para mercados latinoamericanos.                                               |
-| **FODA: amenazas** | Efectos de red y recursos de plataformas consolidadas; dependencia de APIs y reglas de redes sociales; desintermediación por acuerdos directos fuera de la plataforma; riesgos de fraude o incumplimiento.                                    | Competencia de suites globales y marketplaces especializados; cambios en datos disponibles por las redes sociales y presión de precios en autoservicio.                           | Competencia de marketplaces con mayor analítica, CRM o localización; cambios en políticas de plataformas sociales y confianza en la calidad de creadores.          | Marketplaces que ofrecen una red cerrada de creadores y servicio gestionado; cambios en acceso a datos de redes sociales y presión por herramientas más simples y económicas. |
+| **FODA: fortalezas**                        | Propuesta enfocada en reducir la informalidad: condiciones visibles, entregables verificables y compensación condicionada. Especialización inicial en la realidad operativa de las pymes de Lima.                                             | Ecosistema amplio de creadores y marcas, capacidades de búsqueda, medición y acompañamiento experto.                                                                              | Modelo de conexión marca-creador y mecanismo de aprobación previa a la publicación.                                                                                | Cobertura funcional muy amplia, datos globales y automatización para operaciones complejas.                                                                                   |
+| **FODA: debilidades**                       | Startup en etapa temprana: red de usuarios, reputación, integración de pagos y datos históricos aún deben construirse y validarse.                                                                                                            | Para una pyme local, el plan Premium y la amplitud de funciones pueden representar una barrera de presupuesto o aprendizaje; su propuesta no se especializa públicamente en Lima. | La información pública se centra en la campaña y no detalla una propuesta localizada para pymes peruanas ni un flujo de liberación condicionada de pagos.          | No es un marketplace: la marca debe identificar y gestionar la relación con creadores; su amplitud funcional puede exceder las necesidades y capacidades de una pyme inicial. |
+| **FODA: oportunidades**                     | Convertir la coordinación informal de Instagram/WhatsApp en un flujo confiable para microcampañas; construir una red local de microcreadores por rubro y generar datos de desempeño relevantes para pymes.                                    | Profundizar su presencia y alianzas locales en Perú, aprovechando la demanda de marketing de creadores en Latinoamérica.                                                          | Aumentar la oferta de campañas de micro y nanocreadores y facilitar presupuestos de entrada para pequeños negocios.                                                | Traducir su capacidad global en ofertas accesibles para pymes y ampliar el soporte/localización para mercados latinoamericanos.                                               |
+| **FODA: amenazas**                          | Efectos de red y recursos de plataformas consolidadas; dependencia de APIs y reglas de redes sociales; desintermediación por acuerdos directos fuera de la plataforma; riesgos de fraude o incumplimiento.                                    | Competencia de suites globales y marketplaces especializados; cambios en datos disponibles por las redes sociales y presión de precios en autoservicio.                           | Competencia de marketplaces con mayor analítica, CRM o localización; cambios en políticas de plataformas sociales y confianza en la calidad de creadores.          | Marketplaces que ofrecen una red cerrada de creadores y servicio gestionado; cambios en acceso a datos de redes sociales y presión por herramientas más simples y económicas. |
 
 **Lectura del landscape.** BrandMe es el competidor directo de mayor alcance porque combina marketplace, gestión de campañas y servicios; SocialPubli compite por el flujo de campañas y su acceso a microcreadores; Influencity representa la referencia funcional de una suite de gestión. CollabPro no debe intentar igualar su escala inicial. Su ventaja defendible a corto plazo es resolver con menor fricción la colaboración de bajo y mediano presupuesto entre pymes y microcreadores locales, haciendo visibles las condiciones y el estado de cumplimiento.
 
@@ -444,14 +423,14 @@ El análisis considera competidores directos que conectan marcas con creadores o
 
 La estrategia competitiva inicial será **especialización local + confianza operativa + simplicidad**. En lugar de competir por una base global de millones de perfiles o por una suite empresarial completa, CollabPro buscará ser la alternativa más clara y asequible para una pyme de Lima que ejecuta sus primeras campañas con creadores.
 
-| Estrategia | Tácticas preliminares | Fortaleza/debilidad competitiva que aborda | Indicador de validación |
-| :--- | :--- | :--- | :--- |
-| **1. Diferenciación por confianza y cumplimiento** | Implementar una ficha de campaña obligatoria con objetivo, entregables, fecha, compensación y criterios de aceptación; registrar evidencias de entrega/publicación; usar una secuencia visible de “pendiente–en revisión–aprobado–compensación liberada”; habilitar calificación bilateral y un canal de incidencias. | Responde a la informalidad que CollabPro busca resolver y evita competir solo por volumen de creadores frente a BrandMe o Influencity. | Al menos 80% de colaboraciones finalizadas pasan por validación antes de liberar la compensación durante los primeros tres meses. |
-| **2. Entrada asequible para pymes** | Ofrecer plan piloto o freemium con una campaña; diseñar planes mensuales por número de campañas activas, no por funcionalidades complejas; transparentar desde el brief el presupuesto y la compensación; medir disposición a pagar antes de fijar el precio definitivo. | Contrarresta la posible barrera de costo y complejidad de suites premium; reconoce que SocialPubli y BrandMe ya poseen alternativas gratuitas o variables. | 75% de pymes piloto completa su primera campaña y al menos 30% declara intención de continuar con un plan pagado. |
-| **3. Densidad de oferta local y microcreadores verificados** | Lanzar por verticales con alta presencia local (gastronomía, belleza, retail y servicios); captar 20–30 creadores por vertical mediante referidos; verificar identidad, ciudad, red social y portafolio; mostrar etiquetas de nicho, distrito y tipo de compensación. | Reduce la desventaja inicial de red frente a los catálogos globales de BrandMe e Influencity y mejora la relevancia para una pyme limeña. | Por cada campaña piloto, obtener al menos cinco postulaciones pertinentes y concretar una colaboración en un máximo de 14 días. |
-| **4. Onboarding guiado y educación práctica** | Usar plantillas de brief, entregables y criterios de aceptación; asistente de creación de campaña en pocos pasos; guías cortas sobre publicidad con influencers y buenas prácticas de disclosure; soporte por chat durante las primeras campañas. | Aprovecha la oportunidad de atender negocios sin especialista de marketing y reduce la curva de aprendizaje de herramientas empresariales amplias. | 70% de las empresas crea una campaña sin asistencia externa en sus primeras cuatro semanas. |
-| **5. Métricas accionables, no solo reportes** | Mostrar un tablero por campaña con publicaciones verificadas, alcance, interacción, costo por resultado y comparación con campañas previas; pedir a la pyme definir una métrica principal antes de publicar; usar enlaces o códigos rastreables cuando corresponda. | Equipara el valor analítico que ofrecen los competidores, pero lo presenta en un nivel comprensible para pymes. | 70% de empresas activas consulta el tablero después de finalizar una campaña y puede identificar su métrica principal. |
-| **6. Retención y defensa frente a la desintermediación** | Mantener dentro de la plataforma el historial de campañas, plantillas, evidencia, evaluación y métricas; ofrecer beneficios por colaboración recurrente, no penalizaciones; realizar recordatorios de plazos y renovaciones de campaña. | Mitiga la amenaza de que marca y creador vuelvan a negociar por mensajes directos después de conocerse. | Alcanzar que 40% de las empresas piloto cree una segunda campaña y que 25% repita con un creador evaluado positivamente. |
+| Estrategia                                                   | Tácticas preliminares                                                                                                                                                                                                                                                                                                 | Fortaleza/debilidad competitiva que aborda                                                                                                                 | Indicador de validación                                                                                                           |
+| :----------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Diferenciación por confianza y cumplimiento**           | Implementar una ficha de campaña obligatoria con objetivo, entregables, fecha, compensación y criterios de aceptación; registrar evidencias de entrega/publicación; usar una secuencia visible de “pendiente–en revisión–aprobado–compensación liberada”; habilitar calificación bilateral y un canal de incidencias. | Responde a la informalidad que CollabPro busca resolver y evita competir solo por volumen de creadores frente a BrandMe o Influencity.                     | Al menos 80% de colaboraciones finalizadas pasan por validación antes de liberar la compensación durante los primeros tres meses. |
+| **2. Entrada asequible para pymes**                          | Ofrecer plan piloto o freemium con una campaña; diseñar planes mensuales por número de campañas activas, no por funcionalidades complejas; transparentar desde el brief el presupuesto y la compensación; medir disposición a pagar antes de fijar el precio definitivo.                                              | Contrarresta la posible barrera de costo y complejidad de suites premium; reconoce que SocialPubli y BrandMe ya poseen alternativas gratuitas o variables. | 75% de pymes piloto completa su primera campaña y al menos 30% declara intención de continuar con un plan pagado.                 |
+| **3. Densidad de oferta local y microcreadores verificados** | Lanzar por verticales con alta presencia local (gastronomía, belleza, retail y servicios); captar 20–30 creadores por vertical mediante referidos; verificar identidad, ciudad, red social y portafolio; mostrar etiquetas de nicho, distrito y tipo de compensación.                                                 | Reduce la desventaja inicial de red frente a los catálogos globales de BrandMe e Influencity y mejora la relevancia para una pyme limeña.                  | Por cada campaña piloto, obtener al menos cinco postulaciones pertinentes y concretar una colaboración en un máximo de 14 días.   |
+| **4. Onboarding guiado y educación práctica**                | Usar plantillas de brief, entregables y criterios de aceptación; asistente de creación de campaña en pocos pasos; guías cortas sobre publicidad con influencers y buenas prácticas de disclosure; soporte por chat durante las primeras campañas.                                                                     | Aprovecha la oportunidad de atender negocios sin especialista de marketing y reduce la curva de aprendizaje de herramientas empresariales amplias.         | 70% de las empresas crea una campaña sin asistencia externa en sus primeras cuatro semanas.                                       |
+| **5. Métricas accionables, no solo reportes**                | Mostrar un tablero por campaña con publicaciones verificadas, alcance, interacción, costo por resultado y comparación con campañas previas; pedir a la pyme definir una métrica principal antes de publicar; usar enlaces o códigos rastreables cuando corresponda.                                                   | Equipara el valor analítico que ofrecen los competidores, pero lo presenta en un nivel comprensible para pymes.                                            | 70% de empresas activas consulta el tablero después de finalizar una campaña y puede identificar su métrica principal.            |
+| **6. Retención y defensa frente a la desintermediación**     | Mantener dentro de la plataforma el historial de campañas, plantillas, evidencia, evaluación y métricas; ofrecer beneficios por colaboración recurrente, no penalizaciones; realizar recordatorios de plazos y renovaciones de campaña.                                                                               | Mitiga la amenaza de que marca y creador vuelvan a negociar por mensajes directos después de conocerse.                                                    | Alcanzar que 40% de las empresas piloto cree una segunda campaña y que 25% repita con un creador evaluado positivamente.          |
 
 Estas tácticas deben priorizarse como un MVP: primero campaña estructurada, postulación, validación y tablero básico; después, reputación, pagos integrados, automatización y expansión geográfica. Así se evita replicar prematuramente las suites completas de los competidores y se valida la propuesta de valor central de CollabPro.
 
@@ -491,17 +470,17 @@ Estas tácticas deben priorizarse como un MVP: primero campaña estructurada, po
 
 **Entrevista 1: Frank Loayza**
 
-| Campo | Detalle |
-|---|---|
-| **Nombre y Apellidos** | Frank Loayza |
-| **Edad** | 24 |
-| **Distrito / Zona de residencia** | Santiago de Surco |
-| **Segmento** | Emprendedor / Dueño de negocio (Fast Food Delivery) |
-| **Inicio en video** | 0:00 |
-| **Fin de video** | 14:30 |
-| **Duración** | 14:30 |
-| **URL del video** | [https://youtu.be/dvb_GWTTWyg](https://youtu.be/dvb_GWTTWyg) |
-| **Screenshot** | ![Entrevista Frank](./assets//C02/Entrevistas/FrankLoayza.png) |
+| Campo                             | Detalle                                                        |
+| --------------------------------- | -------------------------------------------------------------- |
+| **Nombre y Apellidos**            | Frank Loayza                                                   |
+| **Edad**                          | 24                                                             |
+| **Distrito / Zona de residencia** | Santiago de Surco                                              |
+| **Segmento**                      | Pequeñas y Medianas Empresas (Pymes)                           |
+| **Inicio en video**               | 0:00                                                           |
+| **Fin de video**                  | 14:30                                                          |
+| **Duración**                      | 14:30                                                          |
+| **URL del video**                 | [https://youtu.be/dvb_GWTTWyg](https://youtu.be/dvb_GWTTWyg)   |
+| **Screenshot**                    | ![Entrevista Frank](./assets//C02/Entrevistas/FrankLoayza.png) |
 
 ## Resumen Descriptivo de la Entrevista
 
@@ -569,13 +548,283 @@ Esto respalda la necesidad de desarrollar funciones dentro de la plataforma enfo
 - **Panel de control automatizado para medir ROI (Retorno de Inversión):** mediante vistas e interacciones.
 - **Flexibilidad en los modelos de contratación:** canjes estandarizados, pagos por resultados o suscripciones escalables adaptadas a pymes.
 
-
-
 - **Segmento 2: Creadores de Contenido**
 
 #### 2.2.3. Análisis de entrevistas
 
-[Ingresar análisis de la data obtenida]
+### Segmento 1: Pequeñas y Medianas Empresas (Pymes)
+
+#### Entrevista 2: Andy Pillaca
+
+| Campo                             | Detalle                                                                                                                                          |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Nombre y Apellidos**            | Andy Pillaca                                                                                                                                     |
+| **Edad**                          | 29                                                                                                                                               |
+| **Distrito / Zona de residencia** | Santiago de Surco                                                                                                                                |
+| **Segmento**                      | Pequeñas y Medianas Empresas (Pymes)                                                                                                             |
+| **Inicio en video**               | 0:00                                                                                                                                             |
+| **Fin de video**                  | 4:23                                                                                                                                             |
+| **Duración**                      | 4:23                                                                                                                                             |
+| **URL del video**                 | [https://drive.google.com/file/d/1z8S2-whw5Wi0ZabnAjMTSdbTEb_XWkOh/view](https://drive.google.com/file/d/1z8S2-whw5Wi0ZabnAjMTSdbTEb_XWkOh/view) |
+| **Screenshot**                    | ![Entrevista Andy](./assets/C02/Entrevistas/Andy.png)                                                                                            |
+
+### Resumen Descriptivo de la Entrevista
+
+#### Características Objetivas y Entorno
+
+Andy forma parte del personal encargado del marketing de una pequeña empresa que utiliza activamente las redes sociales para promocionar sus productos. La empresa mantiene presencia principalmente en Instagram, Facebook y TikTok, canales mediante los cuales busca incrementar su alcance y llegar a nuevos clientes.
+
+La empresa cuenta con experiencia previa realizando colaboraciones con diferentes creadores de contenido, incluyendo streamers. Por ello, el entrevistado conoce directamente las dificultades asociadas con la búsqueda, coordinación, seguimiento y evaluación de este tipo de campañas.
+
+#### Herramientas y Proceso Actual
+
+Actualmente, la empresa encuentra potenciales colaboradores principalmente mediante redes sociales y recomendaciones de otras personas. Antes de trabajar con un creador, intentan conocer referencias sobre su responsabilidad, puntualidad y cumplimiento de compromisos anteriores.
+
+La negociación de las colaboraciones se realiza principalmente mediante mensajes y llamadas. Durante estas conversaciones se establecen aspectos como:
+
+- Precio o compensación de la colaboración.
+- Tipo de contenido que deberá producirse.
+- Fechas de publicación.
+- Condiciones generales de la colaboración.
+
+Una vez iniciada la campaña, el seguimiento se realiza de manera manual. El personal revisa las publicaciones realizadas por el creador para comprobar si se respetaron los contenidos y fechas acordadas.
+
+Después de finalizar una colaboración, la empresa analiza principalmente las visualizaciones, interacciones y seguidores obtenidos. Cuando existe la posibilidad de relacionar directamente una campaña con ventas, también utilizan las ventas generadas como indicador de rendimiento.
+
+#### Problemas Detectados (Pain Points)
+
+Durante la entrevista se identificaron los siguientes problemas principales:
+
+- **Coordinación dispersa:** La comunicación con los creadores se realiza mediante diferentes mensajes y llamadas, dificultando mantener toda la información organizada.
+- **Dificultad para encontrar creadores adecuados:** La empresa dedica tiempo a buscar perfiles que, además de ser relevantes para la marca, sean responsables y cumplan con los plazos establecidos.
+- **Incumplimiento de fechas:** El entrevistado recordó una situación en la que un creador publicó el contenido después de la fecha acordada, obligando a la empresa a insistir para conseguir el cumplimiento.
+- **Seguimiento manual:** La verificación de publicaciones, contenido y fechas se realiza manualmente.
+- **Información distribuida:** Los acuerdos y el seguimiento de una campaña pueden encontrarse repartidos entre diferentes conversaciones y medios de comunicación.
+- **Esfuerzo operativo elevado:** Buscar al creador adecuado y supervisar sus entregables son las actividades que consumen mayor tiempo.
+
+#### Necesidades y Oportunidades
+
+Andy identifica como principal oportunidad la posibilidad de **centralizar todo el proceso de colaboración en un único lugar**.
+
+De acuerdo con sus respuestas, una solución de este tipo debería facilitar:
+
+- La búsqueda de creadores de contenido.
+- La estructuración de campañas.
+- El registro de las condiciones acordadas.
+- El seguimiento de entregables y fechas.
+- La verificación del cumplimiento.
+- La visualización de métricas de rendimiento.
+- La medición de resultados obtenidos después de cada campaña.
+
+Esta necesidad coincide directamente con la propuesta de CollabPro de reemplazar la coordinación distribuida en redes sociales, mensajes y llamadas por un proceso estructurado y trazable.
+
+#### Aspectos Subjetivos y Comportamiento
+
+El entrevistado demuestra especial preocupación por la responsabilidad y puntualidad de los creadores. Al momento de seleccionar un colaborador, no considera únicamente su alcance en redes sociales, sino también referencias sobre su comportamiento en colaboraciones anteriores.
+
+Asimismo, la empresa parece mantener un proceso de marketing orientado a resultados, ya que después de una campaña revisa diferentes indicadores como visualizaciones, interacciones, crecimiento de seguidores y, cuando es posible, ventas generadas.
+
+Andy considera que una herramienta especializada podría aportar valor si efectivamente reduce el esfuerzo requerido para administrar las campañas.
+
+#### Disposición de Pago y Riesgos Percibidos
+
+El entrevistado manifestó que la empresa estaría dispuesta a pagar una suscripción mensual por una plataforma especializada siempre que esta permita ahorrar tiempo, controlar las campañas y medir sus resultados.
+
+Sin embargo, también señaló como condición importante que los precios sean accesibles para el contexto de una pequeña empresa.
+
+Esto demuestra que existe interés por un modelo de suscripción, pero que la disposición de pago dependerá de dos factores:
+
+1. Que la plataforma demuestre un ahorro real de tiempo y esfuerzo.
+2. Que el precio se encuentre dentro de las posibilidades económicas de una pyme.
+
+#### Validación del Arquetipo
+
+La entrevista con Andy refuerza el arquetipo de la **Pyme que necesita profesionalizar la gestión de sus colaboraciones con creadores**.
+
+A diferencia de un negocio que recién comienza a experimentar con influencer marketing, la empresa entrevistada ya ha realizado varias colaboraciones. Sin embargo, continúa gestionando actividades importantes mediante mensajes, llamadas y verificaciones manuales.
+
+Los hallazgos respaldan especialmente el desarrollo de funcionalidades relacionadas con:
+
+- **Marketplace y búsqueda de creadores**, incluyendo información que ayude a determinar su confiabilidad.
+- **Campañas estructuradas** con requisitos, entregables, fechas y compensaciones claramente establecidas.
+- **Seguimiento de entregables** y estados de cumplimiento.
+- **Historial o reputación del creador**, que permita conocer su desempeño previo.
+- **Panel de métricas**, incluyendo visualizaciones, interacciones, seguidores y resultados comerciales cuando puedan ser medidos.
+- **Centralización de la comunicación y coordinación** de cada colaboración.
+- **Planes de precios accesibles para pequeñas empresas.**
+
+### Segmento 2: Creadores de Contenido
+
+Actualmente no se cuenta con una entrevista registrada para este segmento. Los perfiles, necesidades y puntos de dolor planteados para los creadores de contenido deben considerarse hipótesis hasta realizar entrevistas con participantes pertenecientes directamente a este segmento.
+
+## 2.2.3. Análisis de entrevistas
+
+Para esta primera etapa de investigación se analizaron dos entrevistas correspondientes al segmento de pequeñas y medianas empresas. La primera fue realizada a Frank Loayza, propietario de un emprendimiento de comida mediante delivery, y la segunda a Andy Pillaca, integrante del personal de marketing de una pequeña empresa.
+
+Aunque ambos entrevistados presentan contextos diferentes, se identificaron patrones comunes que permiten comprender cómo las pequeñas empresas administran actualmente sus colaboraciones con creadores de contenido.
+
+### Búsqueda y selección de creadores
+
+Uno de los principales hallazgos es que la búsqueda de creadores continúa realizándose de manera poco estructurada.
+
+Frank depende principalmente de conocidos, recomendaciones y contactos indirectos para encontrar personas que puedan promocionar su negocio. Esta situación limita la cantidad de perfiles disponibles y dificulta encontrar creadores cuya audiencia coincida con el público objetivo de su emprendimiento.
+
+Andy también indicó que la búsqueda se realiza principalmente mediante redes sociales y recomendaciones. Sin embargo, además de encontrar un perfil adecuado, su empresa intenta conocer si el creador es responsable, puntual y cumple los acuerdos establecidos.
+
+Por lo tanto, ambos casos demuestran que la selección de un creador no depende únicamente de su cantidad de seguidores. También existe la necesidad de evaluar aspectos como:
+
+- Nicho y audiencia.
+- Responsabilidad.
+- Puntualidad.
+- Experiencia previa.
+- Cumplimiento de colaboraciones anteriores.
+
+Este hallazgo respalda la necesidad de incorporar mecanismos de búsqueda, filtrado e historial de colaboraciones dentro de CollabPro.
+
+### Coordinación y definición de acuerdos
+
+Otro patrón encontrado es el uso de canales informales para coordinar las colaboraciones.
+
+En ambos casos, las condiciones se negocian mediante conversaciones directas, mensajes o llamadas. Aspectos importantes como la compensación, el contenido esperado y las fechas pueden quedar distribuidos entre diferentes conversaciones.
+
+Esta situación aumenta la posibilidad de generar confusiones y dificulta consultar posteriormente qué condiciones fueron establecidas originalmente.
+
+Los resultados respaldan la propuesta de utilizar campañas estructuradas donde se registren previamente:
+
+- Objetivo de la campaña.
+- Tipo de contenido solicitado.
+- Entregables.
+- Fechas de entrega y publicación.
+- Compensación.
+- Criterios de aceptación.
+
+De esta manera, las condiciones de la colaboración podrían consultarse desde un único punto durante todo el proceso.
+
+### Seguimiento y cumplimiento de entregables
+
+La supervisión de los creadores representa otro problema relevante.
+
+Andy indicó que su empresa ha experimentado retrasos en la publicación del contenido y que fue necesario insistir al creador para que cumpliera con el acuerdo establecido. Asimismo, explicó que actualmente verifican de forma manual si las publicaciones cumplen con los contenidos y fechas acordadas.
+
+En el caso de Frank, aunque su experiencia se encuentra principalmente relacionada con colaboraciones mediante canje, también existe la necesidad de controlar que el creador realice correctamente aquello que fue acordado.
+
+Ambas entrevistas muestran una oportunidad para implementar un flujo de seguimiento en el que una colaboración pueda pasar por estados claramente identificables, por ejemplo:
+
+**Pendiente → En proceso → Entregado → En revisión → Aprobado → Finalizado.**
+
+También resulta relevante permitir que el creador adjunte evidencias de cumplimiento y que la empresa pueda aprobar o solicitar modificaciones cuando sea necesario.
+
+### Medición de resultados
+
+Los dos entrevistados demostraron interés en conocer los resultados obtenidos después de trabajar con un creador.
+
+Frank actualmente analiza de manera empírica indicadores como visualizaciones, likes, comentarios y posibles incrementos temporales en los pedidos.
+
+Andy utiliza métricas similares, considerando principalmente:
+
+- Visualizaciones.
+- Interacciones.
+- Seguidores obtenidos.
+- Ventas generadas cuando pueden ser identificadas.
+
+Por lo tanto, las entrevistas respaldan la necesidad de un panel que concentre las principales métricas de cada colaboración y permita que las empresas comparen los resultados obtenidos entre campañas.
+
+La información debería presentarse de manera sencilla, ya que el objetivo de este segmento no necesariamente es realizar análisis avanzados de marketing, sino determinar rápidamente si la inversión realizada generó resultados suficientes.
+
+### Tiempo y esfuerzo requerido
+
+Otro patrón claramente identificado es el tiempo invertido en administrar las colaboraciones.
+
+Frank señaló que, debido a que debe concentrarse en las operaciones principales de su negocio, dispone de poco tiempo para buscar nuevos creadores.
+
+De manera similar, Andy indicó que las actividades que demandan mayor esfuerzo son encontrar creadores adecuados y realizar seguimiento a todo lo que deben entregar.
+
+Esto permite identificar dos actividades especialmente problemáticas:
+
+**Encontrar al creador adecuado → Gestionar y supervisar la colaboración.**
+
+Reducir el tiempo requerido para estas actividades representa una de las principales oportunidades de valor para CollabPro.
+
+### Disposición de pago
+
+La disposición a pagar por una plataforma especializada existe, aunque presenta condiciones importantes.
+
+Frank se muestra cauteloso frente a una suscripción mensual debido a las restricciones presupuestarias de un negocio pequeño. Su preferencia se orienta hacia alternativas de menor riesgo económico y modelos relacionados con los resultados obtenidos.
+
+Andy manifestó una mayor apertura hacia una suscripción mensual, siempre que la plataforma permita ahorrar tiempo, controlar las campañas y medir sus resultados. Sin embargo, también destacó que el precio deberá ser accesible para una pequeña empresa.
+
+Por tanto, la hipótesis de que las pymes pagarían una suscripción mensual se encuentra **parcialmente respaldada**, pero todavía no puede considerarse completamente validada.
+
+Los resultados indican que el precio y el modelo comercial deberán probarse posteriormente mediante pilotos. Algunas alternativas que podrían evaluarse son:
+
+- Plan de entrada económico.
+- Suscripción escalonada según cantidad de campañas.
+- Periodo de prueba.
+- Una campaña inicial gratuita.
+- Modelos mixtos de suscripción y comisión.
+
+### Hallazgos comunes
+
+A partir de ambas entrevistas se identifican cinco necesidades principales del segmento de pequeñas y medianas empresas:
+
+1. **Encontrar creadores adecuados con mayor facilidad.**
+2. **Centralizar las condiciones y comunicaciones relacionadas con cada colaboración.**
+3. **Controlar los entregables y fechas acordadas.**
+4. **Reducir el tiempo requerido para realizar seguimiento.**
+5. **Medir de manera objetiva los resultados obtenidos.**
+
+Estos hallazgos respaldan la problemática planteada inicialmente por CollabPro, especialmente respecto a la fragmentación del proceso actual y la ausencia de una herramienta centralizada para administrar las colaboraciones.
+
+### Diferencias entre los entrevistados
+
+Aunque existen necesidades comunes, también se identificaron diferencias relevantes.
+
+Frank representa un emprendimiento pequeño en una fase relativamente temprana, con recursos económicos y humanos limitados. Sus colaboraciones se encuentran fuertemente vinculadas a canjes y contactos personales, y su principal preocupación es conseguir exposición rentable sin asumir elevados costos.
+
+Andy representa un contexto donde las colaboraciones con creadores ya se realizan con mayor frecuencia. Por este motivo, sus problemas están más relacionados con la coordinación, el cumplimiento de fechas, el seguimiento y la medición.
+
+Estas diferencias sugieren que CollabPro deberá atender empresas con distintos niveles de madurez en influencer marketing. Para negocios con poca experiencia deberá facilitar principalmente el descubrimiento y estructuración de campañas, mientras que para empresas con mayor experiencia deberá aportar control, seguimiento y métricas.
+
+### Validación de las hipótesis de CollabPro
+
+Las entrevistas permiten realizar una primera evaluación de las principales hipótesis planteadas para la solución.
+
+| Hipótesis                                                                                  | Resultado preliminar           | Evidencia encontrada                                                                                                                                                       |
+| ------------------------------------------------------------------------------------------ | ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Las pymes tienen dificultades para administrar colaboraciones mediante canales informales. | **Respaldada**                 | Ambas entrevistas muestran procesos basados principalmente en mensajes, redes sociales y coordinación manual.                                                              |
+| Las empresas necesitan encontrar creadores adecuados con mayor facilidad.                  | **Respaldada**                 | Frank presenta una red limitada de contactos y Andy identifica la búsqueda de creadores responsables como una de las actividades que más tiempo consume.                   |
+| Las campañas estructuradas pueden reducir problemas de coordinación.                       | **Respaldada preliminarmente** | Andy plantea directamente la necesidad de centralizar el proceso, mientras que ambos entrevistados negocian actualmente las condiciones mediante conversaciones dispersas. |
+| Las empresas necesitan controlar los entregables.                                          | **Respaldada**                 | Andy reportó retrasos en publicaciones y actualmente realiza verificaciones manuales.                                                                                      |
+| Las métricas centralizadas aportarían valor a las pymes.                                   | **Respaldada**                 | Ambos entrevistados utilizan métricas para intentar evaluar los resultados y muestran interés por obtener información más clara.                                           |
+| Las pymes pagarían una suscripción mensual.                                                | **Parcialmente respaldada**    | Andy estaría dispuesto si existe ahorro de tiempo y un precio accesible; Frank presenta mayor sensibilidad frente a un costo mensual fijo.                                 |
+| Los creadores necesitan mayor claridad y seguridad en sus colaboraciones.                  | **Pendiente de validación**    | Todavía no se cuenta con entrevistas directas pertenecientes al segmento de creadores de contenido.                                                                        |
+
+### Implicaciones para el MVP
+
+Los resultados permiten priorizar un primer conjunto de funcionalidades para CollabPro.
+
+El MVP debería concentrarse inicialmente en:
+
+- Registro y perfil de empresas y creadores.
+- Búsqueda y filtrado de creadores por nicho y características relevantes.
+- Creación de campañas con condiciones estructuradas.
+- Postulación de creadores.
+- Registro explícito de entregables, fechas y compensaciones.
+- Seguimiento del estado de cada colaboración.
+- Entrega de evidencias.
+- Validación de entregables.
+- Panel básico de métricas.
+- Historial de colaboraciones y cumplimiento.
+
+Funciones más avanzadas, como sistemas complejos de recomendación automática, automatización integral de pagos o analítica avanzada, pueden evaluarse posteriormente después de validar las necesidades de ambos segmentos.
+
+### Limitaciones de la investigación
+
+Hasta el momento se dispone de dos entrevistas pertenecientes al segmento de pequeñas y medianas empresas. Esto permite identificar patrones iniciales, pero no garantiza que representen a todas las pymes.
+
+Además, todavía no se cuenta con entrevistas reales del segmento de creadores de contenido. Por este motivo, las necesidades definidas para dicho segmento continúan siendo hipótesis y deberán ser contrastadas mediante entrevistas con creadores reales antes de considerar completamente validada la propuesta bilateral de CollabPro.
+
+En consecuencia, el siguiente paso de investigación debe consistir en entrevistar a creadores de contenido pequeños o medianos que hayan realizado colaboraciones con marcas, especialmente mediante canjes o acuerdos gestionados a través de Instagram, TikTok o WhatsApp.
 
 ### 2.3. Needfinding
 
@@ -764,37 +1013,37 @@ Enlace del Miro: https://miro.com/app/board/uXjVHl9jh_M=/?share_link_id=15965008
 
 El siguiente glosario define los términos del dominio de marketing de creadores utilizados por el equipo de CollabPro. Los conceptos se mantienen en inglés para establecer un lenguaje común con los stakeholders y las referencias de la industria. Las definiciones buscan evitar ambigüedades entre la perspectiva de la pyme y la del creador de contenido. No se incluyen términos técnicos de ingeniería de software.
 
-| Term (equivalente en español) | Definition |
-|---|---|
-| **Brand (Marca)** | Business or organization that promotes a product or service and initiates or finances a collaboration with a creator. |
-| **Creator (Creador de contenido)** | Person who produces and publishes original content for an audience through one or more social media channels. |
-| **Influencer (Influencer)** | Creator whose opinions, recommendations or presence can influence the behavior or purchasing decisions of an audience. Not every creator must be considered an influencer. |
-| **Micro-creator (Microcreador)** | Creator with a relatively small and specific audience who may offer strong relevance and interaction within a particular niche. |
-| **Audience (Audiencia)** | Group of people who follow, view or interact with a creator's content. |
-| **Niche (Nicho)** | Specific category, interest or market segment around which a creator produces content or a brand offers products. |
-| **Campaign (Campaña)** | Time-bound marketing initiative with an objective, target audience, deliverables, deadline and compensation. |
-| **Collaboration (Colaboración)** | Commercial relationship in which a brand and a creator agree to exchange content and value under defined conditions. |
-| **Brief (Brief de campaña)** | Concise description of the campaign objective, message, audience, requirements, deliverables, dates and acceptance criteria. |
-| **Proposal (Propuesta)** | Offer made by a brand or creator that describes the intended collaboration and its initial conditions. |
-| **Agreement (Acuerdo)** | Set of conditions accepted by both the brand and the creator before the collaboration begins. |
-| **Deliverable (Entregable)** | Specific piece of content or activity that the creator must produce or complete as part of the agreement. |
-| **Deadline (Fecha límite)** | Date or time by which a deliverable, publication or other agreed activity must be completed. |
-| **Content (Contenido)** | Material created for an audience, such as a story, post, video, reel, review or live stream. |
-| **Sponsored content (Contenido patrocinado)** | Content created in exchange for compensation or another commercial benefit from a brand. |
-| **Compensation (Compensación)** | Value received by the creator for fulfilling the agreement. It may be cash, products, services, credits or a combination of these. |
-| **Barter (Canje)** | Collaboration arrangement in which products or services are exchanged for content instead of, or in addition to, cash. |
-| **Evidence (Evidencia de cumplimiento)** | Proof that a creator completed or published an agreed deliverable, such as a link, screenshot or publication record. |
-| **Approval (Aprobación)** | Confirmation by the brand that a submitted deliverable satisfies the agreed requirements. |
-| **Disclosure (Declaración publicitaria)** | Clear indication that a piece of content is part of a commercial collaboration or has received compensation from a brand. |
-| **Brand fit (Compatibilidad con la marca)** | Degree to which the creator's content, values, style and audience are aligned with the brand and its campaign objective. |
-| **Match (Coincidencia)** | Degree to which the characteristics of a brand, campaign, creator and audience correspond to one another. |
-| **Reach (Alcance)** | Number of unique people who have seen or may have seen a piece of content. |
-| **Impressions (Impresiones)** | Total number of times a piece of content has been displayed, including repeated views by the same person. |
-| **Engagement (Interacción)** | Actions generated by content, such as likes, comments, shares, saves, clicks or replies. |
-| **Conversion (Conversión)** | Desired action attributed to a campaign, such as a purchase, inquiry, registration or visit. |
-| **Performance (Desempeño)** | Results achieved by a campaign or piece of content in relation to its objective and expected outcomes. |
-| **Return on investment — ROI (Retorno de inversión)** | Relationship between the value generated by a collaboration and the money, products or resources invested in it. |
-| **Repeat collaboration (Colaboración recurrente)** | New collaboration between the same brand and creator after a previous collaboration has been completed. |
+| Term (equivalente en español)                         | Definition                                                                                                                                                                 |
+| ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Brand (Marca)**                                     | Business or organization that promotes a product or service and initiates or finances a collaboration with a creator.                                                      |
+| **Creator (Creador de contenido)**                    | Person who produces and publishes original content for an audience through one or more social media channels.                                                              |
+| **Influencer (Influencer)**                           | Creator whose opinions, recommendations or presence can influence the behavior or purchasing decisions of an audience. Not every creator must be considered an influencer. |
+| **Micro-creator (Microcreador)**                      | Creator with a relatively small and specific audience who may offer strong relevance and interaction within a particular niche.                                            |
+| **Audience (Audiencia)**                              | Group of people who follow, view or interact with a creator's content.                                                                                                     |
+| **Niche (Nicho)**                                     | Specific category, interest or market segment around which a creator produces content or a brand offers products.                                                          |
+| **Campaign (Campaña)**                                | Time-bound marketing initiative with an objective, target audience, deliverables, deadline and compensation.                                                               |
+| **Collaboration (Colaboración)**                      | Commercial relationship in which a brand and a creator agree to exchange content and value under defined conditions.                                                       |
+| **Brief (Brief de campaña)**                          | Concise description of the campaign objective, message, audience, requirements, deliverables, dates and acceptance criteria.                                               |
+| **Proposal (Propuesta)**                              | Offer made by a brand or creator that describes the intended collaboration and its initial conditions.                                                                     |
+| **Agreement (Acuerdo)**                               | Set of conditions accepted by both the brand and the creator before the collaboration begins.                                                                              |
+| **Deliverable (Entregable)**                          | Specific piece of content or activity that the creator must produce or complete as part of the agreement.                                                                  |
+| **Deadline (Fecha límite)**                           | Date or time by which a deliverable, publication or other agreed activity must be completed.                                                                               |
+| **Content (Contenido)**                               | Material created for an audience, such as a story, post, video, reel, review or live stream.                                                                               |
+| **Sponsored content (Contenido patrocinado)**         | Content created in exchange for compensation or another commercial benefit from a brand.                                                                                   |
+| **Compensation (Compensación)**                       | Value received by the creator for fulfilling the agreement. It may be cash, products, services, credits or a combination of these.                                         |
+| **Barter (Canje)**                                    | Collaboration arrangement in which products or services are exchanged for content instead of, or in addition to, cash.                                                     |
+| **Evidence (Evidencia de cumplimiento)**              | Proof that a creator completed or published an agreed deliverable, such as a link, screenshot or publication record.                                                       |
+| **Approval (Aprobación)**                             | Confirmation by the brand that a submitted deliverable satisfies the agreed requirements.                                                                                  |
+| **Disclosure (Declaración publicitaria)**             | Clear indication that a piece of content is part of a commercial collaboration or has received compensation from a brand.                                                  |
+| **Brand fit (Compatibilidad con la marca)**           | Degree to which the creator's content, values, style and audience are aligned with the brand and its campaign objective.                                                   |
+| **Match (Coincidencia)**                              | Degree to which the characteristics of a brand, campaign, creator and audience correspond to one another.                                                                  |
+| **Reach (Alcance)**                                   | Number of unique people who have seen or may have seen a piece of content.                                                                                                 |
+| **Impressions (Impresiones)**                         | Total number of times a piece of content has been displayed, including repeated views by the same person.                                                                  |
+| **Engagement (Interacción)**                          | Actions generated by content, such as likes, comments, shares, saves, clicks or replies.                                                                                   |
+| **Conversion (Conversión)**                           | Desired action attributed to a campaign, such as a purchase, inquiry, registration or visit.                                                                               |
+| **Performance (Desempeño)**                           | Results achieved by a campaign or piece of content in relation to its objective and expected outcomes.                                                                     |
+| **Return on investment — ROI (Retorno de inversión)** | Relationship between the value generated by a collaboration and the money, products or resources invested in it.                                                           |
+| **Repeat collaboration (Colaboración recurrente)**    | New collaboration between the same brand and creator after a previous collaboration has been completed.                                                                    |
 
 Para mantener la consistencia del lenguaje, el equipo utilizará **Brand** para referirse a la pyme que contrata o propone una colaboración y **Creator** para referirse a la persona que produce el contenido. **Compensation** es el término general e incluye dinero, productos, servicios o créditos; **Barter** se utilizará únicamente cuando la compensación consista en un intercambio de productos o servicios. Finalmente, **Reach**, **Impressions**, **Engagement** y **Conversion** representan métricas diferentes y no deben utilizarse como sinónimos.
 
@@ -2986,56 +3235,54 @@ CollabPro sin depender de información privada de las empresas.
 </tbody>
 </table>
 
-
-
 #### 2.4.2. Impact Mapping
 
 ![Impact Map](./assets/C02/Requisitos/Impact_Map.png)
 
 #### 2.4.3. Product Backlog
 
-|  # | User Story Id | Título                                                           | Story Points |  Sprint  |
-| -: | ------------- | ---------------------------------------------------------------- | -----------: | :------: |
-|  1 | US-01         | Presentación de CollabPro para empresas                          |            1 |  1 |
-|  2 | US-02         | Presentación de CollabPro para creadores                         |            1 |  1 |
-|  3 | US-03         | Información sobre el funcionamiento de CollabPro para empresas   |            2 |  1 |
-|  4 | US-04         | Información sobre el funcionamiento de CollabPro para creadores  |            2 |  1 |
-|  5 | US-05         | Contacto con CollabPro                                           |            2 |  1 |
-|  6 | US-06         | Cambio de idioma                                                 |            1 |  1 |
-|  7 | US-07         | Compatibilidad visual de la Landing Page con varios dispositivos |            2 |  1 |
-|  8 | US-08         | Registro desde la Landing Page                                   |            2 |  1 |
-|  9 | US-17         | Búsqueda de campañas                                             |            3 |  1 |
-| 10 | US-18         | Consulta de condiciones de una campaña                           |            2 |  1 |
-| 11 | US-19         | Postulación a campaña                                            |            5 |  1 |
-| 12 | US-10         | Registro de creador                                              |            3 |  1 |
-| 13 | US-11         | Inicio de sesión y recuperación de cuenta                        |            2 |  1 |
-| 14 | US-13         | Gestión del perfil de creadores                                  |            3 |  1 |
-| 15 | US-14         | Vinculación de redes sociales                                    |            5 |  1 |
-| 16 | US-15         | Creación de campaña                                              |            3 |  1 |
-| 17 | US-16         | Definición de condiciones de campaña                             |            2 |  1 |
-| 18 | US-09         | Registro de empresa                                              |            3 |  2 |
-| 19 | US-12         | Gestión del perfil empresarial                                   |            3 |  2 |
-| 20 | US-20         | Evaluación de postulaciones                                      |            5 |  2 |
-| 21 | US-21         | Aceptación de una colaboración                                   |            5 |  2 |
-| 22 | US-22         | Consulta del estado de una colaboración                          |            3 |  2 |
-| 23 | US-23         | Entrega de contenido y evidencias                                |            3 |  2 |
-| 24 | US-24         | Validación de entregables                                        |            5 |  3 |
-| 25 | US-25         | Gestión de incidencias                                           |            5 |  3 |
-| 26 | US-26         | Vinculación de medio de pago                                     |            3 |  3 |
-| 27 | US-27         | Suscripción de la empresa                                        |            5 |  3 |
-| 28 | US-28         | Consulta del estado de la compensación                           |            3 |  3 |
-| 29 | US-29         | Consulta y atribución de resultados de campaña                   |            3 |  3 |
-| 30 | US-30         | Historial de colaboraciones                                      |            3 |  3 |
-| 31 | SS-02         | Viabilidad de OAuth para redes sociales                          |            3 |  1 |
-| 32 | TS-01         | Servicios de autenticación de cuentas                            |            3 |  1 |
-| 33 | TS-03         | Servicios de campañas y postulaciones                            |            5 |  1 |
-| 34 | TS-02         | Servicios de perfiles y redes sociales                           |            3 |  2 |
-| 35 | TS-04         | Servicios de colaboraciones y entregables                        |            5 |  2 |
-| 36 | TS-05         | Servicios de validación, incidencias y compensaciones            |            5 |  2 |
-| 37 | SS-01         | Viabilidad de Stripe en Sandbox                                  |            3 |  3 |
-| 38 | TS-06         | Servicios de suscripciones y pagos                               |            5 |  3 |
-| 39 | SS-03         | Viabilidad de medición de resultados de campañas                 |            3 |  3 |
-| 40 | TS-07         | Servicios de métricas, evidencias y atribución                   |            5 |  3 |
+|   # | User Story Id | Título                                                           | Story Points | Sprint |
+| --: | ------------- | ---------------------------------------------------------------- | -----------: | :----: |
+|   1 | US-01         | Presentación de CollabPro para empresas                          |            1 |   1    |
+|   2 | US-02         | Presentación de CollabPro para creadores                         |            1 |   1    |
+|   3 | US-03         | Información sobre el funcionamiento de CollabPro para empresas   |            2 |   1    |
+|   4 | US-04         | Información sobre el funcionamiento de CollabPro para creadores  |            2 |   1    |
+|   5 | US-05         | Contacto con CollabPro                                           |            2 |   1    |
+|   6 | US-06         | Cambio de idioma                                                 |            1 |   1    |
+|   7 | US-07         | Compatibilidad visual de la Landing Page con varios dispositivos |            2 |   1    |
+|   8 | US-08         | Registro desde la Landing Page                                   |            2 |   1    |
+|   9 | US-17         | Búsqueda de campañas                                             |            3 |   1    |
+|  10 | US-18         | Consulta de condiciones de una campaña                           |            2 |   1    |
+|  11 | US-19         | Postulación a campaña                                            |            5 |   1    |
+|  12 | US-10         | Registro de creador                                              |            3 |   1    |
+|  13 | US-11         | Inicio de sesión y recuperación de cuenta                        |            2 |   1    |
+|  14 | US-13         | Gestión del perfil de creadores                                  |            3 |   1    |
+|  15 | US-14         | Vinculación de redes sociales                                    |            5 |   1    |
+|  16 | US-15         | Creación de campaña                                              |            3 |   1    |
+|  17 | US-16         | Definición de condiciones de campaña                             |            2 |   1    |
+|  18 | US-09         | Registro de empresa                                              |            3 |   2    |
+|  19 | US-12         | Gestión del perfil empresarial                                   |            3 |   2    |
+|  20 | US-20         | Evaluación de postulaciones                                      |            5 |   2    |
+|  21 | US-21         | Aceptación de una colaboración                                   |            5 |   2    |
+|  22 | US-22         | Consulta del estado de una colaboración                          |            3 |   2    |
+|  23 | US-23         | Entrega de contenido y evidencias                                |            3 |   2    |
+|  24 | US-24         | Validación de entregables                                        |            5 |   3    |
+|  25 | US-25         | Gestión de incidencias                                           |            5 |   3    |
+|  26 | US-26         | Vinculación de medio de pago                                     |            3 |   3    |
+|  27 | US-27         | Suscripción de la empresa                                        |            5 |   3    |
+|  28 | US-28         | Consulta del estado de la compensación                           |            3 |   3    |
+|  29 | US-29         | Consulta y atribución de resultados de campaña                   |            3 |   3    |
+|  30 | US-30         | Historial de colaboraciones                                      |            3 |   3    |
+|  31 | SS-02         | Viabilidad de OAuth para redes sociales                          |            3 |   1    |
+|  32 | TS-01         | Servicios de autenticación de cuentas                            |            3 |   1    |
+|  33 | TS-03         | Servicios de campañas y postulaciones                            |            5 |   1    |
+|  34 | TS-02         | Servicios de perfiles y redes sociales                           |            3 |   2    |
+|  35 | TS-04         | Servicios de colaboraciones y entregables                        |            5 |   2    |
+|  36 | TS-05         | Servicios de validación, incidencias y compensaciones            |            5 |   2    |
+|  37 | SS-01         | Viabilidad de Stripe en Sandbox                                  |            3 |   3    |
+|  38 | TS-06         | Servicios de suscripciones y pagos                               |            5 |   3    |
+|  39 | SS-03         | Viabilidad de medición de resultados de campañas                 |            3 |   3    |
+|  40 | TS-07         | Servicios de métricas, evidencias y atribución                   |            5 |   3    |
 
 <br>
 Trello: https://trello.com/b/X1Cgxi0s/collabpro
@@ -3051,7 +3298,6 @@ El análisis permitió identificar cinco Bounded Contexts: **Identity & Profile 
 
 La delimitación busca evitar que conceptos con ciclos de vida diferentes, como Campaign, Collaboration, Compensation o Performance, formen parte de un único modelo altamente acoplado. Asimismo, permite aislar las integraciones con servicios externos de pagos y redes sociales de las principales reglas de negocio de CollabPro.
 
-
 #### 2.5.1. EventStorming
 
 El equipo utilizó EventStorming para profundizar en el comportamiento del dominio de CollabPro. Mientras que el Big Picture EventStorming presentado anteriormente permitió representar de manera general el recorrido completo de una colaboración, en esta etapa se analizaron con mayor detalle los eventos de negocio, comandos, actores, reglas y puntos de decisión que permiten identificar límites naturales dentro del dominio.
@@ -3062,26 +3308,26 @@ También se consideraron flujos alternativos como el rechazo o cancelación de u
 
 Durante el EventStorming se identificaron los siguientes elementos principales:
 
-| Command / Action | Actor | Domain Event | Regla o consideración principal |
-|---|---|---|---|
-| Register account | Brand / Creator | Account Registered | El correo utilizado no debe estar asociado previamente a otra cuenta. |
-| Complete profile | Brand / Creator | Profile Completed | El perfil debe corresponder al tipo de cuenta registrado. |
-| Link social account | Creator | Social Media Account Linked | La asociación requiere autorización del propietario de la cuenta externa. |
-| Create campaign | Brand | Campaign Created | Solo una cuenta empresarial habilitada puede crear campañas. |
-| Define campaign conditions | Brand | Campaign Conditions Defined | La campaña debe especificar requisitos, entregables, fechas y compensación. |
-| Publish campaign | Brand | Campaign Published | Una campaña incompleta no puede abrirse a postulaciones. |
-| Submit application | Creator | Application Submitted | El creador debe cumplir las condiciones obligatorias y no debe existir una postulación duplicada. |
-| Select application | Brand | Application Selected | La postulación debe encontrarse pendiente y pertenecer a la campaña correspondiente. |
-| Accept collaboration terms | Brand / Creator | Collaboration Terms Accepted | Ambas partes deben aceptar las condiciones antes de iniciar la colaboración. |
-| Start collaboration | System | Collaboration Created | Las condiciones aceptadas deben conservarse durante la colaboración. |
-| Submit deliverable | Creator | Deliverable Submitted | La entrega debe estar asociada a una colaboración vigente. |
-| Review deliverable | Brand | Deliverable Approved / Deliverable Rejected | La revisión debe considerar las condiciones aceptadas para el entregable. |
-| Open incident | Brand / Creator | Incident Opened | La incidencia debe estar vinculada a una colaboración identificable. |
-| Complete collaboration | System | Collaboration Completed | Los entregables obligatorios deben encontrarse en un estado compatible con el cierre. |
-| Authorize compensation | System | Compensation Authorized | La compensación monetaria no debe liberarse antes de satisfacer las condiciones correspondientes. |
-| Process payment | Payment Provider | Compensation Paid / Payment Failed | Los eventos externos deben procesarse sin duplicar operaciones. |
-| Collect metrics | System | Metrics Collected | Solo se consideran métricas obtenidas mediante fuentes autorizadas o evidencias identificadas como manuales. |
-| Update performance | System | Performance Report Updated | Cada resultado debe conservar información sobre su fuente y periodo. |
+| Command / Action           | Actor            | Domain Event                                | Regla o consideración principal                                                                              |
+| -------------------------- | ---------------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Register account           | Brand / Creator  | Account Registered                          | El correo utilizado no debe estar asociado previamente a otra cuenta.                                        |
+| Complete profile           | Brand / Creator  | Profile Completed                           | El perfil debe corresponder al tipo de cuenta registrado.                                                    |
+| Link social account        | Creator          | Social Media Account Linked                 | La asociación requiere autorización del propietario de la cuenta externa.                                    |
+| Create campaign            | Brand            | Campaign Created                            | Solo una cuenta empresarial habilitada puede crear campañas.                                                 |
+| Define campaign conditions | Brand            | Campaign Conditions Defined                 | La campaña debe especificar requisitos, entregables, fechas y compensación.                                  |
+| Publish campaign           | Brand            | Campaign Published                          | Una campaña incompleta no puede abrirse a postulaciones.                                                     |
+| Submit application         | Creator          | Application Submitted                       | El creador debe cumplir las condiciones obligatorias y no debe existir una postulación duplicada.            |
+| Select application         | Brand            | Application Selected                        | La postulación debe encontrarse pendiente y pertenecer a la campaña correspondiente.                         |
+| Accept collaboration terms | Brand / Creator  | Collaboration Terms Accepted                | Ambas partes deben aceptar las condiciones antes de iniciar la colaboración.                                 |
+| Start collaboration        | System           | Collaboration Created                       | Las condiciones aceptadas deben conservarse durante la colaboración.                                         |
+| Submit deliverable         | Creator          | Deliverable Submitted                       | La entrega debe estar asociada a una colaboración vigente.                                                   |
+| Review deliverable         | Brand            | Deliverable Approved / Deliverable Rejected | La revisión debe considerar las condiciones aceptadas para el entregable.                                    |
+| Open incident              | Brand / Creator  | Incident Opened                             | La incidencia debe estar vinculada a una colaboración identificable.                                         |
+| Complete collaboration     | System           | Collaboration Completed                     | Los entregables obligatorios deben encontrarse en un estado compatible con el cierre.                        |
+| Authorize compensation     | System           | Compensation Authorized                     | La compensación monetaria no debe liberarse antes de satisfacer las condiciones correspondientes.            |
+| Process payment            | Payment Provider | Compensation Paid / Payment Failed          | Los eventos externos deben procesarse sin duplicar operaciones.                                              |
+| Collect metrics            | System           | Metrics Collected                           | Solo se consideran métricas obtenidas mediante fuentes autorizadas o evidencias identificadas como manuales. |
+| Update performance         | System           | Performance Report Updated                  | Cada resultado debe conservar información sobre su fuente y periodo.                                         |
 
 Durante la sesión se identificaron además diversos hotspots que requieren especial atención durante el diseño y la implementación:
 
@@ -3118,13 +3364,13 @@ A partir de esta agrupación se identificaron cambios claros de responsabilidad 
 
 Como resultado se identificaron los siguientes Bounded Contexts candidatos:
 
-| Bounded Context | Clasificación propuesta | Responsabilidad | Principales capabilities |
-|---|---|---|---|
-| **Identity & Profile Management** | Generic Domain | Administrar las identidades y perfiles que participan en CollabPro. | Registro, autenticación, recuperación de acceso, perfiles empresariales, perfiles de creadores y vinculación de redes sociales. |
-| **Campaign Management** | Core Domain | Administrar las oportunidades de colaboración antes de que exista un acuerdo formal. | Creación de campañas, condiciones, publicación, búsqueda, postulaciones y evaluación de postulantes. |
-| **Collaboration Management** | Core Domain | Administrar el cumplimiento de un acuerdo entre una empresa y un creador. | Formalización de colaboración, estado, entregables, evidencias, revisiones, incidencias e historial. |
-| **Billing & Compensation Management** | Supporting Domain | Administrar las operaciones económicas relacionadas con CollabPro. | Medios de pago, suscripciones, compensaciones, transacciones y eventos de proveedores financieros. |
-| **Performance & Attribution Management** | Supporting Domain | Administrar la medición de resultados generados por una colaboración. | Métricas, evidencias, enlaces de atribución, interacciones y reportes de desempeño. |
+| Bounded Context                          | Clasificación propuesta | Responsabilidad                                                                      | Principales capabilities                                                                                                        |
+| ---------------------------------------- | ----------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+| **Identity & Profile Management**        | Generic Domain          | Administrar las identidades y perfiles que participan en CollabPro.                  | Registro, autenticación, recuperación de acceso, perfiles empresariales, perfiles de creadores y vinculación de redes sociales. |
+| **Campaign Management**                  | Core Domain             | Administrar las oportunidades de colaboración antes de que exista un acuerdo formal. | Creación de campañas, condiciones, publicación, búsqueda, postulaciones y evaluación de postulantes.                            |
+| **Collaboration Management**             | Core Domain             | Administrar el cumplimiento de un acuerdo entre una empresa y un creador.            | Formalización de colaboración, estado, entregables, evidencias, revisiones, incidencias e historial.                            |
+| **Billing & Compensation Management**    | Supporting Domain       | Administrar las operaciones económicas relacionadas con CollabPro.                   | Medios de pago, suscripciones, compensaciones, transacciones y eventos de proveedores financieros.                              |
+| **Performance & Attribution Management** | Supporting Domain       | Administrar la medición de resultados generados por una colaboración.                | Métricas, evidencias, enlaces de atribución, interacciones y reportes de desempeño.                                             |
 
 **Candidate Context Discovery de CollabPro**
 
@@ -3148,7 +3394,6 @@ Este flujo representa la colaboración principal entre **Identity & Profile Mana
 
 <!-- Insertar aquí Domain Storytelling Diagram 1 -->
 
-
 **Domain Story 2: Cumplimiento de colaboración y compensación**
 
 El creador consulta una colaboración activa, desarrolla el contenido solicitado y registra el entregable junto con la evidencia correspondiente.
@@ -3162,7 +3407,6 @@ Cuando la compensación es monetaria, el proveedor financiero procesa la operaci
 Este flujo representa la colaboración entre **Collaboration Management** y **Billing & Compensation Management**.
 
 <!-- Insertar aquí Domain Storytelling Diagram 2 -->
-
 
 **Domain Story 3: Obtención y análisis de resultados**
 
@@ -3178,82 +3422,76 @@ Este flujo representa la colaboración entre **Identity & Profile Management**, 
 
 <!-- Insertar aquí Domain Storytelling Diagram 3 -->
 
-
 ##### 2.5.1.3. Bounded Context Canvases
 
 A partir de los contextos candidatos se elaboraron Bounded Context Canvases con el objetivo de precisar el propósito, reglas, lenguaje, capabilities y dependencias de cada contexto.
 
 La elaboración se realizó de forma iterativa considerando Context Overview Definition, Business Rules Distillation & Ubiquitous Language Capture, Capability Analysis, Dependencies Capture y Design Critique.
 
-
 **Identity & Profile Management**
 
-| Aspecto | Definición |
-|---|---|
-| **Purpose** | Proporcionar una identidad verificable dentro de CollabPro y mantener la información necesaria de empresas y creadores. |
-| **Domain Role** | Generic Domain. |
-| **Ubiquitous Language** | Account, Brand Profile, Creator Profile, Social Media Account. |
-| **Capabilities** | Registrar cuenta, autenticar cuenta, recuperar acceso, actualizar perfiles, vincular y desvincular redes sociales. |
-| **Business Rules** | El correo de una cuenta debe ser único. Una cuenta mantiene un tipo definido. Una cuenta social no debe duplicarse dentro de un mismo perfil. Las asociaciones externas requieren autorización. |
-| **Inbound Dependencies** | Proveedores externos utilizados en los procesos de autorización social. |
-| **Outbound Dependencies** | Proporciona identificadores y datos de referencia de empresas y creadores a otros contextos. |
-| **Design Critique** | Los detalles particulares de OAuth o de proveedores externos no forman parte del modelo de dominio. |
-
+| Aspecto                   | Definición                                                                                                                                                                                      |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Purpose**               | Proporcionar una identidad verificable dentro de CollabPro y mantener la información necesaria de empresas y creadores.                                                                         |
+| **Domain Role**           | Generic Domain.                                                                                                                                                                                 |
+| **Ubiquitous Language**   | Account, Brand Profile, Creator Profile, Social Media Account.                                                                                                                                  |
+| **Capabilities**          | Registrar cuenta, autenticar cuenta, recuperar acceso, actualizar perfiles, vincular y desvincular redes sociales.                                                                              |
+| **Business Rules**        | El correo de una cuenta debe ser único. Una cuenta mantiene un tipo definido. Una cuenta social no debe duplicarse dentro de un mismo perfil. Las asociaciones externas requieren autorización. |
+| **Inbound Dependencies**  | Proveedores externos utilizados en los procesos de autorización social.                                                                                                                         |
+| **Outbound Dependencies** | Proporciona identificadores y datos de referencia de empresas y creadores a otros contextos.                                                                                                    |
+| **Design Critique**       | Los detalles particulares de OAuth o de proveedores externos no forman parte del modelo de dominio.                                                                                             |
 
 **Campaign Management**
 
-| Aspecto | Definición |
-|---|---|
-| **Purpose** | Administrar las oportunidades comerciales disponibles antes de que exista una colaboración. |
-| **Domain Role** | Core Domain. |
-| **Ubiquitous Language** | Campaign, Requirement, Deliverable Specification, Compensation Terms, Application. |
-| **Capabilities** | Crear campaña, definir condiciones, publicar campaña, buscar campañas, postular, modificar o cancelar una postulación y evaluar postulantes. |
-| **Business Rules** | Una campaña incompleta no puede publicarse. Solo se puede postular a campañas abiertas. Un creador no debe registrar una postulación duplicada. Las postulaciones solo pueden modificarse mientras permanezcan pendientes. |
-| **Inbound Dependencies** | Identity & Profile Management proporciona referencias de Brand y Creator. |
-| **Outbound Dependencies** | Una postulación seleccionada y las condiciones aceptadas permiten iniciar el proceso correspondiente en Collaboration Management. |
-| **Design Critique** | Campaign no debe controlar entregables reales ni estados de ejecución de una colaboración. |
-
+| Aspecto                   | Definición                                                                                                                                                                                                                 |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Purpose**               | Administrar las oportunidades comerciales disponibles antes de que exista una colaboración.                                                                                                                                |
+| **Domain Role**           | Core Domain.                                                                                                                                                                                                               |
+| **Ubiquitous Language**   | Campaign, Requirement, Deliverable Specification, Compensation Terms, Application.                                                                                                                                         |
+| **Capabilities**          | Crear campaña, definir condiciones, publicar campaña, buscar campañas, postular, modificar o cancelar una postulación y evaluar postulantes.                                                                               |
+| **Business Rules**        | Una campaña incompleta no puede publicarse. Solo se puede postular a campañas abiertas. Un creador no debe registrar una postulación duplicada. Las postulaciones solo pueden modificarse mientras permanezcan pendientes. |
+| **Inbound Dependencies**  | Identity & Profile Management proporciona referencias de Brand y Creator.                                                                                                                                                  |
+| **Outbound Dependencies** | Una postulación seleccionada y las condiciones aceptadas permiten iniciar el proceso correspondiente en Collaboration Management.                                                                                          |
+| **Design Critique**       | Campaign no debe controlar entregables reales ni estados de ejecución de una colaboración.                                                                                                                                 |
 
 **Collaboration Management**
 
-| Aspecto | Definición |
-|---|---|
-| **Purpose** | Gestionar el acuerdo y cumplimiento de una relación comercial entre una empresa y un creador. |
-| **Domain Role** | Core Domain. |
-| **Ubiquitous Language** | Collaboration, Agreement, Deliverable, Evidence, Approval, Incident. |
-| **Capabilities** | Crear colaboración, consultar estado, registrar entregables, registrar evidencias, revisar entregables, administrar correcciones, abrir incidencias y completar una colaboración. |
-| **Business Rules** | Una colaboración requiere condiciones aceptadas por ambas partes. Las condiciones acordadas no deben modificarse como consecuencia de cambios posteriores en la campaña. Un entregable debe validarse utilizando las condiciones aceptadas. |
-| **Inbound Dependencies** | Campaign Management proporciona la postulación seleccionada y las condiciones aceptadas. |
-| **Outbound Dependencies** | Informa a Billing & Compensation Management cuando la compensación puede continuar y proporciona información a Performance & Attribution Management sobre contenido y colaboraciones. |
-| **Design Critique** | El procesamiento financiero y la consulta de APIs sociales permanecen fuera de este contexto. |
-
+| Aspecto                   | Definición                                                                                                                                                                                                                                  |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Purpose**               | Gestionar el acuerdo y cumplimiento de una relación comercial entre una empresa y un creador.                                                                                                                                               |
+| **Domain Role**           | Core Domain.                                                                                                                                                                                                                                |
+| **Ubiquitous Language**   | Collaboration, Agreement, Deliverable, Evidence, Approval, Incident.                                                                                                                                                                        |
+| **Capabilities**          | Crear colaboración, consultar estado, registrar entregables, registrar evidencias, revisar entregables, administrar correcciones, abrir incidencias y completar una colaboración.                                                           |
+| **Business Rules**        | Una colaboración requiere condiciones aceptadas por ambas partes. Las condiciones acordadas no deben modificarse como consecuencia de cambios posteriores en la campaña. Un entregable debe validarse utilizando las condiciones aceptadas. |
+| **Inbound Dependencies**  | Campaign Management proporciona la postulación seleccionada y las condiciones aceptadas.                                                                                                                                                    |
+| **Outbound Dependencies** | Informa a Billing & Compensation Management cuando la compensación puede continuar y proporciona información a Performance & Attribution Management sobre contenido y colaboraciones.                                                       |
+| **Design Critique**       | El procesamiento financiero y la consulta de APIs sociales permanecen fuera de este contexto.                                                                                                                                               |
 
 **Billing & Compensation Management**
 
-| Aspecto | Definición |
-|---|---|
-| **Purpose** | Administrar las operaciones económicas relacionadas con el uso de CollabPro y las compensaciones de las colaboraciones. |
-| **Domain Role** | Supporting Domain. |
-| **Ubiquitous Language** | Subscription, Payment Method, Compensation, Transaction. |
-| **Capabilities** | Asociar medio de pago, crear suscripción, consultar suscripción, registrar compensación, autorizar compensación, procesar pago y gestionar eventos financieros. |
-| **Business Rules** | Subscription y Compensation representan obligaciones económicas diferentes. Una compensación monetaria no debe procesarse antes de ser autorizada. Los eventos provenientes del proveedor deben tratarse de forma idempotente. |
-| **Inbound Dependencies** | Identity & Profile Management proporciona referencias de usuario. Collaboration Management informa cuándo una compensación puede ser autorizada. |
-| **Outbound Dependencies** | Proporciona el estado de las operaciones económicas relacionadas con la colaboración. |
-| **Design Critique** | El modelo de dominio no debe depender directamente de Stripe u otro proveedor concreto. |
-
+| Aspecto                   | Definición                                                                                                                                                                                                                     |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Purpose**               | Administrar las operaciones económicas relacionadas con el uso de CollabPro y las compensaciones de las colaboraciones.                                                                                                        |
+| **Domain Role**           | Supporting Domain.                                                                                                                                                                                                             |
+| **Ubiquitous Language**   | Subscription, Payment Method, Compensation, Transaction.                                                                                                                                                                       |
+| **Capabilities**          | Asociar medio de pago, crear suscripción, consultar suscripción, registrar compensación, autorizar compensación, procesar pago y gestionar eventos financieros.                                                                |
+| **Business Rules**        | Subscription y Compensation representan obligaciones económicas diferentes. Una compensación monetaria no debe procesarse antes de ser autorizada. Los eventos provenientes del proveedor deben tratarse de forma idempotente. |
+| **Inbound Dependencies**  | Identity & Profile Management proporciona referencias de usuario. Collaboration Management informa cuándo una compensación puede ser autorizada.                                                                               |
+| **Outbound Dependencies** | Proporciona el estado de las operaciones económicas relacionadas con la colaboración.                                                                                                                                          |
+| **Design Critique**       | El modelo de dominio no debe depender directamente de Stripe u otro proveedor concreto.                                                                                                                                        |
 
 **Performance & Attribution Management**
 
-| Aspecto | Definición |
-|---|---|
-| **Purpose** | Mantener información verificable sobre el desempeño generado por las colaboraciones. |
-| **Domain Role** | Supporting Domain. |
-| **Ubiquitous Language** | Performance, Reach, Impressions, Engagement, Conversion, Attribution, Metric Source. |
-| **Capabilities** | Consultar métricas, registrar snapshots, registrar evidencias, crear mecanismos de atribución y generar reportes de desempeño. |
-| **Business Rules** | Toda métrica debe mantener su fuente y periodo. Los datos automáticos deben diferenciarse de las evidencias manuales. Los resultados atribuibles no deben presentarse como equivalentes a causalidad absoluta. |
-| **Inbound Dependencies** | Collaboration Management proporciona la referencia de la colaboración y el contenido relacionado. Identity & Profile Management proporciona la asociación social autorizada. |
-| **Outbound Dependencies** | Proporciona resultados y reportes para consulta de las empresas. |
-| **Design Critique** | Las particularidades de Instagram, TikTok, YouTube u otros servicios externos deben permanecer fuera del modelo de dominio. |
+| Aspecto                   | Definición                                                                                                                                                                                                     |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Purpose**               | Mantener información verificable sobre el desempeño generado por las colaboraciones.                                                                                                                           |
+| **Domain Role**           | Supporting Domain.                                                                                                                                                                                             |
+| **Ubiquitous Language**   | Performance, Reach, Impressions, Engagement, Conversion, Attribution, Metric Source.                                                                                                                           |
+| **Capabilities**          | Consultar métricas, registrar snapshots, registrar evidencias, crear mecanismos de atribución y generar reportes de desempeño.                                                                                 |
+| **Business Rules**        | Toda métrica debe mantener su fuente y periodo. Los datos automáticos deben diferenciarse de las evidencias manuales. Los resultados atribuibles no deben presentarse como equivalentes a causalidad absoluta. |
+| **Inbound Dependencies**  | Collaboration Management proporciona la referencia de la colaboración y el contenido relacionado. Identity & Profile Management proporciona la asociación social autorizada.                                   |
+| **Outbound Dependencies** | Proporciona resultados y reportes para consulta de las empresas.                                                                                                                                               |
+| **Design Critique**       | Las particularidades de Instagram, TikTok, YouTube u otros servicios externos deben permanecer fuera del modelo de dominio.                                                                                    |
 
 <!-- Insertar aquí Bounded Context Canvas de Identity & Profile Management -->
 
@@ -3264,7 +3502,6 @@ La elaboración se realizó de forma iterativa considerando Context Overview Def
 <!-- Insertar aquí Bounded Context Canvas de Billing & Compensation Management -->
 
 <!-- Insertar aquí Bounded Context Canvas de Performance & Attribution Management -->
-
 
 #### 2.5.2. Context Mapping
 
@@ -3280,14 +3517,14 @@ Finalmente se descartó utilizar Shared Kernel para compartir los modelos intern
 
 Las relaciones resultantes se resumen a continuación:
 
-| Upstream | Downstream | Relación | Información intercambiada |
-|---|---|---|---|
-| Identity & Profile Management | Campaign Management | Customer / Supplier | Identidad y referencia de Brand y Creator. |
-| Identity & Profile Management | Billing & Compensation Management | Customer / Supplier | Referencia de la cuenta asociada a medios de pago o suscripción. |
-| Identity & Profile Management | Performance & Attribution Management | Customer / Supplier | Referencia de las cuentas sociales autorizadas. |
-| Campaign Management | Collaboration Management | Customer / Supplier | Postulación seleccionada y snapshot de las condiciones aceptadas. |
-| Collaboration Management | Billing & Compensation Management | Customer / Supplier | Autorización o elegibilidad de la compensación. |
-| Collaboration Management | Performance & Attribution Management | Customer / Supplier | Referencia de la colaboración y contenido utilizado para medir resultados. |
+| Upstream                      | Downstream                           | Relación            | Información intercambiada                                                  |
+| ----------------------------- | ------------------------------------ | ------------------- | -------------------------------------------------------------------------- |
+| Identity & Profile Management | Campaign Management                  | Customer / Supplier | Identidad y referencia de Brand y Creator.                                 |
+| Identity & Profile Management | Billing & Compensation Management    | Customer / Supplier | Referencia de la cuenta asociada a medios de pago o suscripción.           |
+| Identity & Profile Management | Performance & Attribution Management | Customer / Supplier | Referencia de las cuentas sociales autorizadas.                            |
+| Campaign Management           | Collaboration Management             | Customer / Supplier | Postulación seleccionada y snapshot de las condiciones aceptadas.          |
+| Collaboration Management      | Billing & Compensation Management    | Customer / Supplier | Autorización o elegibilidad de la compensación.                            |
+| Collaboration Management      | Performance & Attribution Management | Customer / Supplier | Referencia de la colaboración y contenido utilizado para medir resultados. |
 
 En estas relaciones el contexto upstream proporciona información mediante contratos explícitos sin exponer directamente su modelo interno.
 
@@ -3301,11 +3538,9 @@ El Context Map final mantiene a Campaign Management y Collaboration Management c
 
 _Nota. Elaboración propia._
 
-
 #### 2.5.3. Software Architecture
 
 La arquitectura de software de CollabPro se representa utilizando C4 Model con el objetivo de visualizar la solución desde diferentes niveles de abstracción. El Context Level Diagram presenta a CollabPro como un único sistema y sus relaciones con usuarios y sistemas externos. El Container Level Diagram muestra los principales productos y unidades ejecutables de la solución. Finalmente, el Deployment Diagram representa la distribución de dichos elementos entre dispositivos, servicios de infraestructura y sistemas externos.
-
 
 ##### 2.5.3.1. Software Architecture Context Level Diagrams
 
@@ -3323,21 +3558,20 @@ Estas integraciones se realizan mediante el backend de CollabPro, evitando que l
 
 _Nota. Elaboración propia._
 
-
 ##### 2.5.3.2. Software Architecture Container Level Diagrams
 
 El Container Diagram representa los productos principales que conforman CollabPro.
 
 La solución incluye un Landing Page, una aplicación móvil nativa para Android, una aplicación móvil multiplataforma, los RESTful Web Services, el sistema de persistencia y las integraciones externas.
 
-| Container | Tecnología | Responsabilidad |
-|---|---|---|
-| **Landing Page** | HTML5, CSS3 y JavaScript | Presentar la propuesta de valor, información del producto, idiomas disponibles y mecanismos iniciales de acceso a CollabPro. |
-| **Native Android Application** | Kotlin | Proporcionar la experiencia móvil nativa para empresas y creadores. |
-| **Cross-Platform Mobile Application** | `<Flutter/Dart o Kotlin Multiplatform>` | Proporcionar la experiencia móvil multiplataforma requerida por la solución. |
-| **RESTful Web Services** | `<Spring Boot / ASP.NET Core / Nest>` | Exponer los casos de uso de CollabPro y coordinar los cinco Bounded Contexts. |
-| **Relational Database** | `<DBMS seleccionado>` | Persistir los datos administrados por los Bounded Contexts. |
-| **Evidence/Object Storage** | `<Servicio seleccionado>` | Almacenar archivos o evidencias que no deban persistirse directamente dentro de la base de datos relacional. |
+| Container                             | Tecnología                              | Responsabilidad                                                                                                              |
+| ------------------------------------- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| **Landing Page**                      | HTML5, CSS3 y JavaScript                | Presentar la propuesta de valor, información del producto, idiomas disponibles y mecanismos iniciales de acceso a CollabPro. |
+| **Native Android Application**        | Kotlin                                  | Proporcionar la experiencia móvil nativa para empresas y creadores.                                                          |
+| **Cross-Platform Mobile Application** | `<Flutter/Dart o Kotlin Multiplatform>` | Proporcionar la experiencia móvil multiplataforma requerida por la solución.                                                 |
+| **RESTful Web Services**              | `<Spring Boot / ASP.NET Core / Nest>`   | Exponer los casos de uso de CollabPro y coordinar los cinco Bounded Contexts.                                                |
+| **Relational Database**               | `<DBMS seleccionado>`                   | Persistir los datos administrados por los Bounded Contexts.                                                                  |
+| **Evidence/Object Storage**           | `<Servicio seleccionado>`               | Almacenar archivos o evidencias que no deban persistirse directamente dentro de la base de datos relacional.                 |
 
 Se propone implementar inicialmente los RESTful Web Services mediante una arquitectura modular, manteniendo cada Bounded Context como un módulo independiente dentro del backend. Esta decisión permite conservar los límites definidos por Domain-Driven Design sin introducir prematuramente la complejidad operacional de una arquitectura distribuida.
 
@@ -3387,16 +3621,16 @@ Este contexto permite mantener separadas las responsabilidades de identidad y pe
 
 La Domain Layer contiene los conceptos necesarios para representar una cuenta y su información asociada. `Account` funciona como Aggregate Root y mantiene la identidad y estado de la cuenta. Dependiendo del tipo de usuario, la cuenta mantiene un `BrandProfile` o un `CreatorProfile`. En el caso de los creadores, el perfil puede contener una o más asociaciones `SocialMediaAccount`.
 
-| Clase | Tipo | Propósito | Principales atributos | Principales métodos |
-|---|---|---|---|---|
-| `Account` | Aggregate Root / Entity | Representar la cuenta registrada en CollabPro y controlar su estado y tipo. | `accountId`, `email`, `passwordHash`, `accountType`, `status`, `createdAt` | `activate()`, `changePassword()`, `deactivate()` |
-| `BrandProfile` | Entity | Mantener la información comercial de una pyme que participa en CollabPro. | `brandProfileId`, `businessName`, `description`, `category`, `location` | `updateInformation()` |
-| `CreatorProfile` | Entity | Mantener la información profesional de un creador de contenido. | `creatorProfileId`, `displayName`, `biography`, `niche`, `audienceDescription` | `updateInformation()`, `linkSocialMediaAccount()`, `unlinkSocialMediaAccount()` |
-| `SocialMediaAccount` | Entity | Representar una red social vinculada y autorizada por el creador. | `socialMediaAccountId`, `platform`, `externalAccountId`, `username`, `status` | `activate()`, `revoke()` |
-| `EmailAddress` | Value Object | Representar y validar una dirección de correo utilizada por una cuenta. | `value` | `isValid()` |
-| `AccountType` | Enumeration | Identificar el tipo de cuenta dentro de CollabPro. | `BRAND`, `CREATOR` | N/A |
-| `AccountStatus` | Enumeration | Representar el estado operativo de la cuenta. | `PENDING`, `ACTIVE`, `SUSPENDED`, `DISABLED` | N/A |
-| `AccountRepository` | Repository Interface | Definir las operaciones de persistencia necesarias para el Aggregate `Account`. | N/A | `save()`, `findById()`, `findByEmail()`, `existsByEmail()` |
+| Clase                | Tipo                    | Propósito                                                                       | Principales atributos                                                          | Principales métodos                                                             |
+| -------------------- | ----------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------- |
+| `Account`            | Aggregate Root / Entity | Representar la cuenta registrada en CollabPro y controlar su estado y tipo.     | `accountId`, `email`, `passwordHash`, `accountType`, `status`, `createdAt`     | `activate()`, `changePassword()`, `deactivate()`                                |
+| `BrandProfile`       | Entity                  | Mantener la información comercial de una pyme que participa en CollabPro.       | `brandProfileId`, `businessName`, `description`, `category`, `location`        | `updateInformation()`                                                           |
+| `CreatorProfile`     | Entity                  | Mantener la información profesional de un creador de contenido.                 | `creatorProfileId`, `displayName`, `biography`, `niche`, `audienceDescription` | `updateInformation()`, `linkSocialMediaAccount()`, `unlinkSocialMediaAccount()` |
+| `SocialMediaAccount` | Entity                  | Representar una red social vinculada y autorizada por el creador.               | `socialMediaAccountId`, `platform`, `externalAccountId`, `username`, `status`  | `activate()`, `revoke()`                                                        |
+| `EmailAddress`       | Value Object            | Representar y validar una dirección de correo utilizada por una cuenta.         | `value`                                                                        | `isValid()`                                                                     |
+| `AccountType`        | Enumeration             | Identificar el tipo de cuenta dentro de CollabPro.                              | `BRAND`, `CREATOR`                                                             | N/A                                                                             |
+| `AccountStatus`      | Enumeration             | Representar el estado operativo de la cuenta.                                   | `PENDING`, `ACTIVE`, `SUSPENDED`, `DISABLED`                                   | N/A                                                                             |
+| `AccountRepository`  | Repository Interface    | Definir las operaciones de persistencia necesarias para el Aggregate `Account`. | N/A                                                                            | `save()`, `findById()`, `findByEmail()`, `existsByEmail()`                      |
 
 La relación principal del Aggregate establece que una `Account` pertenece a un único tipo de usuario. Una cuenta empresarial mantiene un `BrandProfile`, mientras que una cuenta de creador mantiene un `CreatorProfile`. Un `CreatorProfile` puede asociar cero o varias instancias de `SocialMediaAccount`.
 
@@ -3404,11 +3638,11 @@ La relación principal del Aggregate establece que una `Account` pertenece a un 
 
 La Interface Layer expone las capacidades relacionadas con autenticación, perfiles y asociación de redes sociales mediante servicios REST.
 
-| Clase | Propósito | Principales operaciones |
-|---|---|---|
-| `AuthController` | Recibir las solicitudes de registro, autenticación y recuperación de cuenta. | `registerBrand()`, `registerCreator()`, `login()`, `recoverAccount()` |
-| `UserProfileController` | Exponer las operaciones de consulta y actualización de perfiles. | `getProfile()`, `updateBrandProfile()`, `updateCreatorProfile()` |
-| `SocialMediaController` | Gestionar las solicitudes relacionadas con cuentas sociales asociadas. | `linkSocialMediaAccount()`, `getLinkedAccounts()`, `unlinkSocialMediaAccount()` |
+| Clase                   | Propósito                                                                    | Principales operaciones                                                         |
+| ----------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| `AuthController`        | Recibir las solicitudes de registro, autenticación y recuperación de cuenta. | `registerBrand()`, `registerCreator()`, `login()`, `recoverAccount()`           |
+| `UserProfileController` | Exponer las operaciones de consulta y actualización de perfiles.             | `getProfile()`, `updateBrandProfile()`, `updateCreatorProfile()`                |
+| `SocialMediaController` | Gestionar las solicitudes relacionadas con cuentas sociales asociadas.       | `linkSocialMediaAccount()`, `getLinkedAccounts()`, `unlinkSocialMediaAccount()` |
 
 Los Controllers no implementan reglas de negocio directamente. Su responsabilidad consiste en recibir la solicitud, validar su estructura básica, invocar el caso de uso correspondiente en Application Layer y devolver la respuesta adecuada.
 
@@ -3416,17 +3650,17 @@ Los Controllers no implementan reglas de negocio directamente. Su responsabilida
 
 La Application Layer coordina los casos de uso relacionados con cuentas y perfiles.
 
-| Clase | Tipo | Responsabilidad |
-|---|---|---|
-| `RegisterBrandCommandHandler` | Command Handler | Crear una cuenta empresarial y su perfil inicial. |
-| `RegisterCreatorCommandHandler` | Command Handler | Crear una cuenta de creador y su perfil inicial. |
-| `AuthenticateAccountCommandHandler` | Command Handler | Validar las credenciales y gestionar el acceso a CollabPro. |
-| `RecoverAccountCommandHandler` | Command Handler | Coordinar el proceso de recuperación de acceso. |
-| `UpdateBrandProfileCommandHandler` | Command Handler | Actualizar los datos permitidos de una empresa. |
-| `UpdateCreatorProfileCommandHandler` | Command Handler | Actualizar los datos permitidos de un creador. |
-| `LinkSocialMediaAccountCommandHandler` | Command Handler | Coordinar la asociación autorizada de una cuenta social. |
-| `GetUserProfileQueryHandler` | Query Handler | Recuperar la información del perfil correspondiente. |
-| `GetLinkedSocialMediaQueryHandler` | Query Handler | Consultar las redes sociales vinculadas por el creador. |
+| Clase                                  | Tipo            | Responsabilidad                                             |
+| -------------------------------------- | --------------- | ----------------------------------------------------------- |
+| `RegisterBrandCommandHandler`          | Command Handler | Crear una cuenta empresarial y su perfil inicial.           |
+| `RegisterCreatorCommandHandler`        | Command Handler | Crear una cuenta de creador y su perfil inicial.            |
+| `AuthenticateAccountCommandHandler`    | Command Handler | Validar las credenciales y gestionar el acceso a CollabPro. |
+| `RecoverAccountCommandHandler`         | Command Handler | Coordinar el proceso de recuperación de acceso.             |
+| `UpdateBrandProfileCommandHandler`     | Command Handler | Actualizar los datos permitidos de una empresa.             |
+| `UpdateCreatorProfileCommandHandler`   | Command Handler | Actualizar los datos permitidos de un creador.              |
+| `LinkSocialMediaAccountCommandHandler` | Command Handler | Coordinar la asociación autorizada de una cuenta social.    |
+| `GetUserProfileQueryHandler`           | Query Handler   | Recuperar la información del perfil correspondiente.        |
+| `GetLinkedSocialMediaQueryHandler`     | Query Handler   | Consultar las redes sociales vinculadas por el creador.     |
 
 Los handlers utilizan las abstracciones definidas por el dominio y coordinan servicios externos cuando el caso de uso lo requiere. De esta forma, la lógica de autenticación externa o autorización mediante OAuth no se incorpora directamente al modelo de dominio.
 
@@ -3434,13 +3668,13 @@ Los handlers utilizan las abstracciones definidas por el dominio y coordinan ser
 
 La Infrastructure Layer implementa los mecanismos técnicos necesarios para persistir cuentas, gestionar credenciales e interactuar con proveedores externos.
 
-| Clase | Propósito |
-|---|---|
-| `AccountPersistenceAdapter` | Implementar `AccountRepository` utilizando el mecanismo de persistencia seleccionado para el backend. |
-| `PasswordHashingService` | Generar y verificar representaciones seguras de las contraseñas. |
-| `AccessTokenProvider` | Generar y validar las credenciales utilizadas por los servicios protegidos. |
-| `SocialOAuthClient` | Encapsular la comunicación con los proveedores externos utilizados para autorizar cuentas de redes sociales. |
-| `AccountRecoveryService` | Gestionar el envío del mecanismo necesario para recuperar el acceso a una cuenta. |
+| Clase                       | Propósito                                                                                                    |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| `AccountPersistenceAdapter` | Implementar `AccountRepository` utilizando el mecanismo de persistencia seleccionado para el backend.        |
+| `PasswordHashingService`    | Generar y verificar representaciones seguras de las contraseñas.                                             |
+| `AccessTokenProvider`       | Generar y validar las credenciales utilizadas por los servicios protegidos.                                  |
+| `SocialOAuthClient`         | Encapsular la comunicación con los proveedores externos utilizados para autorizar cuentas de redes sociales. |
+| `AccountRecoveryService`    | Gestionar el envío del mecanismo necesario para recuperar el acceso a una cuenta.                            |
 
 La integración concreta con proveedores de redes sociales permanece encapsulada en `SocialOAuthClient`. Esto permite sustituir o incorporar nuevos proveedores sin modificar el modelo de dominio.
 
@@ -3466,7 +3700,6 @@ El Database Design Diagram representa la persistencia correspondiente a cuentas,
 
 <!-- Insertar aquí Database Design Diagram de Identity & Profile Management -->
 
-
 #### 2.6.2. Bounded Context: Campaign Management
 
 El Bounded Context Campaign Management administra el ciclo de vida de las oportunidades comerciales publicadas por las empresas antes de que exista una colaboración formal. Incluye la creación de campañas, definición de requisitos y entregables esperados, publicación, búsqueda por parte de los creadores y administración de postulaciones.
@@ -3477,52 +3710,52 @@ La separación entre Campaign y Collaboration permite distinguir la fase de bús
 
 `Campaign` representa el Aggregate principal del contexto y contiene las condiciones necesarias para participar. Las postulaciones son representadas mediante el Aggregate `Application`, cuyo ciclo de vida es independiente una vez que el creador presenta su candidatura.
 
-| Clase | Tipo | Propósito | Principales atributos | Principales métodos |
-|---|---|---|---|---|
-| `Campaign` | Aggregate Root / Entity | Representar una oportunidad de colaboración creada por una empresa. | `campaignId`, `brandId`, `title`, `objective`, `description`, `status`, `publicationDate`, `applicationDeadline` | `defineConditions()`, `publish()`, `update()`, `close()` |
-| `CampaignRequirement` | Entity / Value Object | Representar una condición que debe cumplir un creador para participar. | `requirementId`, `description`, `mandatory` | `changeDescription()` |
-| `DeliverableSpecification` | Entity | Definir el contenido o actividad que se espera del creador. | `specificationId`, `contentType`, `description`, `quantity`, `deadline` | `updateDeadline()`, `updateDescription()` |
-| `CompensationTerms` | Value Object | Expresar la compensación ofrecida como parte de las condiciones de campaña sin realizar todavía su procesamiento financiero. | `type`, `amount`, `currency`, `description` | `isMonetary()` |
-| `Application` | Aggregate Root / Entity | Representar la postulación de un creador a una campaña. | `applicationId`, `campaignId`, `creatorId`, `message`, `status`, `submittedAt` | `submit()`, `update()`, `cancel()`, `select()`, `reject()` |
-| `CampaignStatus` | Enumeration | Representar el estado de una campaña. | `DRAFT`, `OPEN`, `CLOSED`, `CANCELLED` | N/A |
-| `ApplicationStatus` | Enumeration | Representar el estado de una postulación. | `PENDING`, `SELECTED`, `REJECTED`, `CANCELLED` | N/A |
-| `CampaignRepository` | Repository Interface | Definir la persistencia del Aggregate `Campaign`. | N/A | `save()`, `findById()`, `search()` |
-| `ApplicationRepository` | Repository Interface | Definir la persistencia de las postulaciones. | N/A | `save()`, `findById()`, `findByCampaignId()`, `existsByCampaignAndCreator()` |
-| `ApplicationEligibilityService` | Domain Service | Evaluar si un creador cumple los requisitos obligatorios definidos por una campaña. | N/A | `evaluate()` |
+| Clase                           | Tipo                    | Propósito                                                                                                                    | Principales atributos                                                                                            | Principales métodos                                                          |
+| ------------------------------- | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| `Campaign`                      | Aggregate Root / Entity | Representar una oportunidad de colaboración creada por una empresa.                                                          | `campaignId`, `brandId`, `title`, `objective`, `description`, `status`, `publicationDate`, `applicationDeadline` | `defineConditions()`, `publish()`, `update()`, `close()`                     |
+| `CampaignRequirement`           | Entity / Value Object   | Representar una condición que debe cumplir un creador para participar.                                                       | `requirementId`, `description`, `mandatory`                                                                      | `changeDescription()`                                                        |
+| `DeliverableSpecification`      | Entity                  | Definir el contenido o actividad que se espera del creador.                                                                  | `specificationId`, `contentType`, `description`, `quantity`, `deadline`                                          | `updateDeadline()`, `updateDescription()`                                    |
+| `CompensationTerms`             | Value Object            | Expresar la compensación ofrecida como parte de las condiciones de campaña sin realizar todavía su procesamiento financiero. | `type`, `amount`, `currency`, `description`                                                                      | `isMonetary()`                                                               |
+| `Application`                   | Aggregate Root / Entity | Representar la postulación de un creador a una campaña.                                                                      | `applicationId`, `campaignId`, `creatorId`, `message`, `status`, `submittedAt`                                   | `submit()`, `update()`, `cancel()`, `select()`, `reject()`                   |
+| `CampaignStatus`                | Enumeration             | Representar el estado de una campaña.                                                                                        | `DRAFT`, `OPEN`, `CLOSED`, `CANCELLED`                                                                           | N/A                                                                          |
+| `ApplicationStatus`             | Enumeration             | Representar el estado de una postulación.                                                                                    | `PENDING`, `SELECTED`, `REJECTED`, `CANCELLED`                                                                   | N/A                                                                          |
+| `CampaignRepository`            | Repository Interface    | Definir la persistencia del Aggregate `Campaign`.                                                                            | N/A                                                                                                              | `save()`, `findById()`, `search()`                                           |
+| `ApplicationRepository`         | Repository Interface    | Definir la persistencia de las postulaciones.                                                                                | N/A                                                                                                              | `save()`, `findById()`, `findByCampaignId()`, `existsByCampaignAndCreator()` |
+| `ApplicationEligibilityService` | Domain Service          | Evaluar si un creador cumple los requisitos obligatorios definidos por una campaña.                                          | N/A                                                                                                              | `evaluate()`                                                                 |
 
 Una `Campaign` contiene uno o más `CampaignRequirement` y `DeliverableSpecification`, además de las condiciones de compensación. Una campaña puede recibir múltiples `Application`, pero un creador no debe mantener postulaciones duplicadas activas sobre la misma campaña.
 
 ##### 2.6.2.2. Interface Layer
 
-| Clase | Propósito | Principales operaciones |
-|---|---|---|
-| `CampaignController` | Exponer las operaciones de creación, actualización, publicación y consulta de campañas. | `createCampaign()`, `updateCampaign()`, `getCampaign()`, `searchCampaigns()` |
+| Clase                   | Propósito                                                                                           | Principales operaciones                                                                                                                |
+| ----------------------- | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| `CampaignController`    | Exponer las operaciones de creación, actualización, publicación y consulta de campañas.             | `createCampaign()`, `updateCampaign()`, `getCampaign()`, `searchCampaigns()`                                                           |
 | `ApplicationController` | Gestionar las postulaciones realizadas por los creadores y su evaluación por parte de las empresas. | `submitApplication()`, `updateApplication()`, `cancelApplication()`, `getApplications()`, `selectApplication()`, `rejectApplication()` |
 
 ##### 2.6.2.3. Application Layer
 
-| Clase | Tipo | Responsabilidad |
-|---|---|---|
-| `CreateCampaignCommandHandler` | Command Handler | Crear una campaña en estado inicial. |
+| Clase                                    | Tipo            | Responsabilidad                                                          |
+| ---------------------------------------- | --------------- | ------------------------------------------------------------------------ |
+| `CreateCampaignCommandHandler`           | Command Handler | Crear una campaña en estado inicial.                                     |
 | `DefineCampaignConditionsCommandHandler` | Command Handler | Registrar requisitos, entregables, fechas y condiciones de compensación. |
-| `PublishCampaignCommandHandler` | Command Handler | Verificar que la campaña pueda abrirse a postulaciones. |
-| `UpdateCampaignCommandHandler` | Command Handler | Coordinar las modificaciones permitidas sobre una campaña. |
-| `SearchCampaignsQueryHandler` | Query Handler | Recuperar campañas utilizando los criterios indicados por el creador. |
-| `GetCampaignDetailsQueryHandler` | Query Handler | Recuperar las condiciones completas de una campaña. |
-| `SubmitApplicationCommandHandler` | Command Handler | Validar requisitos y registrar una postulación. |
-| `UpdateApplicationCommandHandler` | Command Handler | Modificar una postulación mientras continúe pendiente. |
-| `CancelApplicationCommandHandler` | Command Handler | Cancelar una postulación pendiente. |
-| `EvaluateApplicationCommandHandler` | Command Handler | Registrar la selección o rechazo realizado por la empresa. |
+| `PublishCampaignCommandHandler`          | Command Handler | Verificar que la campaña pueda abrirse a postulaciones.                  |
+| `UpdateCampaignCommandHandler`           | Command Handler | Coordinar las modificaciones permitidas sobre una campaña.               |
+| `SearchCampaignsQueryHandler`            | Query Handler   | Recuperar campañas utilizando los criterios indicados por el creador.    |
+| `GetCampaignDetailsQueryHandler`         | Query Handler   | Recuperar las condiciones completas de una campaña.                      |
+| `SubmitApplicationCommandHandler`        | Command Handler | Validar requisitos y registrar una postulación.                          |
+| `UpdateApplicationCommandHandler`        | Command Handler | Modificar una postulación mientras continúe pendiente.                   |
+| `CancelApplicationCommandHandler`        | Command Handler | Cancelar una postulación pendiente.                                      |
+| `EvaluateApplicationCommandHandler`      | Command Handler | Registrar la selección o rechazo realizado por la empresa.               |
 
 Cuando una postulación es seleccionada, el contexto registra dicho resultado. La creación de la colaboración correspondiente pertenece al Bounded Context Collaboration Management.
 
 ##### 2.6.2.4. Infrastructure Layer
 
-| Clase | Propósito |
-|---|---|
-| `CampaignPersistenceAdapter` | Implementar las operaciones definidas por `CampaignRepository`. |
-| `ApplicationPersistenceAdapter` | Implementar las operaciones definidas por `ApplicationRepository`. |
-| `CampaignSearchAdapter` | Ejecutar la búsqueda de campañas según criterios como nicho, condiciones y estado. |
+| Clase                           | Propósito                                                                          |
+| ------------------------------- | ---------------------------------------------------------------------------------- |
+| `CampaignPersistenceAdapter`    | Implementar las operaciones definidas por `CampaignRepository`.                    |
+| `ApplicationPersistenceAdapter` | Implementar las operaciones definidas por `ApplicationRepository`.                 |
+| `CampaignSearchAdapter`         | Ejecutar la búsqueda de campañas según criterios como nicho, condiciones y estado. |
 
 Las decisiones de persistencia se mantienen separadas del modelo de dominio, permitiendo que las reglas asociadas a campañas y postulaciones no dependan de la tecnología de almacenamiento utilizada.
 
@@ -3546,7 +3779,6 @@ La persistencia del contexto contempla la campaña, sus requisitos, especificaci
 
 <!-- Insertar aquí Database Design Diagram de Campaign Management -->
 
-
 #### 2.6.3. Bounded Context: Collaboration Management
 
 Collaboration Management controla la ejecución de una relación comercial después de que una empresa selecciona a un creador y ambas partes aceptan sus condiciones. El contexto mantiene el acuerdo aceptado, el estado de la colaboración, los entregables presentados, las evidencias de cumplimiento, las revisiones realizadas por la empresa y las incidencias que puedan surgir.
@@ -3557,18 +3789,18 @@ Este contexto representa uno de los núcleos principales de CollabPro debido a q
 
 `Collaboration` funciona como Aggregate Root y representa la relación activa entre una empresa y un creador. Las condiciones aceptadas se conservan mediante un `AgreementSnapshot`, evitando que modificaciones posteriores de la campaña cambien las obligaciones previamente acordadas.
 
-| Clase | Tipo | Propósito | Principales atributos | Principales métodos |
-|---|---|---|---|---|
-| `Collaboration` | Aggregate Root / Entity | Representar el acuerdo activo entre una empresa y un creador. | `collaborationId`, `campaignId`, `brandId`, `creatorId`, `status`, `startedAt`, `completedAt` | `activate()`, `markExpired()`, `complete()`, `cancel()` |
-| `AgreementSnapshot` | Value Object | Conservar las condiciones aceptadas por ambas partes al iniciar la colaboración. | `requirements`, `deliverableTerms`, `compensationTerms`, `acceptedAt` | `matches()` |
-| `Deliverable` | Entity | Representar un entregable requerido durante la colaboración. | `deliverableId`, `type`, `description`, `deadline`, `status`, `submittedAt` | `submit()`, `resubmit()`, `approve()`, `reject()` |
-| `Evidence` | Entity / Value Object | Representar la evidencia presentada para demostrar el cumplimiento de un entregable. | `evidenceId`, `type`, `reference`, `submittedAt` | `validateReference()` |
-| `DeliverableReview` | Entity | Mantener el historial de decisiones realizadas sobre un entregable. | `reviewId`, `deliverableId`, `decision`, `observation`, `reviewedAt` | N/A |
-| `Incident` | Entity | Representar un desacuerdo o problema relacionado con la colaboración. | `incidentId`, `type`, `description`, `status`, `openedAt`, `resolvedAt`, `resolution` | `open()`, `resolve()` |
-| `CollaborationStatus` | Enumeration | Representar el estado de la colaboración. | `PENDING`, `ACTIVE`, `UNDER_REVIEW`, `COMPLETED`, `EXPIRED`, `CANCELLED`, `DISPUTED` | N/A |
-| `DeliverableStatus` | Enumeration | Representar el estado de un entregable. | `PENDING`, `SUBMITTED`, `LATE`, `APPROVED`, `REJECTED`, `RESUBMITTED` | N/A |
-| `IncidentStatus` | Enumeration | Representar el estado de una incidencia. | `OPEN`, `UNDER_REVIEW`, `RESOLVED` | N/A |
-| `CollaborationRepository` | Repository Interface | Definir las operaciones de persistencia del Aggregate. | N/A | `save()`, `findById()`, `findByBrandId()`, `findByCreatorId()` |
+| Clase                     | Tipo                    | Propósito                                                                            | Principales atributos                                                                         | Principales métodos                                            |
+| ------------------------- | ----------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| `Collaboration`           | Aggregate Root / Entity | Representar el acuerdo activo entre una empresa y un creador.                        | `collaborationId`, `campaignId`, `brandId`, `creatorId`, `status`, `startedAt`, `completedAt` | `activate()`, `markExpired()`, `complete()`, `cancel()`        |
+| `AgreementSnapshot`       | Value Object            | Conservar las condiciones aceptadas por ambas partes al iniciar la colaboración.     | `requirements`, `deliverableTerms`, `compensationTerms`, `acceptedAt`                         | `matches()`                                                    |
+| `Deliverable`             | Entity                  | Representar un entregable requerido durante la colaboración.                         | `deliverableId`, `type`, `description`, `deadline`, `status`, `submittedAt`                   | `submit()`, `resubmit()`, `approve()`, `reject()`              |
+| `Evidence`                | Entity / Value Object   | Representar la evidencia presentada para demostrar el cumplimiento de un entregable. | `evidenceId`, `type`, `reference`, `submittedAt`                                              | `validateReference()`                                          |
+| `DeliverableReview`       | Entity                  | Mantener el historial de decisiones realizadas sobre un entregable.                  | `reviewId`, `deliverableId`, `decision`, `observation`, `reviewedAt`                          | N/A                                                            |
+| `Incident`                | Entity                  | Representar un desacuerdo o problema relacionado con la colaboración.                | `incidentId`, `type`, `description`, `status`, `openedAt`, `resolvedAt`, `resolution`         | `open()`, `resolve()`                                          |
+| `CollaborationStatus`     | Enumeration             | Representar el estado de la colaboración.                                            | `PENDING`, `ACTIVE`, `UNDER_REVIEW`, `COMPLETED`, `EXPIRED`, `CANCELLED`, `DISPUTED`          | N/A                                                            |
+| `DeliverableStatus`       | Enumeration             | Representar el estado de un entregable.                                              | `PENDING`, `SUBMITTED`, `LATE`, `APPROVED`, `REJECTED`, `RESUBMITTED`                         | N/A                                                            |
+| `IncidentStatus`          | Enumeration             | Representar el estado de una incidencia.                                             | `OPEN`, `UNDER_REVIEW`, `RESOLVED`                                                            | N/A                                                            |
+| `CollaborationRepository` | Repository Interface    | Definir las operaciones de persistencia del Aggregate.                               | N/A                                                                                           | `save()`, `findById()`, `findByBrandId()`, `findByCreatorId()` |
 
 Una colaboración contiene uno o varios `Deliverable`. Cada entregable puede tener múltiples evidencias y revisiones a lo largo de su ciclo de vida. Una colaboración también puede registrar cero o múltiples incidencias.
 
@@ -3576,35 +3808,35 @@ La colaboración solo debe considerarse completada cuando los entregables obliga
 
 ##### 2.6.3.2. Interface Layer
 
-| Clase | Propósito | Principales operaciones |
-|---|---|---|
-| `CollaborationController` | Gestionar creación, consulta, estado e historial de las colaboraciones. | `createCollaboration()`, `getCollaboration()`, `getCollaborationHistory()` |
-| `DeliverableController` | Gestionar la presentación, revisión y corrección de entregables. | `submitDeliverable()`, `getDeliverables()`, `approveDeliverable()`, `rejectDeliverable()`, `resubmitDeliverable()` |
-| `IncidentController` | Gestionar las incidencias registradas sobre una colaboración. | `createIncident()`, `getIncidents()`, `resolveIncident()` |
+| Clase                     | Propósito                                                               | Principales operaciones                                                                                            |
+| ------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| `CollaborationController` | Gestionar creación, consulta, estado e historial de las colaboraciones. | `createCollaboration()`, `getCollaboration()`, `getCollaborationHistory()`                                         |
+| `DeliverableController`   | Gestionar la presentación, revisión y corrección de entregables.        | `submitDeliverable()`, `getDeliverables()`, `approveDeliverable()`, `rejectDeliverable()`, `resubmitDeliverable()` |
+| `IncidentController`      | Gestionar las incidencias registradas sobre una colaboración.           | `createIncident()`, `getIncidents()`, `resolveIncident()`                                                          |
 
 ##### 2.6.3.3. Application Layer
 
-| Clase | Tipo | Responsabilidad |
-|---|---|---|
-| `CreateCollaborationCommandHandler` | Command Handler | Crear la colaboración a partir de una postulación seleccionada y condiciones aceptadas. |
-| `GetCollaborationQueryHandler` | Query Handler | Recuperar el estado y condiciones vigentes de una colaboración. |
-| `SubmitDeliverableCommandHandler` | Command Handler | Registrar un entregable y su evidencia. |
-| `ReviewDeliverableCommandHandler` | Command Handler | Registrar la aprobación o rechazo de un entregable. |
-| `ResubmitDeliverableCommandHandler` | Command Handler | Registrar una nueva versión de un entregable rechazado cuando corresponda. |
-| `OpenIncidentCommandHandler` | Command Handler | Abrir una incidencia relacionada con una colaboración. |
-| `ResolveIncidentCommandHandler` | Command Handler | Registrar la resolución y cerrar una incidencia. |
-| `GetCollaborationHistoryQueryHandler` | Query Handler | Recuperar las colaboraciones anteriores relacionadas con una empresa o creador. |
-| `CompleteCollaborationCommandHandler` | Command Handler | Verificar las condiciones de cierre y completar una colaboración. |
+| Clase                                 | Tipo            | Responsabilidad                                                                         |
+| ------------------------------------- | --------------- | --------------------------------------------------------------------------------------- |
+| `CreateCollaborationCommandHandler`   | Command Handler | Crear la colaboración a partir de una postulación seleccionada y condiciones aceptadas. |
+| `GetCollaborationQueryHandler`        | Query Handler   | Recuperar el estado y condiciones vigentes de una colaboración.                         |
+| `SubmitDeliverableCommandHandler`     | Command Handler | Registrar un entregable y su evidencia.                                                 |
+| `ReviewDeliverableCommandHandler`     | Command Handler | Registrar la aprobación o rechazo de un entregable.                                     |
+| `ResubmitDeliverableCommandHandler`   | Command Handler | Registrar una nueva versión de un entregable rechazado cuando corresponda.              |
+| `OpenIncidentCommandHandler`          | Command Handler | Abrir una incidencia relacionada con una colaboración.                                  |
+| `ResolveIncidentCommandHandler`       | Command Handler | Registrar la resolución y cerrar una incidencia.                                        |
+| `GetCollaborationHistoryQueryHandler` | Query Handler   | Recuperar las colaboraciones anteriores relacionadas con una empresa o creador.         |
+| `CompleteCollaborationCommandHandler` | Command Handler | Verificar las condiciones de cierre y completar una colaboración.                       |
 
 Cuando una colaboración satisface sus condiciones de cumplimiento, el contexto puede producir un evento de dominio que indique que la compensación puede continuar su ciclo en Billing & Compensation Management.
 
 ##### 2.6.3.4. Infrastructure Layer
 
-| Clase | Propósito |
-|---|---|
-| `CollaborationPersistenceAdapter` | Implementar `CollaborationRepository`. |
-| `EvidenceStorageAdapter` | Almacenar o recuperar las evidencias asociadas a entregables cuando estas requieren un recurso externo de almacenamiento. |
-| `CollaborationEventPublisher` | Propagar los eventos relevantes generados por el contexto hacia otras capacidades de la solución, sin trasladar las reglas del dominio. |
+| Clase                             | Propósito                                                                                                                               |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| `CollaborationPersistenceAdapter` | Implementar `CollaborationRepository`.                                                                                                  |
+| `EvidenceStorageAdapter`          | Almacenar o recuperar las evidencias asociadas a entregables cuando estas requieren un recurso externo de almacenamiento.               |
+| `CollaborationEventPublisher`     | Propagar los eventos relevantes generados por el contexto hacia otras capacidades de la solución, sin trasladar las reglas del dominio. |
 
 ##### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -3626,7 +3858,6 @@ La persistencia de este contexto debe conservar la colaboración y el snapshot d
 
 <!-- Insertar aquí Database Design Diagram de Collaboration Management -->
 
-
 #### 2.6.4. Bounded Context: Billing & Compensation Management
 
 Billing & Compensation Management concentra los procesos económicos de CollabPro. Separa el modelo comercial de suscripción de la plataforma del modelo de compensación asociado a las colaboraciones entre empresas y creadores.
@@ -3635,55 +3866,55 @@ El contexto debe distinguir entre una suscripción pagada por una empresa para u
 
 ##### 2.6.4.1. Domain Layer
 
-| Clase | Tipo | Propósito | Principales atributos | Principales métodos |
-|---|---|---|---|---|
-| `PaymentAccount` | Aggregate Root / Entity | Representar la configuración financiera asociada a un usuario. | `paymentAccountId`, `accountId`, `status` | `addPaymentMethod()`, `removePaymentMethod()` |
-| `PaymentMethod` | Entity | Representar un medio habilitado para realizar o recibir operaciones económicas. | `paymentMethodId`, `providerReference`, `type`, `status` | `activate()`, `disable()` |
-| `Subscription` | Aggregate Root / Entity | Representar la suscripción contratada por una empresa. | `subscriptionId`, `brandId`, `planCode`, `status`, `startedAt`, `renewalDate` | `activate()`, `renew()`, `suspend()`, `cancel()` |
-| `Compensation` | Aggregate Root / Entity | Representar el valor acordado para un creador dentro de una colaboración. | `compensationId`, `collaborationId`, `creatorId`, `type`, `amount`, `currency`, `description`, `status` | `markPending()`, `authorizeRelease()`, `markPaid()`, `markAffectedByIncident()` |
-| `PaymentTransaction` | Entity | Mantener la referencia y estado de una operación procesada por un proveedor externo. | `transactionId`, `providerReference`, `amount`, `currency`, `status`, `processedAt` | `confirm()`, `fail()`, `refund()` |
-| `Money` | Value Object | Representar un monto monetario y su moneda. | `amount`, `currency` | `isPositive()` |
-| `CompensationType` | Enumeration | Identificar la forma de compensación. | `CASH`, `PRODUCT`, `SERVICE`, `CREDIT`, `BARTER` | N/A |
-| `CompensationStatus` | Enumeration | Representar el estado de la compensación. | `PENDING`, `READY`, `PROCESSING`, `PAID`, `AFFECTED`, `CANCELLED` | N/A |
-| `SubscriptionStatus` | Enumeration | Representar el estado de una suscripción. | `PENDING`, `ACTIVE`, `SUSPENDED`, `CANCELLED` | N/A |
-| `PaymentAccountRepository` | Repository Interface | Definir persistencia de cuentas y medios de pago. | N/A | `save()`, `findByAccountId()` |
-| `SubscriptionRepository` | Repository Interface | Definir persistencia de suscripciones. | N/A | `save()`, `findByBrandId()` |
-| `CompensationRepository` | Repository Interface | Definir persistencia de compensaciones. | N/A | `save()`, `findByCollaborationId()` |
-| `PaymentGateway` | Domain Port | Abstraer las operaciones necesarias sobre un proveedor externo de pagos. | N/A | `preparePaymentMethod()`, `createSubscription()`, `initiatePayment()`, `refund()` |
+| Clase                      | Tipo                    | Propósito                                                                            | Principales atributos                                                                                   | Principales métodos                                                               |
+| -------------------------- | ----------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| `PaymentAccount`           | Aggregate Root / Entity | Representar la configuración financiera asociada a un usuario.                       | `paymentAccountId`, `accountId`, `status`                                                               | `addPaymentMethod()`, `removePaymentMethod()`                                     |
+| `PaymentMethod`            | Entity                  | Representar un medio habilitado para realizar o recibir operaciones económicas.      | `paymentMethodId`, `providerReference`, `type`, `status`                                                | `activate()`, `disable()`                                                         |
+| `Subscription`             | Aggregate Root / Entity | Representar la suscripción contratada por una empresa.                               | `subscriptionId`, `brandId`, `planCode`, `status`, `startedAt`, `renewalDate`                           | `activate()`, `renew()`, `suspend()`, `cancel()`                                  |
+| `Compensation`             | Aggregate Root / Entity | Representar el valor acordado para un creador dentro de una colaboración.            | `compensationId`, `collaborationId`, `creatorId`, `type`, `amount`, `currency`, `description`, `status` | `markPending()`, `authorizeRelease()`, `markPaid()`, `markAffectedByIncident()`   |
+| `PaymentTransaction`       | Entity                  | Mantener la referencia y estado de una operación procesada por un proveedor externo. | `transactionId`, `providerReference`, `amount`, `currency`, `status`, `processedAt`                     | `confirm()`, `fail()`, `refund()`                                                 |
+| `Money`                    | Value Object            | Representar un monto monetario y su moneda.                                          | `amount`, `currency`                                                                                    | `isPositive()`                                                                    |
+| `CompensationType`         | Enumeration             | Identificar la forma de compensación.                                                | `CASH`, `PRODUCT`, `SERVICE`, `CREDIT`, `BARTER`                                                        | N/A                                                                               |
+| `CompensationStatus`       | Enumeration             | Representar el estado de la compensación.                                            | `PENDING`, `READY`, `PROCESSING`, `PAID`, `AFFECTED`, `CANCELLED`                                       | N/A                                                                               |
+| `SubscriptionStatus`       | Enumeration             | Representar el estado de una suscripción.                                            | `PENDING`, `ACTIVE`, `SUSPENDED`, `CANCELLED`                                                           | N/A                                                                               |
+| `PaymentAccountRepository` | Repository Interface    | Definir persistencia de cuentas y medios de pago.                                    | N/A                                                                                                     | `save()`, `findByAccountId()`                                                     |
+| `SubscriptionRepository`   | Repository Interface    | Definir persistencia de suscripciones.                                               | N/A                                                                                                     | `save()`, `findByBrandId()`                                                       |
+| `CompensationRepository`   | Repository Interface    | Definir persistencia de compensaciones.                                              | N/A                                                                                                     | `save()`, `findByCollaborationId()`                                               |
+| `PaymentGateway`           | Domain Port             | Abstraer las operaciones necesarias sobre un proveedor externo de pagos.             | N/A                                                                                                     | `preparePaymentMethod()`, `createSubscription()`, `initiatePayment()`, `refund()` |
 
 La existencia de `PaymentGateway` evita que el modelo dependa directamente de un proveedor específico. La tecnología concreta deberá establecerse de acuerdo con los resultados obtenidos en la Spike Story relacionada con la viabilidad del proveedor de pagos.
 
 ##### 2.6.4.2. Interface Layer
 
-| Clase | Propósito | Principales operaciones |
-|---|---|---|
-| `BillingController` | Gestionar la asociación de medios de pago. | `linkPaymentMethod()`, `getPaymentMethods()` |
-| `SubscriptionController` | Gestionar la creación y consulta de suscripciones. | `createSubscription()`, `getSubscription()` |
-| `CompensationController` | Consultar e iniciar las operaciones relacionadas con compensaciones. | `getCompensation()`, `initiatePayment()` |
-| `PaymentWebhookController` | Recibir y validar eventos enviados por el proveedor externo. | `receivePaymentEvent()` |
+| Clase                      | Propósito                                                            | Principales operaciones                      |
+| -------------------------- | -------------------------------------------------------------------- | -------------------------------------------- |
+| `BillingController`        | Gestionar la asociación de medios de pago.                           | `linkPaymentMethod()`, `getPaymentMethods()` |
+| `SubscriptionController`   | Gestionar la creación y consulta de suscripciones.                   | `createSubscription()`, `getSubscription()`  |
+| `CompensationController`   | Consultar e iniciar las operaciones relacionadas con compensaciones. | `getCompensation()`, `initiatePayment()`     |
+| `PaymentWebhookController` | Recibir y validar eventos enviados por el proveedor externo.         | `receivePaymentEvent()`                      |
 
 ##### 2.6.4.3. Application Layer
 
-| Clase | Tipo | Responsabilidad |
-|---|---|---|
-| `LinkPaymentMethodCommandHandler` | Command Handler | Coordinar la asociación de un medio de pago. |
-| `CreateSubscriptionCommandHandler` | Command Handler | Crear y activar una suscripción mediante el proveedor correspondiente. |
-| `GetSubscriptionQueryHandler` | Query Handler | Consultar el estado vigente de la suscripción. |
-| `CreateCompensationCommandHandler` | Command Handler | Registrar la compensación asociada a una nueva colaboración. |
-| `AuthorizeCompensationCommandHandler` | Command Handler | Permitir la liberación de la compensación una vez satisfechas las condiciones externas necesarias. |
-| `InitiateCompensationPaymentCommandHandler` | Command Handler | Iniciar una operación monetaria cuando la compensación corresponda a efectivo. |
-| `GetCompensationQueryHandler` | Query Handler | Consultar el estado de la compensación. |
-| `HandlePaymentProviderEventHandler` | Event Handler | Interpretar un evento validado del proveedor y actualizar la transacción correspondiente sin duplicar operaciones. |
+| Clase                                       | Tipo            | Responsabilidad                                                                                                    |
+| ------------------------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------ |
+| `LinkPaymentMethodCommandHandler`           | Command Handler | Coordinar la asociación de un medio de pago.                                                                       |
+| `CreateSubscriptionCommandHandler`          | Command Handler | Crear y activar una suscripción mediante el proveedor correspondiente.                                             |
+| `GetSubscriptionQueryHandler`               | Query Handler   | Consultar el estado vigente de la suscripción.                                                                     |
+| `CreateCompensationCommandHandler`          | Command Handler | Registrar la compensación asociada a una nueva colaboración.                                                       |
+| `AuthorizeCompensationCommandHandler`       | Command Handler | Permitir la liberación de la compensación una vez satisfechas las condiciones externas necesarias.                 |
+| `InitiateCompensationPaymentCommandHandler` | Command Handler | Iniciar una operación monetaria cuando la compensación corresponda a efectivo.                                     |
+| `GetCompensationQueryHandler`               | Query Handler   | Consultar el estado de la compensación.                                                                            |
+| `HandlePaymentProviderEventHandler`         | Event Handler   | Interpretar un evento validado del proveedor y actualizar la transacción correspondiente sin duplicar operaciones. |
 
 ##### 2.6.4.4. Infrastructure Layer
 
-| Clase | Propósito |
-|---|---|
-| `PaymentAccountPersistenceAdapter` | Implementar `PaymentAccountRepository`. |
-| `SubscriptionPersistenceAdapter` | Implementar `SubscriptionRepository`. |
-| `CompensationPersistenceAdapter` | Implementar `CompensationRepository`. |
-| `ExternalPaymentGatewayAdapter` | Implementar `PaymentGateway` utilizando el proveedor seleccionado. |
-| `PaymentWebhookVerifier` | Verificar autenticidad e integridad de los eventos recibidos desde el proveedor externo. |
+| Clase                              | Propósito                                                                                |
+| ---------------------------------- | ---------------------------------------------------------------------------------------- |
+| `PaymentAccountPersistenceAdapter` | Implementar `PaymentAccountRepository`.                                                  |
+| `SubscriptionPersistenceAdapter`   | Implementar `SubscriptionRepository`.                                                    |
+| `CompensationPersistenceAdapter`   | Implementar `CompensationRepository`.                                                    |
+| `ExternalPaymentGatewayAdapter`    | Implementar `PaymentGateway` utilizando el proveedor seleccionado.                       |
+| `PaymentWebhookVerifier`           | Verificar autenticidad e integridad de los eventos recibidos desde el proveedor externo. |
 
 El Spike relacionado con Stripe se utiliza como investigación de viabilidad. Por ello, el dominio no depende de Stripe de manera directa y conserva la abstracción `PaymentGateway`.
 
@@ -3707,7 +3938,6 @@ El Database Design Diagram representa las cuentas financieras, medios de pago to
 
 <!-- Insertar aquí Database Design Diagram de Billing & Compensation Management -->
 
-
 #### 2.6.5. Bounded Context: Performance & Attribution Management
 
 Performance & Attribution Management concentra las capacidades utilizadas para registrar, consultar e interpretar los resultados obtenidos por una colaboración. El contexto administra las métricas provenientes de fuentes autorizadas, evidencias adicionales y mecanismos de atribución como enlaces asociados a una colaboración.
@@ -3716,47 +3946,47 @@ La separación de este contexto permite mantener las reglas de medición desacop
 
 ##### 2.6.5.1. Domain Layer
 
-| Clase | Tipo | Propósito | Principales atributos | Principales métodos |
-|---|---|---|---|---|
-| `PerformanceReport` | Aggregate Root / Entity | Consolidar los resultados disponibles para una colaboración. | `performanceReportId`, `collaborationId`, `periodStart`, `periodEnd`, `updatedAt` | `addMetricSnapshot()`, `addEvidence()`, `calculateSummary()` |
-| `MetricSnapshot` | Entity | Registrar una métrica obtenida en un momento y periodo determinados. | `metricSnapshotId`, `metricType`, `value`, `source`, `capturedAt`, `periodStart`, `periodEnd` | `updateValue()` |
-| `PerformanceEvidence` | Entity | Registrar evidencia suministrada cuando una métrica no puede obtenerse automáticamente. | `evidenceId`, `type`, `reference`, `submittedAt`, `verificationStatus` | `verify()`, `reject()` |
-| `AttributionLink` | Entity | Representar un enlace o identificador utilizado para relacionar interacciones con una colaboración. | `attributionLinkId`, `collaborationId`, `token`, `destination`, `status` | `activate()`, `deactivate()` |
-| `AttributedInteraction` | Entity | Registrar una interacción asociada al mecanismo de atribución. | `interactionId`, `attributionLinkId`, `interactionType`, `occurredAt` | N/A |
-| `MetricType` | Enumeration | Identificar las métricas utilizadas por CollabPro. | `REACH`, `IMPRESSIONS`, `ENGAGEMENT`, `CLICKS`, `CONVERSIONS` | N/A |
-| `MetricSource` | Value Object | Identificar el origen y nivel de confiabilidad del dato registrado. | `provider`, `sourceType` | `isAutomated()` |
-| `PerformanceRepository` | Repository Interface | Definir la persistencia del Aggregate de desempeño. | N/A | `save()`, `findByCollaborationId()` |
-| `SocialMetricsProvider` | Domain Port | Abstraer la consulta autorizada de métricas disponibles en servicios externos. | N/A | `getAvailableMetrics()` |
+| Clase                   | Tipo                    | Propósito                                                                                           | Principales atributos                                                                         | Principales métodos                                          |
+| ----------------------- | ----------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| `PerformanceReport`     | Aggregate Root / Entity | Consolidar los resultados disponibles para una colaboración.                                        | `performanceReportId`, `collaborationId`, `periodStart`, `periodEnd`, `updatedAt`             | `addMetricSnapshot()`, `addEvidence()`, `calculateSummary()` |
+| `MetricSnapshot`        | Entity                  | Registrar una métrica obtenida en un momento y periodo determinados.                                | `metricSnapshotId`, `metricType`, `value`, `source`, `capturedAt`, `periodStart`, `periodEnd` | `updateValue()`                                              |
+| `PerformanceEvidence`   | Entity                  | Registrar evidencia suministrada cuando una métrica no puede obtenerse automáticamente.             | `evidenceId`, `type`, `reference`, `submittedAt`, `verificationStatus`                        | `verify()`, `reject()`                                       |
+| `AttributionLink`       | Entity                  | Representar un enlace o identificador utilizado para relacionar interacciones con una colaboración. | `attributionLinkId`, `collaborationId`, `token`, `destination`, `status`                      | `activate()`, `deactivate()`                                 |
+| `AttributedInteraction` | Entity                  | Registrar una interacción asociada al mecanismo de atribución.                                      | `interactionId`, `attributionLinkId`, `interactionType`, `occurredAt`                         | N/A                                                          |
+| `MetricType`            | Enumeration             | Identificar las métricas utilizadas por CollabPro.                                                  | `REACH`, `IMPRESSIONS`, `ENGAGEMENT`, `CLICKS`, `CONVERSIONS`                                 | N/A                                                          |
+| `MetricSource`          | Value Object            | Identificar el origen y nivel de confiabilidad del dato registrado.                                 | `provider`, `sourceType`                                                                      | `isAutomated()`                                              |
+| `PerformanceRepository` | Repository Interface    | Definir la persistencia del Aggregate de desempeño.                                                 | N/A                                                                                           | `save()`, `findByCollaborationId()`                          |
+| `SocialMetricsProvider` | Domain Port             | Abstraer la consulta autorizada de métricas disponibles en servicios externos.                      | N/A                                                                                           | `getAvailableMetrics()`                                      |
 
 Los datos proporcionados automáticamente y las evidencias suministradas manualmente deben mantenerse diferenciados mediante su `MetricSource`, permitiendo que la empresa conozca el origen de la información presentada.
 
 ##### 2.6.5.2. Interface Layer
 
-| Clase | Propósito | Principales operaciones |
-|---|---|---|
-| `PerformanceController` | Exponer los resultados y evidencias correspondientes a una colaboración. | `getMetrics()`, `registerEvidence()`, `getPerformanceReport()` |
-| `AttributionController` | Crear y consultar los mecanismos de atribución. | `createAttributionLink()`, `getAttributionResults()` |
-| `AttributionTrackingController` | Registrar las interacciones generadas por enlaces de atribución. | `trackInteraction()` |
+| Clase                           | Propósito                                                                | Principales operaciones                                        |
+| ------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------------- |
+| `PerformanceController`         | Exponer los resultados y evidencias correspondientes a una colaboración. | `getMetrics()`, `registerEvidence()`, `getPerformanceReport()` |
+| `AttributionController`         | Crear y consultar los mecanismos de atribución.                          | `createAttributionLink()`, `getAttributionResults()`           |
+| `AttributionTrackingController` | Registrar las interacciones generadas por enlaces de atribución.         | `trackInteraction()`                                           |
 
 ##### 2.6.5.3. Application Layer
 
-| Clase | Tipo | Responsabilidad |
-|---|---|---|
-| `RefreshMetricsCommandHandler` | Command Handler | Solicitar al proveedor autorizado las métricas disponibles y actualizar el reporte. |
-| `RegisterPerformanceEvidenceCommandHandler` | Command Handler | Registrar evidencia proporcionada por un creador. |
-| `CreateAttributionLinkCommandHandler` | Command Handler | Crear un identificador de atribución para una colaboración. |
-| `RecordAttributedInteractionCommandHandler` | Command Handler | Registrar una interacción asociada a un mecanismo de atribución. |
-| `GetPerformanceReportQueryHandler` | Query Handler | Consolidar la información disponible para su consulta por la empresa. |
-| `GetAttributionResultsQueryHandler` | Query Handler | Recuperar los resultados asociados a los mecanismos de atribución. |
+| Clase                                       | Tipo            | Responsabilidad                                                                     |
+| ------------------------------------------- | --------------- | ----------------------------------------------------------------------------------- |
+| `RefreshMetricsCommandHandler`              | Command Handler | Solicitar al proveedor autorizado las métricas disponibles y actualizar el reporte. |
+| `RegisterPerformanceEvidenceCommandHandler` | Command Handler | Registrar evidencia proporcionada por un creador.                                   |
+| `CreateAttributionLinkCommandHandler`       | Command Handler | Crear un identificador de atribución para una colaboración.                         |
+| `RecordAttributedInteractionCommandHandler` | Command Handler | Registrar una interacción asociada a un mecanismo de atribución.                    |
+| `GetPerformanceReportQueryHandler`          | Query Handler   | Consolidar la información disponible para su consulta por la empresa.               |
+| `GetAttributionResultsQueryHandler`         | Query Handler   | Recuperar los resultados asociados a los mecanismos de atribución.                  |
 
 ##### 2.6.5.4. Infrastructure Layer
 
-| Clase | Propósito |
-|---|---|
-| `PerformancePersistenceAdapter` | Implementar `PerformanceRepository`. |
-| `SocialMetricsProviderAdapter` | Implementar `SocialMetricsProvider` utilizando las APIs autorizadas que resulten viables. |
-| `AttributionPersistenceAdapter` | Gestionar la persistencia de enlaces e interacciones atribuidas. |
-| `PerformanceEvidenceStorageAdapter` | Gestionar evidencias externas asociadas a métricas cuando corresponda. |
+| Clase                               | Propósito                                                                                 |
+| ----------------------------------- | ----------------------------------------------------------------------------------------- |
+| `PerformancePersistenceAdapter`     | Implementar `PerformanceRepository`.                                                      |
+| `SocialMetricsProviderAdapter`      | Implementar `SocialMetricsProvider` utilizando las APIs autorizadas que resulten viables. |
+| `AttributionPersistenceAdapter`     | Gestionar la persistencia de enlaces e interacciones atribuidas.                          |
+| `PerformanceEvidenceStorageAdapter` | Gestionar evidencias externas asociadas a métricas cuando corresponda.                    |
 
 Las APIs concretas utilizadas para obtener datos de redes sociales se determinarán en función de los resultados de las Spike Stories de OAuth y medición de campañas. Por ello, el Domain Layer permanece independiente de Instagram, TikTok, YouTube u otro proveedor específico.
 
@@ -3780,28 +4010,23 @@ El Database Design Diagram debe distinguir las métricas obtenidas automáticame
 
 <!-- Insertar aquí Database Design Diagram de Performance & Attribution Management -->
 
-
 ---
 
 ## Conclusiones
 
-[Ingresar conclusiones y recomendaciones del proyecto]
+- Las entrevistas y el análisis del problema permitieron confirmar que las pymes necesitan una forma más ordenada de gestionar colaboraciones con creadores de contenido.
 
+- El Needfinding y la definición de requisitos ayudaron a identificar las principales necesidades de ambos segmentos y a priorizar las funcionalidades iniciales de CollabPro.
+
+- La aplicación de Domain-Driven Design permitió organizar el dominio del negocio y establecer una base clara para la arquitectura y el desarrollo de la solución.
 
 ---
 
 ## Bibliografía
 
-* Evans, Eric. (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley.
-* BrandMe. (s.f.). *Membresías para marcas*. Consultado el 12 de septiembre de 2026. https://brandme.la/membresias-marcas/
-* Influencity. (s.f.). *Influencer marketing platform for brands & agencies*. Consultado el 12 de septiembre de 2026. https://influencity.com/platform/
-* Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual. (2024). *Guía de publicidad para influencers 2024*. INDECOPI. https://www.gob.pe/institucion/indecopi/informes-publicaciones/5870366-guia-de-publicidad-para-influencers-2024
-* Interactive Advertising Bureau Perú, & PricewaterhouseCoopers. (2024). *Informe de inversión publicitaria digital 2024*. IAB Perú. https://iabperu.com/wp-content/uploads/2025/03/PwC-e-IAB-Informe-de-Inversion-en-Publicidad-Digital-2024-version-reducida.pdf
-* SocialPubli. (s.f.). *Influencer marketing campaigns*. Consultado el 12 de septiembre de 2026. https://socialpubli.com/brands
-
-
----
-
-## Anexos
-
-[Ingresar recursos adicionales, evidencias éticas, de internacionalización, etc.]KK
+- Evans, Eric. (2003). _Domain-Driven Design: Tackling Complexity in the Heart of Software_. Addison-Wesley.
+- BrandMe. (s.f.). _Membresías para marcas_. Consultado el 12 de septiembre de 2026. https://brandme.la/membresias-marcas/
+- Influencity. (s.f.). _Influencer marketing platform for brands & agencies_. Consultado el 12 de septiembre de 2026. https://influencity.com/platform/
+- Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual. (2024). _Guía de publicidad para influencers 2024_. INDECOPI. https://www.gob.pe/institucion/indecopi/informes-publicaciones/5870366-guia-de-publicidad-para-influencers-2024
+- Interactive Advertising Bureau Perú, & PricewaterhouseCoopers. (2024). _Informe de inversión publicitaria digital 2024_. IAB Perú. https://iabperu.com/wp-content/uploads/2025/03/PwC-e-IAB-Informe-de-Inversion-en-Publicidad-Digital-2024-version-reducida.pdf
+- SocialPubli. (s.f.). _Influencer marketing campaigns_. Consultado el 12 de septiembre de 2026. https://socialpubli.com/brands
