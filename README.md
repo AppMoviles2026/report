@@ -3255,15 +3255,15 @@ La elaboración se realizó de forma iterativa considerando Context Overview Def
 | **Outbound Dependencies** | Proporciona resultados y reportes para consulta de las empresas. |
 | **Design Critique** | Las particularidades de Instagram, TikTok, YouTube u otros servicios externos deben permanecer fuera del modelo de dominio. |
 
-<!-- Insertar aquí Bounded Context Canvas de Identity & Profile Management -->
+![Bounded Context Canvas de Identity & Profile Management](assets/C02/DDD/bcc-identity-profile-management.jpg)
 
-<!-- Insertar aquí Bounded Context Canvas de Campaign Management -->
+![Bounded Context Canvas de Campaign Management](assets/C02/DDD/bcc-campaign-management.jpg)
 
-<!-- Insertar aquí Bounded Context Canvas de Collaboration Management -->
+![Bounded Context Canvas de Collaboration Management](assets/C02/DDD/bcc-collaboration-management.jpg)
 
-<!-- Insertar aquí Bounded Context Canvas de Billing & Compensation Management -->
+![Bounded Context Canvas de Billing & Compensation Management](assets/C02/DDD/bcc-billing-compensation-management.jpg)
 
-<!-- Insertar aquí Bounded Context Canvas de Performance & Attribution Management -->
+![Bounded Context Canvas de Performance & Attribution Management](assets/C02/DDD/bcc-performance-attribution-management.jpg)
 
 
 #### 2.5.2. Context Mapping
