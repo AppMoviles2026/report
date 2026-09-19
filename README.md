@@ -83,6 +83,8 @@ Durante la entrega AV1, las actividades de elaboración del informe se gestionar
 
 ![Collab Github](./assets/C02/Collab/AV1.png)
 
+Repositorio del reporte: https://github.com/AppMoviles2026/report 
+
 <div style="page-break-after: always;"></div>
 
 ---
@@ -152,9 +154,9 @@ Durante la entrega AV1, las actividades de elaboración del informe se gestionar
 
 Plan: Al finalizar mi carrera, continuaré fortaleciendo mis competencias en desarrollo de software y arquitectura de soluciones, complementando los conocimientos adquiridos durante mi formación universitaria con nuevas tecnologías y buenas prácticas utilizadas en proyectos profesionales. Buscaré mejorar progresivamente mis habilidades técnicas mediante proyectos propios, certificaciones y experiencias prácticas que me permitan asumir mayores responsabilidades dentro de equipos de desarrollo.
 
-Objetivo SMART 1: Durante los primeros 12 meses después de finalizar la carrera, desarrollaré y desplegaré al menos 2 proyectos de software de complejidad media utilizando tecnologías de backend, frontend, bases de datos y servicios cloud. En cada proyecto aplicaré buenas prácticas de arquitectura de software y documentaré las decisiones técnicas tomadas, con el objetivo de fortalecer mi portafolio profesional y demostrar mi capacidad para desarrollar soluciones completas.
+Objetivo SMART 1: Durante los primeros 9 meses después de finalizar la carrera, desarrollaré y desplegaré al menos 2 proyectos de software de complejidad media utilizando tecnologías de backend, frontend, bases de datos y servicios cloud. En cada proyecto aplicaré buenas prácticas de arquitectura de software y documentaré las decisiones técnicas tomadas, con el objetivo de fortalecer mi portafolio profesional y demostrar mi capacidad para desarrollar soluciones completas.
 
-Objetivo SMART 2: Durante los primeros 18 meses después de finalizar la carrera, obtendré al menos 2 certificaciones o completaré 2 programas de especialización relacionados con arquitectura de software, computación en la nube o DevOps. Aplicaré los conocimientos adquiridos en al menos uno de mis proyectos personales, incorporando aspectos como despliegue en la nube, integración continua o contenerización para fortalecer mis competencias profesionales.
+Objetivo SMART 2: Durante los primeros 12 meses después de finalizar la carrera, obtendré al menos 2 certificaciones o completaré 2 programas de especialización relacionados con arquitectura de software, computación en la nube o DevOps. Aplicaré los conocimientos adquiridos en al menos uno de mis proyectos personales, incorporando aspectos como despliegue en la nube, integración continua o contenerización para fortalecer mis competencias profesionales.
 
 <br>
 
@@ -164,7 +166,7 @@ Plan: Al terminar mi carrera, continuaré desarrollando mis conocimientos en arq
 
 Objetivo SMART 1: En los primeros 12 meses después de finalizar la carrera, diseñaré e implementaré al menos 2 aplicaciones utilizando principios de arquitectura limpia y buenas prácticas de desarrollo, documentando su arquitectura mediante diagramas y explicando las principales decisiones técnicas. Al menos uno de estos proyectos será desplegado utilizando servicios cloud para demostrar conocimientos tanto de desarrollo como de infraestructura.
 
-Objetivo SMART 2: Durante los primeros 18 meses posteriores a mi graduación, completaré al menos 2 cursos o certificaciones relacionados con arquitectura cloud, DevOps o diseño de sistemas escalables. Como evidencia de aprendizaje, implementaré al menos 3 mejoras técnicas en mis proyectos personales, tales como pipelines de integración y despliegue continuo, contenerización, monitoreo o servicios administrados en la nube.
+Objetivo SMART 2: Durante los primeros 6 meses posteriores a mi graduación, completaré al menos 2 cursos o certificaciones relacionados con arquitectura cloud, DevOps o diseño de sistemas escalables. Como evidencia de aprendizaje, implementaré al menos 3 mejoras técnicas en mis proyectos personales, tales como pipelines de integración y despliegue continuo, contenerización, monitoreo o servicios administrados en la nube.
 
 <br>
 
@@ -172,9 +174,9 @@ Objetivo SMART 2: Durante los primeros 18 meses posteriores a mi graduación, co
 
 Plan: Al concluir con mi carrera, continuaré desarrollando mis competencias profesionales mediante un proceso de aprendizaje continuo donde practicaré el desarrollo de software con las nuevas tecnologías relevantes que salgan en el mercado, incluyendo las emergentes como la inteligencia artificial, agentes de IA y automatización de procesos de programación. De este modo reforzaré mis conocimientos adquiridos durante la carrera e incorporaré nuevos conocimientos que me permitan tener un perfil profesional actualizado.
 
-Objetivo SMART 1: En los 12 primeros meses después de haber finalizado la carrera ampliaré mis conocimientos y habilidades para el desarrollo Full Stack, enfocándome principalmente en Java con Spring Boot para el backend, Vue.js para el frontend y MongoDB para la base de datos. Para ello, crearé 2 proyectos personales de complejidad media y alta, con el propósito de consolidar mi aprendizaje y tener un portafolio que demuestre mi crecimiento profesional.
+Objetivo SMART 1: En los 6 primeros meses después de haber finalizado la carrera ampliaré mis conocimientos y habilidades para el desarrollo Full Stack, enfocándome principalmente en Java con Spring Boot para el backend, Vue.js para el frontend y MongoDB para la base de datos. Para ello, crearé 2 proyectos personales de complejidad media y alta, con el propósito de consolidar mi aprendizaje y tener un portafolio que demuestre mi crecimiento profesional.
 
-Objetivo SMART 2: Durante los primeros 18 meses después de haber finalizado la carrera tomaré 2 o más cursos relacionados con las tecnologías emergentes, priorizando especialmente áreas como el uso profesional y ético de inteligencia artificial, agentes de IA y automatización aplicada al desarrollo de software. Luego, aplicaré lo aprendido elaborando un proyecto personal pequeño o mediano por cada curso finalizado, para mantener actualizados mis conocimientos y reforzar mi perfil como Ingeniero de Software.
+Objetivo SMART 2: Durante los primeros 9 meses después de haber finalizado la carrera tomaré 2 o más cursos relacionados con las tecnologías emergentes, priorizando especialmente áreas como el uso profesional y ético de inteligencia artificial, agentes de IA y automatización aplicada al desarrollo de software. Luego, aplicaré lo aprendido elaborando un proyecto personal pequeño o mediano por cada curso finalizado, para mantener actualizados mis conocimientos y reforzar mi perfil como Ingeniero de Software.
 
 <br>
 
@@ -184,7 +186,7 @@ Plan: Al finalizar mi carrera, continuaré fortaleciendo mis conocimientos en de
 
 Objetivo SMART 1: Durante los primeros 12 meses después de finalizar la carrera, desarrollaré al menos 2 aplicaciones, una orientada al entorno web y otra al entorno móvil, aplicando principios de Domain-Driven Design y buenas prácticas de arquitectura. Cada proyecto contará con documentación técnica y repositorio público que evidencie el proceso de desarrollo y las decisiones tomadas.
 
-Objetivo SMART 2: En los primeros 18 meses posteriores a mi graduación, completaré al menos 2 cursos especializados relacionados con Domain-Driven Design, arquitectura de software o gestión de proyectos de desarrollo. Aplicaré los conocimientos adquiridos participando en al menos un proyecto colaborativo en el que pueda asumir responsabilidades relacionadas con planificación, organización técnica o coordinación del equipo.
+Objetivo SMART 2: En los primeros 12 meses posteriores a mi graduación, completaré al menos 2 cursos especializados relacionados con Domain-Driven Design, arquitectura de software o gestión de proyectos de desarrollo. Aplicaré los conocimientos adquiridos participando en al menos un proyecto colaborativo en el que pueda asumir responsabilidades relacionadas con planificación, organización técnica o coordinación del equipo.
 
 <br>
 
@@ -192,9 +194,9 @@ Objetivo SMART 2: En los primeros 18 meses posteriores a mi graduación, complet
 
 Plan: Después de finalizar mi carrera, continuaré desarrollando mis competencias en diseño de soluciones de software, experiencia de usuario y arquitectura, buscando complementar mis conocimientos de programación y bases de datos con herramientas que me permitan participar en todo el proceso de construcción de un producto digital. Mantendré un aprendizaje continuo mediante cursos especializados y proyectos prácticos que integren tanto aspectos técnicos como de diseño.
 
-Objetivo SMART 1: Durante los primeros 12 meses después de finalizar la carrera, desarrollaré al menos 2 proyectos de software en los que participe tanto en la definición de la experiencia de usuario como en su implementación técnica. Para cada proyecto elaboraré prototipos, flujos de interacción y una aplicación funcional, con el objetivo de fortalecer mi capacidad para transformar necesidades de usuarios en soluciones digitales.
+Objetivo SMART 1: Durante los primeros 9 meses después de finalizar la carrera, desarrollaré al menos 2 proyectos de software en los que participe tanto en la definición de la experiencia de usuario como en su implementación técnica. Para cada proyecto elaboraré prototipos, flujos de interacción y una aplicación funcional, con el objetivo de fortalecer mi capacidad para transformar necesidades de usuarios en soluciones digitales.
 
-Objetivo SMART 2: En un periodo máximo de 18 meses después de finalizar la carrera, completaré al menos 2 cursos o certificaciones relacionados con UX/UI, arquitectura de software o diseño de soluciones digitales. Aplicaré los conocimientos obtenidos mejorando al menos 2 proyectos de mi portafolio mediante prototipos, diagramas de arquitectura o evaluaciones de usabilidad que permitan evidenciar mi crecimiento profesional.
+Objetivo SMART 2: En un periodo máximo de 9 meses después de finalizar la carrera, completaré al menos 2 cursos o certificaciones relacionados con UX/UI, arquitectura de software o diseño de soluciones digitales. Aplicaré los conocimientos obtenidos mejorando al menos 2 proyectos de mi portafolio mediante prototipos, diagramas de arquitectura o evaluaciones de usabilidad que permitan evidenciar mi crecimiento profesional.
 
 ---
 
@@ -548,11 +550,7 @@ Esto respalda la necesidad de desarrollar funciones dentro de la plataforma enfo
 - **Panel de control automatizado para medir ROI (Retorno de Inversión):** mediante vistas e interacciones.
 - **Flexibilidad en los modelos de contratación:** canjes estandarizados, pagos por resultados o suscripciones escalables adaptadas a pymes.
 
-- **Segmento 2: Creadores de Contenido**
-
-#### 2.2.3. Análisis de entrevistas
-
-### Segmento 1: Pequeñas y Medianas Empresas (Pymes)
+- **Segmento 1: Pequeñas y Medianas Empresas (Pymes)**
 
 #### Entrevista 2: Andy Pillaca
 
@@ -3568,10 +3566,10 @@ La solución incluye un Landing Page, una aplicación móvil nativa para Android
 | ------------------------------------- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | **Landing Page**                      | HTML5, CSS3 y JavaScript                | Presentar la propuesta de valor, información del producto, idiomas disponibles y mecanismos iniciales de acceso a CollabPro. |
 | **Native Android Application**        | Kotlin                                  | Proporcionar la experiencia móvil nativa para empresas y creadores.                                                          |
-| **Cross-Platform Mobile Application** | `<Flutter/Dart o Kotlin Multiplatform>` | Proporcionar la experiencia móvil multiplataforma requerida por la solución.                                                 |
-| **RESTful Web Services**              | `<Spring Boot / ASP.NET Core / Nest>`   | Exponer los casos de uso de CollabPro y coordinar los cinco Bounded Contexts.                                                |
-| **Relational Database**               | `<DBMS seleccionado>`                   | Persistir los datos administrados por los Bounded Contexts.                                                                  |
-| **Evidence/Object Storage**           | `<Servicio seleccionado>`               | Almacenar archivos o evidencias que no deban persistirse directamente dentro de la base de datos relacional.                 |
+| **Cross-Platform Mobile Application** | Flutter                             | Proporcionar la experiencia móvil multiplataforma requerida por la solución.                                                 |
+| **RESTful Web Services**              | Spring Boot Java                    | Exponer los casos de uso de CollabPro y coordinar los cinco Bounded Contexts.                                                |
+| **Relational Database**               | MySQL                               | Persistir los datos administrados por los Bounded Contexts.                                                                  |
+| **Evidence/Object Storage**           | Firebase Cloud Storage                | Almacenar archivos o evidencias que no deban persistirse directamente dentro de la base de datos relacional.                 |
 
 Se propone implementar inicialmente los RESTful Web Services mediante una arquitectura modular, manteniendo cada Bounded Context como un módulo independiente dentro del backend. Esta decisión permite conservar los límites definidos por Domain-Driven Design sin introducir prematuramente la complejidad operacional de una arquitectura distribuida.
 
@@ -4009,7 +4007,7 @@ El Database Design Diagram debe distinguir las métricas obtenidas automáticame
 
 - El Needfinding y la definición de requisitos ayudaron a identificar las principales necesidades de ambos segmentos y a priorizar las funcionalidades iniciales de CollabPro.
 
-- La aplicación de Domain-Driven Design permitió organizar el dominio del negocio y establecer una base clara para la arquitectura y el desarrollo de la solución.
+- La aplicación de Domain Driven Design permitió organizar el dominio del negocio y establecer una base clara para la arquitectura y el desarrollo de la solución de CollabPro.
 
 ---
 
