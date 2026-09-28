@@ -83,6 +83,8 @@ Durante la entrega AV1, las actividades de elaboración del informe se gestionar
 
 ![Collab Github](./assets/C02/Collab/AV1.png)
 
+Repositorio del reporte: https://github.com/AppMoviles2026/report 
+
 <div style="page-break-after: always;"></div>
 
 ---
@@ -105,7 +107,7 @@ Durante la entrega AV1, las actividades de elaboración del informe se gestionar
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
+  - [2.2. s](#22-s)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
@@ -152,9 +154,9 @@ Durante la entrega AV1, las actividades de elaboración del informe se gestionar
 
 Plan: Al finalizar mi carrera, continuaré fortaleciendo mis competencias en desarrollo de software y arquitectura de soluciones, complementando los conocimientos adquiridos durante mi formación universitaria con nuevas tecnologías y buenas prácticas utilizadas en proyectos profesionales. Buscaré mejorar progresivamente mis habilidades técnicas mediante proyectos propios, certificaciones y experiencias prácticas que me permitan asumir mayores responsabilidades dentro de equipos de desarrollo.
 
-Objetivo SMART 1: Durante los primeros 12 meses después de finalizar la carrera, desarrollaré y desplegaré al menos 2 proyectos de software de complejidad media utilizando tecnologías de backend, frontend, bases de datos y servicios cloud. En cada proyecto aplicaré buenas prácticas de arquitectura de software y documentaré las decisiones técnicas tomadas, con el objetivo de fortalecer mi portafolio profesional y demostrar mi capacidad para desarrollar soluciones completas.
+Objetivo SMART 1: Durante los primeros 9 meses después de finalizar la carrera, desarrollaré y desplegaré al menos 2 proyectos de software de complejidad media utilizando tecnologías de backend, frontend, bases de datos y servicios cloud. En cada proyecto aplicaré buenas prácticas de arquitectura de software y documentaré las decisiones técnicas tomadas, con el objetivo de fortalecer mi portafolio profesional y demostrar mi capacidad para desarrollar soluciones completas.
 
-Objetivo SMART 2: Durante los primeros 18 meses después de finalizar la carrera, obtendré al menos 2 certificaciones o completaré 2 programas de especialización relacionados con arquitectura de software, computación en la nube o DevOps. Aplicaré los conocimientos adquiridos en al menos uno de mis proyectos personales, incorporando aspectos como despliegue en la nube, integración continua o contenerización para fortalecer mis competencias profesionales.
+Objetivo SMART 2: Durante los primeros 12 meses después de finalizar la carrera, obtendré al menos 2 certificaciones o completaré 2 programas de especialización relacionados con arquitectura de software, computación en la nube o DevOps. Aplicaré los conocimientos adquiridos en al menos uno de mis proyectos personales, incorporando aspectos como despliegue en la nube, integración continua o contenerización para fortalecer mis competencias profesionales.
 
 <br>
 
@@ -164,7 +166,7 @@ Plan: Al terminar mi carrera, continuaré desarrollando mis conocimientos en arq
 
 Objetivo SMART 1: En los primeros 12 meses después de finalizar la carrera, diseñaré e implementaré al menos 2 aplicaciones utilizando principios de arquitectura limpia y buenas prácticas de desarrollo, documentando su arquitectura mediante diagramas y explicando las principales decisiones técnicas. Al menos uno de estos proyectos será desplegado utilizando servicios cloud para demostrar conocimientos tanto de desarrollo como de infraestructura.
 
-Objetivo SMART 2: Durante los primeros 18 meses posteriores a mi graduación, completaré al menos 2 cursos o certificaciones relacionados con arquitectura cloud, DevOps o diseño de sistemas escalables. Como evidencia de aprendizaje, implementaré al menos 3 mejoras técnicas en mis proyectos personales, tales como pipelines de integración y despliegue continuo, contenerización, monitoreo o servicios administrados en la nube.
+Objetivo SMART 2: Durante los primeros 6 meses posteriores a mi graduación, completaré al menos 2 cursos o certificaciones relacionados con arquitectura cloud, DevOps o diseño de sistemas escalables. Como evidencia de aprendizaje, implementaré al menos 3 mejoras técnicas en mis proyectos personales, tales como pipelines de integración y despliegue continuo, contenerización, monitoreo o servicios administrados en la nube.
 
 <br>
 
@@ -172,9 +174,9 @@ Objetivo SMART 2: Durante los primeros 18 meses posteriores a mi graduación, co
 
 Plan: Al concluir con mi carrera, continuaré desarrollando mis competencias profesionales mediante un proceso de aprendizaje continuo donde practicaré el desarrollo de software con las nuevas tecnologías relevantes que salgan en el mercado, incluyendo las emergentes como la inteligencia artificial, agentes de IA y automatización de procesos de programación. De este modo reforzaré mis conocimientos adquiridos durante la carrera e incorporaré nuevos conocimientos que me permitan tener un perfil profesional actualizado.
 
-Objetivo SMART 1: En los 12 primeros meses después de haber finalizado la carrera ampliaré mis conocimientos y habilidades para el desarrollo Full Stack, enfocándome principalmente en Java con Spring Boot para el backend, Vue.js para el frontend y MongoDB para la base de datos. Para ello, crearé 2 proyectos personales de complejidad media y alta, con el propósito de consolidar mi aprendizaje y tener un portafolio que demuestre mi crecimiento profesional.
+Objetivo SMART 1: En los 6 primeros meses después de haber finalizado la carrera ampliaré mis conocimientos y habilidades para el desarrollo Full Stack, enfocándome principalmente en Java con Spring Boot para el backend, Vue.js para el frontend y MongoDB para la base de datos. Para ello, crearé 2 proyectos personales de complejidad media y alta, con el propósito de consolidar mi aprendizaje y tener un portafolio que demuestre mi crecimiento profesional.
 
-Objetivo SMART 2: Durante los primeros 18 meses después de haber finalizado la carrera tomaré 2 o más cursos relacionados con las tecnologías emergentes, priorizando especialmente áreas como el uso profesional y ético de inteligencia artificial, agentes de IA y automatización aplicada al desarrollo de software. Luego, aplicaré lo aprendido elaborando un proyecto personal pequeño o mediano por cada curso finalizado, para mantener actualizados mis conocimientos y reforzar mi perfil como Ingeniero de Software.
+Objetivo SMART 2: Durante los primeros 9 meses después de haber finalizado la carrera tomaré 2 o más cursos relacionados con las tecnologías emergentes, priorizando especialmente áreas como el uso profesional y ético de inteligencia artificial, agentes de IA y automatización aplicada al desarrollo de software. Luego, aplicaré lo aprendido elaborando un proyecto personal pequeño o mediano por cada curso finalizado, para mantener actualizados mis conocimientos y reforzar mi perfil como Ingeniero de Software.
 
 <br>
 
@@ -184,7 +186,7 @@ Plan: Al finalizar mi carrera, continuaré fortaleciendo mis conocimientos en de
 
 Objetivo SMART 1: Durante los primeros 12 meses después de finalizar la carrera, desarrollaré al menos 2 aplicaciones, una orientada al entorno web y otra al entorno móvil, aplicando principios de Domain-Driven Design y buenas prácticas de arquitectura. Cada proyecto contará con documentación técnica y repositorio público que evidencie el proceso de desarrollo y las decisiones tomadas.
 
-Objetivo SMART 2: En los primeros 18 meses posteriores a mi graduación, completaré al menos 2 cursos especializados relacionados con Domain-Driven Design, arquitectura de software o gestión de proyectos de desarrollo. Aplicaré los conocimientos adquiridos participando en al menos un proyecto colaborativo en el que pueda asumir responsabilidades relacionadas con planificación, organización técnica o coordinación del equipo.
+Objetivo SMART 2: En los primeros 12 meses posteriores a mi graduación, completaré al menos 2 cursos especializados relacionados con Domain-Driven Design, arquitectura de software o gestión de proyectos de desarrollo. Aplicaré los conocimientos adquiridos participando en al menos un proyecto colaborativo en el que pueda asumir responsabilidades relacionadas con planificación, organización técnica o coordinación del equipo.
 
 <br>
 
@@ -192,9 +194,9 @@ Objetivo SMART 2: En los primeros 18 meses posteriores a mi graduación, complet
 
 Plan: Después de finalizar mi carrera, continuaré desarrollando mis competencias en diseño de soluciones de software, experiencia de usuario y arquitectura, buscando complementar mis conocimientos de programación y bases de datos con herramientas que me permitan participar en todo el proceso de construcción de un producto digital. Mantendré un aprendizaje continuo mediante cursos especializados y proyectos prácticos que integren tanto aspectos técnicos como de diseño.
 
-Objetivo SMART 1: Durante los primeros 12 meses después de finalizar la carrera, desarrollaré al menos 2 proyectos de software en los que participe tanto en la definición de la experiencia de usuario como en su implementación técnica. Para cada proyecto elaboraré prototipos, flujos de interacción y una aplicación funcional, con el objetivo de fortalecer mi capacidad para transformar necesidades de usuarios en soluciones digitales.
+Objetivo SMART 1: Durante los primeros 9 meses después de finalizar la carrera, desarrollaré al menos 2 proyectos de software en los que participe tanto en la definición de la experiencia de usuario como en su implementación técnica. Para cada proyecto elaboraré prototipos, flujos de interacción y una aplicación funcional, con el objetivo de fortalecer mi capacidad para transformar necesidades de usuarios en soluciones digitales.
 
-Objetivo SMART 2: En un periodo máximo de 18 meses después de finalizar la carrera, completaré al menos 2 cursos o certificaciones relacionados con UX/UI, arquitectura de software o diseño de soluciones digitales. Aplicaré los conocimientos obtenidos mejorando al menos 2 proyectos de mi portafolio mediante prototipos, diagramas de arquitectura o evaluaciones de usabilidad que permitan evidenciar mi crecimiento profesional.
+Objetivo SMART 2: En un periodo máximo de 9 meses después de finalizar la carrera, completaré al menos 2 cursos o certificaciones relacionados con UX/UI, arquitectura de software o diseño de soluciones digitales. Aplicaré los conocimientos obtenidos mejorando al menos 2 proyectos de mi portafolio mediante prototipos, diagramas de arquitectura o evaluaciones de usabilidad que permitan evidenciar mi crecimiento profesional.
 
 ---
 
@@ -214,7 +216,7 @@ CollabPro busca reemplazar la gestión informal mediante mensajes directos y otr
 
 |                        Foto                         | Apellidos y Nombres                |   Código   | Carrera                | Resumen                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | :-------------------------------------------------: | :--------------------------------- | :--------: | :--------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|       ![foto](./assets/C01/Team/frankFT.png)        | Quispe Serrano, Julio Frank        | U20241D922 | Ingeniería de Software | Soy Julio Frank Quispe Serrano, alumno de 5to ciclo de Ingeniería de Software en la UPC. Cuento con una marcada inclinación hacia la programación y la gestión eficiente del tiempo. Mi aporte principal a este grupo de trabajo será la resolución de conflictos técnicos y operativos, aportando una visión pragmática que permita superar eventuales estancamientos en las fases de elaboración del proyecto.                                                                                                       |
+|       ![foto](./assets/C01/Team/frankFT.png)        | Quispe Serrano, Julio Frank        | U20241D922 | Ingeniería de Software | Soy Julio Frank Quispe Serrano, alumno de 6to ciclo de Ingeniería de Software en la UPC. Cuento con una marcada inclinación hacia la programación y la gestión eficiente del tiempo. Mi aporte principal a este grupo de trabajo será la resolución de conflictos técnicos y operativos, aportando una visión pragmática que permita superar eventuales estancamientos en las fases de elaboración del proyecto.                                                                                                       |
 | ![foto](./assets/C01/Team/perfil-fabio-vallejo.png) | Vallejo Trujillo, Fabio Cesar      | U20211D989 | Ingeniería de Software | Soy estudiante de séptimo ciclo de Ingeniería de Software. Me caracterizo por tener conocimientos técnicos en múltiples áreas de software y mantener en orden mis equipos de trabajo para mantener entregables de alta calidad. Puedo aportar al proyecto con mis conocimientos de arquitectura limpia, infraestructura cloud, programación y manteniendo al equipo organizado.                                                                                                                                        |
 |       ![foto](./assets/C01/Team/leonardo.png)       | Garcia Villanueva, Leonardo Rafael | U20231H059 | Ingeniería de Software | Actualmente soy estudiante de sexto ciclo de la carrera de Ingeniería de Software. Tengo conocimientos sobre el manejo de bases de datos, varios lenguajes de programación, y de metodologías ágiles. Además, puedo dar solución a problemas que requieran de un enfoque lógico y creativo mediante el desarrollo de software. Dentro del equipo puedo aportar con la resolución de dificultades técnicas o de documentación que se presenten de forma eficiente.                                                      |
 |        ![foto](./assets/C01/Team/renzo.png)         | Revilla Quispe, Renzo Zamir        | U201717085 | Ingenieria de Software | Soy Renzo Revilla, estudiante de Ingenieria de Software en la Universidad Peruana de Ciencias Aplicadas, con experiencia en desarrollo web y movil. Me destaco por mis habilidades en comunicacion efectiva y trabajo en equipo, lo que facilita la coordinación y el cumplimiento de objetivos dentro del grupo. Disfruto de la natacion y del aprendizaje continuo. Mi aporte al equipo se centra en el desarrollo tecnico y en la gestion del proyecto, contribuyendo a mantener un trabajo organizado y eficiente. |
@@ -547,12 +549,6 @@ Esto respalda la necesidad de desarrollar funciones dentro de la plataforma enfo
 - **Algoritmos de Matchmaking preciso por nicho de mercado:** filtros por audiencia joven/delivery.
 - **Panel de control automatizado para medir ROI (Retorno de Inversión):** mediante vistas e interacciones.
 - **Flexibilidad en los modelos de contratación:** canjes estandarizados, pagos por resultados o suscripciones escalables adaptadas a pymes.
-
-- **Segmento 2: Creadores de Contenido**
-
-#### 2.2.3. Análisis de entrevistas
-
-### Segmento 1: Pequeñas y Medianas Empresas (Pymes)
 
 #### Entrevista 2: Andy Pillaca
 
@@ -3568,10 +3564,10 @@ La solución incluye un Landing Page, una aplicación móvil nativa para Android
 | ------------------------------------- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | **Landing Page**                      | HTML5, CSS3 y JavaScript                | Presentar la propuesta de valor, información del producto, idiomas disponibles y mecanismos iniciales de acceso a CollabPro. |
 | **Native Android Application**        | Kotlin                                  | Proporcionar la experiencia móvil nativa para empresas y creadores.                                                          |
-| **Cross-Platform Mobile Application** | `<Flutter/Dart o Kotlin Multiplatform>` | Proporcionar la experiencia móvil multiplataforma requerida por la solución.                                                 |
-| **RESTful Web Services**              | `<Spring Boot / ASP.NET Core / Nest>`   | Exponer los casos de uso de CollabPro y coordinar los cinco Bounded Contexts.                                                |
-| **Relational Database**               | `<DBMS seleccionado>`                   | Persistir los datos administrados por los Bounded Contexts.                                                                  |
-| **Evidence/Object Storage**           | `<Servicio seleccionado>`               | Almacenar archivos o evidencias que no deban persistirse directamente dentro de la base de datos relacional.                 |
+| **Cross-Platform Mobile Application** | Flutter                             | Proporcionar la experiencia móvil multiplataforma requerida por la solución.                                                 |
+| **RESTful Web Services**              | Spring Boot Java                    | Exponer los casos de uso de CollabPro y coordinar los cinco Bounded Contexts.                                                |
+| **Relational Database**               | MySQL                               | Persistir los datos administrados por los Bounded Contexts.                                                                  |
+| **Evidence/Object Storage**           | Firebase Cloud Storage                | Almacenar archivos o evidencias que no deban persistirse directamente dentro de la base de datos relacional.                 |
 
 Se propone implementar inicialmente los RESTful Web Services mediante una arquitectura modular, manteniendo cada Bounded Context como un módulo independiente dentro del backend. Esta decisión permite conservar los límites definidos por Domain-Driven Design sin introducir prematuramente la complejidad operacional de una arquitectura distribuida.
 
@@ -3682,7 +3678,6 @@ La integración concreta con proveedores de redes sociales permanece encapsulada
 
 El Component Diagram de Identity & Profile Management representa la descomposición interna del contexto dentro del backend de CollabPro. El componente de Interface expone los servicios de autenticación, perfiles y redes sociales. Los componentes de Application coordinan los casos de uso, mientras que el Domain Model mantiene las reglas relacionadas con cuentas y perfiles. Finalmente, los adapters de Infrastructure proporcionan persistencia, manejo seguro de credenciales e integración con proveedores de identidad social.
 
-<!-- Insertar aquí C4 Component Diagram de Identity & Profile Management -->
 
 ##### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -3692,13 +3687,12 @@ En esta sección se representa el diseño a nivel de código del Bounded Context
 
 El Class Diagram muestra `Account` como Aggregate Root. Una instancia de `Account` mantiene, según su tipo, un `BrandProfile` o un `CreatorProfile`. El `CreatorProfile` puede mantener múltiples `SocialMediaAccount`. Asimismo, se representan los Value Objects, enumeraciones y la abstracción `AccountRepository`.
 
-<!-- Insertar aquí Domain Layer Class Diagram de Identity & Profile Management -->
 
 ###### 2.6.1.6.2. Bounded Context Database Design Diagram
 
 El Database Design Diagram representa la persistencia correspondiente a cuentas, perfiles empresariales, perfiles de creadores y cuentas sociales vinculadas. Debe conservarse la relación uno a uno entre una cuenta y su perfil, mientras que un creador puede poseer múltiples cuentas sociales asociadas.
 
-<!-- Insertar aquí Database Design Diagram de Identity & Profile Management -->
+![Database Design Diagram de Identity & Profile Management](assets/C02/DDD/DatabaseDiagram/database-diagram-identity-profile.png)
 
 #### 2.6.2. Bounded Context: Campaign Management
 
@@ -3763,7 +3757,6 @@ Las decisiones de persistencia se mantienen separadas del modelo de dominio, per
 
 El Component Diagram de Campaign Management muestra los componentes responsables de la administración de campañas y postulaciones. Los Controllers reciben las solicitudes provenientes de las aplicaciones móviles, los Application Handlers coordinan los casos de uso, el Domain Model implementa las reglas sobre campañas y postulaciones, y los Persistence Adapters almacenan sus estados.
 
-<!-- Insertar aquí C4 Component Diagram de Campaign Management -->
 
 ##### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -3771,13 +3764,12 @@ El Component Diagram de Campaign Management muestra los componentes responsables
 
 El Class Diagram representa los Aggregates `Campaign` y `Application`. Una campaña contiene requisitos, especificaciones de entregables y condiciones de compensación. Las postulaciones referencian la campaña y al creador correspondiente, manteniendo su propio ciclo de vida.
 
-<!-- Insertar aquí Domain Layer Class Diagram de Campaign Management -->
 
 ###### 2.6.2.6.2. Bounded Context Database Design Diagram
 
 La persistencia del contexto contempla la campaña, sus requisitos, especificaciones de entregables, condiciones de compensación y postulaciones. La relación entre campañas y postulaciones es de uno a muchos.
 
-<!-- Insertar aquí Database Design Diagram de Campaign Management -->
+![Database Design Diagram de Campaign Management](assets/C02/DDD/DatabaseDiagram/database-diagram-campaign.png)
 
 #### 2.6.3. Bounded Context: Collaboration Management
 
@@ -3842,7 +3834,6 @@ Cuando una colaboración satisface sus condiciones de cumplimiento, el contexto 
 
 El Component Diagram de Collaboration Management debe mostrar los Controllers de colaboración, entregables e incidencias; los handlers encargados de los casos de uso; el Domain Model compuesto por Collaboration, Deliverable e Incident; y los adapters responsables de persistencia y almacenamiento de evidencias.
 
-<!-- Insertar aquí C4 Component Diagram de Collaboration Management -->
 
 ##### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -3850,13 +3841,12 @@ El Component Diagram de Collaboration Management debe mostrar los Controllers de
 
 El Class Diagram representa `Collaboration` como Aggregate Root y detalla las relaciones con `AgreementSnapshot`, `Deliverable`, `Evidence`, `DeliverableReview` e `Incident`, además de sus enumeraciones y `CollaborationRepository`.
 
-<!-- Insertar aquí Domain Layer Class Diagram de Collaboration Management -->
 
 ###### 2.6.3.6.2. Bounded Context Database Design Diagram
 
 La persistencia de este contexto debe conservar la colaboración y el snapshot de sus condiciones, sus entregables, evidencias, revisiones e incidencias. El modelo debe permitir mantener trazabilidad histórica de las revisiones y correcciones.
 
-<!-- Insertar aquí Database Design Diagram de Collaboration Management -->
+![Database Design Diagram de Collaboration Management](assets/C02/DDD/DatabaseDiagram/database-diagram-collaboration.png)
 
 #### 2.6.4. Bounded Context: Billing & Compensation Management
 
@@ -3922,7 +3912,6 @@ El Spike relacionado con Stripe se utiliza como investigación de viabilidad. Po
 
 El Component Diagram debe mostrar los componentes de medios de pago, suscripciones y compensaciones, así como la integración del backend con el proveedor de pagos externo. La comunicación con dicho proveedor se realiza exclusivamente mediante el adapter definido en Infrastructure Layer.
 
-<!-- Insertar aquí C4 Component Diagram de Billing & Compensation Management -->
 
 ##### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -3930,13 +3919,13 @@ El Component Diagram debe mostrar los componentes de medios de pago, suscripcion
 
 El Class Diagram presenta los Aggregates `PaymentAccount`, `Subscription` y `Compensation`, junto con `PaymentMethod`, `PaymentTransaction`, el Value Object `Money`, sus enumeraciones y las abstracciones de persistencia y comunicación con proveedores financieros.
 
-<!-- Insertar aquí Domain Layer Class Diagram de Billing & Compensation Management -->
 
 ###### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 El Database Design Diagram representa las cuentas financieras, medios de pago tokenizados o referenciados mediante el proveedor, suscripciones, compensaciones y transacciones. No se almacenan directamente datos sensibles completos del medio de pago; se conserva únicamente la referencia necesaria proporcionada por el proveedor seleccionado.
 
-<!-- Insertar aquí Database Design Diagram de Billing & Compensation Management -->
+![Database Design Diagram de Billing & Compensation Management](assets/C02/DDD/DatabaseDiagram/database-diagram-billing.png)
+
 
 #### 2.6.5. Bounded Context: Performance & Attribution Management
 
@@ -3994,7 +3983,6 @@ Las APIs concretas utilizadas para obtener datos de redes sociales se determinar
 
 El Component Diagram representa la coordinación entre los componentes de resultados, métricas, evidencias y atribución. También representa la comunicación con los servicios externos utilizados para obtener información autorizada de las redes sociales.
 
-<!-- Insertar aquí C4 Component Diagram de Performance & Attribution Management -->
 
 ##### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -4002,13 +3990,12 @@ El Component Diagram representa la coordinación entre los componentes de result
 
 El Class Diagram representa `PerformanceReport` como Aggregate Root y sus relaciones con `MetricSnapshot`, `PerformanceEvidence`, `AttributionLink` y `AttributedInteraction`, junto con los Value Objects, enumeraciones y la abstracción `SocialMetricsProvider`.
 
-<!-- Insertar aquí Domain Layer Class Diagram de Performance & Attribution Management -->
 
 ###### 2.6.5.6.2. Bounded Context Database Design Diagram
 
 El Database Design Diagram debe distinguir las métricas obtenidas automáticamente de las evidencias ingresadas manualmente y mantener la relación de cada dato con la colaboración correspondiente. También debe representar los enlaces de atribución y las interacciones asociadas.
 
-<!-- Insertar aquí Database Design Diagram de Performance & Attribution Management -->
+![Database Design Diagram de Performance & Attribution Management](assets/C02/DDD/DatabaseDiagram/database-diagram-performance.png)
 
 ---
 
@@ -4018,7 +4005,7 @@ El Database Design Diagram debe distinguir las métricas obtenidas automáticame
 
 - El Needfinding y la definición de requisitos ayudaron a identificar las principales necesidades de ambos segmentos y a priorizar las funcionalidades iniciales de CollabPro.
 
-- La aplicación de Domain-Driven Design permitió organizar el dominio del negocio y establecer una base clara para la arquitectura y el desarrollo de la solución.
+- La aplicación de Domain Driven Design permitió organizar el dominio del negocio y establecer una base clara para la arquitectura y el desarrollo de la solución de CollabPro.
 
 ---
 
