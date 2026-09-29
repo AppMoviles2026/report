@@ -4033,6 +4033,29 @@ La configuración de gestión de software busca que todos los integrantes puedan
 
 Cada producto debe incluir un `README.md` con prerrequisitos, versiones requeridas, configuración local, comandos de ejecución y pruebas, variables de entorno de ejemplo sin valores secretos y procedimiento de compilación. Se recomienda agregar `.editorconfig` y archivos de formato/lint apropiados por lenguaje para reducir diferencias entre IDEs.
 
+#### 4.1.2. Source Code Management
+
+| Producto | Repositorio en la organización `AppMoviles2026` | Contenido mínimo |
+| :--- | :--- | :--- |
+| Landing page | `collabpro-landing` (URL pendiente de creación) | Código HTML/CSS/JavaScript, assets optimizados e instrucciones de publicación. |
+| RESTful Web Services | `collabpro-api` (URL pendiente de creación) | Proyecto Spring Boot, migraciones/configuración no secreta, pruebas unitarias y pruebas de integración/aceptación. |
+| Aplicación nativa Android | `collabpro-android` (URL pendiente de creación) | Proyecto Kotlin/Android, pruebas y configuración de compilación. |
+| Aplicación multiplataforma | `collabpro-mobile` (URL pendiente de creación) | Proyecto Flutter/Dart y pruebas para las plataformas acordadas. |
+
+Se aplicará GitFlow de manera ligera en cada repositorio:
+
+| Rama | Uso y regla |
+| :--- | :--- |
+| `main` | Código estable y versiones publicadas. Protegerla para impedir pushes directos y exigir pull request con revisión y checks aprobados. |
+| `develop` | Integración del trabajo aceptado para la siguiente versión. Las features y fixes normales parten de aquí y vuelven mediante pull request. |
+| `feature/<id>-<short-name>` | Una rama por funcionalidad, por ejemplo `feature/CP-24-campaign-brief`; usar identificador de backlog cuando exista y nombre breve en inglés con kebab-case. |
+| `release/<major>.<minor>.<patch>` | Preparación de una versión candidata desde `develop`; solo se permiten correcciones de estabilización, documentación y metadatos. Tras aprobar pruebas, se integra a `main`, se etiqueta y se reintegra a `develop`. |
+| `hotfix/<major>.<minor>.<patch>-<short-name>` | Corrección urgente que parte de `main`; una vez verificada, se integra a `main` y `develop` (o a la release activa) para evitar regresiones. |
+
+Los cambios se proponen mediante pull requests pequeños, con descripción del problema, alcance, pruebas ejecutadas y capturas cuando afecten la interfaz. La revisión debe comprobar criterios de aceptación, pruebas, convenciones y ausencia de secretos. Los conflictos se resuelven en la rama de trabajo y no mediante edición directa de `main`.
+
+Los mensajes seguirán Conventional Commits en inglés: `feat(campaign): add campaign brief`, `fix(payment): validate compensation status`, `test(api): cover creator application`, `docs(readme): explain local setup`. Se utilizarán tipos como `feat`, `fix`, `docs`, `test`, `refactor`, `build` y `chore`; un cambio incompatible se indica con `!` o con un pie `BREAKING CHANGE:`. Los tags usarán Semantic Versioning (`MAJOR.MINOR.PATCH`): `MAJOR` para incompatibilidad, `MINOR` para capacidades compatibles nuevas y `PATCH` para correcciones compatibles. Mientras el producto esté en desarrollo inicial puede publicarse como `0.x.y`; no se deben reutilizar ni modificar tags publicados.
+
 ---
 
 ## Conclusiones
