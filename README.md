@@ -68,6 +68,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 | Versión | Fecha      | Autor            | Descripción de modificación                                                                                                                                                                                           |
 | ------- | ---------- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | V1.0    | 10/09/2026 | Equipo CollabTech | Creación de la primera versión del informe para la entrega AV1. Se incluyen las secciones preliminares, el Capítulo I (Startup Profile, Solution Profile, Segmentos) y el Capítulo II (Requirements y Strategic DDD). |
+| V1.1    | 28/09/2026 | Equipo CollabTech | Se incorpora la sección 4.1 de Software Configuration Management para CollabPro: entorno, gestión del código fuente, convenciones y configuración propuesta de despliegue. |
 
 <div style="page-break-after: always;"></div>
 
@@ -127,6 +128,12 @@ Repositorio del reporte: https://github.com/AppMoviles2026/report
     - [2.5.2. Context Mapping](#252-context-mapping)
     - [2.5.3. Software Architecture](#253-software-architecture)
   - [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
+  - [Capítulo IV: Product Implementation & Validation](#capítulo-iv-product-implementation--validation)
+    - [4.1. Software Configuration Management](#41-software-configuration-management)
+      - [4.1.1. Software Development Environment Configuration](#411-software-development-environment-configuration)
+      - [4.1.2. Source Code Management](#412-source-code-management)
+      - [4.1.3. Source Code Style Guide & Conventions](#413-source-code-style-guide--conventions)
+      - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
 
 - [Conclusiones](#conclusiones)
 - [Glosario](#glosario)
@@ -3999,6 +4006,35 @@ El Database Design Diagram debe distinguir las métricas obtenidas automáticame
 
 ---
 
+## Capítulo IV: Product Implementation & Validation
+
+### 4. Product Implementation & Validation
+
+La solución definida para CollabPro comprende una landing page web, servicios REST desarrollados con Spring Boot y Java, persistencia relacional MySQL y almacenamiento de evidencias en Firebase Cloud Storage. El diseño también considera una aplicación nativa Android en Kotlin y una aplicación móvil multiplataforma en Flutter. Esta sección documenta cómo preparar el entorno, organizar los cambios, aplicar convenciones comunes y reproducir el despliegue.
+
+### 4.1. Software Configuration Management
+
+La configuración de gestión de software busca que todos los integrantes puedan preparar un entorno equivalente, revisar los cambios antes de integrarlos y reconstruir los productos desde código versionado. Se propone mantener configuraciones y documentación no confidenciales en GitHub, automatizar validaciones en cada pull request y almacenar claves, contraseñas y tokens únicamente como secretos del entorno de ejecución. No se deben subir credenciales, archivos locales de configuración ni datos reales de usuarios al repositorio.
+
+#### 4.1.1. Software Development Environment Configuration
+
+| Actividad / producto | Herramienta propuesta | Propósito y configuración del proyecto |
+| :--- | :--- | :--- |
+| Gestión de trabajo y código | Git y GitHub | Control de versiones, incidencias, pull requests, revisión de código, tablero de trabajo y documentación compartida. El repositorio actualmente identificado es el del informe; los repositorios de los productos se detallan en 4.1.2. |
+| Diseño de producto y colaboración UX/UI | Figma | Prototipos, componentes visuales y entrega de especificaciones para landing y aplicaciones móviles; enlazar los archivos desde las tareas o documentación del repositorio. |
+| Landing page (HTML5, CSS3, JavaScript) | Visual Studio Code y navegador Chromium | Edición, vista previa local y revisión adaptable en tamaños de escritorio y móvil. Mantener instrucciones de ejecución en el README del producto. |
+| Servicios REST (Java, Spring Boot) | JDK, IntelliJ IDEA o VS Code, Maven y Spring Boot | Desarrollo y ejecución local de la API; configurar dependencias y tareas de compilación en `pom.xml` y fijar la versión de Java compatible en el proyecto. La base local MySQL debe iniciarse con una configuración documentada sin contraseñas reales. |
+| Aplicación nativa Android (Kotlin) | Android Studio, Android SDK y Gradle | Edición, compilación y prueba en emulador/dispositivo. Versiones de SDK, plugin y Gradle se fijan en los archivos Gradle del repositorio. |
+| Aplicación multiplataforma (Flutter) | Flutter SDK, Dart y Android Studio o VS Code | Desarrollo y ejecución de la app multiplataforma; fijar dependencias y restricciones en `pubspec.yaml` y el canal/versión del SDK en la documentación del proyecto. |
+| Base de datos relacional | MySQL Server y MySQL Workbench (opcional) | Desarrollo local, inspección de datos y ejecución controlada de migraciones. Los cambios del esquema se guardan como scripts versionados o migraciones del backend; nunca se distribuyen copias de datos personales reales. |
+| Evidencias y objetos | Firebase Console / Firebase Cloud Storage | Configuración del bucket de almacenamiento de evidencias. Las credenciales de servicio se guardan en secretos del entorno, con acceso mínimo necesario; no se incluyen en el cliente móvil ni en el repositorio. |
+| Pruebas y calidad | JUnit (backend), pruebas de Flutter/Android y Postman para pruebas exploratorias de API | Mantener pruebas unitarias junto al código y colecciones/scripts de pruebas de integración versionados. Los casos de aceptación pueden documentarse en Gherkin cuando correspondan a historias de usuario. |
+| Integración continua y documentación | GitHub Actions, Markdown y OpenAPI | Ejecutar compilación y pruebas al abrir/actualizar pull requests; publicar artefactos solo desde ramas o etiquetas autorizadas. Documentar endpoints con OpenAPI/Swagger en el servicio REST. |
+
+Cada producto debe incluir un `README.md` con prerrequisitos, versiones requeridas, configuración local, comandos de ejecución y pruebas, variables de entorno de ejemplo sin valores secretos y procedimiento de compilación. Se recomienda agregar `.editorconfig` y archivos de formato/lint apropiados por lenguaje para reducir diferencias entre IDEs.
+
+---
+
 ## Conclusiones
 
 - Las entrevistas y el análisis del problema permitieron confirmar que las pymes necesitan una forma más ordenada de gestionar colaboraciones con creadores de contenido.
@@ -4017,3 +4053,17 @@ El Database Design Diagram debe distinguir las métricas obtenidas automáticame
 - Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual. (2024). _Guía de publicidad para influencers 2024_. INDECOPI. https://www.gob.pe/institucion/indecopi/informes-publicaciones/5870366-guia-de-publicidad-para-influencers-2024
 - Interactive Advertising Bureau Perú, & PricewaterhouseCoopers. (2024). _Informe de inversión publicitaria digital 2024_. IAB Perú. https://iabperu.com/wp-content/uploads/2025/03/PwC-e-IAB-Informe-de-Inversion-en-Publicidad-Digital-2024-version-reducida.pdf
 - SocialPubli. (s.f.). _Influencer marketing campaigns_. Consultado el 12 de septiembre de 2026. https://socialpubli.com/brands
+- GitHub. (s.f.). _GitHub Docs: Branches, pull requests and GitHub Actions_. https://docs.github.com/
+- Google. (s.f.). _Google Java Style Guide_. https://google.github.io/styleguide/javaguide.html
+- Google. (s.f.). _Google HTML/CSS Style Guide_. https://google.github.io/styleguide/htmlcssguide.html
+- W3Schools. (s.f.). _HTML Style Guide and Coding Conventions_. https://www.w3schools.com/html/html5_syntax.asp
+- Kotlin. (s.f.). _Coding conventions_. https://kotlinlang.org/docs/coding-conventions.html
+- Dart. (s.f.). _Effective Dart: Style_. https://dart.dev/effective-dart/style
+- SpecFlow. (s.f.). _Gherkin conventions for readable specifications_. https://specflow.org/gherkin/gherkin-conventions-for-readablespecifications/
+- Semantic Versioning. (s.f.). _Semantic Versioning 2.0.0_. https://semver.org/
+- Conventional Commits. (s.f.). _Conventional Commits 1.0.0_. https://www.conventionalcommits.org/en/v1.0.0/
+- Driessen, V. (2010). _A successful Git branching model_. https://nvie.com/posts/a-successful-git-branching-model/
+- Spring. (s.f.). _Spring Boot Reference Documentation_. https://docs.spring.io/spring-boot/index.html
+- Android Developers. (s.f.). _Android Studio_. https://developer.android.com/studio
+- Flutter. (s.f.). _Flutter documentation_. https://docs.flutter.dev/
+- Google. (s.f.). _Firebase Cloud Storage documentation_. https://firebase.google.com/docs/storage
