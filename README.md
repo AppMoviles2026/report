@@ -4056,6 +4056,32 @@ Los cambios se proponen mediante pull requests pequeños, con descripción del p
 
 Los mensajes seguirán Conventional Commits en inglés: `feat(campaign): add campaign brief`, `fix(payment): validate compensation status`, `test(api): cover creator application`, `docs(readme): explain local setup`. Se utilizarán tipos como `feat`, `fix`, `docs`, `test`, `refactor`, `build` y `chore`; un cambio incompatible se indica con `!` o con un pie `BREAKING CHANGE:`. Los tags usarán Semantic Versioning (`MAJOR.MINOR.PATCH`): `MAJOR` para incompatibilidad, `MINOR` para capacidades compatibles nuevas y `PATCH` para correcciones compatibles. Mientras el producto esté en desarrollo inicial puede publicarse como `0.x.y`; no se deben reutilizar ni modificar tags publicados.
 
+#### 4.1.3. Source Code Style Guide & Conventions
+
+La nomenclatura del código, nombres de ramas, mensajes de commit, contratos API, comentarios técnicos y documentación de desarrollo será en inglés. El contenido dirigido a usuarios puede mostrarse en español, de acuerdo con el público objetivo. Se mantendrán nombres descriptivos, funciones acotadas, validación en los límites del sistema y separación de responsabilidades coherente con los Bounded Contexts ya definidos.
+
+| Tecnología / artefacto | Convenciones acordadas |
+| :--- | :--- |
+| HTML5 | Elementos semánticos, atributos entre comillas, minúsculas en nombres de elementos/atributos, estructura accesible con etiquetas asociadas a controles y jerarquía de encabezados. Evitar estilos y scripts inline salvo justificación. |
+| CSS3 | Selectores y clases en kebab-case, tokens reutilizables para color/espaciado/tipografía, diseño adaptable y estados visibles de foco. Agrupar reglas por componente y evitar selectores excesivamente específicos. |
+| JavaScript | `camelCase` para variables/funciones, `PascalCase` para clases, `UPPER_SNAKE_CASE` solo para constantes globales, módulos pequeños, `const` por defecto y errores tratados explícitamente. |
+| Java / Spring Boot | Seguir Google Java Style Guide; paquetes en minúsculas, clases `UpperCamelCase`, métodos y variables `lowerCamelCase`, constantes `UPPER_SNAKE_CASE`; separar controladores, aplicación, dominio e infraestructura y no exponer entidades de persistencia directamente como API. |
+| Kotlin / Android | Seguir Kotlin Coding Conventions y formato oficial del IDE; paquetes en minúsculas, tipos `UpperCamelCase`, funciones/propiedades `lowerCamelCase`, preferir `val` e inmutabilidad y documentar APIs públicas. |
+| Dart / Flutter | Seguir Effective Dart; archivos `lowercase_with_underscores.dart`, tipos `UpperCamelCase` y miembros y constantes `lowerCamelCase`; widgets pequeños y estado separado de presentación cuando sea apropiado. |
+| Gherkin (`.feature`) | Escenarios en lenguaje de negocio, con `Given/When/Then` en inglés; cada escenario prueba un comportamiento, pasos concretos y sin lógica de implementación. Evitar escenarios largos o duplicados. |
+| JSON, SQL y API | Contratos y propiedades públicas en inglés; JSON en `camelCase`, tablas/columnas en `snake_case` de forma consistente; documentar endpoint, payload, errores y autenticación en OpenAPI. No guardar secretos ni datos productivos en ejemplos. |
+
+Se recomienda aplicar formato automático antes de integrar cambios y ejecutar validadores/lint en CI: formatter/linter del frontend, formatter de Java, Kotlin formatter/inspections, `dart format`/`flutter analyze` y comprobación de los casos Gherkin. Los criterios de formato deberán quedar configurados en el repositorio, en vez de depender solo de preferencias personales del IDE.
+
+#### 4.1.4. Software Deployment Configuration
+
+| Componente | Destino de despliegue | Configuración |
+| :--- | :--- | :--- |
+| Landing page | Hosting estático con HTTPS (GitHub Pages) | Compilar/minificar assets si corresponde, publicar solo desde `main` o una etiqueta de release, verificar rutas, formulario/enlaces y renderizado móvil. La decisión del proveedor queda pendiente. |
+| RESTful Web Services | Servicio cloud compatible con Java/Spring Boot (Azure App Service) | Construir artefacto desde tag aprobado, ejecutar pruebas, desplegar a staging, verificar health check y documentación OpenAPI, luego promover a producción. Configurar URL pública solo con HTTPS. |
+| MySQL | Instancia administrada accesible solo desde el backend (Azure Database for MySQL) | Crear esquema mediante migraciones versionadas, restringir red/usuarios, habilitar respaldos y separar credenciales por ambiente. Nunca exponer el puerto de base de datos a Internet público. |
+| Apps Android y Flutter | Distribución de prueba mediante Firebase App Distribution o canal interno equivalente; publicación final según plataformas acordadas | Generar builds firmados desde pipeline/entorno controlado. Llaves de firma y credenciales de publicación se guardan fuera del repositorio. Probar instalación, permisos y URL del backend antes de distribuir. |
+
 ---
 
 ## Conclusiones
