@@ -4968,9 +4968,173 @@ Esta adaptación permite reutilizar la misma estructura de navegación mantenien
 
 ### 3.1.3. Landing Page UI Design
 
+La página de presentación de CollabPro organiza la información según las decisiones que necesita tomar una persona antes de utilizar la plataforma. Primero comunica la propuesta de colaboración entre empresas y creadores, luego explica las funcionalidades y los planes, y finalmente ofrece un espacio de contacto y una presentación del equipo. Esta secuencia permite comprender el servicio antes de evaluar sus condiciones o realizar una consulta.
+
+La navegación global se concentra en una barra superior siempre visible, desde la cual se puede acceder directamente a cada sección. A su vez, la disposición del contenido propone un recorrido secuencial mediante el desplazamiento vertical, sin obligar al visitante a seguirlo. En escritorio se aprovecha el espacio para comparar información y relacionar textos con imágenes. En móvil se conserva el mismo orden de contenidos mediante una distribución en una sola columna.
+
 #### 3.1.3.1. Landing Page Wireframe
 
+Los esquemas representan la estructura de la página antes de aplicar colores, fotografías y detalles del sistema de diseño. Los bloques grises permiten distinguir la jerarquía, la agrupación de contenidos y la ubicación de las acciones. Las imágenes y los videos se representan mediante cuadros con una X.
+
+##### Organización visual y heurísticas aplicadas
+
+**Patrón Z**
+
+En escritorio, la composición de inicio toma como referencia el patrón Z para conectar la marca y la navegación superior con el mensaje principal, las acciones y la imagen de apoyo. La distribución facilita un recorrido desde la zona superior hacia la propuesta de valor y sus botones. En el pie de página, la marca y la descarga ocupan la franja superior, mientras que la información complementaria se distribuye debajo.
+
+**Patrón F**
+
+En los bloques con mayor cantidad de texto, especialmente en funcionalidades y planes, se considera el patrón F como referencia para priorizar los encabezados y el comienzo de cada línea. Los beneficios se presentan mediante títulos breves, listas y grupos separados para que la información principal pueda identificarse sin leer todos los párrafos. Esta organización ayuda a reducir las omisiones que pueden producirse durante una lectura rápida.
+
+| Sección | Decisión de diseño y propósito | Heurísticas aplicadas |
+| --- | --- | --- |
+| Inicio | El mensaje principal tiene mayor jerarquía que el texto de apoyo y los botones indican la acción disponible. La navegación identifica la sección activa para mantener al visitante orientado. | Visibilidad del estado del sistema y Reconocimiento en lugar de recuerdo |
+| Funcionalidades | Los beneficios se agrupan en tarjetas y el proceso se presenta mediante pasos numerados. Esta estructura relaciona la plataforma con acciones conocidas, como crear una campaña, encontrar colaboradores y coordinar el trabajo. | Correspondencia entre el sistema y el mundo real y Reconocimiento en lugar de recuerdo |
+| Planes | Las tarjetas mantienen el mismo orden de nombre, descripción, precio, condiciones, beneficios y acción. En escritorio se muestran juntas para facilitar la comparación y en móvil conservan esa secuencia. | Consistencia y estándares y Reconocimiento en lugar de recuerdo |
+| Contacto | Los campos tienen etiquetas visibles y permiten distinguir los datos obligatorios de los opcionales. La acción de envío permanece deshabilitada mientras falten datos válidos, lo que evita intentar completar una operación incompleta. | Prevención de errores y Reconocimiento en lugar de recuerdo |
+| Sobre nosotros | La descripción del equipo se relaciona con un espacio de video y se limita a la información necesaria para presentar a sus integrantes y su propósito. | Diseño estético y minimalista |
+| Pie de página | Los enlaces complementarios y la acción para volver al inicio permiten continuar la navegación sin recorrer nuevamente toda la página. | Control y libertad del usuario y Flexibilidad y eficiencia de uso |
+
+##### Navegador de escritorio
+
+La distribución en columnas permite relacionar textos e imágenes sin extender demasiado la lectura vertical. Las tarjetas de funcionalidades se agrupan en una fila y los planes se presentan en paralelo. La proximidad, los bordes y el espacio entre bloques permiten reconocer qué elementos pertenecen a un mismo grupo.
+
+**Inicio**
+
+![Esquema de inicio para escritorio](./assets/C03/LandingPageUI/wireframes/desktop/01-Inicio-desktop.png)
+
+**Funcionalidades**
+
+La propuesta incluye el espacio “about the product” para complementar la explicación del servicio mediante un video.
+
+![Esquema de funcionalidades para escritorio](./assets/C03/LandingPageUI/wireframes/desktop/02-Funcionalidades-desktop.png)
+
+**Planes**
+
+![Esquema de planes para escritorio](./assets/C03/LandingPageUI/wireframes/desktop/03-Planes-desktop.png)
+
+**Contacto**
+
+![Esquema de contacto para escritorio](./assets/C03/LandingPageUI/wireframes/desktop/04-Contacto-desktop.png)
+
+**Sobre nosotros**
+
+La composición prevista relaciona la presentación del equipo con el espacio “about the team”.
+
+![Esquema de sobre nosotros para escritorio](./assets/C03/LandingPageUI/wireframes/desktop/05-Sobre-nosotros-desktop.png)
+
+**Pie de página**
+
+![Esquema de pie de página para escritorio](./assets/C03/LandingPageUI/wireframes/desktop/06-Pie-de-pagina-desktop.png)
+
+##### Navegador móvil
+
+En móvil, los contenidos se reorganizan en una sola columna. En inicio se presenta primero el mensaje, luego las acciones y finalmente la imagen. Las tarjetas, los pasos del proceso y los planes se apilan conservando su orden, mientras que las etiquetas del formulario permanecen sobre sus campos.
+
+La composición Z de escritorio se adapta a un recorrido vertical. En los bloques de texto se mantiene la prioridad de los encabezados y del comienzo de las líneas. El menú conserva los mismos destinos de navegación y los botones cuentan con espacio suficiente para facilitar la interacción táctil. Estas decisiones mantienen la Consistencia y estándares entre ambas versiones.
+
+**Inicio**
+
+![Esquema de inicio para móvil](./assets/C03/LandingPageUI/wireframes/mobile/01-Inicio-mobile.png)
+
+**Funcionalidades**
+
+![Esquema de funcionalidades para móvil](./assets/C03/LandingPageUI/wireframes/mobile/02-Funcionalidades-mobile.png)
+
+**Planes**
+
+![Esquema de planes para móvil](./assets/C03/LandingPageUI/wireframes/mobile/03-Planes-mobile.png)
+
+**Contacto**
+
+![Esquema de contacto para móvil](./assets/C03/LandingPageUI/wireframes/mobile/04-Contacto-mobile.png)
+
+**Sobre nosotros**
+
+![Esquema de sobre nosotros para móvil](./assets/C03/LandingPageUI/wireframes/mobile/05-Sobre-nosotros-mobile.png)
+
+**Pie de página**
+
+![Esquema de pie de página para móvil](./assets/C03/LandingPageUI/wireframes/mobile/06-Pie-de-pagina-mobile.png)
+
 #### 3.1.3.2. Landing Page Mock-up
+
+Los prototipos visuales aplican el sistema de diseño de CollabPro sobre la estructura definida en los esquemas. El turquesa identifica las acciones principales y los estados activos, los fondos claros separan grupos de contenido y los textos oscuros favorecen la lectura. La tipografía Inter establece una jerarquía común entre títulos, descripciones y controles, con Roboto como alternativa.
+
+Los botones, las tarjetas de esquinas redondeadas y los iconos mantienen un lenguaje visual compartido con la aplicación móvil. Las fotografías muestran situaciones de colaboración y creación de contenido para relacionar la propuesta del servicio con actividades reconocibles.
+
+##### Aplicación del sistema de diseño y las heurísticas
+
+| Sección | Aplicación visual e interacción | Heurísticas aplicadas |
+| --- | --- | --- |
+| Inicio | El botón principal utiliza un fondo turquesa y la acción secundaria un contorno, lo que permite distinguir su prioridad. La sección activa se identifica mediante color y subrayado, mientras que el selector de idioma muestra la opción elegida. | Visibilidad del estado del sistema y Consistencia y estándares |
+| Funcionalidades | Las tarjetas repiten la relación entre icono, título y descripción. La fotografía de creadores y los pasos del proceso conectan los beneficios con actividades familiares para el público objetivo. | Correspondencia entre el sistema y el mundo real y Consistencia y estándares |
+| Planes | Los contornos definidos separan las tarjetas y el fondo turquesa destaca el plan de crecimiento. Los precios, la periodicidad y las condiciones se ubican en posiciones equivalentes para facilitar la comparación. El cambio de fondo al pasar el cursor permite reconocer la tarjeta sobre la que se está interactuando. | Consistencia y estándares y Reconocimiento en lugar de recuerdo |
+| Contacto | El botón permanece deshabilitado mientras el formulario esté incompleto o contenga datos inválidos. Al completarlo correctamente, se habilita. Durante la simulación se muestra el estado de envío y después una confirmación o un mensaje de error que permite identificar el problema. | Prevención de errores, Visibilidad del estado del sistema y Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de los errores |
+| Sobre nosotros | El texto y la portada del video forman un grupo claramente delimitado. El símbolo de reproducción permite reconocer la función del recurso sin añadir instrucciones extensas. | Diseño estético y minimalista y Reconocimiento en lugar de recuerdo |
+| Pie de página | El fondo oscuro diferencia el cierre de la página y agrupa los enlaces complementarios. Las acciones de descarga y regreso al inicio conservan símbolos y etiquetas reconocibles. | Consistencia y estándares y Control y libertad del usuario |
+
+##### Navegador de escritorio
+
+**Inicio**
+
+![Prototipo visual de inicio para escritorio](./assets/C03/LandingPageUI/mockups/desktop/01-Inicio-desktop.png)
+
+**Funcionalidades**
+
+![Prototipo visual de funcionalidades para escritorio](./assets/C03/LandingPageUI/mockups/desktop/02-Funcionalidades-desktop.png)
+
+**Planes**
+
+![Prototipo visual de planes para escritorio](./assets/C03/LandingPageUI/mockups/desktop/03-Planes-desktop.png)
+
+**Contacto**
+
+![Prototipo visual de contacto para escritorio](./assets/C03/LandingPageUI/mockups/desktop/04-Contacto-desktop.png)
+
+**Sobre nosotros**
+
+![Prototipo visual de sobre nosotros para escritorio](./assets/C03/LandingPageUI/mockups/desktop/05-Sobre-nosotros-desktop.png)
+
+**Pie de página**
+
+![Prototipo visual de pie de página para escritorio](./assets/C03/LandingPageUI/mockups/desktop/06-Pie-de-pagina-desktop.png)
+
+##### Navegador móvil
+
+La versión móvil mantiene los colores, los iconos y las etiquetas de escritorio para que las acciones sigan siendo reconocibles. Los precios y beneficios conservan su posición dentro de cada tarjeta, lo que facilita compararlos durante el desplazamiento. Los controles se distribuyen con suficiente separación y los botones aprovechan el ancho disponible para facilitar su selección.
+
+**Inicio**
+
+![Prototipo visual de inicio para móvil](./assets/C03/LandingPageUI/mockups/mobile/01-Inicio-mobile.png)
+
+**Funcionalidades**
+
+![Prototipo visual de funcionalidades para móvil](./assets/C03/LandingPageUI/mockups/mobile/02-Funcionalidades-mobile.png)
+
+**Planes**
+
+![Prototipo visual de planes para móvil](./assets/C03/LandingPageUI/mockups/mobile/03-Planes-mobile.png)
+
+**Contacto**
+
+![Prototipo visual de contacto para móvil](./assets/C03/LandingPageUI/mockups/mobile/04-Contacto-mobile.png)
+
+**Sobre nosotros**
+
+![Prototipo visual de sobre nosotros para móvil](./assets/C03/LandingPageUI/mockups/mobile/05-Sobre-nosotros-mobile.png)
+
+**Pie de página**
+
+![Prototipo visual de pie de página para móvil](./assets/C03/LandingPageUI/mockups/mobile/06-Pie-de-pagina-mobile.png)
+
+##### Diseño inclusivo e interacciones
+
+La identificación de la sección activa combina color y subrayado para evitar que la orientación dependa únicamente del color. Los iconos se acompañan de etiquetas cuando es necesario explicar una acción y los campos del formulario mantienen sus nombres visibles. La selección persistente entre español e inglés, las descripciones alternativas de las imágenes y el foco visible durante la navegación por teclado amplían las posibilidades de uso.
+
+Las animaciones de entrada presentan la barra superior y los contenidos de forma progresiva. Cada bloque se anima únicamente la primera vez que aparece y se respeta la preferencia de movimiento reducido para mantener una experiencia cómoda.
+
+Los espacios “about the product” y “about the team” forman parte del diseño previsto y aparecen en los esquemas y prototipos visuales. Las portadas son ilustrativas y su incorporación al sitio queda pendiente de los enlaces definitivos.
 
 ### 3.1.4. Mobile Applications UX/UI Design
 
@@ -4987,62 +5151,6 @@ Esta adaptación permite reutilizar la misma estructura de navegación mantenien
 ---
 
 ## Capítulo IV: Product Implementation & Validation
-
-### 4.2. Landing Page & Mobile Application Implementation
-
-#### 4.2.1. Sprint 1
-
-##### 4.2.1.1. Sprint Planning 1
-
-##### 4.2.1.2. Aspect Leaders and Collaborators
-
-Durante el Sprint 1 el trabajo se distribuyó considerando los principales aspectos necesarios para construir la primera versión funcional de la experiencia móvil de CollabPro. Para cada aspecto se identifica un **Leader (L)** como responsable principal de conducir y consolidar el trabajo, mientras que los demás miembros que participaron como apoyo se identifican como **Collaborators (C)**.
-
-La distribución no implica exclusividad sobre la implementación, ya que todos los miembros del equipo participan en el desarrollo y revisión del producto. El objetivo de esta clasificación es evidenciar la responsabilidad principal asumida por cada integrante durante el Sprint.
-
-| Team Member (Last Name, First Name) | Mobile Architecture & Domain Integration Leader (L) / Collaborator (C) | Campaign & Collaboration Implementation Leader (L) / Collaborator (C) | Mobile UX/UI & Design System Leader (L) / Collaborator (C) | Navigation & Interaction Flows Leader (L) / Collaborator (C) | Testing & Quality Assurance Leader (L) / Collaborator (C) |
-| ----------------------------------- | :--------------------------------------------------------------------: | :-------------------------------------------------------------------: | :--------------------------------------------------------: | :----------------------------------------------------------: | :-------------------------------------------------------: |
-| Quispe Serrano, Julio Frank         |                                 C                                  |                                   C                                   |                             C                              |                              C                               |                             **L**                             |
-| Revilla Quispe, Renzo Zamir         |                                   C                                    |                                 **L**                                 |                             C                              |                              C                               |                             C                             |
-| Vallejo Trujillo, Fabio Cesar       |                                   C                                    |                                   C                                   |                           **L**                            |                              C                               |                             C                             |
-| Garcia Villanueva, Leonardo Rafael  |                                   C                                    |                                   C                                   |                             C                              |                            **L**                             |                             C                             |
-| Rocca Leon, Anhelo Rodrigo          |                                   **L**                                    |                                   C                                   |                             C                              |                              C                               |                           C                           |
-
-**Mobile Architecture & Domain Integration**
-
-Este aspecto comprende la organización estructural de la aplicación móvil, la separación entre las capas `domain`, `application`, `infrastructure` y `presentation`, así como la correspondencia entre los módulos implementados y los Bounded Contexts definidos previamente para CollabPro.
-
-**Campaign & Collaboration Implementation**
-
-Comprende la implementación y revisión de funcionalidades relacionadas con campañas, postulaciones, acuerdos, colaboraciones, entregables e incidencias, manteniendo coherencia con las User Stories y reglas de negocio definidas para el producto.
-
-**Mobile UX/UI & Design System**
-
-Comprende la definición y aplicación de colores, tipografía, espaciado, componentes reutilizables, tarjetas, botones, campos, estados y demás elementos visuales que permiten mantener consistencia entre las pantallas.
-
-**Navigation & Interaction Flows**
-
-Comprende la organización de rutas, navegación según el tipo de usuario, acceso a las funcionalidades principales, navegación hacia detalles y retorno entre pantallas, manteniendo coherencia con los flujos definidos para empresas y creadores.
-
-**Testing & Quality Assurance**
-
-Comprende la revisión del comportamiento esperado de los principales escenarios del Sprint, validaciones de formularios, estados alternativos, errores, pruebas de interacción y comprobación general de consistencia de la experiencia móvil.
-
-##### 4.2.1.3. Sprint Backlog 1
-
-##### 4.2.1.4. Development Evidence for Sprint Review
-
-##### 4.2.1.5. Testing Suite Evidence for Sprint Review
-
-##### 4.2.1.6. Execution Evidence for Sprint Review
-
-##### 4.2.1.7. Services Documentation Evidence for Sprint Review
-
-##### 4.2.1.8. Software Deployment Evidence for Sprint Review
-
-##### 4.2.1.9. Team Collaboration Insights during Sprint
-
-### 4. Product Implementation & Validation
 
 La solución definida para CollabPro comprende una landing page web, servicios REST desarrollados con Spring Boot y Java, persistencia relacional MySQL y almacenamiento de evidencias en Firebase Cloud Storage. El diseño también considera una aplicación nativa Android en Kotlin y una aplicación móvil multiplataforma en Flutter. Esta sección documenta cómo preparar el entorno, organizar los cambios, aplicar convenciones comunes y reproducir el despliegue.
 
@@ -5115,6 +5223,60 @@ Se recomienda aplicar formato automático antes de integrar cambios y ejecutar v
 | RESTful Web Services   | Servicio cloud compatible con Java/Spring Boot (Azure App Service)                                                                   | Construir artefacto desde tag aprobado, ejecutar pruebas, desplegar a staging, verificar health check y documentación OpenAPI, luego promover a producción. Configurar URL pública solo con HTTPS.             |
 | MySQL                  | Instancia administrada accesible solo desde el backend (Azure Database for MySQL)                                                    | Crear esquema mediante migraciones versionadas, restringir red/usuarios, habilitar respaldos y separar credenciales por ambiente. Nunca exponer el puerto de base de datos a Internet público.                 |
 | Apps Android y Flutter | Distribución de prueba mediante Firebase App Distribution o canal interno equivalente; publicación final según plataformas acordadas | Generar builds firmados desde pipeline/entorno controlado. Llaves de firma y credenciales de publicación se guardan fuera del repositorio. Probar instalación, permisos y URL del backend antes de distribuir. |
+
+### 4.2. Landing Page & Mobile Application Implementation
+
+#### 4.2.1. Sprint 1
+
+##### 4.2.1.1. Sprint Planning 1
+
+##### 4.2.1.2. Aspect Leaders and Collaborators
+
+Durante el Sprint 1 el trabajo se distribuyó considerando los principales aspectos necesarios para construir la primera versión funcional de la experiencia móvil de CollabPro. Para cada aspecto se identifica un **Leader (L)** como responsable principal de conducir y consolidar el trabajo, mientras que los demás miembros que participaron como apoyo se identifican como **Collaborators (C)**.
+
+La distribución no implica exclusividad sobre la implementación, ya que todos los miembros del equipo participan en el desarrollo y revisión del producto. El objetivo de esta clasificación es evidenciar la responsabilidad principal asumida por cada integrante durante el Sprint.
+
+| Team Member (Last Name, First Name) | Mobile Architecture & Domain Integration Leader (L) / Collaborator (C) | Campaign & Collaboration Implementation Leader (L) / Collaborator (C) | Mobile UX/UI & Design System Leader (L) / Collaborator (C) | Navigation & Interaction Flows Leader (L) / Collaborator (C) | Testing & Quality Assurance Leader (L) / Collaborator (C) |
+| ----------------------------------- | :--------------------------------------------------------------------: | :-------------------------------------------------------------------: | :--------------------------------------------------------: | :----------------------------------------------------------: | :-------------------------------------------------------: |
+| Quispe Serrano, Julio Frank         |                                 C                                  |                                   C                                   |                             C                              |                              C                               |                             **L**                             |
+| Revilla Quispe, Renzo Zamir         |                                   C                                    |                                 **L**                                 |                             C                              |                              C                               |                             C                             |
+| Vallejo Trujillo, Fabio Cesar       |                                   C                                    |                                   C                                   |                           **L**                            |                              C                               |                             C                             |
+| Garcia Villanueva, Leonardo Rafael  |                                   C                                    |                                   C                                   |                             C                              |                            **L**                             |                             C                             |
+| Rocca Leon, Anhelo Rodrigo          |                                   **L**                                    |                                   C                                   |                             C                              |                              C                               |                           C                           |
+
+**Mobile Architecture & Domain Integration**
+
+Este aspecto comprende la organización estructural de la aplicación móvil, la separación entre las capas `domain`, `application`, `infrastructure` y `presentation`, así como la correspondencia entre los módulos implementados y los Bounded Contexts definidos previamente para CollabPro.
+
+**Campaign & Collaboration Implementation**
+
+Comprende la implementación y revisión de funcionalidades relacionadas con campañas, postulaciones, acuerdos, colaboraciones, entregables e incidencias, manteniendo coherencia con las User Stories y reglas de negocio definidas para el producto.
+
+**Mobile UX/UI & Design System**
+
+Comprende la definición y aplicación de colores, tipografía, espaciado, componentes reutilizables, tarjetas, botones, campos, estados y demás elementos visuales que permiten mantener consistencia entre las pantallas.
+
+**Navigation & Interaction Flows**
+
+Comprende la organización de rutas, navegación según el tipo de usuario, acceso a las funcionalidades principales, navegación hacia detalles y retorno entre pantallas, manteniendo coherencia con los flujos definidos para empresas y creadores.
+
+**Testing & Quality Assurance**
+
+Comprende la revisión del comportamiento esperado de los principales escenarios del Sprint, validaciones de formularios, estados alternativos, errores, pruebas de interacción y comprobación general de consistencia de la experiencia móvil.
+
+##### 4.2.1.3. Sprint Backlog 1
+
+##### 4.2.1.4. Development Evidence for Sprint Review
+
+##### 4.2.1.5. Testing Suite Evidence for Sprint Review
+
+##### 4.2.1.6. Execution Evidence for Sprint Review
+
+##### 4.2.1.7. Services Documentation Evidence for Sprint Review
+
+##### 4.2.1.8. Software Deployment Evidence for Sprint Review
+
+##### 4.2.1.9. Team Collaboration Insights during Sprint
 
 ### 4.3. Validation Interviews
 
