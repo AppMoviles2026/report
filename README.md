@@ -59,20 +59,16 @@ Proyecto <br>
 
 <div style="page-break-after: always;"></div>
 
----
-
 # Registro de Versiones del Informe
 
 El objetivo de esta sección es resumir las modificaciones relevantes que se realizan al informe durante el ciclo de vida del proyecto.
 
-| Versión | Fecha      | Autor            | Descripción de modificación                                                                                                                                                                                           |
-| ------- | ---------- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Versión | Fecha      | Autor             | Descripción de modificación                                                                                                                                                                                           |
+| ------- | ---------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | V1.0    | 10/09/2026 | Equipo CollabTech | Creación de la primera versión del informe para la entrega AV1. Se incluyen las secciones preliminares, el Capítulo I (Startup Profile, Solution Profile, Segmentos) y el Capítulo II (Requirements y Strategic DDD). |
-| V1.1    | 28/09/2026 | Equipo CollabTech | Se incorpora la sección 4.1 de Software Configuration Management para CollabPro: entorno, gestión del código fuente, convenciones y configuración propuesta de despliegue. |
+| V1.1    | 28/09/2026 | Equipo CollabTech | Se incorpora la sección 4.1 de Software Configuration Management para CollabPro: entorno, gestión del código fuente, convenciones y configuración propuesta de despliegue.                                            |
 
 <div style="page-break-after: always;"></div>
-
----
 
 ## Project Report Collaboration Insights
 
@@ -84,11 +80,9 @@ Durante la entrega AV1, las actividades de elaboración del informe se gestionar
 
 ![Collab Github](./assets/C02/Collab/AV1.png)
 
-Repositorio del reporte: https://github.com/AppMoviles2026/report 
+Repositorio del reporte: https://github.com/AppMoviles2026/report
 
 <div style="page-break-after: always;"></div>
-
----
 
 ## Contenido
 
@@ -103,12 +97,16 @@ Repositorio del reporte: https://github.com/AppMoviles2026/report
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 - [Capítulo II: Requirements Development and Software Solution Design](#capítulo-ii-requirements-development-and-software-solution-design)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. s](#22-s)
+  - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
@@ -125,32 +123,117 @@ Repositorio del reporte: https://github.com/AppMoviles2026/report
     - [2.4.3. Product Backlog](#243-product-backlog)
   - [2.5. Strategic-Level Domain-Driven Design](#25-strategic-level-domain-driven-design)
     - [2.5.1. EventStorming](#251-eventstorming)
+      - [2.5.1.1. Candidate Context Discovery](#2511-candidate-context-discovery)
+      - [2.5.1.2. Domain Message Flows Modeling](#2512-domain-message-flows-modeling)
+      - [2.5.1.3. Bounded Context Canvases](#2513-bounded-context-canvases)
     - [2.5.2. Context Mapping](#252-context-mapping)
     - [2.5.3. Software Architecture](#253-software-architecture)
+      - [2.5.3.1. Software Architecture Context Level Diagrams](#2531-software-architecture-context-level-diagrams)
+      - [2.5.3.2. Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)
+      - [2.5.3.3. Software Architecture Deployment Diagrams](#2533-software-architecture-deployment-diagrams)
   - [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
+    - [2.6.1. Bounded Context: Identity & Profile Management](#261-bounded-context-identity--profile-management)
+      - [2.6.1.1. Domain Layer](#2611-domain-layer)
+      - [2.6.1.2. Interface Layer](#2612-interface-layer)
+      - [2.6.1.3. Application Layer](#2613-application-layer)
+      - [2.6.1.4. Infrastructure Layer](#2614-infrastructure-layer)
+      - [2.6.1.5. Bounded Context Software Architecture Component Level Diagrams](#2615-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.1.6. Bounded Context Software Architecture Code Level Diagrams](#2616-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.1.6.1. Bounded Context Domain Layer Class Diagrams](#26161-bounded-context-domain-layer-class-diagrams)
+        - [2.6.1.6.2. Bounded Context Database Design Diagram](#26162-bounded-context-database-design-diagram)
+    - [2.6.2. Bounded Context: Campaign Management](#262-bounded-context-campaign-management)
+      - [2.6.2.1. Domain Layer](#2621-domain-layer)
+      - [2.6.2.2. Interface Layer](#2622-interface-layer)
+      - [2.6.2.3. Application Layer](#2623-application-layer)
+      - [2.6.2.4. Infrastructure Layer](#2624-infrastructure-layer)
+      - [2.6.2.5. Bounded Context Software Architecture Component Level Diagrams](#2625-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.2.6. Bounded Context Software Architecture Code Level Diagrams](#2626-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.2.6.1. Bounded Context Domain Layer Class Diagrams](#26261-bounded-context-domain-layer-class-diagrams)
+        - [2.6.2.6.2. Bounded Context Database Design Diagram](#26262-bounded-context-database-design-diagram)
+    - [2.6.3. Bounded Context: Collaboration Management](#263-bounded-context-collaboration-management)
+      - [2.6.3.1. Domain Layer](#2631-domain-layer)
+      - [2.6.3.2. Interface Layer](#2632-interface-layer)
+      - [2.6.3.3. Application Layer](#2633-application-layer)
+      - [2.6.3.4. Infrastructure Layer](#2634-infrastructure-layer)
+      - [2.6.3.5. Bounded Context Software Architecture Component Level Diagrams](#2635-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.3.6. Bounded Context Software Architecture Code Level Diagrams](#2636-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.3.6.1. Bounded Context Domain Layer Class Diagrams](#26361-bounded-context-domain-layer-class-diagrams)
+        - [2.6.3.6.2. Bounded Context Database Design Diagram](#26362-bounded-context-database-design-diagram)
+    - [2.6.4. Bounded Context: Billing & Compensation Management](#264-bounded-context-billing--compensation-management)
+      - [2.6.4.1. Domain Layer](#2641-domain-layer)
+      - [2.6.4.2. Interface Layer](#2642-interface-layer)
+      - [2.6.4.3. Application Layer](#2643-application-layer)
+      - [2.6.4.4. Infrastructure Layer](#2644-infrastructure-layer)
+      - [2.6.4.5. Bounded Context Software Architecture Component Level Diagrams](#2645-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.4.6. Bounded Context Software Architecture Code Level Diagrams](#2646-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.4.6.1. Bounded Context Domain Layer Class Diagrams](#26461-bounded-context-domain-layer-class-diagrams)
+        - [2.6.4.6.2. Bounded Context Database Design Diagram](#26462-bounded-context-database-design-diagram)
+    - [2.6.5. Bounded Context: Performance & Attribution Management](#265-bounded-context-performance--attribution-management)
+      - [2.6.5.1. Domain Layer](#2651-domain-layer)
+      - [2.6.5.2. Interface Layer](#2652-interface-layer)
+      - [2.6.5.3. Application Layer](#2653-application-layer)
+      - [2.6.5.4. Infrastructure Layer](#2654-infrastructure-layer)
+      - [2.6.5.5. Bounded Context Software Architecture Component Level Diagrams](#2655-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.5.6. Bounded Context Software Architecture Code Level Diagrams](#2656-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.5.6.1. Bounded Context Domain Layer Class Diagrams](#26561-bounded-context-domain-layer-class-diagrams)
+        - [2.6.5.6.2. Bounded Context Database Design Diagram](#26562-bounded-context-database-design-diagram)
+- [Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-uiux-design)
+  - [3.1. Product Design](#31-product-design)
+    - [3.1.1. Style Guidelines](#311-style-guidelines)
+      - [3.1.1.1. General Style Guidelines](#3111-general-style-guidelines)
+    - [3.1.2. Information Architecture](#312-information-architecture)
+      - [3.1.2.1. Organization Systems](#3121-organization-systems)
+      - [3.1.2.2. Labeling Systems](#3122-labeling-systems)
+      - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
+      - [3.1.2.4. Searching Systems](#3124-searching-systems)
+      - [3.1.2.5. Navigation Systems](#3125-navigation-systems)
+    - [3.1.3. Landing Page UI Design](#313-landing-page-ui-design)
+      - [3.1.3.1. Landing Page Wireframe](#3131-landing-page-wireframe)
+      - [3.1.3.2. Landing Page Mock-up](#3132-landing-page-mock-up)
+    - [3.1.4. Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)
+      - [3.1.4.1. Mobile Applications Wireframes](#3141-mobile-applications-wireframes)
+      - [3.1.4.2. Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)
+      - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
+      - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
+      - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
   - [Capítulo IV: Product Implementation & Validation](#capítulo-iv-product-implementation--validation)
+  - [4. Product Implementation & Validation](#4-product-implementation--validation)
     - [4.1. Software Configuration Management](#41-software-configuration-management)
       - [4.1.1. Software Development Environment Configuration](#411-software-development-environment-configuration)
       - [4.1.2. Source Code Management](#412-source-code-management)
       - [4.1.3. Source Code Style Guide & Conventions](#413-source-code-style-guide--conventions)
       - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
+  - [4.2. Landing Page & Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
+    - [4.2.1. Sprint 1](#421-sprint-1)
+      - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
+      - [4.2.1.2. Aspect Leaders and Collaborators](#4212-aspect-leaders-and-collaborators)
+      - [4.2.1.3. Sprint Backlog 1](#4213-sprint-backlog-1)
+      - [4.2.1.4. Development Evidence for Sprint Review](#4214-development-evidence-for-sprint-review)
+      - [4.2.1.5. Testing Suite Evidence for Sprint Review](#4215-testing-suite-evidence-for-sprint-review)
+      - [4.2.1.6. Execution Evidence for Sprint Review](#4216-execution-evidence-for-sprint-review)
+      - [4.2.1.7. Services Documentation Evidence for Sprint Review](#4217-services-documentation-evidence-for-sprint-review)
+      - [4.2.1.8. Software Deployment Evidence for Sprint Review](#4218-software-deployment-evidence-for-sprint-review)
+      - [4.2.1.9. Team Collaboration Insights during Sprint](#4219-team-collaboration-insights-during-sprint)
+  - [4.3. Validation Interviews](#43-validation-interviews)
+    - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
+    - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
+    - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
 
 - [Conclusiones](#conclusiones)
+- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Glosario](#glosario)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
 <div style="page-break-after: always;"></div>
 
----
-
 ## Student Outcome
 
 **ABET EAC - Student Outcome 7:** La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
 
-| Criterio específico                                                                                                                         | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Conclusiones                                                                                                                                                                                                                                                                                                                        |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Quispe Serrano, Julio Frank:** AV1: Actualicé mis conocimientos investigando de forma autónoma la metodología ágil Lean UX y la técnica de las 5W's y 2H's para redactar correctamente el Solution Profile, los Assumptions y el Canvas del proyecto.<br><br>**Vallejo Trujillo, Fabio Cesar:** AV1: Aprendí a utilizar la herramienta UXPressia de manera autodidacta para estructurar el Needfinding (User Personas y Journey Maps) y actualicé mis nociones sobre métricas para el análisis competitivo de plataformas de marketing.<br><br>**Garcia Villanueva, Leonardo Rafael:** AV1: En este avance tuve que realizar la especificación de los requisitos del proyecto, y para ello actualicé mis conocimientos técnicos sobre Behavior-Driven Development (BDD), estudiando a fondo la sintaxis del estándar Gherkin para redactar historias de usuario sin ambigüedades.<br><br>**Revilla Quispe, Renzo Zamir:** AV1: Tuve que investigar y actualizar mis conocimientos teóricos sobre Domain-Driven Design (DDD) y modelado EventStorming para poder definir correctamente el lenguaje ubicuo y los Bounded Contexts a nivel estratégico.<br><br>**Rocca León, Anhelo:** AV1: Para el desarrollo de la arquitectura, investigué de manera autónoma los fundamentos del modelo C4 (Context, Container, Component, Code) y cómo aplicarlo para diagramar la infraestructura técnica del sistema.                                                                                                                                                    | **AV1:** Durante esta entrega, todo el equipo demostró la capacidad de investigar y aplicar metodologías y estándares de la industria (como Lean UX, Gherkin, DDD y C4 Model) que no se dominaban del todo al inicio del ciclo, integrándolos exitosamente en la documentación formal de requerimientos y arquitectura del sistema. |
+| Criterio específico                                                                                                                         | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Conclusiones                                                                                                                                                                                                                                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Quispe Serrano, Julio Frank:** AV1: Actualicé mis conocimientos investigando de forma autónoma la metodología ágil Lean UX y la técnica de las 5W's y 2H's para redactar correctamente el Solution Profile, los Assumptions y el Canvas del proyecto.<br><br>**Vallejo Trujillo, Fabio Cesar:** AV1: Aprendí a utilizar la herramienta UXPressia de manera autodidacta para estructurar el Needfinding (User Personas y Journey Maps) y actualicé mis nociones sobre métricas para el análisis competitivo de plataformas de marketing.<br><br>**Garcia Villanueva, Leonardo Rafael:** AV1: En este avance tuve que realizar la especificación de los requisitos del proyecto, y para ello actualicé mis conocimientos técnicos sobre Behavior-Driven Development (BDD), estudiando a fondo la sintaxis del estándar Gherkin para redactar historias de usuario sin ambigüedades.<br><br>**Revilla Quispe, Renzo Zamir:** AV1: Tuve que investigar y actualizar mis conocimientos teóricos sobre Domain-Driven Design (DDD) y modelado EventStorming para poder definir correctamente el lenguaje ubicuo y los Bounded Contexts a nivel estratégico.<br><br>**Rocca León, Anhelo:** AV1: Para el desarrollo de la arquitectura, investigué de manera autónoma los fundamentos del modelo C4 (Context, Container, Component, Code) y cómo aplicarlo para diagramar la infraestructura técnica del sistema.                                                                                                                                     | **AV1:** Durante esta entrega, todo el equipo demostró la capacidad de investigar y aplicar metodologías y estándares de la industria (como Lean UX, Gherkin, DDD y C4 Model) que no se dominaban del todo al inicio del ciclo, integrándolos exitosamente en la documentación formal de requerimientos y arquitectura del sistema. |
 | **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**  | **Quispe Serrano, Julio Frank:** AV1: Comprendí que estructurar un modelo de negocio B2B requiere investigar constantemente el mercado y validar las hipótesis (Hypothesis Statements) iterativamente para asegurar que el software brinde valor real.<br><br>**Vallejo Trujillo, Fabio Cesar:** AV1: Reconocí la importancia de adaptar las herramientas de investigación a los usuarios reales; entender las frustraciones de los creadores de contenido me exigió buscar continuamente nuevos enfoques de empatía (Empathy Mapping).<br><br>**Garcia Villanueva, Leonardo Rafael:** AV1: Identifiqué que mis conocimientos sobre Gherkin para la elaboración de las User Stories necesitaban ser reforzados, y también reconocí la necesidad de continuar investigando y aprendiendo sobre la correcta gestión del Product Backlog y la elaboración del Impact Mapping para aplicarlos correctamente durante el desarrollo de este proyecto y así mejorar tanto como mi desempeño como la calidad del proyecto.<br><br>**Revilla Quispe, Renzo Zamir:** AV1: Asimilé que el diseño a nivel estratégico nunca es estático; dominar los flujos de dominio y la delimitación de contextos (Context Mapping) me exigió mantener una postura de estudio constante de la literatura técnica.<br><br>**Rocca León, Anhelo:** AV1: Evidencié la necesidad de consultar fuentes académicas y documentación oficial constantemente para justificar decisiones de arquitectura de bases de datos y garantizar la viabilidad del despliegue tecnológico. | **AV1:** Como equipo, comprendemos que el ecosistema de startups y las tecnologías de desarrollo evolucionan rápidamente. Reconocemos que adoptar una postura proactiva hacia la lectura de documentación oficial y literatura especializada es fundamental para el éxito y la escalabilidad del proyecto.                          |
 
 <div style="page-break-after: always;"></div>
@@ -204,8 +287,6 @@ Plan: Después de finalizar mi carrera, continuaré desarrollando mis competenci
 Objetivo SMART 1: Durante los primeros 9 meses después de finalizar la carrera, desarrollaré al menos 2 proyectos de software en los que participe tanto en la definición de la experiencia de usuario como en su implementación técnica. Para cada proyecto elaboraré prototipos, flujos de interacción y una aplicación funcional, con el objetivo de fortalecer mi capacidad para transformar necesidades de usuarios en soluciones digitales.
 
 Objetivo SMART 2: En un periodo máximo de 9 meses después de finalizar la carrera, completaré al menos 2 cursos o certificaciones relacionados con UX/UI, arquitectura de software o diseño de soluciones digitales. Aplicaré los conocimientos obtenidos mejorando al menos 2 proyectos de mi portafolio mediante prototipos, diagramas de arquitectura o evaluaciones de usabilidad que permitan evidenciar mi crecimiento profesional.
-
----
 
 ## Capítulo I: Presentación
 
@@ -491,15 +572,15 @@ Estas tácticas deben priorizarse como un MVP: primero campaña estructurada, po
 | **URL del video**                 | [https://youtu.be/dvb_GWTTWyg](https://youtu.be/dvb_GWTTWyg)   |
 | **Screenshot**                    | ![Entrevista Frank](./assets//C02/Entrevistas/FrankLoayza.png) |
 
-## Resumen Descriptivo de la Entrevista
+##### Resumen Descriptivo de la Entrevista
 
-### Características Objetivas y Entorno
+###### Características Objetivas y Entorno
 
 Frank es un joven emprendedor que, junto con un socio, dirige desde hace más de un año un negocio de makis y sushi operado exclusivamente bajo el formato de dark kitchen o full delivery (sin atención en mesa). El negocio cuenta con un catálogo de más de 20 variedades y tiene a dos empleados adicionales.
 
 El 80% de su público objetivo está compuesto por clientes jóvenes, por lo que su estrategia de exposición digital se centra en plataformas como TikTok e Instagram, descartando Facebook por considerarlo para un segmento de mayor edad.
 
-### Herramientas y Proceso Actual
+###### Herramientas y Proceso Actual
 
 Actualmente, el manejo del marketing y la creación de contenido se realizan de manera empírica. El negocio no emplea plataformas formales para contactar influencers ni agencias de publicidad.
 
@@ -510,7 +591,7 @@ El proceso actual se basa en:
 - Negociación directa vía mensajes (DM) para realizar "canjes": a cambio de productos (ej. 72 cortes de makis), el creador publica historias promocionales.
 - El seguimiento de resultados se hace observando empíricamente el aumento de visualizaciones, likes, comentarios y percibiendo si hay un ligero pico de demanda temporal en los días posteriores a la publicación.
 
-### Problemas Detectados (Pain Points)
+###### Problemas Detectados (Pain Points)
 
 El entrevistado expone limitaciones claras en su proceso de marketing de influencers:
 
@@ -519,7 +600,7 @@ El entrevistado expone limitaciones claras en su proceso de marketing de influen
 - **Falta de tiempo:** Al ser dos socios liderando la empresa en fase de arranque, están enfocados en la operación y desarrollo del producto, relegando la búsqueda de influencers.
 - **Presupuesto restringido:** No cuentan con capital para inversiones grandes o contrataciones formales recurrentes.
 
-### Necesidades y Oportunidades
+###### Necesidades y Oportunidades
 
 Frank muestra interés en profesionalizar su búsqueda de creadores, pero requiere herramientas que se adapten a la realidad de un negocio emergente.
 
@@ -529,7 +610,7 @@ Valora positivamente una plataforma que le ofrezca:
 - Herramientas integradas para medir con precisión las métricas de rendimiento (vistas, interacción) y controlar los entregables.
 - Opciones de pago justas, mostrando preferencia inicial por modelos de pago basados en resultados (pago por interacción, vistas o rendimiento) en lugar de cargos fijos.
 
-### Aspectos Subjetivos y Comportamiento
+###### Aspectos Subjetivos y Comportamiento
 
 Frank es un emprendedor cauteloso con los gastos y fuertemente enfocado en el núcleo de su negocio operativo. Su toma de decisiones es pragmática y consensuada (siempre consulta con su socio).
 
@@ -537,7 +618,7 @@ Es receptivo a probar nuevas tecnologías o plataformas, pero exige que la herra
 
 No busca fama inmediata, sino exposición rentable y dirigida exclusivamente al nicho universitario/juvenil.
 
-### Tecnología y Riesgos Percibidos
+###### Tecnología y Riesgos Percibidos
 
 El riesgo principal que percibe Frank frente a la propuesta de valor es el modelo de negocio por suscripción mensual.
 
@@ -545,7 +626,7 @@ Para un emprendimiento en fase de crecimiento y con poco capital sobrante, asumi
 
 Estaría dispuesto a evaluar la herramienta y pagar si se le demuestra que la automatización, las métricas y la calidad de los creadores compensan el gasto de la suscripción mensual.
 
-### Validación del Arquetipo
+###### Validación del Arquetipo
 
 Los hallazgos validan el arquetipo del **Emprendedor de Pequeña Empresa con Recursos Limitados**.
 
@@ -557,7 +638,7 @@ Esto respalda la necesidad de desarrollar funciones dentro de la plataforma enfo
 - **Panel de control automatizado para medir ROI (Retorno de Inversión):** mediante vistas e interacciones.
 - **Flexibilidad en los modelos de contratación:** canjes estandarizados, pagos por resultados o suscripciones escalables adaptadas a pymes.
 
-#### Entrevista 2: Andy Pillaca
+##### Entrevista 2: Andy Pillaca
 
 | Campo                             | Detalle                                                                                                                                          |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -571,15 +652,15 @@ Esto respalda la necesidad de desarrollar funciones dentro de la plataforma enfo
 | **URL del video**                 | [https://drive.google.com/file/d/1z8S2-whw5Wi0ZabnAjMTSdbTEb_XWkOh/view](https://drive.google.com/file/d/1z8S2-whw5Wi0ZabnAjMTSdbTEb_XWkOh/view) |
 | **Screenshot**                    | ![Entrevista Andy](./assets/C02/Entrevistas/Andy.png)                                                                                            |
 
-### Resumen Descriptivo de la Entrevista
+###### Resumen Descriptivo de la Entrevista
 
-#### Características Objetivas y Entorno
+###### Características Objetivas y Entorno
 
 Andy forma parte del personal encargado del marketing de una pequeña empresa que utiliza activamente las redes sociales para promocionar sus productos. La empresa mantiene presencia principalmente en Instagram, Facebook y TikTok, canales mediante los cuales busca incrementar su alcance y llegar a nuevos clientes.
 
 La empresa cuenta con experiencia previa realizando colaboraciones con diferentes creadores de contenido, incluyendo streamers. Por ello, el entrevistado conoce directamente las dificultades asociadas con la búsqueda, coordinación, seguimiento y evaluación de este tipo de campañas.
 
-#### Herramientas y Proceso Actual
+###### Herramientas y Proceso Actual
 
 Actualmente, la empresa encuentra potenciales colaboradores principalmente mediante redes sociales y recomendaciones de otras personas. Antes de trabajar con un creador, intentan conocer referencias sobre su responsabilidad, puntualidad y cumplimiento de compromisos anteriores.
 
@@ -594,7 +675,7 @@ Una vez iniciada la campaña, el seguimiento se realiza de manera manual. El per
 
 Después de finalizar una colaboración, la empresa analiza principalmente las visualizaciones, interacciones y seguidores obtenidos. Cuando existe la posibilidad de relacionar directamente una campaña con ventas, también utilizan las ventas generadas como indicador de rendimiento.
 
-#### Problemas Detectados (Pain Points)
+###### Problemas Detectados (Pain Points)
 
 Durante la entrevista se identificaron los siguientes problemas principales:
 
@@ -605,7 +686,7 @@ Durante la entrevista se identificaron los siguientes problemas principales:
 - **Información distribuida:** Los acuerdos y el seguimiento de una campaña pueden encontrarse repartidos entre diferentes conversaciones y medios de comunicación.
 - **Esfuerzo operativo elevado:** Buscar al creador adecuado y supervisar sus entregables son las actividades que consumen mayor tiempo.
 
-#### Necesidades y Oportunidades
+###### Necesidades y Oportunidades
 
 Andy identifica como principal oportunidad la posibilidad de **centralizar todo el proceso de colaboración en un único lugar**.
 
@@ -621,7 +702,7 @@ De acuerdo con sus respuestas, una solución de este tipo debería facilitar:
 
 Esta necesidad coincide directamente con la propuesta de CollabPro de reemplazar la coordinación distribuida en redes sociales, mensajes y llamadas por un proceso estructurado y trazable.
 
-#### Aspectos Subjetivos y Comportamiento
+###### Aspectos Subjetivos y Comportamiento
 
 El entrevistado demuestra especial preocupación por la responsabilidad y puntualidad de los creadores. Al momento de seleccionar un colaborador, no considera únicamente su alcance en redes sociales, sino también referencias sobre su comportamiento en colaboraciones anteriores.
 
@@ -629,7 +710,7 @@ Asimismo, la empresa parece mantener un proceso de marketing orientado a resulta
 
 Andy considera que una herramienta especializada podría aportar valor si efectivamente reduce el esfuerzo requerido para administrar las campañas.
 
-#### Disposición de Pago y Riesgos Percibidos
+###### Disposición de Pago y Riesgos Percibidos
 
 El entrevistado manifestó que la empresa estaría dispuesta a pagar una suscripción mensual por una plataforma especializada siempre que esta permita ahorrar tiempo, controlar las campañas y medir sus resultados.
 
@@ -640,7 +721,7 @@ Esto demuestra que existe interés por un modelo de suscripción, pero que la di
 1. Que la plataforma demuestre un ahorro real de tiempo y esfuerzo.
 2. Que el precio se encuentre dentro de las posibilidades económicas de una pyme.
 
-#### Validación del Arquetipo
+###### Validación del Arquetipo
 
 La entrevista con Andy refuerza el arquetipo de la **Pyme que necesita profesionalizar la gestión de sus colaboraciones con creadores**.
 
@@ -656,17 +737,17 @@ Los hallazgos respaldan especialmente el desarrollo de funcionalidades relaciona
 - **Centralización de la comunicación y coordinación** de cada colaboración.
 - **Planes de precios accesibles para pequeñas empresas.**
 
-### Segmento 2: Creadores de Contenido
+##### Segmento 2: Creadores de Contenido
 
 Actualmente no se cuenta con una entrevista registrada para este segmento. Los perfiles, necesidades y puntos de dolor planteados para los creadores de contenido deben considerarse hipótesis hasta realizar entrevistas con participantes pertenecientes directamente a este segmento.
 
-## 2.2.3. Análisis de entrevistas
+#### 2.2.3. Análisis de entrevistas
 
 Para esta primera etapa de investigación se analizaron dos entrevistas correspondientes al segmento de pequeñas y medianas empresas. La primera fue realizada a Frank Loayza, propietario de un emprendimiento de comida mediante delivery, y la segunda a Andy Pillaca, integrante del personal de marketing de una pequeña empresa.
 
 Aunque ambos entrevistados presentan contextos diferentes, se identificaron patrones comunes que permiten comprender cómo las pequeñas empresas administran actualmente sus colaboraciones con creadores de contenido.
 
-### Búsqueda y selección de creadores
+##### Búsqueda y selección de creadores
 
 Uno de los principales hallazgos es que la búsqueda de creadores continúa realizándose de manera poco estructurada.
 
@@ -684,7 +765,7 @@ Por lo tanto, ambos casos demuestran que la selección de un creador no depende 
 
 Este hallazgo respalda la necesidad de incorporar mecanismos de búsqueda, filtrado e historial de colaboraciones dentro de CollabPro.
 
-### Coordinación y definición de acuerdos
+##### Coordinación y definición de acuerdos
 
 Otro patrón encontrado es el uso de canales informales para coordinar las colaboraciones.
 
@@ -703,7 +784,7 @@ Los resultados respaldan la propuesta de utilizar campañas estructuradas donde 
 
 De esta manera, las condiciones de la colaboración podrían consultarse desde un único punto durante todo el proceso.
 
-### Seguimiento y cumplimiento de entregables
+##### Seguimiento y cumplimiento de entregables
 
 La supervisión de los creadores representa otro problema relevante.
 
@@ -717,7 +798,7 @@ Ambas entrevistas muestran una oportunidad para implementar un flujo de seguimie
 
 También resulta relevante permitir que el creador adjunte evidencias de cumplimiento y que la empresa pueda aprobar o solicitar modificaciones cuando sea necesario.
 
-### Medición de resultados
+##### Medición de resultados
 
 Los dos entrevistados demostraron interés en conocer los resultados obtenidos después de trabajar con un creador.
 
@@ -734,7 +815,7 @@ Por lo tanto, las entrevistas respaldan la necesidad de un panel que concentre l
 
 La información debería presentarse de manera sencilla, ya que el objetivo de este segmento no necesariamente es realizar análisis avanzados de marketing, sino determinar rápidamente si la inversión realizada generó resultados suficientes.
 
-### Tiempo y esfuerzo requerido
+##### Tiempo y esfuerzo requerido
 
 Otro patrón claramente identificado es el tiempo invertido en administrar las colaboraciones.
 
@@ -748,7 +829,7 @@ Esto permite identificar dos actividades especialmente problemáticas:
 
 Reducir el tiempo requerido para estas actividades representa una de las principales oportunidades de valor para CollabPro.
 
-### Disposición de pago
+##### Disposición de pago
 
 La disposición a pagar por una plataforma especializada existe, aunque presenta condiciones importantes.
 
@@ -766,7 +847,7 @@ Los resultados indican que el precio y el modelo comercial deberán probarse pos
 - Una campaña inicial gratuita.
 - Modelos mixtos de suscripción y comisión.
 
-### Hallazgos comunes
+##### Hallazgos comunes
 
 A partir de ambas entrevistas se identifican cinco necesidades principales del segmento de pequeñas y medianas empresas:
 
@@ -778,7 +859,7 @@ A partir de ambas entrevistas se identifican cinco necesidades principales del s
 
 Estos hallazgos respaldan la problemática planteada inicialmente por CollabPro, especialmente respecto a la fragmentación del proceso actual y la ausencia de una herramienta centralizada para administrar las colaboraciones.
 
-### Diferencias entre los entrevistados
+##### Diferencias entre los entrevistados
 
 Aunque existen necesidades comunes, también se identificaron diferencias relevantes.
 
@@ -788,7 +869,7 @@ Andy representa un contexto donde las colaboraciones con creadores ya se realiza
 
 Estas diferencias sugieren que CollabPro deberá atender empresas con distintos niveles de madurez en influencer marketing. Para negocios con poca experiencia deberá facilitar principalmente el descubrimiento y estructuración de campañas, mientras que para empresas con mayor experiencia deberá aportar control, seguimiento y métricas.
 
-### Validación de las hipótesis de CollabPro
+##### Validación de las hipótesis de CollabPro
 
 Las entrevistas permiten realizar una primera evaluación de las principales hipótesis planteadas para la solución.
 
@@ -802,7 +883,7 @@ Las entrevistas permiten realizar una primera evaluación de las principales hip
 | Las pymes pagarían una suscripción mensual.                                                | **Parcialmente respaldada**    | Andy estaría dispuesto si existe ahorro de tiempo y un precio accesible; Frank presenta mayor sensibilidad frente a un costo mensual fijo.                                 |
 | Los creadores necesitan mayor claridad y seguridad en sus colaboraciones.                  | **Pendiente de validación**    | Todavía no se cuenta con entrevistas directas pertenecientes al segmento de creadores de contenido.                                                                        |
 
-### Implicaciones para el MVP
+##### Implicaciones para el MVP
 
 Los resultados permiten priorizar un primer conjunto de funcionalidades para CollabPro.
 
@@ -821,7 +902,7 @@ El MVP debería concentrarse inicialmente en:
 
 Funciones más avanzadas, como sistemas complejos de recomendación automática, automatización integral de pagos o analítica avanzada, pueden evaluarse posteriormente después de validar las necesidades de ambos segmentos.
 
-### Limitaciones de la investigación
+##### Limitaciones de la investigación
 
 Hasta el momento se dispone de dos entrevistas pertenecientes al segmento de pequeñas y medianas empresas. Esto permite identificar patrones iniciales, pero no garantiza que representen a todas las pymes.
 
@@ -3567,14 +3648,14 @@ El Container Diagram representa los productos principales que conforman CollabPr
 
 La solución incluye un Landing Page, una aplicación móvil nativa para Android, una aplicación móvil multiplataforma, los RESTful Web Services, el sistema de persistencia y las integraciones externas.
 
-| Container                             | Tecnología                              | Responsabilidad                                                                                                              |
-| ------------------------------------- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| **Landing Page**                      | HTML5, CSS3 y JavaScript                | Presentar la propuesta de valor, información del producto, idiomas disponibles y mecanismos iniciales de acceso a CollabPro. |
-| **Native Android Application**        | Kotlin                                  | Proporcionar la experiencia móvil nativa para empresas y creadores.                                                          |
-| **Cross-Platform Mobile Application** | Flutter                             | Proporcionar la experiencia móvil multiplataforma requerida por la solución.                                                 |
-| **RESTful Web Services**              | Spring Boot Java                    | Exponer los casos de uso de CollabPro y coordinar los cinco Bounded Contexts.                                                |
-| **Relational Database**               | MySQL                               | Persistir los datos administrados por los Bounded Contexts.                                                                  |
-| **Evidence/Object Storage**           | Firebase Cloud Storage                | Almacenar archivos o evidencias que no deban persistirse directamente dentro de la base de datos relacional.                 |
+| Container                             | Tecnología               | Responsabilidad                                                                                                              |
+| ------------------------------------- | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| **Landing Page**                      | HTML5, CSS3 y JavaScript | Presentar la propuesta de valor, información del producto, idiomas disponibles y mecanismos iniciales de acceso a CollabPro. |
+| **Native Android Application**        | Kotlin                   | Proporcionar la experiencia móvil nativa para empresas y creadores.                                                          |
+| **Cross-Platform Mobile Application** | Flutter                  | Proporcionar la experiencia móvil multiplataforma requerida por la solución.                                                 |
+| **RESTful Web Services**              | Spring Boot Java         | Exponer los casos de uso de CollabPro y coordinar los cinco Bounded Contexts.                                                |
+| **Relational Database**               | MySQL                    | Persistir los datos administrados por los Bounded Contexts.                                                                  |
+| **Evidence/Object Storage**           | Firebase Cloud Storage   | Almacenar archivos o evidencias que no deban persistirse directamente dentro de la base de datos relacional.                 |
 
 Se propone implementar inicialmente los RESTful Web Services mediante una arquitectura modular, manteniendo cada Bounded Context como un módulo independiente dentro del backend. Esta decisión permite conservar los límites definidos por Domain-Driven Design sin introducir prematuramente la complejidad operacional de una arquitectura distribuida.
 
@@ -3685,7 +3766,6 @@ La integración concreta con proveedores de redes sociales permanece encapsulada
 
 El Component Diagram de Identity & Profile Management representa la descomposición interna del contexto dentro del backend de CollabPro. El componente de Interface expone los servicios de autenticación, perfiles y redes sociales. Los componentes de Application coordinan los casos de uso, mientras que el Domain Model mantiene las reglas relacionadas con cuentas y perfiles. Finalmente, los adapters de Infrastructure proporcionan persistencia, manejo seguro de credenciales e integración con proveedores de identidad social.
 
-
 ##### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 En esta sección se representa el diseño a nivel de código del Bounded Context Identity & Profile Management mediante el Domain Layer Class Diagram y el Database Design Diagram.
@@ -3693,7 +3773,6 @@ En esta sección se representa el diseño a nivel de código del Bounded Context
 ###### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 
 El Class Diagram muestra `Account` como Aggregate Root. Una instancia de `Account` mantiene, según su tipo, un `BrandProfile` o un `CreatorProfile`. El `CreatorProfile` puede mantener múltiples `SocialMediaAccount`. Asimismo, se representan los Value Objects, enumeraciones y la abstracción `AccountRepository`.
-
 
 ###### 2.6.1.6.2. Bounded Context Database Design Diagram
 
@@ -3764,13 +3843,11 @@ Las decisiones de persistencia se mantienen separadas del modelo de dominio, per
 
 El Component Diagram de Campaign Management muestra los componentes responsables de la administración de campañas y postulaciones. Los Controllers reciben las solicitudes provenientes de las aplicaciones móviles, los Application Handlers coordinan los casos de uso, el Domain Model implementa las reglas sobre campañas y postulaciones, y los Persistence Adapters almacenan sus estados.
 
-
 ##### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 
 ###### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 
 El Class Diagram representa los Aggregates `Campaign` y `Application`. Una campaña contiene requisitos, especificaciones de entregables y condiciones de compensación. Las postulaciones referencian la campaña y al creador correspondiente, manteniendo su propio ciclo de vida.
-
 
 ###### 2.6.2.6.2. Bounded Context Database Design Diagram
 
@@ -3841,13 +3918,11 @@ Cuando una colaboración satisface sus condiciones de cumplimiento, el contexto 
 
 El Component Diagram de Collaboration Management debe mostrar los Controllers de colaboración, entregables e incidencias; los handlers encargados de los casos de uso; el Domain Model compuesto por Collaboration, Deliverable e Incident; y los adapters responsables de persistencia y almacenamiento de evidencias.
 
-
 ##### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 ###### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
 
 El Class Diagram representa `Collaboration` como Aggregate Root y detalla las relaciones con `AgreementSnapshot`, `Deliverable`, `Evidence`, `DeliverableReview` e `Incident`, además de sus enumeraciones y `CollaborationRepository`.
-
 
 ###### 2.6.3.6.2. Bounded Context Database Design Diagram
 
@@ -3919,20 +3994,17 @@ El Spike relacionado con Stripe se utiliza como investigación de viabilidad. Po
 
 El Component Diagram debe mostrar los componentes de medios de pago, suscripciones y compensaciones, así como la integración del backend con el proveedor de pagos externo. La comunicación con dicho proveedor se realiza exclusivamente mediante el adapter definido en Infrastructure Layer.
 
-
 ##### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 
 ###### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 
 El Class Diagram presenta los Aggregates `PaymentAccount`, `Subscription` y `Compensation`, junto con `PaymentMethod`, `PaymentTransaction`, el Value Object `Money`, sus enumeraciones y las abstracciones de persistencia y comunicación con proveedores financieros.
 
-
 ###### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 El Database Design Diagram representa las cuentas financieras, medios de pago tokenizados o referenciados mediante el proveedor, suscripciones, compensaciones y transacciones. No se almacenan directamente datos sensibles completos del medio de pago; se conserva únicamente la referencia necesaria proporcionada por el proveedor seleccionado.
 
 ![Database Design Diagram de Billing & Compensation Management](assets/C02/DDD/DatabaseDiagram/database-diagram-billing.png)
-
 
 #### 2.6.5. Bounded Context: Performance & Attribution Management
 
@@ -3990,13 +4062,11 @@ Las APIs concretas utilizadas para obtener datos de redes sociales se determinar
 
 El Component Diagram representa la coordinación entre los componentes de resultados, métricas, evidencias y atribución. También representa la comunicación con los servicios externos utilizados para obtener información autorizada de las redes sociales.
 
-
 ##### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 
 ###### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
 
 El Class Diagram representa `PerformanceReport` como Aggregate Root y sus relaciones con `MetricSnapshot`, `PerformanceEvidence`, `AttributionLink` y `AttributedInteraction`, junto con los Value Objects, enumeraciones y la abstracción `SocialMetricsProvider`.
-
 
 ###### 2.6.5.6.2. Bounded Context Database Design Diagram
 
@@ -4006,7 +4076,971 @@ El Database Design Diagram debe distinguir las métricas obtenidas automáticame
 
 ---
 
+## Capítulo III: Solution UI/UX Design
+
+### 3.1. Product Design
+
+El diseño de producto de CollabPro busca trasladar la propuesta de valor del negocio a una experiencia móvil clara, consistente y orientada a tareas. La solución está dirigida principalmente a dos tipos de usuario, representantes de pequeñas y medianas empresas y creadores de contenido. Debido a que ambos participan en un mismo proceso de colaboración, pero persiguen objetivos diferentes, la experiencia visual y la arquitectura de información se diseñan para mantener una base común y, al mismo tiempo, presentar funcionalidades específicas según el tipo de cuenta.
+
+Para las empresas, la experiencia se orienta principalmente a la creación y gestión de campañas, revisión de postulaciones, selección de creadores, validación de entregables, administración de compensaciones y consulta de resultados. Para los creadores, la experiencia prioriza el descubrimiento de campañas, revisión de condiciones, postulación, seguimiento de colaboraciones, presentación de evidencias y consulta del estado de sus compensaciones.
+
+El producto mantiene una estructura visual uniforme en todas sus funcionalidades mediante componentes reutilizables, una paleta cromática común, jerarquías tipográficas consistentes y patrones de interacción similares. Estas decisiones buscan reducir la curva de aprendizaje y permitir que el usuario reconozca rápidamente las acciones principales, los estados de los procesos y la información relevante dentro de cada pantalla.
+
+#### 3.1.1. Style Guidelines
+
+Los Style Guidelines de CollabPro establecen los lineamientos visuales y de comunicación utilizados para mantener una experiencia coherente entre las diferentes funcionalidades de la aplicación móvil.
+
+El sistema visual busca transmitir principalmente **confianza, profesionalismo, claridad y cercanía**, atributos necesarios debido a que CollabPro intermedia relaciones comerciales entre empresas y creadores de contenido. A diferencia de una plataforma social orientada principalmente al entretenimiento, la interfaz debe comunicar que cada campaña, postulación, colaboración, entregable y compensación forma parte de un proceso estructurado y verificable.
+
+Las decisiones de diseño se implementan mediante un conjunto de componentes reutilizables que permiten mantener consistencia entre pantallas, incluyendo contenedores de información, botones de acción, etiquetas de estado, campos de entrada, selectores y tarjetas navegables.
+
+![Colors](./assets/C03/StyleGuidelines/StyleGui.png)
+
+
+##### 3.1.1.1. General Style Guidelines
+
+###### Branding
+
+La identidad visual de CollabPro parte del nombre de la plataforma, compuesto por las palabras **Collab** y **Pro**.
+
+El término _Collab_ representa la colaboración entre empresas y creadores de contenido, mientras que _Pro_ comunica el objetivo de profesionalizar estas relaciones mediante campañas estructuradas, condiciones explícitas, seguimiento de entregables y medición de resultados.
+
+Dentro de la aplicación, la marca se representa mediante el wordmark:
+
+**collabpro**
+
+Visualmente se diferencian ambas partes del nombre:
+
+- **collab:** utiliza el color principal de texto oscuro.
+- **pro:** utiliza el color principal de marca, Teal.
+
+Esta combinación permite reforzar el reconocimiento del producto sin depender de elementos gráficos complejos y mantiene una identidad compatible con una interfaz orientada a negocios.
+
+La aplicación utiliza el nombre **CollabPro** como nombre oficial del producto en títulos, configuración y distribución de la aplicación.
+
+![CollabPro](./assets/C03/StyleGuidelines/branding.png)
+
+###### Color Palette
+
+La paleta cromática utilizada en CollabPro se basa en colores sobrios para las superficies principales y colores de acento para representar acciones y estados.
+
+| Nombre         | Hexadecimal | Uso principal                                                                           |
+| -------------- | ----------- | --------------------------------------------------------------------------------------- |
+| **Ink**        | `#172B39`   | Texto principal, títulos y elementos de alta jerarquía.                                 |
+| **Muted**      | `#5E7280`   | Texto secundario, descripciones y datos complementarios.                                |
+| **Teal**       | `#087E80`   | Color principal de la marca, acciones principales, etiquetas y elementos seleccionados. |
+| **Light Teal** | `#E1F4F1`   | Fondos informativos, estados y elementos resaltados de baja intensidad.                 |
+| **Coral**      | `#FF765C`   | Color secundario y de acento.                                                           |
+| **Canvas**     | `#F6F8F7`   | Fondo general de la aplicación.                                                         |
+| **Border**     | `#DCE6E4`   | Bordes, divisores y delimitación entre componentes.                                     |
+| **Warning**    | `#B75C21`   | Mensajes de error, advertencia o situaciones que requieren atención.                    |
+| **White**      | `#FFFFFF`   | Superficies de tarjetas, campos y componentes elevados.                                 |
+
+El **Teal (`#087E80`)** se utiliza como color principal debido a que permite transmitir estabilidad y confianza sin adoptar una apariencia excesivamente corporativa. Se utiliza principalmente en botones de acción, elementos seleccionados, elementos de marca y estados positivos o informativos.
+
+El **Ink (`#172B39`)** proporciona el contraste necesario para títulos y contenido principal y evita utilizar negro absoluto, conservando una apariencia visual más suave.
+
+El color **Muted (`#5E7280`)** permite reducir visualmente la importancia de información secundaria sin eliminar su legibilidad.
+
+El fondo **Canvas (`#F6F8F7`)** genera una separación perceptible entre la superficie de la aplicación y las tarjetas blancas utilizadas para agrupar información.
+
+El color **Warning (`#B75C21`)** se reserva para comunicar errores o situaciones que requieren atención, evitando utilizar el color de marca para mensajes negativos.
+
+![Colors](./assets/C03/StyleGuidelines/Color.png)
+
+###### Typography
+
+CollabPro utiliza la tipografía proporcionada por el sistema de diseño de Material 3 mediante `FontFamily.Default`, buscando mantener buena legibilidad y compatibilidad con diferentes dispositivos Android.
+
+![Colors](./assets/C03/StyleGuidelines/typography.png)
+![Colors](./assets/C03/StyleGuidelines/typography1.png)
+
+
+La aplicación utiliza variaciones de tamaño y peso para establecer jerarquía entre los elementos.
+
+| Elemento                     | Tamaño aproximado | Peso              | Uso                                                         |
+| ---------------------------- | ----------------: | ----------------- | ----------------------------------------------------------- |
+| Título principal de pantalla |           `30 sp` | Bold              | Identificar la función o contexto principal de la pantalla. |
+| Logotipo textual             |           `22 sp` | Bold              | Representación de la identidad CollabPro.                   |
+| Título de panel o tarjeta    |           `17 sp` | Bold              | Identificar agrupaciones de información.                    |
+| Texto principal              |        `14-16 sp` | Normal            | Descripciones y contenido general.                          |
+| Información secundaria       |           `13 sp` | Normal / SemiBold | Detalles, valores y datos complementarios.                  |
+| Eyebrow / contexto           |           `11 sp` | Bold              | Identificar contexto, categoría o etapa del proceso.        |
+
+Los títulos se mantienen breves y descriptivos, por ejemplo:
+
+- `Mis campañas`
+- `Explorar campañas`
+- `Mis postulaciones`
+- `Colaboraciones`
+- `Resultados`
+- `Compensación`
+
+La jerarquía tipográfica evita mostrar bloques extensos de texto cuando la misma información puede representarse mediante títulos, etiquetas, estados y agrupaciones.
+
+###### Spacing
+
+El sistema de espaciado utiliza valores consistentes para reducir diferencias arbitrarias entre pantallas.
+
+Entre los principales valores utilizados se encuentran:
+
+- **8 dp:** separación reducida entre componentes relacionados.
+- **10 dp:** separación interna de elementos dentro de determinados grupos.
+- **14 dp:** separación vertical habitual entre componentes.
+- **18 dp:** padding interno de tarjetas.
+- **20 dp:** padding horizontal principal de las pantallas.
+- **22 dp:** separación superior inicial del contenido.
+- **36 dp:** espacio inferior para evitar que el último elemento quede demasiado próximo al límite de la pantalla.
+
+Los componentes mantienen márgenes suficientes para favorecer la lectura y permitir una interacción táctil adecuada.
+
+Las tarjetas utilizan esquinas redondeadas de aproximadamente **20 dp**, mientras que botones y campos utilizan esquinas de aproximadamente **14 dp**. Esto permite diferenciar visualmente contenedores de contenido y elementos interactivos manteniendo un mismo lenguaje visual.
+
+###### Dimensiones para el tono de comunicación y lenguaje aplicado
+
+El tono de CollabPro se define considerando las siguientes dimensiones:
+
+| Dimensión                | Orientación de CollabPro                            |
+| ------------------------ | --------------------------------------------------- |
+| Divertido / Serio        | Principalmente serio, con una comunicación cercana. |
+| Casual / Formal          | Semiformal.                                         |
+| Irreverente / Respetuoso | Respetuoso.                                         |
+| Entusiasta / Sereno      | Sereno y orientado a la acción.                     |
+
+**Serio y cercano**
+
+CollabPro administra relaciones comerciales, compensaciones, entregables y resultados, por lo que evita un tono excesivamente informal. Sin embargo, también evita lenguaje corporativo complejo que pueda dificultar la comprensión para emprendimientos pequeños o creadores independientes.
+
+**Semiformal**
+
+La plataforma utiliza expresiones directas como:
+
+- `Crear campaña`
+- `Explorar campañas`
+- `Postular a esta campaña`
+- `Validar entregable`
+- `Registrar incidencia`
+- `Ver resultados`
+
+Estas etiquetas indican claramente qué ocurrirá después de la interacción.
+
+**Respetuoso**
+
+Los estados negativos evitan culpabilizar al usuario. Por ejemplo, en lugar de utilizar mensajes agresivos, la interfaz comunica situaciones concretas como:
+
+- `No se pudo validar el medio de pago.`
+- `No existen coincidencias.`
+- `Describe el problema antes de continuar.`
+- `Agrega un medio de pago para continuar.`
+
+**Sereno**
+
+La interfaz evita utilizar mensajes alarmistas para procesos comerciales normales. Los cambios de estado se comunican mediante etiquetas y mensajes contextuales que describen la situación actual.
+
+###### Elementos de diseño
+
+Los principales elementos de diseño reutilizados por CollabPro son los siguientes:
+
+**Page**
+
+Representa la estructura principal de una pantalla. Incluye:
+
+- encabezado;
+- identidad de CollabPro;
+- opción de retorno cuando corresponde;
+- eyebrow opcional;
+- título principal;
+- subtítulo;
+- contenido vertical desplazable.
+
+Esto permite que las diferentes funcionalidades mantengan una estructura visual uniforme.
+
+**Panel**
+
+Agrupa información relacionada dentro de una tarjeta blanca con borde y esquinas redondeadas.
+
+Se utiliza, por ejemplo, para representar:
+
+- información de campañas;
+- condiciones;
+- perfiles;
+- resultados;
+- compensaciones;
+- medios de pago;
+- información de colaboraciones.
+
+**Action**
+
+Representa botones de acción principales y secundarios.
+
+La acción primaria se utiliza para continuar o confirmar una operación, mientras que la variante secundaria se utiliza para acciones alternativas o de menor jerarquía.
+
+Ejemplos:
+
+- `Crear campaña`
+- `Publicar campaña`
+- `Postular a esta campaña`
+- `Seleccionar creadora`
+- `Acepto las condiciones`
+
+Las acciones secundarias se utilizan para opciones como editar, cancelar, volver o consultar estados alternativos.
+
+**Status**
+
+Representa visualmente el estado actual de una entidad o proceso mediante una etiqueta compacta.
+
+Ejemplos de estados utilizados dentro de la aplicación:
+
+- `Pendiente`
+- `Seleccionada`
+- `Rechazada`
+- `Finalizada`
+- `Vinculado`
+- `Activa`
+- `Pagada`
+
+La representación explícita de estados resulta especialmente importante debido a que una campaña o colaboración atraviesa diferentes etapas antes de completarse.
+
+**Entry**
+
+Representa campos de ingreso de información.
+
+Los campos utilizan etiquetas persistentes para indicar claramente el dato requerido y pueden mostrar un estado de error cuando el contenido ingresado no cumple las condiciones esperadas.
+
+**Choice Row**
+
+Permite seleccionar una opción dentro de conjuntos pequeños mediante chips.
+
+Actualmente se utiliza para elementos como:
+
+- idioma;
+- tipo de usuario;
+- categoría de campaña;
+- plataforma social;
+- filtros de resultados.
+
+**Link Card**
+
+Representa entidades o acciones navegables mediante tarjetas que combinan:
+
+- título;
+- descripción;
+- estado opcional;
+- enlace visual `Ver detalle →`.
+
+Este patrón permite que campañas, postulaciones, colaboraciones e historiales puedan explorarse manteniendo una representación consistente.
+
+![Colors](./assets/C03/StyleGuidelines/components-design-system.png)
+
+
+
+###### Principios de diseño
+
+**Consistencia**
+
+Las mismas acciones, estados y entidades mantienen representaciones similares a lo largo de toda la aplicación. Una tarjeta seleccionable conserva el mismo patrón independientemente de si representa una campaña, una postulación o una colaboración.
+
+**Jerarquía visual**
+
+Los elementos más importantes de cada pantalla se presentan siguiendo el orden:
+
+1. Contexto.
+2. Título.
+3. Descripción.
+4. Información principal.
+5. Acción principal.
+6. Acciones secundarias.
+
+De esta manera el usuario puede identificar rápidamente qué pantalla está utilizando y cuál es la acción esperada.
+
+**Visibilidad del estado del sistema**
+
+Los procesos que evolucionan en el tiempo muestran su estado de manera explícita.
+
+Esto resulta especialmente importante para:
+
+- campañas;
+- postulaciones;
+- colaboraciones;
+- entregables;
+- incidencias;
+- suscripciones;
+- compensaciones.
+
+**Reducción de carga cognitiva**
+
+La interfaz evita presentar simultáneamente opciones que pertenecen a etapas futuras del proceso.
+
+Por ejemplo, la creación de una campaña se divide en pasos:
+
+1. Información general de la campaña.
+2. Condiciones, entregables, fecha y compensación.
+
+Esto reduce la cantidad de información solicitada simultáneamente.
+
+**Prevención de errores**
+
+Los formularios validan que la información necesaria esté disponible antes de permitir continuar.
+
+Entre los casos considerados se encuentran:
+
+- correo electrónico inválido;
+- contraseña demasiado corta;
+- datos obligatorios de campaña vacíos;
+- condiciones incompletas;
+- medios de pago inválidos.
+
+**Reconocimiento antes que recuerdo**
+
+La aplicación prioriza mostrar opciones, estados y acciones disponibles en lugar de exigir que el usuario recuerde comandos o rutas.
+
+**Feedback inmediato**
+
+Después de una acción relevante se presenta un estado o mensaje que permite conocer el resultado de la interacción.
+
+**Diseño orientado a tareas**
+
+Cada pantalla responde principalmente a un objetivo específico. Por ejemplo:
+
+- buscar una campaña;
+- consultar sus condiciones;
+- postular;
+- revisar postulantes;
+- aceptar un acuerdo;
+- entregar evidencia;
+- revisar un entregable;
+- consultar una compensación.
+
+Esto evita mezclar operaciones de diferentes etapas dentro de una misma vista.
+
+#### 3.1.2. Information Architecture
+
+La arquitectura de información de CollabPro organiza las funcionalidades del producto de acuerdo con el rol del usuario, el momento dentro del ciclo de una colaboración y la entidad de negocio con la que se encuentra interactuando.
+
+La estructura se diseñó considerando que una empresa y un creador utilizan la misma plataforma, pero realizan tareas diferentes.
+
+El representante de una empresa necesita principalmente:
+
+1. Administrar su perfil.
+2. Crear campañas.
+3. Definir condiciones.
+4. Revisar postulaciones.
+5. Seleccionar creadores.
+6. Confirmar colaboraciones.
+7. Revisar entregables.
+8. Gestionar incidencias.
+9. Consultar compensaciones.
+10. Consultar resultados e historial.
+
+El creador de contenido necesita principalmente:
+
+1. Administrar su perfil y redes sociales.
+2. Explorar campañas.
+3. Consultar requisitos y compensaciones.
+4. Postular.
+5. Revisar el estado de sus postulaciones.
+6. Aceptar condiciones.
+7. Gestionar colaboraciones activas.
+8. Presentar entregables y evidencias.
+9. Consultar incidencias.
+10. Consultar compensaciones e historial.
+
+Esta separación permite adaptar la información visible sin crear dos aplicaciones diferentes y mantiene un mismo lenguaje de interacción para los procesos compartidos.
+
+![Colors](./assets/C03/StyleGuidelines/information-architecture.png)
+
+
+##### 3.1.2.1. Organization Systems
+
+CollabPro utiliza diferentes sistemas de organización dependiendo de la naturaleza de la información.
+
+###### Organización según audiencia
+
+La primera clasificación ocurre de acuerdo con el tipo de usuario.
+
+**Empresa**
+
+El espacio de empresa prioriza:
+
+- campañas;
+- postulaciones;
+- validación de entregables;
+- resultados;
+- planes y suscripción.
+
+**Creador**
+
+El espacio de creador prioriza:
+
+- exploración de campañas;
+- postulaciones;
+- acuerdos;
+- entrega de contenido;
+- compensaciones.
+
+Las funcionalidades compartidas, como perfil, colaboraciones, historial, incidencias y medios de pago, mantienen patrones consistentes para ambos tipos de usuario.
+
+###### Organización jerárquica
+
+Se utiliza jerarquía visual para mostrar primero la información más importante.
+
+Por ejemplo, en el detalle de una campaña se presenta:
+
+1. Nombre de la campaña.
+2. Empresa responsable.
+3. Descripción.
+4. Estado.
+5. Objetivo.
+6. Requisitos.
+7. Entregables.
+8. Condiciones de aceptación.
+9. Acción disponible.
+
+De forma similar, en las colaboraciones se presenta primero el estado y la información del acuerdo antes que las acciones complementarias.
+
+###### Organización secuencial
+
+Los procesos que requieren completar varias etapas siguen una organización secuencial.
+
+**Creación de campaña**
+
+`Nueva campaña → Condiciones de campaña → Publicación`
+
+El primer paso solicita información general como título, objetivo, categoría y público objetivo.
+
+El segundo solicita requisitos, entregables, fecha límite y compensación.
+
+**Proceso del creador**
+
+`Explorar campañas → Consultar campaña → Postular → Confirmar acuerdo → Colaboración → Entregar evidencia → Finalización`
+
+**Proceso de empresa**
+
+`Crear campaña → Recibir postulaciones → Revisar postulante → Seleccionar → Confirmar acuerdo → Revisar entregable → Consultar resultados`
+
+Esta organización permite que el usuario comprenda el progreso del proceso y disminuye el riesgo de ejecutar operaciones fuera de orden.
+
+###### Organización por tópicos
+
+Las funcionalidades principales se agrupan de acuerdo con el objetivo que cumplen.
+
+| Tópico                 | Información agrupada                                      |
+| ---------------------- | --------------------------------------------------------- |
+| Identidad              | Registro, acceso, recuperación y perfil.                  |
+| Campañas               | Creación, condiciones, búsqueda, detalle y postulaciones. |
+| Colaboraciones         | Acuerdos, colaboración activa, entregables e incidencias. |
+| Operaciones económicas | Medios de pago, planes, suscripción y compensaciones.     |
+| Resultados             | Métricas, evidencias, atribución e historial.             |
+
+Esta organización coincide con las principales capacidades identificadas dentro del dominio de CollabPro.
+
+###### Organización cronológica
+
+Se utiliza organización cronológica cuando el tiempo forma parte de la interpretación de la información.
+
+Se aplica principalmente en:
+
+- fechas límite de campañas;
+- fechas de entrega;
+- colaboraciones vencidas;
+- historial de colaboraciones;
+- periodos de métricas;
+- fechas asociadas a evidencias.
+
+Esto permite al usuario identificar elementos próximos, vencidos o finalizados.
+
+###### Organización por estado
+
+Las entidades que poseen ciclo de vida muestran su condición actual.
+
+Ejemplos:
+
+**Postulación**
+
+`Pendiente → Seleccionada / Rechazada / Cancelada`
+
+**Colaboración**
+
+`Activa → Entregada → En revisión → Finalizada`
+
+**Compensación**
+
+`Pendiente → Pagada`
+
+También puede presentarse como afectada cuando existe una incidencia.
+
+La organización por estado permite al usuario priorizar elementos que requieren una acción.
+
+##### 3.1.2.2. Labeling Systems
+
+El sistema de etiquetas de CollabPro utiliza términos cortos, consistentes y relacionados directamente con el dominio de negocio.
+
+El objetivo es que las personas puedan identificar una funcionalidad sin tener que interpretar terminología técnica.
+
+###### Etiquetas principales de navegación
+
+| Etiqueta      | Asociación                                            |
+| ------------- | ----------------------------------------------------- |
+| **Inicio**    | Resumen de actividades y accesos principales.         |
+| **Campañas**  | Campañas creadas y administradas por una empresa.     |
+| **Explorar**  | Búsqueda de oportunidades disponibles para creadores. |
+| **Colaborar** | Colaboraciones activas y sus estados.                 |
+| **Perfil**    | Información del usuario o negocio.                    |
+
+Las etiquetas se mantienen deliberadamente cortas debido al espacio disponible en dispositivos móviles.
+
+###### Etiquetas de Campaign Management
+
+| Etiqueta                   | Significado                                    |
+| -------------------------- | ---------------------------------------------- |
+| **Mis campañas**           | Campañas administradas por una empresa.        |
+| **Crear campaña**          | Inicio de registro de una nueva campaña.       |
+| **Nueva campaña**          | Formulario inicial de creación.                |
+| **Condiciones de campaña** | Requisitos, entregables, fecha y compensación. |
+| **Explorar campañas**      | Consulta de campañas disponibles.              |
+| **Postular**               | Presentar interés formal en una campaña.       |
+| **Mis postulaciones**      | Solicitudes realizadas por un creador.         |
+| **Postulaciones**          | Candidatos recibidos por una empresa.          |
+| **Revisar postulaciones**  | Evaluación de candidatos.                      |
+
+###### Etiquetas de Collaboration Management
+
+| Etiqueta                   | Significado                                   |
+| -------------------------- | --------------------------------------------- |
+| **Confirmar colaboración** | Aceptación de las condiciones acordadas.      |
+| **Colaboraciones**         | Relaciones comerciales activas o registradas. |
+| **Entregar contenido**     | Registro del entregable y su evidencia.       |
+| **Validar entregable**     | Revisión realizada por la empresa.            |
+| **Incidencias**            | Problemas o desacuerdos registrados.          |
+| **Historial**              | Colaboraciones completadas anteriormente.     |
+
+###### Etiquetas económicas
+
+| Etiqueta           | Significado                                         |
+| ------------------ | --------------------------------------------------- |
+| **Medios de pago** | Métodos asociados a operaciones económicas.         |
+| **Planes**         | Alternativas comerciales disponibles para empresas. |
+| **Suscripción**    | Estado del plan contratado por la empresa.          |
+| **Compensación**   | Valor acordado entre empresa y creador.             |
+| **Pendiente**      | La operación todavía no ha sido completada.         |
+| **Pagada**         | La compensación ya fue procesada.                   |
+
+###### Etiquetas relacionadas con resultados
+
+| Etiqueta       | Significado                                                  |
+| -------------- | ------------------------------------------------------------ |
+| **Resultados** | Información obtenida después de una colaboración.            |
+| **Métricas**   | Datos cuantificables asociados al contenido.                 |
+| **Evidencia**  | Información aportada para demostrar un resultado o entrega.  |
+| **Atribución** | Relación entre una interacción y la campaña correspondiente. |
+| **Periodo**    | Intervalo temporal al que pertenecen los resultados.         |
+| **Origen**     | Fuente desde la que se obtuvo el dato.                       |
+
+###### Etiquetas de acciones
+
+Las acciones utilizan verbos que describen el resultado esperado:
+
+- `Crear`
+- `Continuar`
+- `Publicar`
+- `Explorar`
+- `Postular`
+- `Editar`
+- `Cancelar`
+- `Seleccionar`
+- `Rechazar`
+- `Aceptar`
+- `Entregar`
+- `Revisar`
+- `Registrar`
+- `Guardar`
+- `Vincular`
+- `Consultar`
+
+Se evita utilizar etiquetas genéricas como `Aceptar` o `Enviar` cuando puede proporcionarse una acción más específica.
+
+Por ejemplo:
+
+- `Publicar campaña` en lugar de `Aceptar`.
+- `Postular a esta campaña` en lugar de `Continuar`.
+- `Registrar incidencia` en lugar de `Enviar`.
+- `Guardar perfil` en lugar de `Guardar cambios` cuando el contexto puede especificarse.
+
+##### 3.1.2.3. SEO Tags and Meta Tags
+
+Debido a que la experiencia documentada en esta sección corresponde a una aplicación móvil, la estrategia de descubrimiento se concentra en elementos de **App Store Optimization (ASO)**.
+
+###### App Title
+
+`CollabPro`
+
+El título mantiene exactamente el nombre de la plataforma para facilitar el reconocimiento de marca y mantener consistencia con el producto.
+
+###### App Subtitle
+
+`Colaboraciones claras entre marcas y creadores`
+
+El subtítulo resume la propuesta central de la plataforma indicando los dos actores principales y destacando la estructuración de las colaboraciones.
+
+###### App Keywords
+
+`creadores de contenido, marcas, campañas, influencers, colaboraciones, marketing, pymes, contenido, campañas digitales, influencer marketing`
+
+Estas palabras representan los conceptos principales utilizados por los usuarios al buscar soluciones relacionadas con campañas y colaboraciones entre empresas y creadores.
+
+###### Short Description
+
+`Encuentra creadores, publica campañas y gestiona colaboraciones desde un solo lugar.`
+
+La descripción corta resume las principales capacidades del producto desde la perspectiva de los dos segmentos.
+
+###### App Description
+
+`CollabPro es una plataforma que conecta pequeñas y medianas empresas con creadores de contenido para gestionar colaboraciones de marketing de forma estructurada y trazable.
+
+Las empresas pueden crear campañas, definir objetivos, requisitos, entregables, fechas y compensaciones, revisar postulaciones, seleccionar creadores y validar el cumplimiento de cada colaboración.
+
+Los creadores pueden explorar oportunidades, consultar claramente las condiciones antes de postular, gestionar sus colaboraciones, presentar entregables y consultar el estado de sus compensaciones.
+
+CollabPro también permite mantener un historial de colaboraciones y consultar resultados disponibles, evidencias y mecanismos de atribución asociados a las campañas.`
+
+###### App Category
+
+Categoría propuesta:
+
+`Business`
+
+Como categoría secundaria podría considerarse:
+
+`Productivity`
+
+La categoría Business se relaciona directamente con el modelo B2B de CollabPro y con las actividades comerciales que empresas y creadores gestionan mediante la aplicación.
+
+###### App Author / Developer
+
+`CollabTech`
+
+CollabTech se presenta como la startup responsable del desarrollo de CollabPro.
+
+###### Package Name
+
+`com.example.collabpro`
+
+El prototipo Android utiliza actualmente este identificador de aplicación. Para una publicación productiva deberá sustituirse por un identificador definitivo asociado al dominio o identidad oficial de CollabTech.
+
+##### 3.1.2.4. Searching Systems
+
+El sistema de búsqueda de CollabPro se concentra principalmente en facilitar que los creadores encuentren campañas relevantes sin recorrer manualmente todas las oportunidades disponibles.
+
+###### Búsqueda de campañas
+
+La pantalla **Explorar campañas** proporciona un campo de búsqueda identificado mediante la etiqueta:
+
+`Buscar marca o campaña`
+
+El campo permite utilizar texto relacionado con una campaña o con la empresa que la publica.
+
+La búsqueda reduce dinámicamente el conjunto de resultados y presenta únicamente las campañas relacionadas con los criterios introducidos.
+
+###### Filtros por categoría
+
+Además de la búsqueda textual, se utilizan filtros mediante chips.
+
+Las categorías consideradas actualmente son:
+
+- Todas
+- Gastronomía
+- Belleza
+- Moda
+
+La opción **Todas** elimina la restricción de categoría.
+
+Este sistema permite combinar una búsqueda textual con una clasificación temática.
+
+Por ejemplo:
+
+`"Maki" + Gastronomía`
+
+puede utilizarse para reducir las oportunidades mostradas a campañas relacionadas con gastronomía y cuyo nombre o empresa coincidan con el término introducido.
+
+###### Presentación de resultados
+
+Cada coincidencia se muestra utilizando una tarjeta que contiene:
+
+- nombre de la campaña;
+- nombre de la empresa;
+- ubicación;
+- compensación;
+- estado;
+- acceso al detalle.
+
+El usuario puede seleccionar una tarjeta para consultar información adicional antes de postular.
+
+###### Búsqueda sin coincidencias
+
+Cuando ningún elemento satisface los criterios, el sistema presenta un estado vacío:
+
+**Sin coincidencias**
+
+acompañado del mensaje:
+
+`Prueba otra palabra o categoría.`
+
+También se proporciona la acción:
+
+`Limpiar filtros`
+
+Esta decisión evita mostrar una vista vacía sin explicación y ofrece una forma inmediata de recuperar el listado original.
+
+###### Criterios futuros compatibles con el dominio
+
+La arquitectura del sistema permite ampliar los criterios de búsqueda de campañas a información ya perteneciente al dominio, como:
+
+- nicho;
+- ubicación;
+- tipo de compensación;
+- estado;
+- requisitos del creador;
+- fecha límite.
+
+Estos criterios deberán incorporarse progresivamente cuando las historias de usuario correspondientes sean implementadas sobre servicios reales.
+
+![Colors](./assets/C03/StyleGuidelines/searching-system.png)
+
+
+##### 3.1.2.5. Navigation Systems
+
+CollabPro utiliza un sistema de navegación híbrido compuesto por navegación global mediante una barra inferior y navegación contextual dentro de los diferentes procesos.
+
+###### Navegación global
+
+Una vez que el usuario ingresa al espacio principal de la aplicación, dispone de una barra inferior persistente con cuatro destinos.
+
+Para una **empresa**:
+
+`Inicio | Campañas | Colaborar | Perfil`
+
+Para un **creador**:
+
+`Inicio | Explorar | Colaborar | Perfil`
+
+La estructura mantiene tres posiciones conceptualmente equivalentes:
+
+- Inicio.
+- Área principal correspondiente al rol.
+- Colaboraciones.
+- Perfil.
+
+La segunda opción cambia según la audiencia porque representa la principal tarea asociada a cada segmento.
+
+La empresa necesita administrar campañas, mientras que el creador necesita descubrir oportunidades.
+
+###### Inicio como dashboard
+
+La pantalla Inicio funciona como punto de acceso a las actividades relevantes de cada usuario.
+
+Para una empresa, muestra accesos como:
+
+- Crear campaña.
+- Revisar postulaciones.
+- Validar entregable.
+- Resultados.
+- Plan y suscripción.
+- Historial.
+- Centro de incidencias.
+- Medios de pago.
+
+Para un creador, presenta accesos como:
+
+- Explorar campañas.
+- Mis postulaciones.
+- Acuerdo por confirmar.
+- Entregar contenido.
+- Compensación.
+- Historial.
+- Centro de incidencias.
+- Medios de pago.
+
+Esta organización evita obligar al usuario a navegar por múltiples niveles para encontrar actividades pendientes.
+
+###### Navegación contextual
+
+Las pantallas secundarias muestran una acción de retorno mediante:
+
+`‹ Volver`
+
+Esta acción permite regresar al contexto anterior sin alterar la navegación principal.
+
+Se utiliza en pantallas como:
+
+- detalle de campaña;
+- formulario de postulación;
+- postulaciones;
+- detalle del postulante;
+- colaboración;
+- entregables;
+- resultados;
+- medios de pago.
+
+###### Navegación secuencial
+
+Los procesos dependientes se recorren siguiendo una secuencia lógica.
+
+**Empresa**
+
+`Inicio`
+→ `Mis campañas`
+→ `Nueva campaña`
+→ `Condiciones de campaña`
+→ `Campaña publicada`
+
+Posteriormente:
+
+`Campaña`
+→ `Postulaciones`
+→ `Detalle del postulante`
+→ `Confirmar colaboración`
+→ `Colaboración`
+
+**Creador**
+
+`Inicio`
+→ `Explorar campañas`
+→ `Detalle de campaña`
+→ `Postular`
+→ `Mis postulaciones`
+
+Cuando es seleccionado:
+
+`Postulación seleccionada`
+→ `Confirmar colaboración`
+→ `Colaboración`
+→ `Entregar contenido`
+
+###### Navegación por relaciones entre entidades
+
+CollabPro también permite navegar según las relaciones del dominio.
+
+Por ejemplo:
+
+`Campaña → Postulación → Creador → Colaboración`
+
+y posteriormente:
+
+`Colaboración → Entregable → Revisión → Compensación → Resultados`
+
+Este patrón facilita comprender cómo se relacionan las entidades del negocio y mantiene la trazabilidad de cada colaboración.
+
+###### Historial de navegación
+
+La aplicación mantiene internamente el historial de las rutas recorridas durante la sesión para que la acción `Volver` regrese a la pantalla anterior.
+
+Esto resulta especialmente importante en flujos como:
+
+`Explorar campañas → Campaña → Postular`
+
+porque permite regresar progresivamente sin reiniciar completamente el proceso.
+
+###### Navegación según el rol
+
+Las rutas disponibles también dependen del rol activo.
+
+Una empresa puede acceder directamente a funcionalidades como:
+
+- crear campañas;
+- revisar postulantes;
+- seleccionar creadores;
+- validar entregables;
+- consultar resultados.
+
+Un creador puede acceder a:
+
+- buscar campañas;
+- postular;
+- administrar sus postulaciones;
+- entregar evidencias;
+- consultar compensaciones.
+
+Esta adaptación permite reutilizar la misma estructura de navegación manteniendo visibles únicamente las acciones relevantes para cada tipo de usuario.
+
+![Colors](./assets/C03/StyleGuidelines/navigation-system.png)
+
+
+### 3.1.3. Landing Page UI Design
+
+#### 3.1.3.1. Landing Page Wireframe
+
+#### 3.1.3.2. Landing Page Mock-up
+
+### 3.1.4. Mobile Applications UX/UI Design
+
+#### 3.1.4.1. Mobile Applications Wireframes
+
+#### 3.1.4.2. Mobile Applications Wireflow Diagrams
+
+#### 3.1.4.3. Mobile Applications Mock-ups
+
+#### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+#### 3.1.4.5. Mobile Applications Prototyping
+
+---
+
 ## Capítulo IV: Product Implementation & Validation
+
+### 4.2. Landing Page & Mobile Application Implementation
+
+#### 4.2.1. Sprint 1
+
+##### 4.2.1.1. Sprint Planning 1
+
+##### 4.2.1.2. Aspect Leaders and Collaborators
+
+Durante el Sprint 1 el trabajo se distribuyó considerando los principales aspectos necesarios para construir la primera versión funcional de la experiencia móvil de CollabPro. Para cada aspecto se identifica un **Leader (L)** como responsable principal de conducir y consolidar el trabajo, mientras que los demás miembros que participaron como apoyo se identifican como **Collaborators (C)**.
+
+La distribución no implica exclusividad sobre la implementación, ya que todos los miembros del equipo participan en el desarrollo y revisión del producto. El objetivo de esta clasificación es evidenciar la responsabilidad principal asumida por cada integrante durante el Sprint.
+
+| Team Member (Last Name, First Name) | Mobile Architecture & Domain Integration Leader (L) / Collaborator (C) | Campaign & Collaboration Implementation Leader (L) / Collaborator (C) | Mobile UX/UI & Design System Leader (L) / Collaborator (C) | Navigation & Interaction Flows Leader (L) / Collaborator (C) | Testing & Quality Assurance Leader (L) / Collaborator (C) |
+| ----------------------------------- | :--------------------------------------------------------------------: | :-------------------------------------------------------------------: | :--------------------------------------------------------: | :----------------------------------------------------------: | :-------------------------------------------------------: |
+| Quispe Serrano, Julio Frank         |                                 C                                  |                                   C                                   |                             C                              |                              C                               |                             **L**                             |
+| Revilla Quispe, Renzo Zamir         |                                   C                                    |                                 **L**                                 |                             C                              |                              C                               |                             C                             |
+| Vallejo Trujillo, Fabio Cesar       |                                   C                                    |                                   C                                   |                           **L**                            |                              C                               |                             C                             |
+| Garcia Villanueva, Leonardo Rafael  |                                   C                                    |                                   C                                   |                             C                              |                            **L**                             |                             C                             |
+| Rocca Leon, Anhelo Rodrigo          |                                   **L**                                    |                                   C                                   |                             C                              |                              C                               |                           C                           |
+
+**Mobile Architecture & Domain Integration**
+
+Este aspecto comprende la organización estructural de la aplicación móvil, la separación entre las capas `domain`, `application`, `infrastructure` y `presentation`, así como la correspondencia entre los módulos implementados y los Bounded Contexts definidos previamente para CollabPro.
+
+**Campaign & Collaboration Implementation**
+
+Comprende la implementación y revisión de funcionalidades relacionadas con campañas, postulaciones, acuerdos, colaboraciones, entregables e incidencias, manteniendo coherencia con las User Stories y reglas de negocio definidas para el producto.
+
+**Mobile UX/UI & Design System**
+
+Comprende la definición y aplicación de colores, tipografía, espaciado, componentes reutilizables, tarjetas, botones, campos, estados y demás elementos visuales que permiten mantener consistencia entre las pantallas.
+
+**Navigation & Interaction Flows**
+
+Comprende la organización de rutas, navegación según el tipo de usuario, acceso a las funcionalidades principales, navegación hacia detalles y retorno entre pantallas, manteniendo coherencia con los flujos definidos para empresas y creadores.
+
+**Testing & Quality Assurance**
+
+Comprende la revisión del comportamiento esperado de los principales escenarios del Sprint, validaciones de formularios, estados alternativos, errores, pruebas de interacción y comprobación general de consistencia de la experiencia móvil.
+
+##### 4.2.1.3. Sprint Backlog 1
+
+##### 4.2.1.4. Development Evidence for Sprint Review
+
+##### 4.2.1.5. Testing Suite Evidence for Sprint Review
+
+##### 4.2.1.6. Execution Evidence for Sprint Review
+
+##### 4.2.1.7. Services Documentation Evidence for Sprint Review
+
+##### 4.2.1.8. Software Deployment Evidence for Sprint Review
+
+##### 4.2.1.9. Team Collaboration Insights during Sprint
 
 ### 4. Product Implementation & Validation
 
@@ -4018,39 +5052,39 @@ La configuración de gestión de software busca que todos los integrantes puedan
 
 #### 4.1.1. Software Development Environment Configuration
 
-| Actividad / producto | Herramienta propuesta | Propósito y configuración del proyecto |
-| :--- | :--- | :--- |
-| Gestión de trabajo y código | Git y GitHub | Control de versiones, incidencias, pull requests, revisión de código, tablero de trabajo y documentación compartida. El repositorio actualmente identificado es el del informe; los repositorios de los productos se detallan en 4.1.2. |
-| Diseño de producto y colaboración UX/UI | Figma | Prototipos, componentes visuales y entrega de especificaciones para landing y aplicaciones móviles; enlazar los archivos desde las tareas o documentación del repositorio. |
-| Landing page (HTML5, CSS3, JavaScript) | Visual Studio Code y navegador Chromium | Edición, vista previa local y revisión adaptable en tamaños de escritorio y móvil. Mantener instrucciones de ejecución en el README del producto. |
-| Servicios REST (Java, Spring Boot) | JDK, IntelliJ IDEA o VS Code, Maven y Spring Boot | Desarrollo y ejecución local de la API; configurar dependencias y tareas de compilación en `pom.xml` y fijar la versión de Java compatible en el proyecto. La base local MySQL debe iniciarse con una configuración documentada sin contraseñas reales. |
-| Aplicación nativa Android (Kotlin) | Android Studio, Android SDK y Gradle | Edición, compilación y prueba en emulador/dispositivo. Versiones de SDK, plugin y Gradle se fijan en los archivos Gradle del repositorio. |
-| Aplicación multiplataforma (Flutter) | Flutter SDK, Dart y Android Studio o VS Code | Desarrollo y ejecución de la app multiplataforma; fijar dependencias y restricciones en `pubspec.yaml` y el canal/versión del SDK en la documentación del proyecto. |
-| Base de datos relacional | MySQL Server y MySQL Workbench (opcional) | Desarrollo local, inspección de datos y ejecución controlada de migraciones. Los cambios del esquema se guardan como scripts versionados o migraciones del backend; nunca se distribuyen copias de datos personales reales. |
-| Evidencias y objetos | Firebase Console / Firebase Cloud Storage | Configuración del bucket de almacenamiento de evidencias. Las credenciales de servicio se guardan en secretos del entorno, con acceso mínimo necesario; no se incluyen en el cliente móvil ni en el repositorio. |
-| Pruebas y calidad | JUnit (backend), pruebas de Flutter/Android y Postman para pruebas exploratorias de API | Mantener pruebas unitarias junto al código y colecciones/scripts de pruebas de integración versionados. Los casos de aceptación pueden documentarse en Gherkin cuando correspondan a historias de usuario. |
-| Integración continua y documentación | GitHub Actions, Markdown y OpenAPI | Ejecutar compilación y pruebas al abrir/actualizar pull requests; publicar artefactos solo desde ramas o etiquetas autorizadas. Documentar endpoints con OpenAPI/Swagger en el servicio REST. |
+| Actividad / producto                    | Herramienta propuesta                                                                   | Propósito y configuración del proyecto                                                                                                                                                                                                                  |
+| :-------------------------------------- | :-------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Gestión de trabajo y código             | Git y GitHub                                                                            | Control de versiones, incidencias, pull requests, revisión de código, tablero de trabajo y documentación compartida. El repositorio actualmente identificado es el del informe; los repositorios de los productos se detallan en 4.1.2.                 |
+| Diseño de producto y colaboración UX/UI | Figma                                                                                   | Prototipos, componentes visuales y entrega de especificaciones para landing y aplicaciones móviles; enlazar los archivos desde las tareas o documentación del repositorio.                                                                              |
+| Landing page (HTML5, CSS3, JavaScript)  | Visual Studio Code y navegador Chromium                                                 | Edición, vista previa local y revisión adaptable en tamaños de escritorio y móvil. Mantener instrucciones de ejecución en el README del producto.                                                                                                       |
+| Servicios REST (Java, Spring Boot)      | JDK, IntelliJ IDEA o VS Code, Maven y Spring Boot                                       | Desarrollo y ejecución local de la API; configurar dependencias y tareas de compilación en `pom.xml` y fijar la versión de Java compatible en el proyecto. La base local MySQL debe iniciarse con una configuración documentada sin contraseñas reales. |
+| Aplicación nativa Android (Kotlin)      | Android Studio, Android SDK y Gradle                                                    | Edición, compilación y prueba en emulador/dispositivo. Versiones de SDK, plugin y Gradle se fijan en los archivos Gradle del repositorio.                                                                                                               |
+| Aplicación multiplataforma (Flutter)    | Flutter SDK, Dart y Android Studio o VS Code                                            | Desarrollo y ejecución de la app multiplataforma; fijar dependencias y restricciones en `pubspec.yaml` y el canal/versión del SDK en la documentación del proyecto.                                                                                     |
+| Base de datos relacional                | MySQL Server y MySQL Workbench (opcional)                                               | Desarrollo local, inspección de datos y ejecución controlada de migraciones. Los cambios del esquema se guardan como scripts versionados o migraciones del backend; nunca se distribuyen copias de datos personales reales.                             |
+| Evidencias y objetos                    | Firebase Console / Firebase Cloud Storage                                               | Configuración del bucket de almacenamiento de evidencias. Las credenciales de servicio se guardan en secretos del entorno, con acceso mínimo necesario; no se incluyen en el cliente móvil ni en el repositorio.                                        |
+| Pruebas y calidad                       | JUnit (backend), pruebas de Flutter/Android y Postman para pruebas exploratorias de API | Mantener pruebas unitarias junto al código y colecciones/scripts de pruebas de integración versionados. Los casos de aceptación pueden documentarse en Gherkin cuando correspondan a historias de usuario.                                              |
+| Integración continua y documentación    | GitHub Actions, Markdown y OpenAPI                                                      | Ejecutar compilación y pruebas al abrir/actualizar pull requests; publicar artefactos solo desde ramas o etiquetas autorizadas. Documentar endpoints con OpenAPI/Swagger en el servicio REST.                                                           |
 
 Cada producto debe incluir un `README.md` con prerrequisitos, versiones requeridas, configuración local, comandos de ejecución y pruebas, variables de entorno de ejemplo sin valores secretos y procedimiento de compilación. Se recomienda agregar `.editorconfig` y archivos de formato/lint apropiados por lenguaje para reducir diferencias entre IDEs.
 
 #### 4.1.2. Source Code Management
 
-| Producto | Repositorio en la organización `AppMoviles2026` | Contenido mínimo |
-| :--- | :--- | :--- |
-| Landing page | `collabpro-landing` (URL pendiente de creación) | Código HTML/CSS/JavaScript, assets optimizados e instrucciones de publicación. |
-| RESTful Web Services | `collabpro-api` (URL pendiente de creación) | Proyecto Spring Boot, migraciones/configuración no secreta, pruebas unitarias y pruebas de integración/aceptación. |
-| Aplicación nativa Android | `collabpro-android` (URL pendiente de creación) | Proyecto Kotlin/Android, pruebas y configuración de compilación. |
-| Aplicación multiplataforma | `collabpro-mobile` (URL pendiente de creación) | Proyecto Flutter/Dart y pruebas para las plataformas acordadas. |
+| Producto                   | Repositorio en la organización `AppMoviles2026` | Contenido mínimo                                                                                                   |
+| :------------------------- | :---------------------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
+| Landing page               | `collabpro-landing` (URL pendiente de creación) | Código HTML/CSS/JavaScript, assets optimizados e instrucciones de publicación.                                     |
+| RESTful Web Services       | `collabpro-api` (URL pendiente de creación)     | Proyecto Spring Boot, migraciones/configuración no secreta, pruebas unitarias y pruebas de integración/aceptación. |
+| Aplicación nativa Android  | `collabpro-android` (URL pendiente de creación) | Proyecto Kotlin/Android, pruebas y configuración de compilación.                                                   |
+| Aplicación multiplataforma | `collabpro-mobile` (URL pendiente de creación)  | Proyecto Flutter/Dart y pruebas para las plataformas acordadas.                                                    |
 
 Se aplicará GitFlow de manera ligera en cada repositorio:
 
-| Rama | Uso y regla |
-| :--- | :--- |
-| `main` | Código estable y versiones publicadas. Protegerla para impedir pushes directos y exigir pull request con revisión y checks aprobados. |
-| `develop` | Integración del trabajo aceptado para la siguiente versión. Las features y fixes normales parten de aquí y vuelven mediante pull request. |
-| `feature/<id>-<short-name>` | Una rama por funcionalidad, por ejemplo `feature/CP-24-campaign-brief`; usar identificador de backlog cuando exista y nombre breve en inglés con kebab-case. |
-| `release/<major>.<minor>.<patch>` | Preparación de una versión candidata desde `develop`; solo se permiten correcciones de estabilización, documentación y metadatos. Tras aprobar pruebas, se integra a `main`, se etiqueta y se reintegra a `develop`. |
-| `hotfix/<major>.<minor>.<patch>-<short-name>` | Corrección urgente que parte de `main`; una vez verificada, se integra a `main` y `develop` (o a la release activa) para evitar regresiones. |
+| Rama                                          | Uso y regla                                                                                                                                                                                                          |
+| :-------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `main`                                        | Código estable y versiones publicadas. Protegerla para impedir pushes directos y exigir pull request con revisión y checks aprobados.                                                                                |
+| `develop`                                     | Integración del trabajo aceptado para la siguiente versión. Las features y fixes normales parten de aquí y vuelven mediante pull request.                                                                            |
+| `feature/<id>-<short-name>`                   | Una rama por funcionalidad, por ejemplo `feature/CP-24-campaign-brief`; usar identificador de backlog cuando exista y nombre breve en inglés con kebab-case.                                                         |
+| `release/<major>.<minor>.<patch>`             | Preparación de una versión candidata desde `develop`; solo se permiten correcciones de estabilización, documentación y metadatos. Tras aprobar pruebas, se integra a `main`, se etiqueta y se reintegra a `develop`. |
+| `hotfix/<major>.<minor>.<patch>-<short-name>` | Corrección urgente que parte de `main`; una vez verificada, se integra a `main` y `develop` (o a la release activa) para evitar regresiones.                                                                         |
 
 Los cambios se proponen mediante pull requests pequeños, con descripción del problema, alcance, pruebas ejecutadas y capturas cuando afecten la interfaz. La revisión debe comprobar criterios de aceptación, pruebas, convenciones y ausencia de secretos. Los conflictos se resuelven en la rama de trabajo y no mediante edición directa de `main`.
 
@@ -4060,29 +5094,35 @@ Los mensajes seguirán Conventional Commits en inglés: `feat(campaign): add cam
 
 La nomenclatura del código, nombres de ramas, mensajes de commit, contratos API, comentarios técnicos y documentación de desarrollo será en inglés. El contenido dirigido a usuarios puede mostrarse en español, de acuerdo con el público objetivo. Se mantendrán nombres descriptivos, funciones acotadas, validación en los límites del sistema y separación de responsabilidades coherente con los Bounded Contexts ya definidos.
 
-| Tecnología / artefacto | Convenciones acordadas |
-| :--- | :--- |
-| HTML5 | Elementos semánticos, atributos entre comillas, minúsculas en nombres de elementos/atributos, estructura accesible con etiquetas asociadas a controles y jerarquía de encabezados. Evitar estilos y scripts inline salvo justificación. |
-| CSS3 | Selectores y clases en kebab-case, tokens reutilizables para color/espaciado/tipografía, diseño adaptable y estados visibles de foco. Agrupar reglas por componente y evitar selectores excesivamente específicos. |
-| JavaScript | `camelCase` para variables/funciones, `PascalCase` para clases, `UPPER_SNAKE_CASE` solo para constantes globales, módulos pequeños, `const` por defecto y errores tratados explícitamente. |
-| Java / Spring Boot | Seguir Google Java Style Guide; paquetes en minúsculas, clases `UpperCamelCase`, métodos y variables `lowerCamelCase`, constantes `UPPER_SNAKE_CASE`; separar controladores, aplicación, dominio e infraestructura y no exponer entidades de persistencia directamente como API. |
-| Kotlin / Android | Seguir Kotlin Coding Conventions y formato oficial del IDE; paquetes en minúsculas, tipos `UpperCamelCase`, funciones/propiedades `lowerCamelCase`, preferir `val` e inmutabilidad y documentar APIs públicas. |
-| Dart / Flutter | Seguir Effective Dart; archivos `lowercase_with_underscores.dart`, tipos `UpperCamelCase` y miembros y constantes `lowerCamelCase`; widgets pequeños y estado separado de presentación cuando sea apropiado. |
-| Gherkin (`.feature`) | Escenarios en lenguaje de negocio, con `Given/When/Then` en inglés; cada escenario prueba un comportamiento, pasos concretos y sin lógica de implementación. Evitar escenarios largos o duplicados. |
-| JSON, SQL y API | Contratos y propiedades públicas en inglés; JSON en `camelCase`, tablas/columnas en `snake_case` de forma consistente; documentar endpoint, payload, errores y autenticación en OpenAPI. No guardar secretos ni datos productivos en ejemplos. |
+| Tecnología / artefacto | Convenciones acordadas                                                                                                                                                                                                                                                           |
+| :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HTML5                  | Elementos semánticos, atributos entre comillas, minúsculas en nombres de elementos/atributos, estructura accesible con etiquetas asociadas a controles y jerarquía de encabezados. Evitar estilos y scripts inline salvo justificación.                                          |
+| CSS3                   | Selectores y clases en kebab-case, tokens reutilizables para color/espaciado/tipografía, diseño adaptable y estados visibles de foco. Agrupar reglas por componente y evitar selectores excesivamente específicos.                                                               |
+| JavaScript             | `camelCase` para variables/funciones, `PascalCase` para clases, `UPPER_SNAKE_CASE` solo para constantes globales, módulos pequeños, `const` por defecto y errores tratados explícitamente.                                                                                       |
+| Java / Spring Boot     | Seguir Google Java Style Guide; paquetes en minúsculas, clases `UpperCamelCase`, métodos y variables `lowerCamelCase`, constantes `UPPER_SNAKE_CASE`; separar controladores, aplicación, dominio e infraestructura y no exponer entidades de persistencia directamente como API. |
+| Kotlin / Android       | Seguir Kotlin Coding Conventions y formato oficial del IDE; paquetes en minúsculas, tipos `UpperCamelCase`, funciones/propiedades `lowerCamelCase`, preferir `val` e inmutabilidad y documentar APIs públicas.                                                                   |
+| Dart / Flutter         | Seguir Effective Dart; archivos `lowercase_with_underscores.dart`, tipos `UpperCamelCase` y miembros y constantes `lowerCamelCase`; widgets pequeños y estado separado de presentación cuando sea apropiado.                                                                     |
+| Gherkin (`.feature`)   | Escenarios en lenguaje de negocio, con `Given/When/Then` en inglés; cada escenario prueba un comportamiento, pasos concretos y sin lógica de implementación. Evitar escenarios largos o duplicados.                                                                              |
+| JSON, SQL y API        | Contratos y propiedades públicas en inglés; JSON en `camelCase`, tablas/columnas en `snake_case` de forma consistente; documentar endpoint, payload, errores y autenticación en OpenAPI. No guardar secretos ni datos productivos en ejemplos.                                   |
 
 Se recomienda aplicar formato automático antes de integrar cambios y ejecutar validadores/lint en CI: formatter/linter del frontend, formatter de Java, Kotlin formatter/inspections, `dart format`/`flutter analyze` y comprobación de los casos Gherkin. Los criterios de formato deberán quedar configurados en el repositorio, en vez de depender solo de preferencias personales del IDE.
 
 #### 4.1.4. Software Deployment Configuration
 
-| Componente | Destino de despliegue | Configuración |
-| :--- | :--- | :--- |
-| Landing page | Hosting estático con HTTPS (GitHub Pages) | Compilar/minificar assets si corresponde, publicar solo desde `main` o una etiqueta de release, verificar rutas, formulario/enlaces y renderizado móvil. La decisión del proveedor queda pendiente. |
-| RESTful Web Services | Servicio cloud compatible con Java/Spring Boot (Azure App Service) | Construir artefacto desde tag aprobado, ejecutar pruebas, desplegar a staging, verificar health check y documentación OpenAPI, luego promover a producción. Configurar URL pública solo con HTTPS. |
-| MySQL | Instancia administrada accesible solo desde el backend (Azure Database for MySQL) | Crear esquema mediante migraciones versionadas, restringir red/usuarios, habilitar respaldos y separar credenciales por ambiente. Nunca exponer el puerto de base de datos a Internet público. |
+| Componente             | Destino de despliegue                                                                                                                | Configuración                                                                                                                                                                                                  |
+| :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Landing page           | Hosting estático con HTTPS (GitHub Pages)                                                                                            | Compilar/minificar assets si corresponde, publicar solo desde `main` o una etiqueta de release, verificar rutas, formulario/enlaces y renderizado móvil. La decisión del proveedor queda pendiente.            |
+| RESTful Web Services   | Servicio cloud compatible con Java/Spring Boot (Azure App Service)                                                                   | Construir artefacto desde tag aprobado, ejecutar pruebas, desplegar a staging, verificar health check y documentación OpenAPI, luego promover a producción. Configurar URL pública solo con HTTPS.             |
+| MySQL                  | Instancia administrada accesible solo desde el backend (Azure Database for MySQL)                                                    | Crear esquema mediante migraciones versionadas, restringir red/usuarios, habilitar respaldos y separar credenciales por ambiente. Nunca exponer el puerto de base de datos a Internet público.                 |
 | Apps Android y Flutter | Distribución de prueba mediante Firebase App Distribution o canal interno equivalente; publicación final según plataformas acordadas | Generar builds firmados desde pipeline/entorno controlado. Llaves de firma y credenciales de publicación se guardan fuera del repositorio. Probar instalación, permisos y URL del backend antes de distribuir. |
 
----
+### 4.3. Validation Interviews
+
+#### 4.3.1. Diseño de Entrevistas
+
+#### 4.3.2. Registro de Entrevistas
+
+#### 4.3.3. Evaluaciones según heurísticas
 
 ## Conclusiones
 
@@ -4092,7 +5132,9 @@ Se recomienda aplicar formato automático antes de integrar cambios y ejecutar v
 
 - La aplicación de Domain Driven Design permitió organizar el dominio del negocio y establecer una base clara para la arquitectura y el desarrollo de la solución de CollabPro.
 
----
+## Conclusiones y recomendaciones
+
+## Glosario
 
 ## Bibliografía
 
@@ -4116,3 +5158,5 @@ Se recomienda aplicar formato automático antes de integrar cambios y ejecutar v
 - Android Developers. (s.f.). _Android Studio_. https://developer.android.com/studio
 - Flutter. (s.f.). _Flutter documentation_. https://docs.flutter.dev/
 - Google. (s.f.). _Firebase Cloud Storage documentation_. https://firebase.google.com/docs/storage
+
+## Anexos
