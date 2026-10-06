@@ -556,7 +556,7 @@ Estas tácticas deben priorizarse como un MVP: primero campaña estructurada, po
 
 #### 2.2.2. Registro de entrevistas
 
-- **Segmento 1: Pequeñas y Medianas Empresas (Pymes)**
+###### **Segmento 1: Pequeñas y Medianas Empresas (Pymes)**
 
 **Entrevista 1: Frank Loayza**
 
@@ -737,39 +737,269 @@ Los hallazgos respaldan especialmente el desarrollo de funcionalidades relaciona
 - **Centralización de la comunicación y coordinación** de cada colaboración.
 - **Planes de precios accesibles para pequeñas empresas.**
 
-##### Segmento 2: Creadores de Contenido
+###### **Segmento 2: Creadores de Contenido**
 
-Actualmente no se cuenta con una entrevista registrada para este segmento. Los perfiles, necesidades y puntos de dolor planteados para los creadores de contenido deben considerarse hipótesis hasta realizar entrevistas con participantes pertenecientes directamente a este segmento.
+**Entrevista 1: Luis Ángel**
+
+| Campo                             | Detalle                                                           |
+| --------------------------------- | ----------------------------------------------------------------- |
+| **Nombre y Apellidos**            | Luis Ángel                                                        |
+| **Edad**                          | 20                                                   |
+| **Distrito / Zona de residencia** | Santiago de Surco                                                   |
+| **Segmento**                      | Creadores de Contenido                                            |
+| **Inicio en video**               | 0:00                                                              |
+| **Fin de video**                  | 8:45                                                              |
+| **Duración**                      | 8:45                                                              |
+| **URL del video**                 | [https://www.youtube.com/watch?v=vipJiRQga7c](https://www.youtube.com/watch?v=vipJiRQga7c)                    |
+| **Screenshot**                    | ![Entrevista Luis Ángel](./assets/C02/Entrevistas/LuisAngel.png)  |
+
+##### Resumen Descriptivo de la Entrevista
+
+###### Características Objetivas y Entorno
+
+Luis Ángel es estudiante y barbero, y crea contenido relacionado principalmente con su actividad profesional. En sus redes sociales publica trabajos de barbería, cortes, diseños y recomendaciones relacionadas con el cuidado del cabello.
+
+Su contenido se encuentra vinculado principalmente al sector de belleza y cuidado personal, por lo que las colaboraciones que considera relevantes deben guardar relación con este nicho y ser coherentes con los intereses de su audiencia.
+
+Cuenta con experiencia previa realizando colaboraciones mediante intercambio de productos. En una de ellas recibió una línea de ceras para el cabello con el objetivo de probar los productos y posteriormente compartir una opinión sincera sobre ellos.
+
+###### Herramientas y Proceso Actual
+
+Actualmente, las propuestas de colaboración suelen llegar principalmente mediante mensajes directos en redes sociales, especialmente Instagram y TikTok.
+
+Cuando una empresa se comunica con él, normalmente primero se presenta como marca, explica brevemente quién es y posteriormente comunica la propuesta de colaboración.
+
+El proceso actual se basa en:
+
+- Recepción de propuestas mediante mensajes directos en Instagram o TikTok.
+- Revisión de la información proporcionada por la empresa sobre la colaboración.
+- Identificación del tipo de compensación ofrecida, ya sea mediante dinero, productos u otra modalidad.
+- Búsqueda de referencias de otros creadores que hayan colaborado previamente con la marca.
+- Verificación de que la empresa sea legítima antes de aceptar una propuesta.
+- Revisión de las condiciones y detalles específicos de la colaboración.
+
+###### Problemas Detectados (Pain Points)
+
+El entrevistado expone limitaciones relacionadas principalmente con la transparencia y confiabilidad de las propuestas:
+
+- **Información incompleta:** Algunas empresas no comunican desde el inicio toda la información necesaria sobre la colaboración.
+- **Falta de transparencia:** Considera que una de las principales dificultades consiste en determinar si una empresa comunica claramente todas sus condiciones.
+- **Necesidad de investigación adicional:** Debe buscar referencias por su cuenta para comprobar si una marca es legítima y confiable.
+- **Problemas con fechas:** Aunque no ha tenido inconvenientes graves con pagos o productos, sí ha experimentado algunas dificultades relacionadas con las fechas de entrega.
+- **Riesgo reputacional:** Recomendar productos que no sean de buena calidad podría perjudicar la confianza de su audiencia.
+- **Tiempo invertido en búsqueda:** Encontrar marcas realmente interesadas y compatibles con su contenido requiere tiempo y esfuerzo.
+
+###### Necesidades y Oportunidades
+
+Luis Ángel muestra interés en utilizar una plataforma que centralice las oportunidades de colaboración y permita conocer previamente las condiciones de cada campaña.
+
+Valora positivamente una plataforma que le ofrezca:
+
+- Un espacio donde pueda encontrar campañas disponibles sin tener que buscarlas manualmente.
+- Información clara sobre requisitos, entregables y fechas.
+- Conocimiento previo de la compensación ofrecida.
+- Información suficiente para determinar si una empresa es confiable.
+- Campañas relacionadas con su nicho de contenido.
+- Reducción del tiempo empleado buscando oportunidades.
+- Condiciones claras antes de aceptar una colaboración.
+
+El entrevistado considera que una plataforma de este tipo podría reducir considerablemente el tiempo dedicado a buscar empresas y negociar inicialmente una colaboración.
+
+###### Aspectos Subjetivos y Comportamiento
+
+Luis Ángel mantiene una postura cuidadosa frente a las colaboraciones y considera importante mantener la honestidad con su audiencia.
+
+Aunque exista una compensación de por medio, considera que su opinión sobre un producto debe continuar siendo sincera. Si el producto cumple con sus expectativas puede realizar una reseña positiva, pero si considera que no es adecuado, prefiere no continuar con la colaboración.
+
+También demuestra interés por conocer previamente la reputación de las empresas con las que trabaja y busca referencias antes de aceptar una propuesta.
+
+###### Tecnología y Riesgos Percibidos
+
+Luis Ángel no identifica problemas importantes en el concepto de una plataforma especializada para gestionar colaboraciones.
+
+Sin embargo, considera indispensable que la herramienta cumpla realmente con aquello que ofrece y que la experiencia de navegación sea sencilla.
+
+Para él, la plataforma debería ser:
+
+- Confiable.
+- Rápida.
+- Práctica.
+- Intuitiva.
+- Fácil de navegar.
+- Visualmente organizada.
+- No saturada de información.
+
+Una plataforma demasiado compleja podría generar fricción y provocar que los usuarios abandonen el proceso.
+
+###### Validación del Arquetipo
+
+Los hallazgos validan el arquetipo del **Creador de Contenido Especializado que busca colaboraciones confiables y relevantes**.
+
+Se confirma que este segmento necesita conocer las condiciones de una colaboración antes de aceptarla, reducir el tiempo empleado buscando oportunidades y contar con mayor información sobre las empresas con las que trabajará.
+
+Esto respalda la necesidad de desarrollar funciones dentro de la plataforma enfocadas en:
+
+- **Marketplace de campañas:** centralización de oportunidades disponibles para creadores.
+- **Campañas con condiciones claras:** requisitos, fechas, entregables y compensaciones visibles desde el inicio.
+- **Verificación de empresas:** información que permita conocer la confiabilidad de las marcas.
+- **Filtros por nicho:** campañas relacionadas con los intereses y tipo de contenido del creador.
+- **Interfaz intuitiva:** navegación rápida, sencilla y con información organizada.
+
+
+**Entrevista 2: Britner De La Cruz**
+
+| Campo                             | Detalle                                                         |
+| --------------------------------- | --------------------------------------------------------------- |
+| **Nombre y Apellidos**            | Britner De La Cruz                                                         |
+| **Edad**                          | 22                                                 |
+| **Distrito / Zona de residencia** | Santiago de Surco                                                 |
+| **Segmento**                      | Creadores de Contenido                                          |
+| **Inicio en video**               | 0:00                                                            |
+| **Fin de video**                  | 3:24                                                            |
+| **Duración**                      | 3:24                                                            |
+| **URL del video**                 | [https://www.youtube.com/watch?v=_zyG4bD_Zr4](https://www.youtube.com/watch?v=_zyG4bD_Zr4)                  |
+| **Screenshot**                    | ![Entrevista Britner](./assets/C02/Entrevistas/Britner.png)     |
+
+##### Resumen Descriptivo de la Entrevista
+
+###### Características Objetivas y Entorno
+
+Britner es creador de contenido enfocado principalmente en videojuegos. Produce gameplays y contenido relacionado con gaming, utilizando principalmente TikTok como uno de sus canales de publicación.
+
+Cuenta con experiencia previa realizando colaboraciones, principalmente mediante intercambio de productos relacionados con su contenido.
+
+Su perfil corresponde a un creador especializado en un nicho específico, por lo que necesita encontrar empresas y campañas relacionadas principalmente con videojuegos, tecnología y productos compatibles con su audiencia.
+
+###### Herramientas y Proceso Actual
+
+Actualmente, las propuestas de colaboración suelen llegar mediante mensajes directos de Instagram o correo electrónico.
+
+Cuando una empresa se comunica con él, normalmente proporciona información relacionada con el producto o videojuego que desea promocionar, el tipo de contenido requerido y la fecha en la que debería publicarse.
+
+El proceso actual se basa en:
+
+- Recepción de propuestas mediante Instagram o correo electrónico.
+- Revisión del producto o videojuego que la empresa desea promocionar.
+- Revisión del tipo de contenido solicitado.
+- Consulta de la cantidad de videos o publicaciones requeridas.
+- Verificación de las fechas de entrega y publicación.
+- Evaluación de la compensación y demás condiciones antes de aceptar.
+
+###### Problemas Detectados (Pain Points)
+
+El entrevistado expone diferentes dificultades relacionadas con la claridad y cumplimiento de las condiciones:
+
+- **Cambios posteriores al acuerdo:** En algunas colaboraciones se le han solicitado elementos adicionales que no fueron mencionados inicialmente.
+- **Cambios de última hora:** Los requisitos pueden modificarse cuando el contenido ya se encuentra en proceso de elaboración.
+- **Demoras en productos:** Ha experimentado retrasos en la entrega de productos necesarios para realizar colaboraciones.
+- **Demoras en pagos:** También ha presentado inconvenientes relacionados con retrasos en las compensaciones.
+- **Dificultad para encontrar marcas compatibles:** No siempre resulta fácil encontrar marcas de videojuegos o tecnología interesadas en trabajar con creadores de su tamaño.
+- **Canales dispersos:** Las oportunidades pueden llegar mediante Instagram o correo electrónico, por lo que no existe un único espacio donde consultar todas las propuestas.
+
+###### Necesidades y Oportunidades
+
+Britner muestra interés en una plataforma que centralice las campañas disponibles y facilite encontrar oportunidades relacionadas con su contenido.
+
+Valora positivamente una plataforma que le ofrezca:
+
+- Un único espacio donde encontrar campañas disponibles.
+- Campañas relacionadas con videojuegos y tecnología.
+- Requisitos claramente definidos antes de postular.
+- Información sobre la cantidad y tipo de contenido requerido.
+- Fechas de entrega establecidas desde el inicio.
+- Compensaciones claramente indicadas.
+- Mayor seguridad respecto al cumplimiento de los pagos.
+
+El entrevistado considera que disponer de todas las campañas en un solo lugar facilitaría considerablemente la búsqueda de oportunidades y reduciría la dependencia de diferentes canales de comunicación.
+
+###### Aspectos Subjetivos y Comportamiento
+
+Britner demuestra una orientación práctica al momento de evaluar una colaboración.
+
+Antes de aceptar una propuesta, considera indispensable conocer exactamente qué contenido deberá realizar, cuántos videos serán necesarios y cuáles serán las fechas de entrega.
+
+Los cambios posteriores al acuerdo representan una dificultad debido a que pueden modificar el trabajo inicialmente planificado.
+
+También muestra interés en recibir principalmente oportunidades relacionadas con su nicho, evitando campañas que no tengan relación con videojuegos, tecnología o su audiencia.
+
+###### Tecnología y Riesgos Percibidos
+
+Britner no identifica problemas importantes en la propuesta de utilizar una plataforma especializada para gestionar colaboraciones.
+
+Para preferirla frente a Instagram, WhatsApp o correo electrónico, considera necesario que la plataforma disponga de:
+
+- Buenas marcas.
+- Campañas relacionadas con su contenido.
+- Información clara sobre pagos.
+- Fechas de entrega establecidas.
+- Condiciones visibles antes de aceptar una colaboración.
+
+El principal riesgo percibido sería que la plataforma no cuente con suficientes campañas relevantes para su nicho.
+
+###### Validación del Arquetipo
+
+Los hallazgos validan el arquetipo del **Creador de Contenido de Nicho que busca campañas claras y compatibles con su audiencia**.
+
+Se confirma que este segmento necesita acceder a oportunidades relacionadas con su contenido y conocer claramente las condiciones antes de iniciar una colaboración.
+
+Esto respalda la necesidad de desarrollar funciones dentro de la plataforma enfocadas en:
+
+- **Marketplace centralizado:** campañas disponibles reunidas en un único espacio.
+- **Filtros por nicho:** búsqueda de campañas relacionadas con videojuegos, tecnología u otras categorías.
+- **Requisitos previamente definidos:** claridad sobre el contenido solicitado antes de postular.
+- **Control de fechas:** visualización de fechas de entrega y publicación.
+- **Compensaciones transparentes:** información clara sobre pagos o productos ofrecidos.
+- **Registro de condiciones:** conservación de los requisitos acordados para evitar cambios posteriores no previstos.
 
 #### 2.2.3. Análisis de entrevistas
 
-Para esta primera etapa de investigación se analizaron dos entrevistas correspondientes al segmento de pequeñas y medianas empresas. La primera fue realizada a Frank Loayza, propietario de un emprendimiento de comida mediante delivery, y la segunda a Andy Pillaca, integrante del personal de marketing de una pequeña empresa.
+Para esta primera etapa de investigación se analizaron cuatro entrevistas correspondientes a los dos segmentos principales de CollabPro.
 
-Aunque ambos entrevistados presentan contextos diferentes, se identificaron patrones comunes que permiten comprender cómo las pequeñas empresas administran actualmente sus colaboraciones con creadores de contenido.
+Dentro del segmento de pequeñas y medianas empresas se entrevistó a Frank Loayza, propietario de un emprendimiento de comida mediante delivery, y a Andy Pillaca, integrante del personal de marketing de una pequeña empresa.
 
-##### Búsqueda y selección de creadores
+Para el segmento de creadores de contenido se entrevistó a Luis Ángel, estudiante y barbero que crea contenido relacionado con barbería y cuidado personal, y a Britner, creador de contenido enfocado principalmente en videojuegos y gameplays.
 
-Uno de los principales hallazgos es que la búsqueda de creadores continúa realizándose de manera poco estructurada.
+Aunque los entrevistados presentan contextos, niveles de experiencia y necesidades diferentes, se identificaron patrones comunes que permiten comprender cómo se gestionan actualmente las colaboraciones entre empresas y creadores de contenido.
+
+##### Búsqueda y selección de colaboradores
+
+Uno de los principales hallazgos es que la búsqueda de colaboradores continúa realizándose de manera poco estructurada desde ambos lados de la relación.
 
 Frank depende principalmente de conocidos, recomendaciones y contactos indirectos para encontrar personas que puedan promocionar su negocio. Esta situación limita la cantidad de perfiles disponibles y dificulta encontrar creadores cuya audiencia coincida con el público objetivo de su emprendimiento.
 
 Andy también indicó que la búsqueda se realiza principalmente mediante redes sociales y recomendaciones. Sin embargo, además de encontrar un perfil adecuado, su empresa intenta conocer si el creador es responsable, puntual y cumple los acuerdos establecidos.
 
-Por lo tanto, ambos casos demuestran que la selección de un creador no depende únicamente de su cantidad de seguidores. También existe la necesidad de evaluar aspectos como:
+Desde la perspectiva de los creadores también existen dificultades para encontrar oportunidades adecuadas.
+
+Luis Ángel indicó que las propuestas suelen llegar principalmente mediante Instagram o TikTok, pero considera necesario investigar por su cuenta si la empresa es legítima y si otros creadores han trabajado anteriormente con ella.
+
+Britner señaló que no siempre resulta sencillo encontrar marcas de videojuegos o tecnología interesadas en trabajar con creadores de su tamaño, por lo que disponer de campañas relacionadas con su nicho representa una necesidad importante.
+
+Por lo tanto, la selección de una colaboración no depende únicamente de encontrar una contraparte disponible. También existe la necesidad de evaluar aspectos como:
 
 - Nicho y audiencia.
+- Compatibilidad entre la marca y el creador.
 - Responsabilidad.
 - Puntualidad.
 - Experiencia previa.
+- Reputación.
 - Cumplimiento de colaboraciones anteriores.
+- Confiabilidad de la empresa.
+- Tipo de contenido solicitado.
 
-Este hallazgo respalda la necesidad de incorporar mecanismos de búsqueda, filtrado e historial de colaboraciones dentro de CollabPro.
+Este hallazgo respalda la necesidad de incorporar mecanismos de búsqueda, filtrado, perfiles e historial de colaboraciones dentro de CollabPro.
 
 ##### Coordinación y definición de acuerdos
 
-Otro patrón encontrado es el uso de canales informales para coordinar las colaboraciones.
+Otro patrón encontrado en los cuatro entrevistados es el uso de canales informales para coordinar las colaboraciones.
 
-En ambos casos, las condiciones se negocian mediante conversaciones directas, mensajes o llamadas. Aspectos importantes como la compensación, el contenido esperado y las fechas pueden quedar distribuidos entre diferentes conversaciones.
+En el caso de las empresas, las condiciones suelen negociarse mediante conversaciones directas, mensajes o llamadas. Aspectos importantes como la compensación, el contenido esperado y las fechas pueden quedar distribuidos entre diferentes conversaciones.
+
+Desde la perspectiva de los creadores ocurre una situación similar.
+
+Luis Ángel explicó que las propuestas normalmente llegan mediante mensajes en Instagram o TikTok. Aunque las empresas suelen presentarse y comunicar la propuesta general, en algunas ocasiones no proporcionan toda la información necesaria desde el inicio.
+
+Britner recibe propuestas principalmente mediante Instagram o correo electrónico. Además, indicó que en algunas colaboraciones se le solicitaron posteriormente elementos que no habían sido comunicados originalmente.
 
 Esta situación aumenta la posibilidad de generar confusiones y dificulta consultar posteriormente qué condiciones fueron establecidas originalmente.
 
@@ -778,29 +1008,111 @@ Los resultados respaldan la propuesta de utilizar campañas estructuradas donde 
 - Objetivo de la campaña.
 - Tipo de contenido solicitado.
 - Entregables.
+- Cantidad de publicaciones o videos.
 - Fechas de entrega y publicación.
 - Compensación.
+- Requisitos específicos.
 - Criterios de aceptación.
 
-De esta manera, las condiciones de la colaboración podrían consultarse desde un único punto durante todo el proceso.
+De esta manera, tanto la empresa como el creador podrían consultar las condiciones de la colaboración desde un único punto durante todo el proceso.
+
+##### Claridad y cambios en los requisitos
+
+Las entrevistas del segmento de creadores permitieron identificar un problema que anteriormente se encontraba planteado principalmente como una hipótesis: la necesidad de conocer claramente las condiciones antes de iniciar una colaboración.
+
+Luis Ángel considera importante conocer toda la información necesaria antes de aceptar una propuesta y presta especial atención a los detalles que podrían no haber sido comunicados inicialmente.
+
+Britner presentó evidencia más directa de este problema, señalando que en algunas ocasiones una empresa le solicitó agregar elementos al contenido que no habían sido mencionados al inicio.
+
+Estos cambios pueden afectar la planificación y producción del creador, especialmente cuando el contenido ya se encuentra en desarrollo.
+
+Por lo tanto, resulta importante que CollabPro permita registrar las condiciones originales de una colaboración y que cualquier modificación posterior pueda quedar claramente identificada.
+
+Esto permitiría reducir problemas relacionados con:
+
+- Requisitos ambiguos.
+- Información incompleta.
+- Cambios de última hora.
+- Nuevos entregables no contemplados inicialmente.
+- Confusión sobre las responsabilidades de cada parte.
 
 ##### Seguimiento y cumplimiento de entregables
 
-La supervisión de los creadores representa otro problema relevante.
+La supervisión del cumplimiento representa otro problema relevante para ambos segmentos.
 
 Andy indicó que su empresa ha experimentado retrasos en la publicación del contenido y que fue necesario insistir al creador para que cumpliera con el acuerdo establecido. Asimismo, explicó que actualmente verifican de forma manual si las publicaciones cumplen con los contenidos y fechas acordadas.
 
 En el caso de Frank, aunque su experiencia se encuentra principalmente relacionada con colaboraciones mediante canje, también existe la necesidad de controlar que el creador realice correctamente aquello que fue acordado.
 
-Ambas entrevistas muestran una oportunidad para implementar un flujo de seguimiento en el que una colaboración pueda pasar por estados claramente identificables, por ejemplo:
+Desde el lado de los creadores también se identificaron problemas relacionados con los plazos.
+
+Luis Ángel manifestó haber experimentado algunas dificultades relacionadas con fechas de entrega, aunque estas pudieron resolverse mediante coordinación con la empresa.
+
+Britner indicó que ha experimentado cambios de última hora y retrasos relacionados con la entrega de productos necesarios para realizar algunas colaboraciones.
+
+Las cuatro entrevistas muestran una oportunidad para implementar un flujo de seguimiento en el que una colaboración pueda pasar por estados claramente identificables, por ejemplo:
 
 **Pendiente → En proceso → Entregado → En revisión → Aprobado → Finalizado.**
 
-También resulta relevante permitir que el creador adjunte evidencias de cumplimiento y que la empresa pueda aprobar o solicitar modificaciones cuando sea necesario.
+También resulta relevante permitir que:
+
+- El creador adjunte evidencias de cumplimiento.
+- La empresa pueda revisar los entregables.
+- Se registren las fechas originalmente acordadas.
+- Se identifiquen entregas fuera de plazo.
+- Se puedan solicitar correcciones cuando sea necesario.
+- Ambas partes conozcan el estado actual de la colaboración.
+
+##### Compensaciones y cumplimiento de pagos
+
+La compensación representa otro elemento importante identificado durante las entrevistas.
+
+Frank trabaja principalmente mediante canjes y considera importante que cualquier modelo comercial se adapte a las posibilidades económicas de pequeños negocios.
+
+Andy manifestó una mayor apertura hacia pagos y modelos de suscripción siempre que la plataforma permita ahorrar tiempo y controlar adecuadamente las campañas.
+
+Desde la perspectiva de los creadores, conocer la compensación previamente también resulta fundamental.
+
+Luis Ángel ha participado principalmente en colaboraciones mediante intercambio de productos y considera necesario conocer claramente qué ofrece la empresa antes de aceptar una colaboración.
+
+Britner indicó que ha experimentado demoras relacionadas con pagos y considera indispensable que una plataforma muestre claramente la compensación y el estado de cumplimiento.
+
+Los resultados muestran que CollabPro debería permitir diferenciar claramente modalidades como:
+
+- Pago monetario.
+- Intercambio de productos.
+- Servicios.
+- Canjes.
+- Otras formas de compensación acordadas.
+
+Asimismo, resulta importante mostrar el estado de la compensación y relacionarlo con el cumplimiento de los entregables.
+
+##### Confianza y reputación
+
+Las nuevas entrevistas también permitieron identificar la confianza como un elemento importante dentro del segmento de creadores.
+
+Luis Ángel considera indispensable verificar que una empresa sea seria antes de realizar una colaboración. Para ello, actualmente busca otras personas que hayan trabajado con la marca y comprueba por su cuenta si esta parece legítima.
+
+También manifestó que una de sus principales dificultades consiste en encontrar empresas transparentes que proporcionen toda la información necesaria.
+
+Este problema también se encuentra presente desde la perspectiva empresarial.
+
+Andy intenta obtener referencias sobre los creadores antes de trabajar con ellos para conocer si son responsables, puntuales y cumplen sus compromisos.
+
+Por lo tanto, existe una necesidad bilateral de conocer el comportamiento previo de la contraparte.
+
+Esto respalda la incorporación futura de mecanismos como:
+
+- Historial de colaboraciones.
+- Verificación de perfiles.
+- Reputación de empresas y creadores.
+- Registro de cumplimiento.
+- Incidencias anteriores.
+- Valoraciones posteriores a una colaboración.
 
 ##### Medición de resultados
 
-Los dos entrevistados demostraron interés en conocer los resultados obtenidos después de trabajar con un creador.
+Las entrevistas del segmento de empresas demostraron un interés claro en conocer los resultados obtenidos después de trabajar con un creador.
 
 Frank actualmente analiza de manera empírica indicadores como visualizaciones, likes, comentarios y posibles incrementos temporales en los pedidos.
 
@@ -815,23 +1127,52 @@ Por lo tanto, las entrevistas respaldan la necesidad de un panel que concentre l
 
 La información debería presentarse de manera sencilla, ya que el objetivo de este segmento no necesariamente es realizar análisis avanzados de marketing, sino determinar rápidamente si la inversión realizada generó resultados suficientes.
 
+Para los creadores, las métricas no fueron identificadas como una preocupación principal durante las entrevistas. Su prioridad se encuentra más relacionada con encontrar campañas adecuadas, conocer sus condiciones, cumplir los entregables y recibir la compensación acordada.
+
 ##### Tiempo y esfuerzo requerido
 
-Otro patrón claramente identificado es el tiempo invertido en administrar las colaboraciones.
+Otro patrón claramente identificado es el tiempo invertido en administrar y encontrar colaboraciones.
 
 Frank señaló que, debido a que debe concentrarse en las operaciones principales de su negocio, dispone de poco tiempo para buscar nuevos creadores.
 
 De manera similar, Andy indicó que las actividades que demandan mayor esfuerzo son encontrar creadores adecuados y realizar seguimiento a todo lo que deben entregar.
 
-Esto permite identificar dos actividades especialmente problemáticas:
+Luis Ángel considera que una plataforma con campañas disponibles podría ahorrarle una cantidad importante de tiempo durante la búsqueda de oportunidades.
 
-**Encontrar al creador adecuado → Gestionar y supervisar la colaboración.**
+Asimismo, considera poco eficiente tener que investigar individualmente empresas y averiguar si realmente están interesadas en realizar una colaboración.
+
+Britner también valora la posibilidad de encontrar diferentes campañas en un único lugar en lugar de depender de propuestas recibidas mediante diferentes canales.
+
+Esto permite identificar dos actividades especialmente problemáticas para cada segmento:
+
+**Empresa: Encontrar al creador adecuado → Gestionar y supervisar la colaboración.**
+
+**Creador: Encontrar una campaña relevante → Verificar y gestionar sus condiciones.**
 
 Reducir el tiempo requerido para estas actividades representa una de las principales oportunidades de valor para CollabPro.
 
+##### Experiencia de usuario y facilidad de uso
+
+La entrevista con Luis Ángel permitió identificar adicionalmente la importancia de la experiencia de usuario de la plataforma.
+
+El entrevistado considera que una solución de este tipo debería tener una navegación rápida, fluida e intuitiva.
+
+Indicó que algunas aplicaciones generan fricción debido a su complejidad, exceso de opciones o gran cantidad de información, lo que puede provocar que los usuarios abandonen el proceso.
+
+Por lo tanto, además de ofrecer las funcionalidades necesarias, CollabPro deberá procurar que la información se encuentre correctamente organizada y que las acciones principales puedan realizarse sin una curva de aprendizaje elevada.
+
+Este hallazgo respalda especialmente:
+
+- Navegación sencilla.
+- Información jerarquizada.
+- Interfaces no saturadas.
+- Acceso rápido a campañas.
+- Visualización clara de requisitos y compensaciones.
+- Procesos de postulación simples.
+
 ##### Disposición de pago
 
-La disposición a pagar por una plataforma especializada existe, aunque presenta condiciones importantes.
+La disposición a pagar por una plataforma especializada fue evaluada principalmente desde el segmento empresarial.
 
 Frank se muestra cauteloso frente a una suscripción mensual debido a las restricciones presupuestarias de un negocio pequeño. Su preferencia se orienta hacia alternativas de menor riesgo económico y modelos relacionados con los resultados obtenidos.
 
@@ -849,66 +1190,107 @@ Los resultados indican que el precio y el modelo comercial deberán probarse pos
 
 ##### Hallazgos comunes
 
-A partir de ambas entrevistas se identifican cinco necesidades principales del segmento de pequeñas y medianas empresas:
+A partir de las cuatro entrevistas se identifican necesidades compartidas y complementarias entre ambos segmentos.
+
+Para las pequeñas y medianas empresas destacan:
 
 1. **Encontrar creadores adecuados con mayor facilidad.**
 2. **Centralizar las condiciones y comunicaciones relacionadas con cada colaboración.**
 3. **Controlar los entregables y fechas acordadas.**
 4. **Reducir el tiempo requerido para realizar seguimiento.**
 5. **Medir de manera objetiva los resultados obtenidos.**
+6. **Conocer la responsabilidad y confiabilidad del creador.**
 
-Estos hallazgos respaldan la problemática planteada inicialmente por CollabPro, especialmente respecto a la fragmentación del proceso actual y la ausencia de una herramienta centralizada para administrar las colaboraciones.
+Para los creadores de contenido destacan:
+
+1. **Encontrar campañas compatibles con su contenido y audiencia.**
+2. **Conocer todos los requisitos antes de aceptar una colaboración.**
+3. **Conocer claramente las fechas y entregables requeridos.**
+4. **Evitar cambios inesperados en las condiciones.**
+5. **Conocer previamente la compensación ofrecida.**
+6. **Tener mayor seguridad respecto al cumplimiento del pago o intercambio.**
+7. **Trabajar con empresas confiables y transparentes.**
+8. **Reducir el tiempo requerido para encontrar oportunidades.**
+
+Ambos segmentos coinciden especialmente en la necesidad de contar con condiciones claras, fechas conocidas, información centralizada y mayor confianza durante todo el proceso.
+
+Estos hallazgos respaldan la problemática planteada inicialmente por CollabPro respecto a la fragmentación del proceso actual y la ausencia de una herramienta centralizada para administrar las colaboraciones.
 
 ##### Diferencias entre los entrevistados
 
-Aunque existen necesidades comunes, también se identificaron diferencias relevantes.
+Aunque existen necesidades comunes, también se identificaron diferencias relevantes entre los cuatro entrevistados.
 
 Frank representa un emprendimiento pequeño en una fase relativamente temprana, con recursos económicos y humanos limitados. Sus colaboraciones se encuentran fuertemente vinculadas a canjes y contactos personales, y su principal preocupación es conseguir exposición rentable sin asumir elevados costos.
 
 Andy representa un contexto donde las colaboraciones con creadores ya se realizan con mayor frecuencia. Por este motivo, sus problemas están más relacionados con la coordinación, el cumplimiento de fechas, el seguimiento y la medición.
 
-Estas diferencias sugieren que CollabPro deberá atender empresas con distintos niveles de madurez en influencer marketing. Para negocios con poca experiencia deberá facilitar principalmente el descubrimiento y estructuración de campañas, mientras que para empresas con mayor experiencia deberá aportar control, seguimiento y métricas.
+Luis Ángel representa a un creador especializado en belleza y cuidado personal que prioriza la confiabilidad de las empresas, la transparencia de las propuestas y la coherencia entre los productos promocionados y el contenido que presenta a su audiencia.
+
+Britner representa a un creador especializado en videojuegos que necesita principalmente encontrar campañas relacionadas con su nicho y contar con requisitos, fechas y compensaciones claramente establecidos desde el inicio.
+
+Estas diferencias sugieren que CollabPro deberá atender usuarios con distintos niveles de experiencia y necesidades.
+
+Para las empresas con poca experiencia deberá facilitar principalmente el descubrimiento y estructuración de campañas, mientras que para aquellas con mayor experiencia deberá aportar control, seguimiento y métricas.
+
+Para los creadores deberá facilitar el descubrimiento de campañas según su nicho y proporcionar suficiente información para evaluar una oportunidad antes de postular.
 
 ##### Validación de las hipótesis de CollabPro
 
-Las entrevistas permiten realizar una primera evaluación de las principales hipótesis planteadas para la solución.
+Las cuatro entrevistas permiten realizar una evaluación más completa de las principales hipótesis planteadas para la solución.
 
-| Hipótesis                                                                                  | Resultado preliminar           | Evidencia encontrada                                                                                                                                                       |
-| ------------------------------------------------------------------------------------------ | ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Las pymes tienen dificultades para administrar colaboraciones mediante canales informales. | **Respaldada**                 | Ambas entrevistas muestran procesos basados principalmente en mensajes, redes sociales y coordinación manual.                                                              |
-| Las empresas necesitan encontrar creadores adecuados con mayor facilidad.                  | **Respaldada**                 | Frank presenta una red limitada de contactos y Andy identifica la búsqueda de creadores responsables como una de las actividades que más tiempo consume.                   |
-| Las campañas estructuradas pueden reducir problemas de coordinación.                       | **Respaldada preliminarmente** | Andy plantea directamente la necesidad de centralizar el proceso, mientras que ambos entrevistados negocian actualmente las condiciones mediante conversaciones dispersas. |
-| Las empresas necesitan controlar los entregables.                                          | **Respaldada**                 | Andy reportó retrasos en publicaciones y actualmente realiza verificaciones manuales.                                                                                      |
-| Las métricas centralizadas aportarían valor a las pymes.                                   | **Respaldada**                 | Ambos entrevistados utilizan métricas para intentar evaluar los resultados y muestran interés por obtener información más clara.                                           |
-| Las pymes pagarían una suscripción mensual.                                                | **Parcialmente respaldada**    | Andy estaría dispuesto si existe ahorro de tiempo y un precio accesible; Frank presenta mayor sensibilidad frente a un costo mensual fijo.                                 |
-| Los creadores necesitan mayor claridad y seguridad en sus colaboraciones.                  | **Pendiente de validación**    | Todavía no se cuenta con entrevistas directas pertenecientes al segmento de creadores de contenido.                                                                        |
+| Hipótesis                                                                                  | Resultado preliminar           | Evidencia encontrada                                                                                                                                                                                                 |
+| ------------------------------------------------------------------------------------------ | ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Las pymes tienen dificultades para administrar colaboraciones mediante canales informales. | **Respaldada**                 | Frank y Andy muestran procesos basados principalmente en mensajes, redes sociales, recomendaciones y coordinación manual.                                                                                            |
+| Las empresas necesitan encontrar creadores adecuados con mayor facilidad.                  | **Respaldada**                 | Frank presenta una red limitada de contactos y Andy identifica la búsqueda de creadores responsables como una de las actividades que más tiempo consume.                                                             |
+| Las campañas estructuradas pueden reducir problemas de coordinación.                       | **Respaldada**                 | Las cuatro entrevistas muestran que actualmente las condiciones se gestionan mediante canales dispersos y tanto empresas como creadores valoran contar con requisitos, fechas y compensaciones previamente definidos. |
+| Las empresas necesitan controlar los entregables.                                          | **Respaldada**                 | Andy reportó retrasos en publicaciones y actualmente realiza verificaciones manuales, mientras que Frank también necesita comprobar que el creador cumpla lo acordado.                                                |
+| Las métricas centralizadas aportarían valor a las pymes.                                   | **Respaldada**                 | Frank y Andy utilizan métricas para intentar evaluar los resultados y muestran interés por obtener información más clara.                                                                                            |
+| Las pymes pagarían una suscripción mensual.                                                | **Parcialmente respaldada**    | Andy estaría dispuesto si existe ahorro de tiempo y un precio accesible; Frank presenta mayor sensibilidad frente a un costo mensual fijo.                                                                           |
+| Los creadores necesitan mayor claridad sobre los requisitos de una colaboración.           | **Respaldada**                 | Luis Ángel considera indispensable conocer toda la información antes de aceptar y Britner reportó requisitos adicionales comunicados después de iniciado el acuerdo.                                                  |
+| Los creadores necesitan conocer previamente la compensación.                               | **Respaldada**                 | Ambos creadores consideran importante conocer qué recibirán antes de aceptar una colaboración.                                                                                                                       |
+| Los creadores necesitan encontrar campañas relacionadas con su nicho.                      | **Respaldada**                 | Luis Ángel busca propuestas relacionadas con belleza y cuidado personal, mientras que Britner identifica dificultades para encontrar oportunidades relacionadas con videojuegos y tecnología.                         |
+| Los creadores necesitan mayor seguridad respecto al cumplimiento de la compensación.       | **Respaldada preliminarmente** | Britner reportó demoras en pagos y Luis Ángel considera indispensable trabajar con empresas confiables y transparentes.                                                                                              |
+| Una plataforma centralizada reduciría el tiempo invertido en encontrar colaboraciones.     | **Respaldada**                 | Tanto Luis Ángel como Britner consideran ventajoso poder encontrar campañas disponibles en un único lugar, mientras que Frank y Andy también buscan reducir el tiempo destinado a localizar creadores.                 |
+| La confiabilidad de empresas y creadores influye en la decisión de colaborar.               | **Respaldada**                 | Luis Ángel investiga previamente a las marcas y Andy busca referencias sobre la responsabilidad y cumplimiento de los creadores.                                                                                      |
 
 ##### Implicaciones para el MVP
 
-Los resultados permiten priorizar un primer conjunto de funcionalidades para CollabPro.
+Los resultados permiten priorizar un primer conjunto de funcionalidades para CollabPro considerando las necesidades de ambos segmentos.
 
 El MVP debería concentrarse inicialmente en:
 
 - Registro y perfil de empresas y creadores.
+- Información sobre nicho, contenido y características relevantes de cada creador.
 - Búsqueda y filtrado de creadores por nicho y características relevantes.
+- Marketplace de campañas disponibles para creadores.
+- Filtros de campañas por nicho o categoría.
 - Creación de campañas con condiciones estructuradas.
+- Registro explícito de requisitos, entregables, fechas y compensaciones.
+- Consulta detallada de condiciones antes de postular.
 - Postulación de creadores.
-- Registro explícito de entregables, fechas y compensaciones.
 - Seguimiento del estado de cada colaboración.
 - Entrega de evidencias.
 - Validación de entregables.
-- Panel básico de métricas.
+- Registro de incidencias.
+- Consulta del estado de la compensación.
 - Historial de colaboraciones y cumplimiento.
+- Información básica que permita evaluar la confiabilidad de empresas y creadores.
+- Panel básico de métricas para empresas.
+- Interfaz sencilla e intuitiva que permita acceder rápidamente a la información relevante.
 
-Funciones más avanzadas, como sistemas complejos de recomendación automática, automatización integral de pagos o analítica avanzada, pueden evaluarse posteriormente después de validar las necesidades de ambos segmentos.
+Funciones más avanzadas, como sistemas complejos de recomendación automática, automatización integral de pagos, reputación avanzada o analítica avanzada, pueden evaluarse posteriormente después de validar el comportamiento de los usuarios durante el uso del MVP.
 
 ##### Limitaciones de la investigación
 
-Hasta el momento se dispone de dos entrevistas pertenecientes al segmento de pequeñas y medianas empresas. Esto permite identificar patrones iniciales, pero no garantiza que representen a todas las pymes.
+Hasta el momento se dispone de cuatro entrevistas: dos pertenecientes al segmento de pequeñas y medianas empresas y dos pertenecientes al segmento de creadores de contenido.
 
-Además, todavía no se cuenta con entrevistas reales del segmento de creadores de contenido. Por este motivo, las necesidades definidas para dicho segmento continúan siendo hipótesis y deberán ser contrastadas mediante entrevistas con creadores reales antes de considerar completamente validada la propuesta bilateral de CollabPro.
+Esto permite identificar patrones iniciales en ambos lados de la plataforma y proporciona evidencia directa para validar varias de las hipótesis planteadas anteriormente.
 
-En consecuencia, el siguiente paso de investigación debe consistir en entrevistar a creadores de contenido pequeños o medianos que hayan realizado colaboraciones con marcas, especialmente mediante canjes o acuerdos gestionados a través de Instagram, TikTok o WhatsApp.
+Sin embargo, la cantidad de entrevistas continúa siendo reducida y no garantiza que los resultados representen a todas las pymes ni a todos los tipos de creadores de contenido.
+
+Además, los creadores entrevistados pertenecen a nichos específicos de barbería, cuidado personal y videojuegos, por lo que posteriormente será conveniente ampliar la investigación incluyendo creadores de otros sectores y con diferentes tamaños de audiencia.
+
+En consecuencia, los hallazgos actuales deben considerarse una validación preliminar de la propuesta bilateral de CollabPro. El siguiente paso de investigación debería ampliar la muestra de ambos segmentos y contrastar especialmente aspectos relacionados con disposición de pago, reputación, cambios de requisitos, mecanismos de compensación y comportamiento durante una colaboración completa.
 
 ### 2.3. Needfinding
 
