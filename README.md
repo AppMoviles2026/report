@@ -5612,6 +5612,22 @@ Se recomienda aplicar formato automático antes de integrar cambios y ejecutar v
 
 ##### 4.2.1.1. Sprint Planning 1
 
+El Sprint Planning 1 tiene como objetivo definir el alcance de la primera iteración de desarrollo de CollabPro, considerando las primeras 18 User Stories priorizadas en el Product Backlog. El Sprint comprende tanto la implementación de la Landing Page como el avance de las principales capacidades del backend relacionadas con identidad, perfiles, campañas y postulaciones.
+
+Durante la planificación se revisaron los User Stories asignados al Sprint 1 y su contribución a una primera versión funcional de CollabPro. El alcance busca permitir que empresas y creadores conozcan la propuesta de valor de la plataforma y, al mismo tiempo, establecer los servicios necesarios para soportar registro, autenticación, gestión de perfiles, campañas y postulaciones.
+
+| Sprint # | Sprint 1 |
+| --- | --- |
+| **Sprint Planning Background** | El Sprint 1 corresponde a la primera iteración de desarrollo de CollabPro. El equipo priorizó las primeras 18 User Stories del Product Backlog, incluyendo funcionalidades de la Landing Page y capacidades iniciales del backend correspondientes a identidad, perfiles, campañas y postulaciones. |
+| **Date** | 2026-10-09 |
+| **Time** | 09:00 AM |
+| **Location** | Microsoft Teams |
+| **Prepared By** | Renzo Zamir Revilla Quispe |
+| **Attendees (to planning meeting)** | Todo el equipo |
+| **Sprint 1 Goal** | Nuestro enfoque es desarrollar una primera versión funcional de CollabPro que permita presentar claramente la propuesta de valor a empresas y creadores y establecer las principales capacidades de backend requeridas para iniciar su interacción con la plataforma. Esto será validado cuando los usuarios puedan conocer el funcionamiento de CollabPro y se encuentren disponibles las capacidades correspondientes a registro, autenticación, perfil, búsqueda y consulta de campañas, creación y definición de campañas y postulación a oportunidades de colaboración. |
+| **Sprint 1 Velocity** | 44 Story Points |
+| **Sum of Story Points** | 44 Story Points |
+
 ##### 4.2.1.2. Aspect Leaders and Collaborators
 
 Durante el Sprint 1 el trabajo se distribuyó considerando los principales aspectos necesarios para construir la primera versión funcional de la experiencia móvil de CollabPro. Para cada aspecto se identifica un **Leader (L)** como responsable principal de conducir y consolidar el trabajo, mientras que los demás miembros que participaron como apoyo se identifican como **Collaborators (C)**.
@@ -5648,9 +5664,87 @@ Comprende la revisión del comportamiento esperado de los principales escenarios
 
 ##### 4.2.1.3. Sprint Backlog 1
 
+El Sprint Backlog 1 reúne los User Stories y Work-items seleccionados para alcanzar el objetivo definido durante el Sprint Planning. El alcance de esta primera iteración comprende las primeras 18 User Stories priorizadas en el Product Backlog, incluyendo la implementación de la Landing Page y el desarrollo de capacidades iniciales del backend relacionadas con identidad, perfiles, campañas y postulaciones.
+
+Para el seguimiento del trabajo del Sprint se utilizó Trello, donde las actividades se organizaron de acuerdo con su estado de avance y los Work-items necesarios para implementar las funcionalidades correspondientes.
+
+###### Sprint 1 Board
+
+![Sprint 1 Board](./assets/C04/Sprint1/sprint-backlog-board.png)
+
+_Nota. Elaboración propia._
+
+Trello: [https://trello.com/b/2D9IrqkO/collabpro-sprint-1](https://trello.com/b/2D9IrqkO/collabpro-sprint-1)
+
+| Sprint 1 | User Story Id | User Story Title | Work-Item / Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| --- | --- | --- | --- | --- | --- | ---: | --- | --- |
+| 1 | US-01 | Presentación de CollabPro para empresas | T-01 | Implementar propuesta de valor para empresas | Implementar en la Landing Page la propuesta de valor y los principales beneficios de CollabPro dirigidos a pequeñas y medianas empresas. | 1 | Renzo Zamir Revilla Quispe | Done |
+| 1 | US-02 | Presentación de CollabPro para creadores | T-02 | Implementar propuesta de valor para creadores | Implementar en la Landing Page la propuesta de valor y los principales beneficios dirigidos a creadores de contenido. | 1 | Fabio Cesar Vallejo Trujillo | Done |
+| 1 | US-03 | Información sobre el funcionamiento de CollabPro para empresas | T-03 | Implementar sección de funcionamiento para empresas | Implementar una sección que explique a las empresas las principales etapas del proceso de colaboración dentro de CollabPro. | 2 | Renzo Zamir Revilla Quispe | Done |
+| 1 | US-04 | Información sobre el funcionamiento de CollabPro para creadores | T-04 | Implementar sección de funcionamiento para creadores | Implementar una sección que explique a los creadores las etapas de búsqueda, postulación, aceptación, entrega y validación. | 2 | Renzo Zamir Revilla Quispe | Done |
+| 1 | US-05 | Contacto con CollabPro | T-05 | Implementar formulario de contacto | Implementar el formulario de contacto con los campos requeridos y sus respectivas validaciones. | 2 | Anhelo Rodrigo Rocca León | Done |
+| 1 | US-05 | Contacto con CollabPro | T-06 | Implementar confirmación de contacto | Implementar una confirmación visual cuando una consulta sea enviada correctamente. | 1 | Julio Frank Quispe Serrano | Done |
+| 1 | US-06 | Cambio de idioma | T-07 | Implementar selector de idioma | Implementar el selector que permita visualizar la Landing Page en español o inglés. | 2 | Fabio Cesar Vallejo Trujillo | Done |
+| 1 | US-06 | Cambio de idioma | T-08 | Mantener idioma seleccionado | Mantener el idioma seleccionado durante la navegación dentro de la Landing Page. | 1 | Anhelo Rodrigo Rocca León | Done |
+| 1 | US-07 | Compatibilidad visual de la Landing Page con varios dispositivos | T-09 | Implementar diseño responsive | Adaptar la Landing Page para su correcta visualización en dispositivos móviles y computadoras. | 3 | Fabio Cesar Vallejo Trujillo | Done |
+| 1 | US-07 | Compatibilidad visual de la Landing Page con varios dispositivos | T-10 | Validar comportamiento responsive | Validar la visualización en distintos tamaños y orientaciones de pantalla. | 2 | Julio Frank Quispe Serrano | Done |
+| 1 | US-08 | Registro desde la Landing Page | T-11 | Implementar acceso al registro de empresa | Implementar desde la Landing Page el acceso al proceso de registro correspondiente a una empresa. | 1 | Leonardo Rafael Garcia Villanueva | Done |
+| 1 | US-08 | Registro desde la Landing Page | T-12 | Implementar acceso al registro de creador | Implementar desde la Landing Page el acceso al proceso de registro correspondiente a un creador de contenido. | 1 | Leonardo Rafael Garcia Villanueva | Done |
+| 1 | US-17 | Búsqueda de campañas | T-13 | Implementar búsqueda de campañas | Implementar la consulta de campañas publicadas utilizando los criterios de búsqueda disponibles. | 3 | Renzo Zamir Revilla Quispe | Done |
+| 1 | US-17 | Búsqueda de campañas | T-14 | Implementar filtros de campañas | Implementar los filtros por categoría, ubicación, tipo de compensación y demás criterios establecidos. | 2 | Renzo Zamir Revilla Quispe | Done |
+| 1 | US-18 | Consulta de condiciones de una campaña | T-15 | Implementar consulta de detalle de campaña | Permitir consultar objetivo, requisitos, entregables, fechas, compensación y estado de una campaña. | 2 | Renzo Zamir Revilla Quispe | Done |
+| 1 | US-19 | Postulación a campaña | T-16 | Implementar registro de postulación | Implementar el proceso mediante el cual un creador puede registrar una postulación a una campaña. | 3 | Renzo Zamir Revilla Quispe | Done |
+| 1 | US-19 | Postulación a campaña | T-17 | Implementar validaciones de postulación | Validar duplicidad, requisitos obligatorios y disponibilidad de la campaña antes de registrar la postulación. | 2 | Julio Frank Quispe Serrano | Done |
+| 1 | US-19 | Postulación a campaña | T-18 | Implementar actualización de postulación | Permitir actualizar una postulación mientras esta permanezca en estado pendiente. | 2 | Renzo Zamir Revilla Quispe | Done |
+| 1 | US-10 | Registro de creador | T-19 | Implementar registro de creador | Implementar el servicio para crear una cuenta correspondiente a un creador de contenido. | 3 | Anhelo Rodrigo Rocca León | Done |
+| 1 | US-10 | Registro de creador | T-20 | Validar registro de creador | Validar información obligatoria, formato de correo y existencia previa de la cuenta. | 2 | Julio Frank Quispe Serrano | Done |
+| 1 | US-11 | Inicio de sesión y recuperación de cuenta | T-21 | Implementar inicio de sesión | Implementar la autenticación de usuarios mediante sus credenciales de acceso. | 3 | Anhelo Rodrigo Rocca León | Done |
+| 1 | US-11 | Inicio de sesión y recuperación de cuenta | T-22 | Implementar recuperación de cuenta | Implementar la solicitud de recuperación y restablecimiento de contraseña. | 3 | Leonardo Rafael Garcia Villanueva | Done |
+| 1 | US-13 | Gestión del perfil de creadores | T-23 | Implementar consulta de perfil de creador | Permitir obtener la información correspondiente al perfil del creador autenticado. | 2 | Anhelo Rodrigo Rocca León | Done |
+| 1 | US-13 | Gestión del perfil de creadores | T-24 | Implementar actualización de perfil de creador | Permitir modificar la información disponible del perfil del creador. | 2 | Fabio Cesar Vallejo Trujillo | Done |
+| 1 | US-14 | Vinculación de redes sociales | T-25 | Implementar autorización de red social | Implementar el inicio del proceso de autorización para vincular una cuenta social. | 3 | Anhelo Rodrigo Rocca León | Done |
+| 1 | US-14 | Vinculación de redes sociales | T-26 | Procesar vinculación de red social | Procesar la respuesta de autorización y registrar las redes sociales vinculadas al perfil. | 3 | Leonardo Rafael Garcia Villanueva | Done |
+| 1 | US-15 | Creación de campaña | T-27 | Implementar creación de campaña | Implementar el registro de los datos generales requeridos para crear una campaña. | 3 | Renzo Zamir Revilla Quispe | Done |
+| 1 | US-15 | Creación de campaña | T-28 | Implementar publicación de campaña | Implementar la operación para publicar una campaña cuando cuente con la información requerida. | 2 | Renzo Zamir Revilla Quispe | Done |
+| 1 | US-16 | Definición de condiciones de campaña | T-29 | Implementar condiciones de campaña | Implementar el registro de requisitos, entregables, plazos y compensación de una campaña. | 3 | Renzo Zamir Revilla Quispe | Done |
+| 1 | US-09 | Registro de empresa | T-30 | Implementar registro de empresa | Implementar el servicio para crear una cuenta correspondiente a una empresa. | 3 | Anhelo Rodrigo Rocca León | Done |
+| 1 | US-09 | Registro de empresa | T-31 | Validar registro de empresa | Validar la información obligatoria y evitar la creación de cuentas empresariales duplicadas. | 2 | Julio Frank Quispe Serrano | Done |
+
+
 ##### 4.2.1.4. Development Evidence for Sprint Review
 
+Durante el Sprint 1 se realizaron avances relacionados con la documentación y desarrollo de los artefactos que conforman CollabPro. Los cambios fueron gestionados mediante Git y GitHub, siguiendo las convenciones de control de versiones definidas por el equipo.
+
+A continuación, se presentan algunos de los commits realizados durante el desarrollo del proyecto como evidencia del trabajo efectuado durante el Sprint.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| --- | --- | --- | --- | --- | --- |
+| AppMoviles2026/report | main | 7f7bf6d | docs: added requirements specification | Requirements specification added | 2026-09-18 |
+| AppMoviles2026/report | main | 9a370c6 | docs: add strategic and tactical DDD documentation | Strategic and tactical DDD documentation added | 2026-09-18 |
+| AppMoviles2026/report | main | e5ccaa5 | docs: update README with storytelling diagrams | Storytelling diagrams added to README | 2026-09-18 |
+| AppMoviles2026/report | main | 35d6813 | docs: update README to include Bounded Context Canvases for various management domains | Bounded Context Canvases documentation added | 2026-09-18 |
+| AppMoviles2026/report | main | 1a45ab3 | doc: add conclutions and interview | Conclusions and interview documentation added | 2026-09-18 |
+| AppMoviles2026/report | main | 294c3e3 | docs: update README to include database design diagrams for various bounded contexts | Database design diagrams added for bounded contexts | 2026-09-18 |
+| AppMoviles2026/report | main | d821931 | docs: fixed minor gramatic details | Minor grammatical corrections applied | 2026-09-18 |
+| AppMoviles2026/report | main | 198b9e2 | docs: fixed minor gramatic detail | Minor documentation correction applied | 2026-09-18 |
+| AppMoviles2026/report | main | 0a273ec | doc: update | General project documentation updated | 2026-09-18 |
+
 ##### 4.2.1.5. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 1 se realizaron actividades de testing orientadas a validar el comportamiento esperado de las funcionalidades consideradas dentro del alcance del Sprint. Las pruebas fueron definidas tomando como referencia los criterios de aceptación de los User Stories y permitieron comprobar escenarios relacionados con validaciones de formularios, selección de idioma, compatibilidad visual y acceso a los procesos de registro.
+
+Para las pruebas del backend se consideraron Unit Tests, Integration Tests y Acceptance Tests. Las pruebas de aceptación fueron especificadas utilizando el enfoque BDD mediante archivos `.feature` escritos en lenguaje Gherkin.
+
+| Test Id | Test Type | Related User Story | Component / Behavior | Expected Result |
+| --- | --- | --- | --- | --- |
+| UT-01 | Unit Test | US-05 | Validación del formulario de contacto | El sistema rechaza el envío cuando existen campos obligatorios vacíos. |
+| UT-02 | Unit Test | US-06 | Gestión de preferencia de idioma | El sistema conserva correctamente el idioma seleccionado por el usuario. |
+| IT-01 | Integration Test | US-05 | Registro de solicitud de contacto | Una solicitud válida es procesada correctamente por el servicio correspondiente. |
+| AT-01 | Acceptance Test | US-05 | Envío correcto de consulta | El usuario recibe una confirmación después de enviar una consulta válida. |
+| AT-02 | Acceptance Test | US-06 | Cambio de idioma | El sistema actualiza correctamente la preferencia de idioma seleccionada. |
+| AT-03 | Acceptance Test | US-07 | Compatibilidad responsive | El contenido permanece accesible en diferentes tamaños de pantalla. |
+| AT-04 | Acceptance Test | US-08 | Acceso al registro de empresa | El visitante es dirigido al proceso de registro correspondiente a empresas. |
+| AT-05 | Acceptance Test | US-08 | Acceso al registro de creador | El visitante es dirigido al proceso de registro correspondiente a creadores. |
 
 ##### 4.2.1.6. Execution Evidence for Sprint Review
 
