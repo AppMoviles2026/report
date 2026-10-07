@@ -3846,11 +3846,13 @@ _Nota. Elaboración propia._
 
 ##### 2.5.1.2. Domain Message Flows Modeling
 
-Para analizar la colaboración entre Bounded Contexts se utilizó Domain Storytelling. Los diagramas representan cómo los actores realizan actividades sobre los objetos de negocio y cómo estas actividades generan información que posteriormente es requerida por otros contextos.
+Para analizar la comunicación entre los Bounded Contexts de CollabPro se utilizó Domain Message Flow Modeling. Los diagramas representan los mensajes que permiten coordinar las capacidades distribuidas entre los distintos contextos del dominio.
 
-Se consideraron tres Domain Stories principales debido a que representan los flujos que atraviesan la mayor cantidad de capacidades de CollabPro.
+Cada interacción se expresa mediante uno de los tipos de mensaje utilizados en el modelado: **Command**, cuando se solicita ejecutar una acción; **Event**, cuando se comunica un hecho que ya ocurrió dentro del dominio; y **Query**, cuando un contexto necesita consultar información sin modificar el estado del sistema.
 
-**Domain Story 1: Creación de campaña y formación de una colaboración**
+Se consideraron tres flujos principales debido a que representan las interacciones que atraviesan la mayor cantidad de capacidades y Bounded Contexts de CollabPro.
+
+**Message Flow 1: Creación de campaña y formación de una colaboración**
 
 Una empresa autenticada completa su perfil y crea una campaña. La empresa define los requisitos, entregables, plazos y condiciones de compensación y posteriormente publica la campaña.
 
@@ -3860,7 +3862,7 @@ Este flujo representa la colaboración principal entre **Identity & Profile Mana
 
 ![storytelling diagram 1](assets/C02/DDD/storytelling-diagram-1.jpg)
 
-**Domain Story 2: Cumplimiento de colaboración y compensación**
+**Message Flow 2: Cumplimiento de colaboración y compensación**
 
 El creador consulta una colaboración activa, desarrolla el contenido solicitado y registra el entregable junto con la evidencia correspondiente.
 
@@ -3874,7 +3876,7 @@ Este flujo representa la colaboración entre **Collaboration Management** y **Bi
 
 ![storytelling diagram 2](assets/C02/DDD/storytelling-diagram-2.jpg)
 
-**Domain Story 3: Obtención y análisis de resultados**
+**Message Flow 3: Obtención y análisis de resultados**
 
 Cuando una colaboración produce contenido publicado, Performance & Attribution Management puede consultar las métricas disponibles mediante una cuenta social previamente autorizada.
 
@@ -3981,22 +3983,24 @@ De forma similar, se consideró incorporar Performance & Attribution Management 
 
 Finalmente se descartó utilizar Shared Kernel para compartir los modelos internos entre Bounded Contexts. Cada contexto mantiene su propio modelo y únicamente comparte identificadores y contratos de integración cuando resulta necesario.
 
-Las relaciones resultantes se resumen a continuación:
+Las relaciones resultantes y la justificación de los patrones seleccionados se resumen a continuación:
 
-| Upstream                      | Downstream                           | Relación            | Información intercambiada                                                  |
-| ----------------------------- | ------------------------------------ | ------------------- | -------------------------------------------------------------------------- |
-| Identity & Profile Management | Campaign Management                  | Customer / Supplier | Identidad y referencia de Brand y Creator.                                 |
-| Identity & Profile Management | Billing & Compensation Management    | Customer / Supplier | Referencia de la cuenta asociada a medios de pago o suscripción.           |
-| Identity & Profile Management | Performance & Attribution Management | Customer / Supplier | Referencia de las cuentas sociales autorizadas.                            |
-| Campaign Management           | Collaboration Management             | Customer / Supplier | Postulación seleccionada y snapshot de las condiciones aceptadas.          |
-| Collaboration Management      | Billing & Compensation Management    | Customer / Supplier | Autorización o elegibilidad de la compensación.                            |
-| Collaboration Management      | Performance & Attribution Management | Customer / Supplier | Referencia de la colaboración y contenido utilizado para medir resultados. |
+| Upstream | Downstream | Relación | Información intercambiada | Justificación |
+| --- | --- | --- | --- | --- |
+| Identity & Profile Management | Campaign Management | Customer / Supplier | Identidad y referencia de Brand y Creator. | Identity & Profile Management actúa como upstream al proporcionar las referencias de identidad requeridas por Campaign Management. Se selecciona Customer / Supplier porque Campaign Management depende de este contrato para asociar campañas y postulaciones con usuarios válidos, por lo que sus necesidades deben ser consideradas al definir la información suministrada. |
+| Identity & Profile Management | Billing & Compensation Management | Customer / Supplier | Referencia de la cuenta asociada a medios de pago o suscripción. | Billing & Compensation Management necesita identificar al usuario asociado a una suscripción, medio de pago o compensación. Identity & Profile Management proporciona esta referencia sin compartir su modelo interno, manteniendo una relación clara entre proveedor y consumidor. |
+| Identity & Profile Management | Performance & Attribution Management | Customer / Supplier | Referencia de las cuentas sociales autorizadas. | Performance & Attribution Management requiere conocer qué cuentas sociales han sido autorizadas para asociar o consultar métricas. Identity & Profile Management mantiene dichas asociaciones y proporciona únicamente la información necesaria mediante un contrato explícito. |
+| Campaign Management | Collaboration Management | Customer / Supplier | Postulación seleccionada y snapshot de las condiciones aceptadas. | Campaign Management administra la campaña y las postulaciones hasta seleccionar un creador. Collaboration Management utiliza esa información para iniciar una colaboración y conservar las condiciones aceptadas, por lo que depende del contrato proporcionado por Campaign Management. |
+| Collaboration Management | Billing & Compensation Management | Customer / Supplier | Autorización o elegibilidad de la compensación. | Collaboration Management determina cuándo se cumplen las condiciones necesarias para continuar con una compensación. Billing & Compensation Management utiliza esa decisión para ejecutar el proceso económico sin incorporar dentro de su modelo las reglas propias del cumplimiento de una colaboración. |
+| Collaboration Management | Performance & Attribution Management | Customer / Supplier | Referencia de la colaboración y contenido utilizado para medir resultados. | Performance & Attribution Management necesita identificar qué colaboración y contenido deben analizarse. Collaboration Management proporciona esas referencias mediante un contrato explícito, permitiendo que los procesos de medición evolucionen independientemente del ciclo de cumplimiento de la colaboración. |
 
-En estas relaciones el contexto upstream proporciona información mediante contratos explícitos sin exponer directamente su modelo interno.
+Las relaciones internas fueron modeladas mediante el patrón **Customer / Supplier** debido a que presentan una dirección clara de dependencia entre un Bounded Context upstream, responsable de proporcionar información o capacidades, y un Bounded Context downstream, que utiliza dicho contrato para cumplir sus propias responsabilidades. El downstream puede establecer necesidades sobre la información requerida, pero no accede directamente al modelo interno del upstream.
 
-Las integraciones con proveedores externos de pagos y redes sociales se protegen mediante una Anti-Corruption Layer implementada a través de adapters. De esta manera, los conceptos utilizados por dichos proveedores no ingresan directamente al modelo de dominio de CollabPro.
+Para evitar un acoplamiento innecesario, la comunicación entre Bounded Contexts se realiza mediante contratos explícitos que contienen únicamente los datos requeridos para cada interacción. De esta manera, cada contexto puede evolucionar internamente sin obligar a los demás contextos a adoptar sus entidades, reglas o estructuras internas.
 
-El Context Map final mantiene a Campaign Management y Collaboration Management como los principales contextos del dominio, mientras Identity & Profile Management proporciona capacidades transversales de identidad, Billing & Compensation Management concentra las operaciones económicas y Performance & Attribution Management administra la medición de resultados.
+En las integraciones con proveedores externos de pagos y redes sociales se utiliza el patrón **Anti-Corruption Layer (ACL)**. Este patrón permite proteger el modelo de dominio de CollabPro frente a conceptos, estructuras y cambios definidos por sistemas externos. Los adapters traducen la información proveniente de estos proveedores hacia los conceptos pertenecientes al Ubiquitous Language de cada Bounded Context.
+
+El Context Map final mantiene a Campaign Management y Collaboration Management como los principales contextos del dominio. Identity & Profile Management proporciona las referencias de identidad necesarias para las operaciones de los demás contextos; Billing & Compensation Management mantiene aisladas las reglas económicas; y Performance & Attribution Management concentra las responsabilidades relacionadas con la medición y atribución de resultados.
 
 **DDD Context Map**
 
