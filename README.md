@@ -737,6 +737,111 @@ Los hallazgos respaldan especialmente el desarrollo de funcionalidades relaciona
 - **Centralización de la comunicación y coordinación** de cada colaboración.
 - **Planes de precios accesibles para pequeñas empresas.**
 
+**Entrevista 3: Jorge Altamirano**
+
+| Campo                             | Detalle                                                        |
+| --------------------------------- | -------------------------------------------------------------- |
+| **Nombre y Apellidos**            | Jorge Luis Altamirano                                          |
+| **Edad**                          | 28                                                             |
+| **Distrito / Zona de residencia** | San Borja                                                      |
+| **Segmento**                      | Pequeñas y Medianas Empresas (Pymes)                           |
+| **Inicio en video**               | 0:00                                                           |
+| **Fin de video**                  | 11:12                                                          |
+| **Duración**                      | 11:12                                                          |
+| **URL del video**                 | [https://youtu.be/EhL1vlqkHbM](https://youtu.be/EhL1vlqkHbM)   |
+| **Screenshot**                    | ![Entrevista Jorge](./assets/C02/Entrevistas/JorgeLuis.png)   |
+
+###### Resumen Descriptivo de la Entrevista
+
+###### Características Objetivas y Entorno
+
+Jorge Marmolejo Altamirano es técnico en cocina y actualmente se desempeña como chef en restaurantes de hoteles. Su experiencia con colaboraciones se desarrolla principalmente dentro del sector gastronómico, mediante actividades conjuntas con otros chefs.
+
+El entorno en el que trabaja está vinculado al turismo y presenta temporadas de alta y baja demanda. Durante las temporadas bajas, busca generar ideas y estrategias que permitan atraer al público local, al que considera más difícil de captar.
+
+Utiliza principalmente Instagram para compartir preparaciones, procesos, productos y proveedores. También menciona el uso de esta red social para difundir eventos gastronómicos mediante publicaciones y piezas promocionales.
+
+###### Herramientas y Proceso Actual
+
+Las colaboraciones se establecen principalmente a través de contactos y grupos sociales del entorno gastronómico de la capital. Estos espacios permiten conocer a otros profesionales, intercambiar ideas y organizar actividades conjuntas.
+
+Jorge menciona experiencias con chefs como Jorge Muñoz y Renzo Miñán. Estas colaboraciones incluyen la creación o adaptación de platos, combinando estilos culinarios y conocimientos sobre productos y cocina regional.
+
+El proceso actual comprende las siguientes actividades:
+
+- **Selección mediante contactos profesionales:** Encuentran colaboradores dentro de los círculos gastronómicos en los que participan.
+- **Planificación conjunta:** Coordinan con anticipación e intercambian propuestas para definir los platos y la dinámica del evento.
+- **Compensación mediante canjes:** Ofrecen beneficios del hotel, como desayunos, promociones de alojamiento o descuentos, a cambio de la colaboración.
+- **Promoción del evento:** Difunden la actividad principalmente mediante Instagram.
+- **Seguimiento previo:** Mantienen comunicación frecuente durante la última semana, con aproximadamente tres reuniones y una hora de llegada acordada para el día del evento.
+- **Evaluación posterior:** Revisan las ventas del turno y las reservas recibidas mediante la página del restaurante e Instagram.
+
+Los resultados comerciales también les permiten decidir si conviene volver a trabajar con un determinado chef.
+
+###### Problemas Detectados (Pain Points)
+
+Durante la entrevista se identificaron las siguientes dificultades:
+
+- **Cancelaciones después de iniciar la promoción:** Jorge relata que un chef canceló su participación aproximadamente entre una semana y diez días antes de un evento, cuando la publicidad ya estaba difundida. Fue necesario conseguir un reemplazo para cumplir con lo anunciado a los clientes.
+- **Dificultad para adaptar las formas de trabajo:** Cada chef tiene métodos y necesidades diferentes. Ajustar la operación del restaurante a un colaborador por un solo día exige esfuerzo adicional.
+- **Duración limitada de las colaboraciones:** Considera que una jornada resulta insuficiente para integrarse con el chef invitado y desarrollar todas las ideas que podrían surgir del trabajo conjunto.
+- **Carga de gestión:** Señala que concentrar la captación de clientes, las redes sociales y otros aspectos de la operación en una sola persona puede generar estrés.
+- **Captación del público local en temporada baja:** El restaurante necesita desarrollar propuestas que mantengan el interés y la demanda cuando disminuye la actividad turística.
+
+El seguimiento del cumplimiento se apoya principalmente en reuniones, comunicación y confirmación de la participación. El entrevistado no describe un sistema específico para controlar publicaciones o entregables digitales.
+
+###### Necesidades y Oportunidades
+
+Jorge propone ampliar las colaboraciones a una semana para lograr una mayor integración con el profesional invitado. Durante ese periodo, le gustaría compartir ideas, recorrer mercados y visitar lugares que contribuyan al desarrollo de nuevas propuestas gastronómicas.
+
+También valora una plataforma que apoye la gestión del marketing, las redes sociales y las reservas, reduciendo la carga que estas actividades representan para una sola persona.
+
+A partir de estas necesidades, se identifican oportunidades para CollabPro:
+
+- **Registro de acuerdos y compensaciones:** Documentar los beneficios ofrecidos mediante canje y los compromisos de cada participante.
+- **Organización de fechas y actividades:** Facilitar la planificación de reuniones, jornadas de trabajo y eventos.
+- **Seguimiento de compromisos:** Mantener visibles las confirmaciones y tareas pendientes antes de la colaboración.
+- **Historial de colaboraciones:** Consultar los resultados de experiencias anteriores para orientar futuras decisiones.
+- **Medición de resultados comerciales:** Registrar ventas y reservas asociadas al evento, indicando las limitaciones para atribuirlas directamente a la colaboración.
+
+Estas funcionalidades podrían apoyar la coordinación descrita por Jorge. Sin embargo, sus expectativas también incluyen asistencia en redes sociales y reservas, aspectos que deben contrastarse con el alcance previsto de CollabPro.
+
+###### Aspectos Subjetivos y Comportamiento
+
+Jorge muestra una orientación hacia el trabajo colaborativo y el intercambio de conocimientos. Valora que los chefs puedan combinar sus estilos, compartir experiencias y crear propuestas que ayuden al restaurante a mantenerse al tanto de las tendencias gastronómicas.
+
+También demuestra preocupación por cumplir con lo anunciado al cliente. Frente a la cancelación de un colaborador, priorizó encontrar una solución que permitiera realizar el evento.
+
+Su evaluación de las colaboraciones se centra en resultados comerciales, especialmente ventas y reservas. Estos indicadores influyen en la decisión de repetir una experiencia con el mismo chef.
+
+Asimismo, considera importante disponer de más tiempo para conocer la forma de trabajo del colaborador e integrarlo a la operación del restaurante.
+
+###### Disposición de Pago y Riesgos Percibidos
+
+Jorge expresa una valoración positiva de una plataforma que facilite el marketing y apoye la gestión de redes sociales y reservas. Considera que este tipo de herramienta podría agilizar el trabajo y reducir el estrés operativo.
+
+No obstante, su respuesta no confirma explícitamente que pagaría una suscripción mensual ni establece un presupuesto. Por ello, la entrevista evidencia interés en la solución, pero no permite dar por validada su disposición de pago.
+
+La principal condición de valor identificada es que la plataforma brinde apoyo práctico en la gestión diaria. Será necesario comprobar si las funciones de CollabPro responden a esa expectativa y qué precio estaría dispuesto a asumir.
+
+###### Validación del Arquetipo
+
+La entrevista aporta evidencia sobre el perfil de un **responsable gastronómico con experiencia en colaboraciones que busca mejorar su coordinación y evaluar sus resultados comerciales**.
+
+Su experiencia coincide parcialmente con el segmento empresarial de CollabPro, porque participa en la promoción de un restaurante y en la gestión de colaboraciones. Sin embargo, la entrevista no precisa el tamaño de la empresa, por lo que no permite confirmar su clasificación como pyme.
+
+Además, las colaboraciones descritas se concentran en eventos y creación conjunta de platos con chefs. Aunque incluyen promoción en Instagram, no corresponden necesariamente a campañas centradas en la producción de contenido digital.
+
+Los hallazgos respaldan especialmente la exploración de funcionalidades relacionadas con:
+
+- **Acuerdos estructurados**, incluyendo compensaciones mediante canjes.
+- **Calendarios y seguimiento de compromisos**, para organizar la participación de los colaboradores.
+- **Registro de confirmaciones y cambios**, para responder oportunamente ante cancelaciones.
+- **Historial de colaboraciones y resultados**, para apoyar la selección de futuros participantes.
+- **Indicadores comerciales**, especialmente ventas y reservas de los eventos.
+
+La entrevista ofrece una validación parcial de la propuesta de CollabPro y muestra la necesidad de distinguir entre colaboraciones gastronómicas presenciales y campañas con entregables de contenido.
+
 ###### **Segmento 2: Creadores de Contenido**
 
 **Entrevista 1: Luis Ángel**
