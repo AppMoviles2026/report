@@ -5631,9 +5631,275 @@ Los espacios “about the product” y “about the team” forman parte del dis
 
 #### 3.1.4.1. Mobile Applications Wireframes
 
+Se muestran la distribución del contenido y los controles de cada pantalla mediante textos negros y componentes en escala de grises. La información relacionada se reúne en tarjetas, mientras que los títulos y el espacio entre bloques permiten distinguir los grupos y reconocer su importancia. Dentro de esta organización, los campos indican qué datos se solicitan y los botones permiten identificar la acción principal.
+
+##### Organización visual y heurísticas aplicadas
+
+**Patrón F**
+
+En los listados y las pantallas de detalle, el patrón F se considera como referencia para ubicar los títulos y los datos relevantes al comienzo de cada bloque. Esta disposición facilita localizar nombres, estados y fechas durante una lectura rápida, mientras que las tarjetas y los subtítulos permiten reconocer dónde continúa la información.
+
+**Recorrido vertical**
+
+El contenido se distribuye en una sola columna, desde el contexto de la pantalla hasta la acción principal. Este recorrido se complementa con la organización descrita para los listados y detalles, mientras que los formularios y las explicaciones del servicio utilizan grupos de campos y pasos numerados para orientar al usuario.
+
+| **Pantallas** | **Decisión de diseño y propósito** | **Heurísticas aplicadas** |
+| --- | --- | --- |
+| Presentación y explicación del servicio | Las tarjetas separan los públicos y los pasos numerados explican las tareas de cada rol antes del registro. | Correspondencia entre el sistema y el mundo real y ayuda y documentación. |
+| Registro, acceso y recuperación | Los campos se agrupan antes de la acción principal. Volver, Ya tengo cuenta y Olvidé mi contraseña ofrecen alternativas visibles según el contexto. | Reconocimiento en lugar de recuerdo y control y libertad del usuario. |
+| Inicio de empresa y creador | El resumen precede a las actividades pendientes. Las tarjetas reúnen accesos frecuentes para reducir la búsqueda entre niveles. | Visibilidad del estado del sistema y flexibilidad y eficiencia de uso. |
+| Campañas y colaboraciones | Las tarjetas repiten nombre, estado, fecha y acceso al detalle. Esta organización por entidad y estado facilita identificar actividades relevantes. | Consistencia y estándares y visibilidad del estado del sistema. |
+| Creación de campaña | Los dos pasos separan información general y condiciones. El formato de fecha y los campos de requisitos, entregables y compensación explicitan los datos necesarios. | Prevención de errores y reconocimiento en lugar de recuerdo. |
+| Exploración y detalle de campaña | La búsqueda y las categorías preceden al listado. Las condiciones se muestran antes de postular para que la decisión tenga un contexto claro. | Flexibilidad y eficiencia de uso y prevención de errores. |
+| Detalle de colaboración | Seguimiento reúne los estados del acuerdo y la entrega. Próxima acción explica la tarea pendiente junto a su botón. | Visibilidad del estado del sistema y ayuda y documentación. |
+| Perfiles y redes sociales | Los datos se agrupan según el rol. Las redes muestran su estado y explican la autorización necesaria antes de vincular una cuenta. | Reconocimiento en lugar de recuerdo y visibilidad del estado del sistema. |
+
+##### Diseño inclusivo
+
+La interfaz combina iconos con etiquetas y presenta los estados mediante palabras para que las personas puedan comprender las opciones sin depender únicamente de símbolos o colores. Este criterio también se aplica a los formularios, donde las indicaciones relacionan cada campo con el dato solicitado. A su vez, los botones describen la acción disponible y mantienen una separación que facilita distinguirlos, favoreciendo la comprensión de usuarios con diferentes niveles de experiencia digital.
+
+##### Presentación y acceso
+
+**Presentación**
+
+![Wireframe de presentación de CollabPro](./assets/C03/MobileApplicationsUI/wireframes/1_Presentacion.png)
+
+**Descubrimiento para empresas**
+
+![Wireframe de descubrimiento para empresas](./assets/C03/MobileApplicationsUI/wireframes/2_Descubrir_Empresa.png)
+
+**Cómo funciona para empresas**
+
+![Wireframe de cómo funciona para empresas](./assets/C03/MobileApplicationsUI/wireframes/3_Como_Funciona_Empresa.png)
+
+**Descubrimiento para creadores**
+
+![Wireframe de descubrimiento para creadores](./assets/C03/MobileApplicationsUI/wireframes/4_Descubrir_Creador.png)
+
+**Cómo funciona para creadores**
+
+![Wireframe de cómo funciona para creadores](./assets/C03/MobileApplicationsUI/wireframes/5_Como_Funciona_Creador.png)
+
+**Selección del tipo de cuenta**
+
+![Wireframe de selección del tipo de cuenta](./assets/C03/MobileApplicationsUI/wireframes/6_Seleccion_Tipo_de_Cuenta.png)
+
+**Creación de cuenta de empresa**
+
+![Wireframe de creación de cuenta de empresa](./assets/C03/MobileApplicationsUI/wireframes/7_Crear_Cuenta_Empresa.png)
+
+**Creación de cuenta de creador**
+
+![Wireframe de creación de cuenta de creador](./assets/C03/MobileApplicationsUI/wireframes/8_Crear_Cuenta_Creador.png)
+
+**Inicio de sesión**
+
+![Wireframe de inicio de sesión](./assets/C03/MobileApplicationsUI/wireframes/9_Iniciar_Sesion.png)
+
+**Recuperación del acceso**
+
+![Wireframe de recuperación del acceso](./assets/C03/MobileApplicationsUI/wireframes/10_Recuperar_Acceso.png)
+
+##### Espacio de empresa
+
+**Inicio de empresa**
+
+![Wireframe del inicio de empresa](./assets/C03/MobileApplicationsUI/wireframes/11_Inicio_Empresa.png)
+
+**Opciones complementarias del inicio de empresa**
+
+Esta captura corresponde a la continuación del contenido de Inicio.
+
+![Wireframe de opciones complementarias del inicio de empresa](./assets/C03/MobileApplicationsUI/wireframes/12_Inicio_Empresa_Opciones.png)
+
+**Mis campañas**
+
+![Wireframe de mis campañas de empresa](./assets/C03/MobileApplicationsUI/wireframes/13_Mis_Campanas_Empresa.png)
+
+**Colaboraciones de empresa**
+
+![Wireframe de colaboraciones de empresa](./assets/C03/MobileApplicationsUI/wireframes/14_Colaboraciones_Empresa.png)
+
+**Perfil de empresa**
+
+![Wireframe del perfil de empresa](./assets/C03/MobileApplicationsUI/wireframes/15_Perfil_Empresa.png)
+
+**Nueva campaña**
+
+![Wireframe del primer paso de creación de campaña](./assets/C03/MobileApplicationsUI/wireframes/16_Nueva_Campana.png)
+
+**Condiciones de campaña**
+
+![Wireframe de condiciones de campaña](./assets/C03/MobileApplicationsUI/wireframes/17_Condiciones_de_Campana.png)
+
+##### Espacio de creador
+
+**Inicio de creador**
+
+![Wireframe del inicio de creador](./assets/C03/MobileApplicationsUI/wireframes/18_Inicio_Creador.png)
+
+**Opciones complementarias del inicio de creador**
+
+Esta captura corresponde a la continuación del contenido de Inicio.
+
+![Wireframe de opciones complementarias del inicio de creador](./assets/C03/MobileApplicationsUI/wireframes/19_Inicio_Creador_Opciones.png)
+
+**Exploración de campañas**
+
+![Wireframe de exploración de campañas para creadores](./assets/C03/MobileApplicationsUI/wireframes/20_Explorar_Campanas_Creador.png)
+
+**Detalle de campaña**
+
+![Wireframe del detalle de campaña](./assets/C03/MobileApplicationsUI/wireframes/21_Detalle_de_Campana.png)
+
+**Colaboraciones de creador**
+
+![Wireframe de colaboraciones de creador](./assets/C03/MobileApplicationsUI/wireframes/22_Colaboraciones_Creador.png)
+
+**Detalle de colaboración**
+
+![Wireframe del detalle de colaboración](./assets/C03/MobileApplicationsUI/wireframes/23_Detalle_de_Colaboracion.png)
+
+**Perfil de creador**
+
+![Wireframe del perfil de creador](./assets/C03/MobileApplicationsUI/wireframes/24_Perfil_Creador.png)
+
+**Redes sociales del creador**
+
+![Wireframe de redes sociales del creador](./assets/C03/MobileApplicationsUI/wireframes/25_Redes_Sociales_Creador.png)
+
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
 #### 3.1.4.3. Mobile Applications Mock-ups
+
+Los mockups presentan la apariencia visual de la aplicación al aplicar el sistema de diseño de CollabPro sobre la distribución definida en los wireframes. Los botones con relleno destacan las acciones principales y los botones con contorno identifican las alternativas. Este tratamiento se combina con tarjetas que agrupan la información de campañas, colaboraciones y perfiles, manteniendo una organización visual consistente entre pantallas.
+
+##### Aplicación del sistema de diseño y las heurísticas
+
+| **Pantallas** | **Aplicación visual y propósito** | **Heurísticas aplicadas** |
+| --- | --- | --- |
+| Presentación y explicación del servicio | La marca mantiene su representación habitual. Las tarjetas distinguen los roles y los botones principales destacan las acciones para conocer el servicio o comenzar. | Consistencia y estándares y correspondencia entre el sistema y el mundo real. |
+| Registro, acceso y recuperación | Los campos conservan forma y separación. El botón con relleno distingue la acción principal de los enlaces y botones con contorno. | Consistencia y estándares y reconocimiento en lugar de recuerdo. |
+| Inicio de ambos roles | Las cifras y los títulos destacan el resumen. Las etiquetas sobre fondos claros contextualizan las actividades pendientes y la barra inferior identifica la sección activa. | Visibilidad del estado del sistema y flexibilidad y eficiencia de uso. |
+| Campañas y colaboraciones | Las tarjetas repiten la jerarquía de título, estado, datos y enlace. Los estados escritos conservan su significado sin depender del color. | Consistencia y estándares y visibilidad del estado del sistema. |
+| Creación de campaña | El indicador de paso utiliza el color de marca. Los chips distinguen la categoría elegida y los campos mantienen visibles las indicaciones necesarias antes de publicar. | Reconocimiento en lugar de recuerdo y prevención de errores. |
+| Exploración y detalle de campaña | Los filtros distinguen la selección y las tarjetas separan información y condiciones. Postular a esta campaña se destaca después de los compromisos. | Reconocimiento en lugar de recuerdo y prevención de errores. |
+| Detalle de colaboración | Los valores del seguimiento destacan frente a sus etiquetas. Entregar contenido y evidencia tiene mayor jerarquía que las consultas de compensación e incidencias. | Visibilidad del estado del sistema y diseño estético y minimalista. |
+| Perfiles y redes sociales | Las etiquetas contextualizan los valores. Guardar perfil y Vincular Instagram destacan como acciones principales, y Sin vincular comunica el estado de la red. | Consistencia y estándares y visibilidad del estado del sistema. |
+
+##### Diseño inclusivo
+
+Los textos oscuros sobre superficies claras y las diferencias de tamaño y peso favorecen la lectura. La navegación mantiene iconos con etiquetas y las condiciones se expresan mediante textos, fechas y valores. El color refuerza la información escrita. Las explicaciones breves y los controles separados conservan los criterios inclusivos de los esquemas.
+
+##### Presentación y acceso
+
+**Presentación**
+
+![Mockup de presentación de CollabPro](./assets/C03/MobileApplicationsUI/mockups/1_Presentacion.png)
+
+**Descubrimiento para empresas**
+
+![Mockup de descubrimiento para empresas](./assets/C03/MobileApplicationsUI/mockups/2_Descubrir_Empresa.png)
+
+**Cómo funciona para empresas**
+
+![Mockup de cómo funciona para empresas](./assets/C03/MobileApplicationsUI/mockups/3_Como_Funciona_Empresa.png)
+
+**Descubrimiento para creadores**
+
+![Mockup de descubrimiento para creadores](./assets/C03/MobileApplicationsUI/mockups/4_Descubrir_Creador.png)
+
+**Cómo funciona para creadores**
+
+![Mockup de cómo funciona para creadores](./assets/C03/MobileApplicationsUI/mockups/5_Como_Funciona_Creador.png)
+
+**Selección del tipo de cuenta**
+
+![Mockup de selección del tipo de cuenta](./assets/C03/MobileApplicationsUI/mockups/6_Seleccion_Tipo_de_Cuenta.png)
+
+**Creación de cuenta de empresa**
+
+![Mockup de creación de cuenta de empresa](./assets/C03/MobileApplicationsUI/mockups/7_Crear_Cuenta_Empresa.png)
+
+**Creación de cuenta de creador**
+
+![Mockup de creación de cuenta de creador](./assets/C03/MobileApplicationsUI/mockups/8_Crear_Cuenta_Creador.png)
+
+**Inicio de sesión**
+
+![Mockup de inicio de sesión](./assets/C03/MobileApplicationsUI/mockups/9_Iniciar_Sesion.png)
+
+**Recuperación del acceso**
+
+![Mockup de recuperación del acceso](./assets/C03/MobileApplicationsUI/mockups/10_Recuperar_Acceso.png)
+
+##### Espacio de empresa
+
+**Inicio de empresa**
+
+![Mockup del inicio de empresa](./assets/C03/MobileApplicationsUI/mockups/11_Inicio_Empresa.png)
+
+**Opciones complementarias del inicio de empresa**
+
+Esta captura corresponde a la continuación del contenido de Inicio.
+
+![Mockup de opciones complementarias del inicio de empresa](./assets/C03/MobileApplicationsUI/mockups/12_Inicio_Empresa_Opciones.png)
+
+**Mis campañas**
+
+![Mockup de mis campañas de empresa](./assets/C03/MobileApplicationsUI/mockups/13_Mis_Campanas_Empresa.png)
+
+**Colaboraciones de empresa**
+
+![Mockup de colaboraciones de empresa](./assets/C03/MobileApplicationsUI/mockups/14_Colaboraciones_Empresa.png)
+
+**Perfil de empresa**
+
+![Mockup del perfil de empresa](./assets/C03/MobileApplicationsUI/mockups/15_Perfil_Empresa.png)
+
+**Nueva campaña**
+
+![Mockup del primer paso de creación de campaña](./assets/C03/MobileApplicationsUI/mockups/16_Nueva_Campana.png)
+
+**Condiciones de campaña**
+
+![Mockup de condiciones de campaña](./assets/C03/MobileApplicationsUI/mockups/17_Condiciones_de_Campana.png)
+
+##### Espacio de creador
+
+**Inicio de creador**
+
+![Mockup del inicio de creador](./assets/C03/MobileApplicationsUI/mockups/18_Inicio_Creador.png)
+
+**Opciones complementarias del inicio de creador**
+
+Esta captura corresponde a la continuación del contenido de Inicio.
+
+![Mockup de opciones complementarias del inicio de creador](./assets/C03/MobileApplicationsUI/mockups/19_Inicio_Creador_Opciones.png)
+
+**Exploración de campañas**
+
+![Mockup de exploración de campañas para creadores](./assets/C03/MobileApplicationsUI/mockups/20_Explorar_Campanas_Creador.png)
+
+**Detalle de campaña**
+
+![Mockup del detalle de campaña](./assets/C03/MobileApplicationsUI/mockups/21_Detalle_de_Campana.png)
+
+**Colaboraciones de creador**
+
+![Mockup de colaboraciones de creador](./assets/C03/MobileApplicationsUI/mockups/22_Colaboraciones_Creador.png)
+
+**Detalle de colaboración**
+
+![Mockup del detalle de colaboración](./assets/C03/MobileApplicationsUI/mockups/23_Detalle_de_Colaboracion.png)
+
+**Perfil de creador**
+
+![Mockup del perfil de creador](./assets/C03/MobileApplicationsUI/mockups/24_Perfil_Creador.png)
+
+**Redes sociales del creador**
+
+![Mockup de redes sociales del creador](./assets/C03/MobileApplicationsUI/mockups/25_Redes_Sociales_Creador.png)
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
