@@ -5691,41 +5691,7 @@ La información relacionada se reúne en tarjetas, mientras que los títulos y e
 Cada Wireflow esta organizado por User Goal.
 Dentro de esta organización, los campos indican qué datos se solicitan y los botones permiten identificar la acción principal.
 
-##### User Goal 1 - Configurar identidad comercial
-![UG01](./assets/C03/Wireflow/Wireflow1-UG01.png)
-
-##### User Goal 2 - Crear y validar perfil profesional
-![UG02](./assets/C03/Wireflow/Wireflow2-UG02.png)
-
-##### User Goal 3 - Acceder a la plataforma de forma segura
-![UG03](./assets/C03/Wireflow/Wireflow3-UG03.png)
-
-##### User Goal 4 - Publicar oportunidad de colaboración
-![UG04](./assets/C03/Wireflow/Wireflow4-UG04.png)
-
-##### User Goal 5 - Encontrar y asegurar colaboraciones
-![UG05](./assets/C03/Wireflow/Wireflow5-UG05.png)
-
-##### User Goal 6 - Contratar al creador ideal
-![UG06](./assets/C03/Wireflow/Wireflow6-UG06.png)
-
-##### User Goal 7 - Demostrar trabajo y gestión financiera
-![UG07](./assets/C03/Wireflow/Wireflow7-UG07.png)
-
-##### User Goal 8 - Controlar calidad del contenido
-![UG08](./assets/C03/Wireflow/Wireflow8-UG08.png)
-
-##### User Goal 9 - Resolver conflictos comerciales
-![UG09](./assets/C03/Wireflow/Wireflow9-UG09.png)
-
-##### User Goal 10 - Configurar operaciones financieras
-![UG10](./assets/C03/Wireflow/Wireflow10-UG10.png)
-
-##### User Goal 11 - Desbloquear herramientas premium
-![UG11](./assets/C03/Wireflow/Wireflow11-UG11.png)
-
-##### User Goal 12 - Evaluar el ROI y mantener historial
-![UG12](./assets/C03/Wireflow/Wireflow12-UG12.png)
+[Enlace de figma](https://www.figma.com/design/dWJkpGdFOOHLbDqiLJ9oj1/CollabPro?node-id=0-1&t=p3jf9OlwKmfJjX7y-1)
 
 ##### Organización visual y heurísticas aplicadas
 
@@ -5864,9 +5830,47 @@ Esta captura corresponde a la continuación del contenido de Inicio.
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
+##### User Goal 1 - Configurar identidad comercial
+![UG01](assets/C03/MobileApplicationsUI/Wireflow/Wireflow1-UG01.png)
+
+##### User Goal 2 - Crear y validar perfil profesional
+![UG02](assets/C03/MobileApplicationsUI/Wireflow/Wireflow2-UG02.png)
+
+##### User Goal 3 - Acceder a la plataforma de forma segura
+![UG03](assets/C03/MobileApplicationsUI/Wireflow/Wireflow3-UG03.png)
+
+##### User Goal 4 - Publicar oportunidad de colaboración
+![UG04](assets/C03/MobileApplicationsUI/Wireflow/Wireflow4-UG04.png)
+
+##### User Goal 5 - Encontrar y asegurar colaboraciones
+![UG05](assets/C03/MobileApplicationsUI/Wireflow/Wireflow5-UG05.png)
+
+##### User Goal 6 - Contratar al creador ideal
+![UG06](assets/C03/MobileApplicationsUI/Wireflow/Wireflow6-UG06.png)
+
+##### User Goal 7 - Demostrar trabajo y gestión financiera
+![UG07](assets/C03/MobileApplicationsUI/Wireflow/Wireflow7-UG07.png)
+
+##### User Goal 8 - Controlar calidad del contenido
+![UG08](assets/C03/MobileApplicationsUI/Wireflow/Wireflow8-UG08.png)
+
+##### User Goal 9 - Resolver conflictos comerciales
+![UG09](assets/C03/MobileApplicationsUI/Wireflow/Wireflow9-UG09.png)
+
+##### User Goal 10 - Configurar operaciones financieras
+![UG10](assets/C03/MobileApplicationsUI/Wireflow/Wireflow10-UG10.png)
+
+##### User Goal 11 - Desbloquear herramientas premium
+![UG11](assets/C03/MobileApplicationsUI/Wireflow/Wireflow11-UG11.png)
+
+##### User Goal 12 - Evaluar el ROI y mantener historial
+![UG12](assets/C03/MobileApplicationsUI/Wireflow/Wireflow12-UG12.png)
+
 #### 3.1.4.3. Mobile Applications Mock-ups
 
 Los mockups presentan la apariencia visual de la aplicación al aplicar el sistema de diseño de CollabPro sobre la distribución definida en los wireframes. Los botones con relleno destacan las acciones principales y los botones con contorno identifican las alternativas. Este tratamiento se combina con tarjetas que agrupan la información de campañas, colaboraciones y perfiles, manteniendo una organización visual consistente entre pantallas.
+
+[Enlace del figma](https://www.figma.com/design/dWJkpGdFOOHLbDqiLJ9oj1/CollabPro?node-id=0-1&t=p3jf9OlwKmfJjX7y-1)
 
 ##### Aplicación del sistema de diseño y las heurísticas
 
@@ -5996,6 +6000,32 @@ Esta captura corresponde a la continuación del contenido de Inicio.
 ![Mockup de redes sociales del creador](./assets/C03/MobileApplicationsUI/mockups/25_Redes_Sociales_Creador.png)
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+##### User Goal 01 - Registrar la empresa y configurar el perfil para atraer creadores
+
+![UG01](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow01-UG01.png)
+
+##### User Goal 02 - Crear una cuenta, definir el nicho profesional y vincular redes sociales
+
+![UG02](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow02-UG02.png)
+
+##### User Goal 03 - Iniciar sesión o recuperar el acceso a la cuenta.
+
+![UG03](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow03-UG03.png)
+
+##### User Goal 04 - Crear y publicar una campaña con condiciones y compensación definidas
+
+![UG04](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow04-UG04.png)
+
+##### User Goal 05 - Buscar campañas, revisar sus condiciones y postularse
+
+![UG05](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow05-UG05.png)
+
+##### User Goal 06 - Revisar postulantes, elegir un creador y formalizar la colaboración
+
+![UG06](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow06-UG06.png)
+
+
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
