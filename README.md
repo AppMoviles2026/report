@@ -67,6 +67,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 | ------- | ---------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | V1.0    | 10/09/2026 | Equipo CollabTech | Creación de la primera versión del informe para la entrega AV1. Se incluyen las secciones preliminares, el Capítulo I (Startup Profile, Solution Profile, Segmentos) y el Capítulo II (Requirements y Strategic DDD). |
 | V1.1    | 28/09/2026 | Equipo CollabTech | Se incorpora la sección 4.1 de Software Configuration Management para CollabPro: entorno, gestión del código fuente, convenciones y configuración propuesta de despliegue.                                            |
+| V1.2    | 09/10/2026 | Equipo CollabTech | Se documenta la evidencia de servicios REST y despliegue del backend en Azure; se completa Student Outcome para TB1, se actualizan conclusiones y recomendaciones del sprint y se agregan enlaces de artefactos y entrevistas en Anexos. |
 
 <div style="page-break-after: always;"></div>
 
@@ -233,8 +234,8 @@ Repositorio del reporte: https://github.com/AppMoviles2026/report
 
 | Criterio específico                                                                                                                         | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Conclusiones                                                                                                                                                                                                                                                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Quispe Serrano, Julio Frank:** AV1: Actualicé mis conocimientos investigando de forma autónoma la metodología ágil Lean UX y la técnica de las 5W's y 2H's para redactar correctamente el Solution Profile, los Assumptions y el Canvas del proyecto.<br><br>**Vallejo Trujillo, Fabio Cesar:** AV1: Aprendí a utilizar la herramienta UXPressia de manera autodidacta para estructurar el Needfinding (User Personas y Journey Maps) y actualicé mis nociones sobre métricas para el análisis competitivo de plataformas de marketing.<br><br>**Garcia Villanueva, Leonardo Rafael:** AV1: En este avance tuve que realizar la especificación de los requisitos del proyecto, y para ello actualicé mis conocimientos técnicos sobre Behavior-Driven Development (BDD), estudiando a fondo la sintaxis del estándar Gherkin para redactar historias de usuario sin ambigüedades.<br><br>**Revilla Quispe, Renzo Zamir:** AV1: Tuve que investigar y actualizar mis conocimientos teóricos sobre Domain-Driven Design (DDD) y modelado EventStorming para poder definir correctamente el lenguaje ubicuo y los Bounded Contexts a nivel estratégico.<br><br>**Rocca León, Anhelo:** AV1: Para el desarrollo de la arquitectura, investigué de manera autónoma los fundamentos del modelo C4 (Context, Container, Component, Code) y cómo aplicarlo para diagramar la infraestructura técnica del sistema.                                                                                                                                     | **AV1:** Durante esta entrega, todo el equipo demostró la capacidad de investigar y aplicar metodologías y estándares de la industria (como Lean UX, Gherkin, DDD y C4 Model) que no se dominaban del todo al inicio del ciclo, integrándolos exitosamente en la documentación formal de requerimientos y arquitectura del sistema. |
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**  | **Quispe Serrano, Julio Frank:** AV1: Comprendí que estructurar un modelo de negocio B2B requiere investigar constantemente el mercado y validar las hipótesis (Hypothesis Statements) iterativamente para asegurar que el software brinde valor real.<br><br>**Vallejo Trujillo, Fabio Cesar:** AV1: Reconocí la importancia de adaptar las herramientas de investigación a los usuarios reales; entender las frustraciones de los creadores de contenido me exigió buscar continuamente nuevos enfoques de empatía (Empathy Mapping).<br><br>**Garcia Villanueva, Leonardo Rafael:** AV1: Identifiqué que mis conocimientos sobre Gherkin para la elaboración de las User Stories necesitaban ser reforzados, y también reconocí la necesidad de continuar investigando y aprendiendo sobre la correcta gestión del Product Backlog y la elaboración del Impact Mapping para aplicarlos correctamente durante el desarrollo de este proyecto y así mejorar tanto como mi desempeño como la calidad del proyecto.<br><br>**Revilla Quispe, Renzo Zamir:** AV1: Asimilé que el diseño a nivel estratégico nunca es estático; dominar los flujos de dominio y la delimitación de contextos (Context Mapping) me exigió mantener una postura de estudio constante de la literatura técnica.<br><br>**Rocca León, Anhelo:** AV1: Evidencié la necesidad de consultar fuentes académicas y documentación oficial constantemente para justificar decisiones de arquitectura de bases de datos y garantizar la viabilidad del despliegue tecnológico. | **AV1:** Como equipo, comprendemos que el ecosistema de startups y las tecnologías de desarrollo evolucionan rápidamente. Reconocemos que adoptar una postura proactiva hacia la lectura de documentación oficial y literatura especializada es fundamental para el éxito y la escalabilidad del proyecto.                          |
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Quispe Serrano, Julio Frank:** AV1: Actualicé mis conocimientos investigando de forma autónoma la metodología ágil Lean UX y la técnica de las 5W's y 2H's para redactar correctamente el Solution Profile, los Assumptions y el Canvas del proyecto.<br><br>**TB1:** Apliqué criterios de validación y pruebas a los flujos de registro, diseño adaptable y postulación; profundicé en casos límite y criterios de aceptación para comprobar las historias asignadas.<br><br>**Vallejo Trujillo, Fabio Cesar:** AV1: Aprendí a utilizar la herramienta UXPressia de manera autodidacta para estructurar el Needfinding (User Personas y Journey Maps) y actualicé mis nociones sobre métricas para el análisis competitivo de plataformas de marketing.<br><br>**TB1:** Profundicé en diseño adaptable y localización al llevar los requisitos de la Landing Page y del perfil creador a interfaces y flujos móviles consistentes.<br><br>**Garcia Villanueva, Leonardo Rafael:** AV1: En este avance tuve que realizar la especificación de los requisitos del proyecto, y para ello actualicé mis conocimientos técnicos sobre Behavior-Driven Development (BDD), estudiando a fondo la sintaxis del estándar Gherkin para redactar historias de usuario sin ambigüedades.<br><br>**TB1:** Amplié mis conocimientos sobre autenticación, recuperación de acceso y autorización OAuth al trabajar con los flujos de registro, recuperación de cuenta y vinculación social.<br><br>**Revilla Quispe, Renzo Zamir:** AV1: Tuve que investigar y actualizar mis conocimientos teóricos sobre Domain-Driven Design (DDD) y modelado EventStorming para poder definir correctamente el lenguaje ubicuo y los Bounded Contexts a nivel estratégico.<br><br>**TB1:** Apliqué DDD a los flujos de campañas y postulaciones, profundizando en estados, condiciones, disponibilidad, filtros y reglas de negocio.<br><br>**Rocca León, Anhelo:** AV1: Para el desarrollo de la arquitectura, investigué de manera autónoma los fundamentos del modelo C4 (Context, Container, Component, Code) y cómo aplicarlo para diagramar la infraestructura técnica del sistema.<br><br>**TB1:** Amplié mis conocimientos de diseño de interacción al trabajar en formularios de identidad, consulta de perfil y autorización de redes sociales. | **AV1:** Durante esta entrega, todo el equipo demostró la capacidad de investigar y aplicar metodologías y estándares de la industria (como Lean UX, Gherkin, DDD y C4 Model) que no se dominaban del todo al inicio del ciclo, integrándolos exitosamente en la documentación formal de requerimientos y arquitectura del sistema.<br><br>**TB1:** El equipo convirtió ese aprendizaje en entregables verificables: flujos de usuario y pantallas, endpoints REST organizados por contexto, autenticación JWT, pruebas automatizadas y documentación OpenAPI publicada en el entorno Azure. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**  | **Quispe Serrano, Julio Frank:** AV1: Comprendí que estructurar un modelo de negocio B2B requiere investigar constantemente el mercado y validar las hipótesis (Hypothesis Statements) iterativamente para asegurar que el software brinde valor real.<br><br>**TB1:** Reconocí que debo seguir profundizando en pruebas de integración y escenarios negativos para validar los flujos ante datos inválidos, conflictos y cambios de estado.<br><br>**Vallejo Trujillo, Fabio Cesar:** AV1: Reconocí la importancia de adaptar las herramientas de investigación a los usuarios reales; entender las frustraciones de los creadores de contenido me exigió buscar continuamente nuevos enfoques de empatía (Empathy Mapping).<br><br>**TB1:** Identifiqué la necesidad de seguir aprendiendo sobre accesibilidad, adaptación a distintos dispositivos e integración de las pantallas con los contratos reales del backend.<br><br>**Garcia Villanueva, Leonardo Rafael:** AV1: Identifiqué que mis conocimientos sobre Gherkin para la elaboración de las User Stories necesitaban ser reforzados, y también reconocí la necesidad de continuar investigando y aprendiendo sobre la correcta gestión del Product Backlog y la elaboración del Impact Mapping para aplicarlos correctamente durante el desarrollo de este proyecto y así mejorar tanto como mi desempeño como la calidad del proyecto.<br><br>**TB1:** Reconocí que los flujos de recuperación y OAuth dependen de políticas y proveedores externos, por lo que debo mantenerme actualizado y probar sus estados de error y seguridad.<br><br>**Revilla Quispe, Renzo Zamir:** AV1: Asimilé que el diseño a nivel estratégico nunca es estático; dominar los flujos de dominio y la delimitación de contextos (Context Mapping) me exigió mantener una postura de estudio constante de la literatura técnica.<br><br>**TB1:** Identifiqué la importancia de continuar estudiando consistencia transaccional, concurrencia e idempotencia para evolucionar los servicios de campañas y postulaciones con seguridad.<br><br>**Rocca León, Anhelo:** AV1: Evidencié la necesidad de consultar fuentes académicas y documentación oficial constantemente para justificar decisiones de arquitectura de bases de datos y garantizar la viabilidad del despliegue tecnológico.<br><br>**TB1:** Reconocí que los flujos deben seguir validándose con usuarios y que debo profundizar en accesibilidad y estados de carga, error y ausencia de conexión. | **AV1:** Como equipo, comprendemos que el ecosistema de startups y las tecnologías de desarrollo evolucionan rápidamente. Reconocemos que adoptar una postura proactiva hacia la lectura de documentación oficial y literatura especializada es fundamental para el éxito y la escalabilidad del proyecto.<br><br>**TB1:** El equipo identificó nuevas necesidades de aprendizaje en seguridad, integración móvil-backend, pruebas con datos persistentes y experiencia de uso. La evolución del producto requerirá revisar la documentación técnica y validar cada incremento con usuarios y evidencia de ejecución. |
 
 <div style="page-break-after: always;"></div>
 
@@ -6123,8 +6124,8 @@ Se recomienda aplicar formato automático antes de integrar cambios y ejecutar v
 | Componente             | Destino de despliegue                                                                                                                | Configuración                                                                                                                                                                                                  |
 | :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Landing page           | Hosting estático con HTTPS (GitHub Pages)                                                                                            | Compilar/minificar assets si corresponde, publicar solo desde `main` o una etiqueta de release, verificar rutas, formulario/enlaces y renderizado móvil. La decisión del proveedor queda pendiente.            |
-| RESTful Web Services   | Servicio cloud compatible con Java/Spring Boot (Azure App Service)                                                                   | Construir artefacto desde tag aprobado, ejecutar pruebas, desplegar a staging, verificar health check y documentación OpenAPI, luego promover a producción. Configurar URL pública solo con HTTPS.             |
-| MySQL                  | Instancia administrada accesible solo desde el backend (Azure Database for MySQL)                                                    | Crear esquema mediante migraciones versionadas, restringir red/usuarios, habilitar respaldos y separar credenciales por ambiente. Nunca exponer el puerto de base de datos a Internet público.                 |
+| RESTful Web Services   | Azure Virtual Machine (despliegue verificado para Sprint 1); Azure App Service permanece como alternativa propuesta                    | API disponible en `http://40.75.23.68:8081`. La ruta pública utiliza HTTP; para un entorno productivo se debe publicar detrás de HTTPS. La evidencia de Sprint Review registra el estado observado en la VM.  |
+| MySQL                  | Azure Database for MySQL (destino propuesto; ubicación del entorno desplegado pendiente de confirmar)                                   | Crear esquema mediante migraciones versionadas, restringir red/usuarios, habilitar respaldos y separar credenciales por ambiente. Nunca exponer el puerto de base de datos a Internet público.                 |
 | Apps Android y Flutter | Distribución de prueba mediante Firebase App Distribution o canal interno equivalente; publicación final según plataformas acordadas | Generar builds firmados desde pipeline/entorno controlado. Llaves de firma y credenciales de publicación se guardan fuera del repositorio. Probar instalación, permisos y URL del backend antes de distribuir. |
 
 ### 4.2. Landing Page & Mobile Application Implementation
@@ -6321,7 +6322,51 @@ Durante el Sprint, los tests fueron incorporados junto con las funcionalidades c
 
 ##### 4.2.1.7. Services Documentation Evidence for Sprint Review
 
+Durante el Sprint 1 se documentaron los servicios REST del backend de CollabPro mediante OpenAPI 3.1. La especificación se genera desde los controladores Spring Boot y permite consultar rutas, parámetros y modelos de solicitud/respuesta. En la revisión del 9 de octubre de 2026, la interfaz Swagger y el documento OpenAPI respondieron correctamente desde la máquina virtual de Azure.
+
+**Swagger UI:** [http://40.75.23.68:8081/swagger-ui/index.html](http://40.75.23.68:8081/swagger-ui/index.html)<br>
+**OpenAPI JSON:** [http://40.75.23.68:8081/v3/api-docs](http://40.75.23.68:8081/v3/api-docs)
+
+La versión documentada expone 22 rutas relacionadas con los casos de uso implementados en Identity & Profile Management y Campaign Management:
+
+| Servicio / área | Capacidades documentadas | Rutas representativas |
+|---|---|---|
+| Identity y autenticación | Registro de empresas y creadores, inicio de sesión, recuperación/restablecimiento de contraseña y consulta de la cuenta actual. | `POST /api/v1/auth/brands`, `/creators`, `/sessions`, `/recovery-requests`, `/password-resets`; `GET /api/v1/accounts/me` |
+| Perfil y redes sociales | Consulta/actualización del perfil de creador; inicio de autorización OAuth, callback, consulta de resultado y listado de redes vinculadas. | `GET/PUT /api/v1/profiles/me/creator`; `/api/v1/social-accounts/{platform}/authorizations`, `/callback`, `/authorizations/{authorizationId}`, `/me` |
+| Campañas | Exploración paginada, consulta de detalle, campañas propias, creación, definición de condiciones, publicación, cierre y descarte de borradores. | `GET/POST /api/v1/campaigns`; `/campaigns/published`, `/campaigns/mine`, `/campaigns/{id}`, `/campaigns/{id}/conditions`, `/publication`, `/closure` |
+| Postulaciones | Envío, listado propio, detalle, edición y cancelación; las solicitudes de creación aceptan `Idempotency-Key` para proteger reintentos. | `POST /api/v1/campaigns/{id}/applications`; `GET /api/v1/applications/mine`, `/applications/{id}`; `PUT /api/v1/applications/{id}`; `POST /api/v1/applications/{id}/cancellation` |
+
+Las rutas protegidas usan JWT Bearer. Para probarlas desde Swagger, se ejecuta `POST /api/v1/auth/sessions`, se copia `accessToken` y se ingresa en **Authorize**; el control añade el esquema Bearer al realizar solicitudes. Las rutas de registro, autenticación, recuperación y callback OAuth son públicas según su propósito. Los errores de autenticación y autorización se devuelven como HTTP 401 y 403, respectivamente. La vinculación de Instagram/TikTok necesita credenciales OAuth y callbacks registrados en los proveedores; la documentación no representa una autorización social simulada. Los bounded contexts Collaboration, Billing y Performance no exponen todavía rutas en la API desplegada.
+
+
+![Vista general de Swagger UI con los grupos de rutas de CollabPro](./assets/C04/Sprint1/services/swagger-ui-overview.png)
+
+_Figura. Interfaz Swagger UI de la API desplegada, mostrando los grupos de endpoints disponibles._
+
 ##### 4.2.1.8. Software Deployment Evidence for Sprint Review
+
+El backend REST de CollabPro se desplegó para la revisión del Sprint 1 en una máquina virtual de Microsoft Azure. La API queda expuesta en el puerto 8081 y la dirección pública informada es `http://40.75.23.68:8081`. Durante la verificación del 9 de octubre de 2026, Swagger UI (`/swagger-ui/index.html`) y el contrato OpenAPI (`/v3/api-docs`) respondieron con HTTP 200; el documento identifica el servicio como **CollabPro API**, versión **v1**, y publica 22 rutas.
+
+| Elemento | Estado observado |
+|---|---|
+| Plataforma de cómputo | Máquina virtual de Azure |
+| URL base informada | [http://40.75.23.68:8081](http://40.75.23.68:8081) |
+| Documentación interactiva | [Swagger UI](http://40.75.23.68:8081/swagger-ui/index.html) |
+| Especificación de servicios | [OpenAPI JSON](http://40.75.23.68:8081/v3/api-docs), OpenAPI 3.1 |
+| Verificación registrada | Swagger UI y OpenAPI disponibles con HTTP 200 el 9 de octubre de 2026 |
+| Transporte publicado | HTTP en el endpoint proporcionado |
+
+El repositorio del backend contiene un `Dockerfile` para construir la imagen de Spring Boot y `compose.yaml` para levantar localmente la API, MySQL y Mailpit. La URL pública confirma la disponibilidad de la API; por sí sola no identifica dónde se aloja MySQL ni confirma que la VM utilice exactamente el mismo archivo Compose. Por ello, las capturas de Azure deben mostrar la VM y su configuración efectiva, sin incluir secretos.
+
+La dirección de despliegue usa HTTP, según la URL proporcionada. Para un entorno productivo se recomienda publicar la API mediante HTTPS y un nombre de dominio. La arquitectura C4 de la sección 2.5.3.3 corresponde a la propuesta de despliegue elaborada durante AV1; esta evidencia documenta el estado operativo observado durante Sprint 1.
+
+![Máquina virtual de CollabPro en Azure](./assets/C04/Sprint1/deployment/azure-vm-overview.jpeg)
+
+_Figura. Portal de Azure mostrando la máquina virtual utilizada para el despliegue y su estado de ejecución._
+
+![Reglas de red para acceder al backend de CollabPro](./assets/C04/Sprint1/deployment/azure-network-port-8081.jpeg)
+
+_Figura. Configuración de red de Azure que permite el acceso al servicio en el puerto 8081._
 
 ##### 4.2.1.9. Team Collaboration Insights during Sprint
 
@@ -6335,13 +6380,27 @@ Durante el Sprint, los tests fueron incorporados junto con las funcionalidades c
 
 ## Conclusiones
 
-- Las entrevistas y el análisis del problema permitieron confirmar que las pymes necesitan una forma más ordenada de gestionar colaboraciones con creadores de contenido.
+**Conclusiones generales**
 
-- El Needfinding y la definición de requisitos ayudaron a identificar las principales necesidades de ambos segmentos y a priorizar las funcionalidades iniciales de CollabPro.
+1. Las entrevistas y el Needfinding evidenciaron que marcas y creadores necesitan coordinar campañas con mayor claridad, especialmente al descubrir oportunidades, acordar condiciones, validar entregables y dar seguimiento a resultados.
+2. La síntesis de personas, tareas, journeys y necesidades de ambos segmentos permitió convertir problemas del dominio en un alcance inicial priorizado para CollabPro, manteniendo como foco el valor para empresas y creadores.
 
-- La aplicación de Domain Driven Design permitió organizar el dominio del negocio y establecer una base clara para la arquitectura y el desarrollo de la solución de CollabPro.
+**Conclusiones técnicas del sprint 1**
+
+1. La organización del backend por bounded contexts y la aplicación de DDD dieron estructura a las capacidades iniciales de identidad, perfiles, campañas y postulaciones, con contratos REST documentados mediante OpenAPI.
+2. La autenticación JWT, la persistencia relacional y la publicación del servicio en una máquina virtual de Azure conforman una primera base desplegable; la documentación OpenAPI permite inspeccionar los endpoints disponibles.
 
 ## Conclusiones y recomendaciones
+
+**Recomendaciones generales**
+
+1. Ampliar la validación con empresas y creadores de distintos tamaños y especialidades, contrastando las necesidades identificadas y las condiciones de colaboración con evidencia de entrevistas y pruebas de prototipos.
+2. Validar con usuarios los flujos prioritarios de ambos segmentos y llevar los hallazgos de usabilidad al Product Backlog antes de ampliar funcionalidades.
+
+**Recomendaciones técnicas del sprint 1**
+
+1. Publicar el servicio de Azure detrás de HTTPS y un dominio estable; mantener MySQL sin exposición pública y gestionar credenciales y secretos mediante configuración segura del entorno.
+2. Automatizar despliegues y pruebas de humo, y ejecutar recorridos de extremo a extremo contra datos persistentes para comprobar autenticación, permisos, errores, paginación y retorno OAuth antes de cada entrega.
 
 ## Glosario
 
@@ -6369,3 +6428,33 @@ Durante el Sprint, los tests fueron incorporados junto con las funcionalidades c
 - Google. (s.f.). _Firebase Cloud Storage documentation_. https://firebase.google.com/docs/storage
 
 ## Anexos
+
+### ANEXO A. Repositorios del proyecto
+
+- **Repositorio del reporte:** <https://github.com/AppMoviles2026/report>
+- **Repositorio del backend:** <https://github.com/AppMoviles2026/platform>
+- **Repositorio del sitio web:** <https://github.com/AppMoviles2026/website>
+- **Repositorio de la aplicación móvil:** <https://github.com/AppMoviles2026/mobile-app>
+
+### ANEXO B. Gestión, diseño y modelado
+
+- **Tablero general del proyecto en Trello:** <https://trello.com/b/X1Cgxi0s/collabpro>
+- **Tablero del Sprint 1 en Trello:** <https://trello.com/b/2D9IrqkO/collabpro-sprint-1>
+- **Diseño y prototipos en Figma:** <https://www.figma.com/design/dWJkpGdFOOHLbDqiLJ9oj1/CollabPro?node-id=0-1&t=p3jf9OlwKmfJjX7y-1>
+- **Big Picture EventStorming en Miro:** <https://miro.com/app/board/uXjVHl9jh_M=/?share_link_id=159650084488>
+
+### ANEXO C. Enlaces a entrevistas
+
+- **Entrevista a Frank Loayza:** <https://youtu.be/dvb_GWTTWyg>
+- **Entrevista a Andy Pillaca:** <https://drive.google.com/file/d/1z8S2-whw5Wi0ZabnAjMTSdbTEb_XWkOh/view>
+- **Entrevista a Jorge Altamirano:** <https://youtu.be/EhL1vlqkHbM>
+- **Entrevista a Luis Ángel:** <https://www.youtube.com/watch?v=vipJiRQga7c>
+- **Entrevista a Britner:** <https://www.youtube.com/watch?v=_zyG4bD_Zr4>
+- **Entrevista a Katrina Villarreal:** <https://youtu.be/hwh1Y0CnKpk>
+
+### ANEXO D. Despliegues y documentación de servicios
+
+- **Landing page desplegada:** <https://appmoviles2026.github.io/website/>
+- **URL base de la API:** <http://40.75.23.68:8081>
+- **Swagger UI:** <http://40.75.23.68:8081/swagger-ui/index.html>
+- **Especificación OpenAPI en formato JSON:** <http://40.75.23.68:8081/v3/api-docs>
