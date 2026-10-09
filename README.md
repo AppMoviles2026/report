@@ -5632,11 +5632,30 @@ Los espacios “about the product” y “about the team” forman parte del dis
 #### 3.1.4.1. Mobile Applications Wireframes
 
 Se muestran la distribución del contenido y los controles de cada pantalla mediante textos negros y componentes en escala de grises. 
-La información relacionada se reúne en tarjetas, mientras que los títulos y el espacio entre bloques permiten distinguir los grupos y reconocer su importancia. 
+La información relacionada se reúne en tarjetas, mientras que los títulos y el espacio entre bloques permiten distinguir los grupos y reconocer su importancia.
+Cada Wireflow esta organizado por User Goal.
 Dentro de esta organización, los campos indican qué datos se solicitan y los botones permiten identificar la acción principal.
 
-##### User Goal 1
+##### User Goal 1 - Configurar identidad comercial
 ![UG01](./assets/C03/Wireflow/Wireflow1-UG01.png)
+
+##### User Goal 2 - Crear y validar perfil profesional
+![UG02](./assets/C03/Wireflow/Wireflow2-UG02.png)
+
+##### User Goal 3 - Acceder a la plataforma de forma segura
+![UG03](./assets/C03/Wireflow/Wireflow3-UG03.png)
+
+##### User Goal 4 - Publicar oportunidad de colaboración
+![UG04](./assets/C03/Wireflow/Wireflow4-UG04.png)
+
+##### User Goal 5 - Encontrar y asegurar colaboraciones
+![UG05](./assets/C03/Wireflow/Wireflow5-UG05.png)
+
+##### User Goal 6 - Contratar al creador ideal
+![UG06](./assets/C03/Wireflow/Wireflow6-UG06.png)
+
+##### User Goal 7 - Demostrar trabajo y gestión financiera
+![UG07](./assets/C03/Wireflow/Wireflow7-UG07.png)
 
 ##### Organización visual y heurísticas aplicadas
 
