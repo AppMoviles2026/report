@@ -6161,20 +6161,70 @@ A continuación, se presentan algunos de los commits realizados durante el desar
 
 ##### 4.2.1.5. Testing Suite Evidence for Sprint Review
 
-Durante el Sprint 1 se realizaron actividades de testing orientadas a validar el comportamiento esperado de las funcionalidades consideradas dentro del alcance del Sprint. Las pruebas fueron definidas tomando como referencia los criterios de aceptación de los User Stories y permitieron comprobar escenarios relacionados con validaciones de formularios, selección de idioma, compatibilidad visual y acceso a los procesos de registro.
+Durante el Sprint 1 se implementó un conjunto de pruebas automatizadas para validar las principales capacidades desarrolladas en los Bounded Contexts Identity & Profile Management y Campaign Management. Las pruebas se encuentran en el repositorio `AppMoviles2026/platform`, dentro de la ruta `src/test/java/com/collabtech/platform`, y fueron desarrolladas utilizando JUnit 5, Spring Boot Test y Mockito.
 
-Para las pruebas del backend se consideraron Unit Tests, Integration Tests y Acceptance Tests. Las pruebas de aceptación fueron especificadas utilizando el enfoque BDD mediante archivos `.feature` escritos en lenguaje Gherkin.
+La estrategia de testing comprende Unit Tests orientados a verificar reglas de dominio y servicios de aplicación, Integration Tests para comprobar la interacción entre las capas de aplicación, persistencia, seguridad y base de datos, y pruebas de aceptación automatizadas a nivel API que ejecutan escenarios completos mediante solicitudes HTTP reales sobre la aplicación.
 
-| Test Id | Test Type | Related User Story | Component / Behavior | Expected Result |
-| --- | --- | --- | --- | --- |
-| UT-01 | Unit Test | US-05 | Validación del formulario de contacto | El sistema rechaza el envío cuando existen campos obligatorios vacíos. |
-| UT-02 | Unit Test | US-06 | Gestión de preferencia de idioma | El sistema conserva correctamente el idioma seleccionado por el usuario. |
-| IT-01 | Integration Test | US-05 | Registro de solicitud de contacto | Una solicitud válida es procesada correctamente por el servicio correspondiente. |
-| AT-01 | Acceptance Test | US-05 | Envío correcto de consulta | El usuario recibe una confirmación después de enviar una consulta válida. |
-| AT-02 | Acceptance Test | US-06 | Cambio de idioma | El sistema actualiza correctamente la preferencia de idioma seleccionada. |
-| AT-03 | Acceptance Test | US-07 | Compatibilidad responsive | El contenido permanece accesible en diferentes tamaños de pantalla. |
-| AT-04 | Acceptance Test | US-08 | Acceso al registro de empresa | El visitante es dirigido al proceso de registro correspondiente a empresas. |
-| AT-05 | Acceptance Test | US-08 | Acceso al registro de creador | El visitante es dirigido al proceso de registro correspondiente a creadores. |
+Durante este Sprint no se implementaron pruebas bajo el enfoque BDD con archivos `.feature` en lenguaje Gherkin. Las pruebas de aceptación fueron implementadas directamente mediante JUnit y Spring Boot Test, por lo que no se presentan Feature Files ni Step Definitions.
+
+###### Unit Tests
+
+Los Unit Tests validan de manera aislada reglas de negocio, agregados, Value Objects, servicios de dominio, handlers y componentes de seguridad.
+
+| Test Id | Test Class | Related User Story | Component / Behavior |
+| --- | --- | --- | --- |
+| UT-01 | `RegistrationDomainTests` | US-09, US-10 | Valida la creación de cuentas de empresa y creador, la asignación correcta del tipo de cuenta, perfiles iniciales y validaciones de contraseña. |
+| UT-02 | `RegistrationHandlersTests` | US-09, US-10 | Valida el procesamiento de los comandos de registro, hash de contraseña, persistencia y rechazo de correos previamente registrados. |
+| UT-03 | `PasswordHasherTests` | US-09, US-10, US-11 | Comprueba que las contraseñas sean almacenadas mediante hash, empleando valores de salt diferentes y evitando almacenar el texto original. |
+| UT-04 | `JwtSessionSecurityTests` | US-11 | Valida la emisión y verificación de tokens JWT, expiración, firma, revocación y rechazo de tokens inválidos. |
+| UT-05 | `SecretCipherTests` | US-14 | Comprueba el cifrado de credenciales asociadas a proveedores externos y el rechazo de información alterada. |
+| UT-06 | `CampaignDomainTests` | US-15, US-16 | Valida las reglas del agregado Campaign para definición de condiciones, fechas, compensación, publicación, cierre y estados permitidos. |
+| UT-07 | `ApplicationDomainTests` | US-19 | Valida elegibilidad, requisitos obligatorios, creación de postulaciones, actualización, cancelación y restricciones según el estado de la postulación. |
+
+###### Integration Tests
+
+Las pruebas de integración validan el funcionamiento conjunto de controladores REST, servicios de aplicación, seguridad, persistencia y base de datos utilizando el perfil de testing del backend.
+
+| Test Id | Test Class | Related User Story | Component / Behavior |
+| --- | --- | --- | --- |
+| IT-01 | `RegistrationApiTests` | US-09, US-10 | Verifica registro de empresas y creadores, validaciones de entrada, prevención de cuentas duplicadas, persistencia y rollback ante errores. |
+| IT-02 | `IdentityLifecycleApiTests` | US-11, US-13, US-14 | Verifica inicio de sesión, recuperación de cuenta, actualización de perfil, sesiones protegidas y vinculación de redes sociales. |
+| IT-03 | `RecoveryMailpitTests` | US-11 | Comprueba la generación y entrega del correo correspondiente al proceso de recuperación de cuenta. |
+| IT-04 | `SocialOAuthAdapterTests` | US-14 | Valida la integración del adaptador OAuth para TikTok e Instagram mediante respuestas HTTP controladas y almacenamiento seguro de credenciales. |
+| IT-05 | `CampaignPreparationApiTests` | US-15, US-16 | Verifica creación de campañas, definición y actualización de condiciones, publicación, autorización por rol, persistencia e idempotencia. |
+| IT-06 | `CampaignDiscoveryApplicationApiTests` | US-17, US-18, US-19 | Verifica búsqueda y filtrado de campañas, consulta de detalle, validación de elegibilidad y creación, consulta, actualización y cancelación de postulaciones. |
+| IT-07 | `BackendMigrationUpgradeTests` | Soporte técnico del Sprint | Valida que las migraciones Flyway puedan actualizar una base de datos existente sin eliminar cuentas, sesiones o estados pendientes. |
+| IT-08 | `CollabproPlatformApplicationTests` | Soporte técnico del Sprint | Comprueba que el contexto completo de Spring Boot pueda inicializarse correctamente con el perfil de testing. |
+
+###### Acceptance Tests
+
+Las pruebas de aceptación automatizadas se ejecutan sobre la API utilizando un servidor Spring Boot real iniciado en un puerto de testing. Estos escenarios atraviesan las capas REST, Application, Domain e Infrastructure, permitiendo validar el comportamiento esperado desde la perspectiva de los User Stories.
+
+| Test Id | Automated Scenario | Related User Story | Expected Result |
+| --- | --- | --- | --- |
+| AT-01 | Registro de empresa y creador mediante HTTP real | US-09, US-10 | La API registra correctamente la cuenta y su perfil correspondiente y retorna HTTP 201 sin exponer la contraseña. |
+| AT-02 | Inicio de sesión y acceso al perfil mediante HTTP real | US-11, US-13 | El usuario obtiene una sesión válida y puede acceder a los recursos protegidos correspondientes a su perfil. |
+| AT-03 | Creación y persistencia de campaña mediante HTTP real | US-15 | Una empresa autenticada puede crear una campaña y la información permanece almacenada correctamente. |
+| AT-04 | Búsqueda y detalle de campañas | US-17, US-18 | El creador puede consultar campañas publicadas mediante criterios de búsqueda y acceder al detalle y condiciones de una campaña. |
+| AT-05 | Flujo completo de postulación | US-19 | El creador puede postular, consultar, actualizar y cancelar una postulación respetando las validaciones y estados definidos. |
+
+###### Testing Source Code Repository
+
+Repository: `https://github.com/AppMoviles2026/platform`
+
+Testing source code path:
+
+`src/test/java/com/collabtech/platform`
+
+Durante el Sprint, los tests fueron incorporados junto con las funcionalidades correspondientes en los commits de implementación. Los principales commits relacionados con la suite de testing se presentan a continuación.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| --- | --- | --- | --- | --- | --- |
+| AppMoviles2026/platform | develop | `1966dba` | feat: added auth endpoints for brands and creators (US09 and US10) | — | 2026-10-05 |
+| AppMoviles2026/platform | develop | `9325b94` | feat: added login endpoints (US11, US13, US14) for identity context | — | 2026-10-05 |
+| AppMoviles2026/platform | develop | `31ba1b9` | feat: added campaign creation and conditions (US15 and US16) for campaign context | — | 2026-10-05 |
+| AppMoviles2026/platform | develop | `f2b1faa` | feat: added campaign filters and postulations (US17 and US19) for campaigh context | — | 2026-10-05 |
+| AppMoviles2026/platform | develop | `aac2f6f` | feat: implemented JWT for login | — | 2026-10-07 |
 
 ##### 4.2.1.6. Execution Evidence for Sprint Review
 
