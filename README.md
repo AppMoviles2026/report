@@ -6025,7 +6025,29 @@ Esta captura corresponde a la continuación del contenido de Inicio.
 
 ![UG06](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow06-UG06.png)
 
+##### User Goal 07 - Revisar postulantes, elegir un creador y formalizar la colaboración
 
+![UG07](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow07-UG07.png)
+
+##### User Goal 08 - Revisar postulantes, elegir un creador y formalizar la colaboración
+
+![UG08](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow08-UG08.png)
+
+##### User Goal 09 - Revisar postulantes, elegir un creador y formalizar la colaboración
+
+![UG09](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow09-UG09.png)
+
+##### User Goal 010 - Revisar postulantes, elegir un creador y formalizar la colaboración
+
+![UG10](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow10-UG10.png)
+
+##### User Goal 11 - Revisar postulantes, elegir un creador y formalizar la colaboración
+
+![UG011](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow11-UG11.png)
+
+##### User Goal 12 - Revisar postulantes, elegir un creador y formalizar la colaboración
+
+![UG12](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow12-UG12.png)
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
