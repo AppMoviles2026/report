@@ -5657,6 +5657,21 @@ Dentro de esta organización, los campos indican qué datos se solicitan y los b
 ##### User Goal 7 - Demostrar trabajo y gestión financiera
 ![UG07](./assets/C03/Wireflow/Wireflow7-UG07.png)
 
+##### User Goal 8 - Controlar calidad del contenido
+![UG08](./assets/C03/Wireflow/Wireflow8-UG08.png)
+
+##### User Goal 9 - Resolver conflictos comerciales
+![UG09](./assets/C03/Wireflow/Wireflow9-UG09.png)
+
+##### User Goal 10 - Configurar operaciones financieras
+![UG10](./assets/C03/Wireflow/Wireflow10-UG10.png)
+
+##### User Goal 11 - Desbloquear herramientas premium
+![UG11](./assets/C03/Wireflow/Wireflow11-UG11.png)
+
+##### User Goal 12 - Evaluar el ROI y mantener historial
+![UG12](./assets/C03/Wireflow/Wireflow12-UG12.png)
+
 ##### Organización visual y heurísticas aplicadas
 
 **Patrón F**
