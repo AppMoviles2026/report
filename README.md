@@ -5631,7 +5631,12 @@ Los espacios “about the product” y “about the team” forman parte del dis
 
 #### 3.1.4.1. Mobile Applications Wireframes
 
-Se muestran la distribución del contenido y los controles de cada pantalla mediante textos negros y componentes en escala de grises. La información relacionada se reúne en tarjetas, mientras que los títulos y el espacio entre bloques permiten distinguir los grupos y reconocer su importancia. Dentro de esta organización, los campos indican qué datos se solicitan y los botones permiten identificar la acción principal.
+Se muestran la distribución del contenido y los controles de cada pantalla mediante textos negros y componentes en escala de grises. 
+La información relacionada se reúne en tarjetas, mientras que los títulos y el espacio entre bloques permiten distinguir los grupos y reconocer su importancia. 
+Dentro de esta organización, los campos indican qué datos se solicitan y los botones permiten identificar la acción principal.
+
+##### User Goal 1
+![UG01](./assets/C03/Wireflow/Wireflow1-UG01.png)
 
 ##### Organización visual y heurísticas aplicadas
 
