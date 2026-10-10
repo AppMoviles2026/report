@@ -6050,9 +6050,21 @@ Esta captura corresponde a la continuación del contenido de Inicio.
 
 ![UG12](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow12-UG12.png)
 
-#### 3.1.4.5. Mobile Applications Prototyping
+#### 3.1.4.5. Mobile Applications Prototyping  
 
----
+##### Pymes  
+
+El prototipado de la App Pyme busca simular la experiencia de los representantes de pequeñas y medianas empresas al utilizar CollabPro. 
+Mediante prototipos interactivos en Figma, se representan las principales pantallas, la navegación y las interacciones definidas en los User Flows, considerando tanto los recorridos esperados como los estados alternativos.
+![Screenshot Prototyping](./assets/C03/MobileApplicationsUI/Prototyping/pymes.png)
+[Video del prototyping para pymes en CollabPro Figma](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c803_upc_edu_pe/IQBQXGjIXGrmQ75axqsoKAByAQMhLumSaWrarDadO4NNQAw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=48mNJk)  
+
+##### Creador  
+
+El prototipado de la App Creador tiene como objetivo simular la experiencia de los creadores de contenido dentro de CollabPro. 
+A través de prototipos interactivos en Figma, se representan las pantallas, la navegación y las interacciones correspondientes a los User Flows, incluyendo los recorridos principales y sus alternativas.
+![Screenshot Prototyping](./assets/C03/MobileApplicationsUI/Prototyping/creador.png)
+[Vidoe del prototyping para creador en CollabPro Figma](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c803_upc_edu_pe/IQCb-mwYqjFPR5tUyzRrSetFAaDYayt0aYLJoRZPxJf2BIc?e=3cdeb3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ## Capítulo IV: Product Implementation & Validation
 
