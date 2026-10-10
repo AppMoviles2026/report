@@ -1,29 +1,64 @@
-<div align="center">
+<style>
+  @media print {
+    /* Una imagen debe caber completa en el área imprimible. */
+    img {
+      display: block;
+      max-width: 100% !important;
+      max-height: 250mm !important;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      page-break-inside: avoid !important;
+      break-inside: avoid !important;
+    }
+    /* Conserva el tamaño del logo de la carátula. */
+    .report-cover img {
+      width: 100px !important;
+    }
+    /* Diagramas largos: tramos de impresión, sin recortar el archivo original. */
+    .diagram-original {
+      display: none !important;
+    }
+    .diagram-print {
+      display: block !important;
+    }
+    .diagram-page {
+      page-break-before: always;
+      break-before: page;
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    .diagram-page img {
+      max-height: none !important;
+      max-width: none !important;
+      width: 150mm !important;
+      height: auto !important;
+    }
+    .persona-image {
+      max-height: 250mm !important;
+      margin: 0 auto;
+    }
+    figure {
+      page-break-inside: avoid !important;
+      break-inside: avoid !important;
+    }
+  }
+  /* La vista Markdown muestra el diagrama completo, no los tramos del PDF. */
+  .diagram-print {
+    display: none;
+  }
+</style>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="100" alt="Logo UPC">
-<br><br>
-Universidad Peruana de Ciencias Aplicadas<br>
-Carrera de Ingeniería de Software<br><br>
-
-<strong>1ACC0238</strong> <br>
-<strong>Aplicaciones para Dispositivos Móviles</strong>
-
-NRC <br>
-<strong>4950</strong>
-
-<strong>Informe del Trabajo Final</strong>
-
-Docente <br>
-<strong>Mayta Guillermo, Jorge Luis</strong><br><br>
-
-Equipo <br>
-<strong>CollabTech</strong>
-
-Proyecto <br>
-<strong>CollabPro</strong><br><br>
-
-<strong>Integrantes</strong><br>
-
+<div class="report-cover" align="center" style="width: 100%; text-align: center !important;">
+<p align="center" style="text-align: center !important; width: 100%; margin: 0 0 16px 0;"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="100" alt="Logo UPC" style="display: block; margin: 0 auto;"></p>
+<p align="center" style="text-align: center !important; width: 100%; margin: 0 0 16px 0;">Universidad Peruana de Ciencias Aplicadas<br>Carrera de Ingeniería de Software</p>
+<p align="center" style="text-align: center !important; width: 100%; margin: 0 0 16px 0;"><strong>1ACC0238</strong><br><strong>Aplicaciones para Dispositivos Móviles</strong></p>
+<p align="center" style="text-align: center !important; width: 100%; margin: 0 0 16px 0;">NRC<br><strong>4950</strong></p>
+<p align="center" style="text-align: center !important; width: 100%; margin: 0 0 16px 0;"><strong>Informe del Trabajo Final</strong></p>
+<p align="center" style="text-align: center !important; width: 100%; margin: 0 0 16px 0;">Docente<br><strong>Mayta Guillermo, Jorge Luis</strong></p>
+<p align="center" style="text-align: center !important; width: 100%; margin: 0 0 16px 0;">Equipo<br><strong>CollabTech</strong></p>
+<p align="center" style="text-align: center !important; width: 100%; margin: 0 0 16px 0;">Proyecto<br><strong>CollabPro</strong></p>
+<p align="center" style="text-align: center !important; width: 100%; margin: 0 0 16px 0;"><strong>Integrantes</strong></p>
 <table border="0" style="border-collapse: collapse; border: none; margin: 0 auto; background-color: transparent;">
   <tr style="border: none;">
     <th style="border: none; text-align: center; padding: 5px 15px;">Código</th>
@@ -50,11 +85,7 @@ Proyecto <br>
     <td style="border: none; text-align: left; padding: 5px 15px;">Vallejo Trujillo, Fabio Cesar</td>
   </tr>
 </table>
-
-<br><br>
-<strong>Período 202620</strong><br>
-<strong>Octubre 2026</strong><br><br>
-
+<p align="center" style="text-align: center !important; width: 100%; margin: 0 0 16px 0;"><br><strong>Período 202620</strong><br><strong>Octubre 2026</strong></p>
 </div>
 
 <div style="page-break-after: always;"></div>
@@ -447,6 +478,8 @@ Objetivo SMART 1: Durante los primeros 9 meses después de finalizar la carrera,
 
 Objetivo SMART 2: En un periodo máximo de 9 meses después de finalizar la carrera, completaré al menos 2 cursos o certificaciones relacionados con UX/UI, arquitectura de software o diseño de soluciones digitales. Aplicaré los conocimientos obtenidos mejorando al menos 2 proyectos de mi portafolio mediante prototipos, diagramas de arquitectura o evaluaciones de usabilidad que permitan evidenciar mi crecimiento profesional.
 
+<div style="page-break-after: always; break-after: page;"></div>
+
 ## Capítulo I: Presentación
 
 ### 1.1. Startup Profile
@@ -634,6 +667,8 @@ CollabPro está dirigido a dos segmentos principales que forman parte del ecosis
   Dentro de este segmento pueden coexistir creadores pequeños y medianos, microcreadores especializados en determinados nichos y creadores que buscan establecer relaciones comerciales con marcas y negocios. A pesar de sus diferencias en tamaño y alcance, todos comparten la necesidad de encontrar oportunidades de colaboración y conocer claramente las condiciones antes de aceptar una campaña.
 
 ---
+
+<div style="page-break-after: always; break-after: page;"></div>
 
 ## Capítulo II: Requirements Development and Software Solution Design
 
@@ -1617,13 +1652,17 @@ En consecuencia, los hallazgos actuales deben considerarse una validación preli
 
 **Persona 1: Emprendedor de pequeña empresa con recursos limitados**
 
-![User Persona Frank Loayza](./assets/C02/Needfinding/User%20Persona%20Frank%20Loayza.png)
+<div style="page-break-inside: avoid; break-inside: avoid;">
+<img class="persona-image" src="./assets/C02/Needfinding/User%20Persona%20Frank%20Loayza.png" alt="User Persona Frank Loayza" style="display: block; max-width: 100%; height: auto; margin: 0 auto;">
+</div>
 
 Frank representa al propietario de una pyme que busca promocionar su negocio mediante creadores de contenido, pero dispone de poco tiempo, una red de contactos limitada y un presupuesto restringido. Sus principales necesidades son encontrar creadores alineados con su público, definir condiciones claras, controlar los entregables y medir objetivamente los resultados de una colaboración.
 
 **Persona 2: Creadora de contenido y microinfluencer**
 
-![User Persona Camila Rojas](./assets/C02/Needfinding/User%20Persona%20Camila%20Rojas.png)
+<div style="page-break-inside: avoid; break-inside: avoid;">
+<img class="persona-image" src="./assets/C02/Needfinding/User%20Persona%20Camila%20Rojas.png" alt="User Persona Camila Rojas" style="display: block; max-width: 100%; height: auto; margin: 0 auto;">
+</div>
 
 Camila representa a una creadora de contenido que busca campañas relacionadas con su audiencia y necesita conocer los requisitos, fechas y compensación antes de aceptar una colaboración. Sus principales necesidades son recibir propuestas completas, evitar cambios de última hora, enviar evidencias de sus entregables y contar con mayor seguridad respecto al cumplimiento de la compensación. Esta persona es una proto-persona y sus características deben validarse con investigación adicional.
 
@@ -1768,13 +1807,45 @@ Los mapas de empatía permiten sintetizar lo que cada segmento necesita realizar
 
 **Empathy Map 1: Pyme**
 
-![Empathy Map - Pyme](./assets/C02/Needfinding/Empathy%20map%20Pyme.png)
+<div class="diagram-original">
+<img src="./assets/C02/Needfinding/Empathy%20map%20Pyme.png" alt="Empathy Map - Pyme" style="max-width: 100%; height: auto;">
+</div>
+<div class="diagram-print">
+<div class="diagram-page">
+<p><strong>Empathy Map — Pyme — Parte 1 de 2</strong></p>
+<div style="position: relative; width: 150mm; height: 154.143mm; overflow: hidden;">
+<img src="./assets/C02/Needfinding/Empathy%20map%20Pyme.png" alt="Empathy Map — Pyme, parte 1" style="position: absolute; left: 0; top: -0.000mm;">
+</div>
+</div>
+<div class="diagram-page">
+<p><strong>Empathy Map — Pyme — Parte 2 de 2</strong></p>
+<div style="position: relative; width: 150mm; height: 145.571mm; overflow: hidden;">
+<img src="./assets/C02/Needfinding/Empathy%20map%20Pyme.png" alt="Empathy Map — Pyme, parte 2" style="position: absolute; left: 0; top: -145.571mm;">
+</div>
+</div>
+</div>
 
 El mapa de empatía de la pyme se construyó a partir de la entrevista realizada a Frank Loayza. El segmento busca promocionar su negocio y llegar a una audiencia joven, pero enfrenta dificultades para encontrar creadores adecuados, coordinar las condiciones, verificar los entregables y medir el retorno de inversión. Sus principales beneficios esperados son ahorrar tiempo, encontrar colaboradores relevantes, reducir el riesgo de las campañas y obtener métricas objetivas.
 
 **Empathy Map 2: Creador de contenido**
 
-![Empathy Map - Creador de contenido](./assets/C02/Needfinding/Empathy%20map%20Creador.png)
+<div class="diagram-original">
+<img src="./assets/C02/Needfinding/Empathy%20map%20Creador.png" alt="Empathy Map - Creador de contenido" style="max-width: 100%; height: auto;">
+</div>
+<div class="diagram-print">
+<div class="diagram-page">
+<p><strong>Empathy Map — Creador de contenido — Parte 1 de 2</strong></p>
+<div style="position: relative; width: 150mm; height: 167.000mm; overflow: hidden;">
+<img src="./assets/C02/Needfinding/Empathy%20map%20Creador.png" alt="Empathy Map — Creador de contenido, parte 1" style="position: absolute; left: 0; top: -0.000mm;">
+</div>
+</div>
+<div class="diagram-page">
+<p><strong>Empathy Map — Creador de contenido — Parte 2 de 2</strong></p>
+<div style="position: relative; width: 150mm; height: 158.429mm; overflow: hidden;">
+<img src="./assets/C02/Needfinding/Empathy%20map%20Creador.png" alt="Empathy Map — Creador de contenido, parte 2" style="position: absolute; left: 0; top: -158.429mm;">
+</div>
+</div>
+</div>
 
 El mapa de empatía del creador de contenido se construyó a partir de los hallazgos obtenidos en las entrevistas realizadas a creadores del segmento. El creador busca encontrar campañas compatibles con su contenido y audiencia, conocer claramente los requisitos antes de aceptar una colaboración, cumplir con los entregables acordados y recibir una compensación clara y oportuna. Entre sus principales problemas se encuentran la información incompleta en algunas propuestas, los cambios posteriores en los requisitos, los retrasos en los pagos y la dificultad para identificar marcas que estén buscando creadores con características compatibles con su perfil.
 
@@ -4022,7 +4093,59 @@ CollabPro sin depender de información privada de las empresas.
 
 #### 2.4.2. Impact Mapping
 
-![Impact Map](./assets/C02/Requisitos/Impact_Map.png)
+<div class="diagram-original">
+<img src="./assets/C02/Requisitos/Impact_Map.png" alt="Impact Map" style="max-width: 100%; height: auto;">
+</div>
+<div class="diagram-print">
+<div class="diagram-page">
+<p><strong>Impact Mapping — Parte 1 de 8</strong></p>
+<div style="position: relative; width: 150mm; height: 188.710mm; overflow: hidden;">
+<img src="./assets/C02/Requisitos/Impact_Map.png" alt="Impact Mapping, parte 1" style="position: absolute; left: 0; top: -0.000mm;">
+</div>
+</div>
+<div class="diagram-page">
+<p><strong>Impact Mapping — Parte 2 de 8</strong></p>
+<div style="position: relative; width: 150mm; height: 188.710mm; overflow: hidden;">
+<img src="./assets/C02/Requisitos/Impact_Map.png" alt="Impact Mapping, parte 2" style="position: absolute; left: 0; top: -181.070mm;">
+</div>
+</div>
+<div class="diagram-page">
+<p><strong>Impact Mapping — Parte 3 de 8</strong></p>
+<div style="position: relative; width: 150mm; height: 188.710mm; overflow: hidden;">
+<img src="./assets/C02/Requisitos/Impact_Map.png" alt="Impact Mapping, parte 3" style="position: absolute; left: 0; top: -362.139mm;">
+</div>
+</div>
+<div class="diagram-page">
+<p><strong>Impact Mapping — Parte 4 de 8</strong></p>
+<div style="position: relative; width: 150mm; height: 188.710mm; overflow: hidden;">
+<img src="./assets/C02/Requisitos/Impact_Map.png" alt="Impact Mapping, parte 4" style="position: absolute; left: 0; top: -543.209mm;">
+</div>
+</div>
+<div class="diagram-page">
+<p><strong>Impact Mapping — Parte 5 de 8</strong></p>
+<div style="position: relative; width: 150mm; height: 188.710mm; overflow: hidden;">
+<img src="./assets/C02/Requisitos/Impact_Map.png" alt="Impact Mapping, parte 5" style="position: absolute; left: 0; top: -724.278mm;">
+</div>
+</div>
+<div class="diagram-page">
+<p><strong>Impact Mapping — Parte 6 de 8</strong></p>
+<div style="position: relative; width: 150mm; height: 188.710mm; overflow: hidden;">
+<img src="./assets/C02/Requisitos/Impact_Map.png" alt="Impact Mapping, parte 6" style="position: absolute; left: 0; top: -905.348mm;">
+</div>
+</div>
+<div class="diagram-page">
+<p><strong>Impact Mapping — Parte 7 de 8</strong></p>
+<div style="position: relative; width: 150mm; height: 188.710mm; overflow: hidden;">
+<img src="./assets/C02/Requisitos/Impact_Map.png" alt="Impact Mapping, parte 7" style="position: absolute; left: 0; top: -1086.418mm;">
+</div>
+</div>
+<div class="diagram-page">
+<p><strong>Impact Mapping — Parte 8 de 8</strong></p>
+<div style="position: relative; width: 150mm; height: 180.433mm; overflow: hidden;">
+<img src="./assets/C02/Requisitos/Impact_Map.png" alt="Impact Mapping, parte 8" style="position: absolute; left: 0; top: -1267.487mm;">
+</div>
+</div>
+</div>
 
 #### 2.4.3. Product Backlog
 
@@ -4804,6 +4927,8 @@ El Database Design Diagram debe distinguir las métricas obtenidas automáticame
 ![Database Design Diagram de Performance & Attribution Management](assets/C02/DDD/DatabaseDiagram/database-diagram-performance.png)
 
 ---
+
+<div style="page-break-after: always; break-after: page;"></div>
 
 ## Capítulo III: Solution UI/UX Design
 
@@ -6247,6 +6372,8 @@ El prototipado de la App Creador tiene como objetivo simular la experiencia de l
 A través de prototipos interactivos en Figma, se representan las pantallas, la navegación y las interacciones correspondientes a los User Flows, incluyendo los recorridos principales y sus alternativas.
 ![Screenshot Prototyping](./assets/C03/MobileApplicationsUI/Prototyping/creador.png)
 [Vidoe del prototyping para creador en CollabPro Figma](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c803_upc_edu_pe/IQCb-mwYqjFPR5tUyzRrSetFAaDYayt0aYLJoRZPxJf2BIc?e=3cdeb3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<div style="page-break-after: always; break-after: page;"></div>
 
 ## Capítulo IV: Product Implementation & Validation
 
