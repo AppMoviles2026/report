@@ -6423,6 +6423,10 @@ _Figura. Configuración de red de Azure que permite el acceso al servicio en el 
 
 ##### 4.2.1.9. Team Collaboration Insights during Sprint
 
+##### Contribuidores del reporte de CollabPro
+
+![Contribuidores](./assets/C04/Sprint1/Contribuidores.png)
+
 ### 4.3. Validation Interviews
 
 #### 4.3.1. Diseño de Entrevistas
