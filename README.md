@@ -6361,6 +6361,18 @@ Durante el Sprint, los tests fueron incorporados junto con las funcionalidades c
 
 ##### 4.2.1.6. Execution Evidence for Sprint Review
 
+Durante el Sprint 1 se implementó la Landing Page de CollabPro, incluyendo la presentación de la plataforma para empresas y creadores, información sobre su funcionamiento, formulario de contacto, cambio de idioma y diseño responsivo. Asimismo, se avanzó en el desarrollo inicial de la aplicación móvil y en las funcionalidades del backend relacionadas con el registro, autenticación, gestión de perfiles, campañas y postulaciones.
+
+Como evidencia del trabajo realizado, se presentan capturas de pantalla de las principales vistas implementadas, junto con un video de demostración que permite visualizar el diseño, la navegación y las interacciones desarrolladas durante este Sprint.
+
+![Landing Page](./assets/C04/Sprint1/execution/landing-inicio.png)
+
+![Pantalla principal para negocios](./assets/C04/Sprint1/execution/main-screen-bussiness.png)
+
+![Pantalla principal para creadores](./assets/C04/Sprint1/execution/main-screen-creators.png)
+
+Video: [https://youtu.be/aaRbbB5ldD8](https://youtu.be/aaRbbB5ldD8)
+
 ##### 4.2.1.7. Services Documentation Evidence for Sprint Review
 
 Durante el Sprint 1 se documentaron los servicios REST del backend de CollabPro mediante OpenAPI 3.1. La especificación se genera desde los controladores Spring Boot y permite consultar rutas, parámetros y modelos de solicitud/respuesta. En la revisión del 9 de octubre de 2026, la interfaz Swagger y el documento OpenAPI respondieron correctamente desde la máquina virtual de Azure.
