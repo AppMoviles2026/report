@@ -6055,27 +6055,27 @@ Esta captura corresponde a la continuación del contenido de Inicio.
 
 ![UG06](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow06-UG06.png)
 
-##### User Goal 07 - Revisar postulantes, elegir un creador y formalizar la colaboración
+##### User Goal 07 - Consultar una colaboración activa, entregar evidencias y consultar el estado de pago
 
 ![UG07](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow07-UG07.png)
 
-##### User Goal 08 - Revisar postulantes, elegir un creador y formalizar la colaboración
+##### User Goal 08 - Revisar y aprobar o rechazar los entregables enviados por el creador
 
 ![UG08](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow08-UG08.png)
 
-##### User Goal 09 - Revisar postulantes, elegir un creador y formalizar la colaboración
+##### User Goal 09 - Reportar un problema relacionado con una colaboración
 
 ![UG09](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow09-UG09.png)
 
-##### User Goal 010 - Revisar postulantes, elegir un creador y formalizar la colaboración
+##### User Goal 10 - Agregar y vincular un método de pago
 
 ![UG10](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow10-UG10.png)
 
-##### User Goal 11 - Revisar postulantes, elegir un creador y formalizar la colaboración
+##### User Goal 11 - Suscribirse a un plan de pago de CollabPro
 
 ![UG011](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow11-UG11.png)
 
-##### User Goal 12 - Revisar postulantes, elegir un creador y formalizar la colaboración
+##### User Goal 12 - Consultar el historial de campañas y sus resultados
 
 ![UG12](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow12-UG12.png)
 
