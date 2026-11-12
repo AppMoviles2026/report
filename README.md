@@ -70,6 +70,11 @@ Durante la entrega TB1, el equipo CollabTech continuó trabajando en paralelo me
 
 ![Collab Github](./assets/C02/Collab/TB1.png)
 
+**- AV2**
+
+Durante la elaboración de al entrega AV2, el equipo CollabTech termino el Sprint 2 e implemento las correcciones hechas por el docente tanto en el reporte como en la landing page y backend. Asimismo, se prepararon las primeras versiones de los videos de validación de la aplicación y se avanzó en las conclusiones, recomendaciones, bibliografía y anexos. Todos los aportes individuales se reflejan en el repositorio compartido del informe.
+
+![Collab Github av2](./assets/C02/Collab/av2-project-report-insights.png)
 
 <div style="page-break-after: always;"></div>
 
