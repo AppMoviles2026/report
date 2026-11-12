@@ -4940,6 +4940,30 @@ Para las empresas, la experiencia se orienta principalmente a la creación y ges
 
 El producto mantiene una estructura visual uniforme en todas sus funcionalidades mediante componentes reutilizables, una paleta cromática común, jerarquías tipográficas consistentes y patrones de interacción similares. Estas decisiones buscan reducir la curva de aprendizaje y permitir que el usuario reconozca rápidamente las acciones principales, los estados de los procesos y la información relevante dentro de cada pantalla.
 
+A continuación una descripción de las funcionalidades principales que ofrece CollabPro. Estas capacidades están relacionadas con la creación, 
+ejecución y evaluación de colaboraciones que permiten mantener la operación esperada de la plataforma:
+
+**Gestión de campañas**   
+___
+Esta funcionalidad permite a los representantes de las empresas crear y administrar campañas de marketing, definiendo sus objetivos, requisitos de participación, entregables, plazos y compensaciones.  
+
+**Descubrimiento y postulación a campañas**
+___
+Permite a los creadores poder explorar las campañas disponibles, aplicar filtros de búsqueda, consultar los requisitos de cada campaña y presentar sus postulaciones de acuerdo con las condiciones establecidas.  
+
+**Gestión de colaboraciones**
+___
+Esta funcionalidad permite a las empresas de la plataforma evaluar las postulaciones recibidas, seleccionar a los creadores y formalizar las condiciones de colaboración.
+
+**Gestión de entregables y validación**
+___
+Permite a los creadores presentar los contenidos y evidencias acordados previamente, mientras que las empresas pueden revisar su cumplimiento, aprobarlos o rechazarlos y, a su vez, gestionar incidencias relacionadas.
+
+**Gestión de compensaciones y resultados**
+___
+Esta última funcionalidad principal permite a sus usuario consultar el estado de las compensaciones asociadas a las colaboraciones y, facilita el análisis del rendimiento de las campañas y historial de colaboraciones.
+
+
 #### 3.1.1. Style Guidelines
 
 Los Style Guidelines de CollabPro establecen los lineamientos visuales y de comunicación utilizados para mantener una experiencia coherente entre las diferentes funcionalidades de la aplicación móvil.
