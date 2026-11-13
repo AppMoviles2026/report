@@ -7435,6 +7435,247 @@ Asimismo, se identificaron oportunidades de mejora en el dinamismo visual del La
 Estos resultados constituyen una primera validación cualitativa de la solución y permitirán orientar mejoras en futuras iteraciones. No obstante, debido a que las sesiones se realizaron principalmente mediante demostraciones guiadas, será necesario complementar los hallazgos con pruebas de ejecución autónoma de tareas para evaluar de forma más precisa la usabilidad y el éxito de los flujos principales.
 
 
+#### 4.2.2. Sprint 2
+
+##### 4.2.2.1. Sprint Planning 2
+
+El Sprint Planning 2 tiene como objetivo definir el alcance de la segunda iteración de desarrollo de CollabPro, dando continuidad a las funcionalidades implementadas durante el Sprint 1. Para esta iteración se consideran los User Stories y Technical Stories asignados al Sprint 2 en el Product Backlog, orientados principalmente a la gestión del perfil empresarial, la evaluación de postulaciones, la formalización y seguimiento de colaboraciones y el registro de entregables y evidencias.
+
+Durante la planificación se revisaron las funcionalidades necesarias para ampliar el flujo principal de CollabPro. El alcance busca permitir que una empresa pueda administrar su perfil, revisar las postulaciones recibidas y avanzar hacia la aceptación de una colaboración. Asimismo, ambas partes deben poder consultar el estado de la colaboración y el creador debe disponer de las capacidades necesarias para registrar sus entregables y evidencias.
+
+A nivel técnico, el Sprint incluye la ampliación de los servicios relacionados con perfiles y redes sociales, así como los servicios necesarios para soportar colaboraciones, entregables, validaciones, incidencias y compensaciones.
+
+| Sprint # | Sprint 2 |
+| --- | --- |
+| **Sprint Planning Background** | El Sprint 2 corresponde a la segunda iteración de desarrollo de CollabPro. El equipo priorizó nueve elementos del Product Backlog relacionados con el registro y gestión empresarial, evaluación de postulaciones, formalización y seguimiento de colaboraciones, entrega de evidencias y ampliación de los servicios que soportan estos procesos. |
+| **Date** | 2026-11-13 |
+| **Time** | 09:00 AM |
+| **Location** | Microsoft Teams |
+| **Prepared By** | Renzo Zamir Revilla Quispe |
+| **Attendees (to planning meeting)** | Todo el equipo |
+| **Sprint 2 Goal** | Nuestro enfoque es ampliar la versión funcional de CollabPro para cubrir el proceso que inicia con la gestión de la empresa y la evaluación de postulaciones y continúa con la formalización y ejecución inicial de una colaboración. Esto será validado cuando una empresa pueda administrar su perfil, revisar postulaciones y aceptar una colaboración, mientras que ambas partes puedan consultar su estado y el creador pueda registrar los entregables y evidencias correspondientes. Asimismo, los servicios de backend deberán soportar los perfiles, redes sociales, colaboraciones, entregables y procesos asociados definidos para esta iteración. |
+| **Sprint 2 Velocity** | 35 Story Points |
+| **Sum of Story Points** | 35 Story Points |
+
+##### 4.2.2.2. Aspect Leaders and Collaborators
+
+Durante el Sprint 2 el trabajo se distribuyó considerando los principales aspectos necesarios para ampliar las funcionalidades de CollabPro y continuar la integración de la experiencia móvil con los servicios desarrollados en el backend. Para cada aspecto se identifica un **Leader (L)** como responsable principal de conducir y consolidar el trabajo, mientras que los demás integrantes que participaron como apoyo se identifican como **Collaborators (C)**.
+
+La distribución no implica exclusividad sobre la implementación, ya que los integrantes del equipo participan en el desarrollo, integración y revisión de las funcionalidades del producto. Esta clasificación permite evidenciar la responsabilidad principal asumida por cada integrante durante el Sprint.
+
+| Team Member (Last Name, First Name) | Mobile Architecture & Domain Integration Leader (L) / Collaborator (C) | Campaign & Collaboration Implementation Leader (L) / Collaborator (C) | Mobile UX/UI & Design System Leader (L) / Collaborator (C) | Navigation & Interaction Flows Leader (L) / Collaborator (C) | Testing & Quality Assurance Leader (L) / Collaborator (C) |
+| --- | :---: | :---: | :---: | :---: | :---: |
+| Quispe Serrano, Julio Frank | C | C | C | C | **L** |
+| Revilla Quispe, Renzo Zamir | C | **L** | C | C | C |
+| Vallejo Trujillo, Fabio Cesar | C | C | **L** | C | C |
+| Garcia Villanueva, Leonardo Rafael | C | C | C | **L** | C |
+| Rocca Leon, Anhelo Rodrigo | **L** | C | C | C | C |
+
+**Mobile Architecture & Domain Integration**
+
+Este aspecto comprende la organización estructural de la aplicación móvil y su integración con los servicios del backend, manteniendo la correspondencia entre las capas de la solución y los Bounded Contexts definidos para CollabPro.
+
+**Campaign & Collaboration Implementation**
+
+Comprende la implementación y revisión de las funcionalidades relacionadas con la evaluación de postulaciones, aceptación de acuerdos, creación y seguimiento de colaboraciones, entregables, evidencias, validaciones e incidencias, de acuerdo con las User Stories priorizadas para el Sprint 2.
+
+**Mobile UX/UI & Design System**
+
+Comprende la aplicación consistente de los componentes visuales, estilos, formularios, estados, tarjetas y demás elementos de interfaz necesarios para representar las nuevas funcionalidades incorporadas durante el Sprint.
+
+**Navigation & Interaction Flows**
+
+Comprende la integración de nuevas rutas y acciones dentro de la experiencia móvil para permitir que empresas y creadores accedan a sus perfiles, postulaciones, colaboraciones y entregables de acuerdo con el tipo de usuario autenticado.
+
+**Testing & Quality Assurance**
+
+Comprende la validación de las reglas de negocio y los principales escenarios desarrollados durante el Sprint 2, incluyendo pruebas relacionadas con postulaciones, acuerdos, colaboraciones, entregables, validaciones, manejo de errores y persistencia de información.
+
+##### 4.2.2.3. Sprint Backlog 2
+
+El Sprint Backlog 2 reúne los User Stories y Technical Stories seleccionados para alcanzar el objetivo definido durante el Sprint Planning 2. Esta iteración se concentra principalmente en ampliar el flujo de colaboración de CollabPro mediante la gestión del perfil empresarial, evaluación de postulaciones, aceptación y seguimiento de colaboraciones y registro de entregables y evidencias.
+
+Asimismo, se consideran las capacidades técnicas necesarias para soportar estos procesos mediante servicios REST relacionados con perfiles, redes sociales, colaboraciones, entregables, validaciones, incidencias y compensaciones.
+
+De acuerdo con el Product Backlog vigente, el Sprint 2 comprende nueve elementos con una estimación total de 35 Story Points.
+
+###### Sprint 2 Board
+
+![Sprint 2 Board](./assets/C04/Sprint2/sprint-backlog-board.png)
+
+_Nota. Elaboración propia._
+
+Trello: https://trello.com/b/ya1jsqLp/collabpro-sprint-2
+
+| Sprint 2 | User Story Id | User Story Title | Work-Item / Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| --- | --- | --- | --- | --- | --- | ---: | --- | --- |
+| 2 | US-09 | Registro de empresa | T-32 | Verificar registro empresarial | Verificar el flujo previamente implementado para el registro de una cuenta empresarial y sus validaciones correspondientes. | 2 | Julio Frank Quispe Serrano | Done |
+| 2 | US-12 | Gestión del perfil empresarial | T-33 | Implementar servicios de perfil empresarial | Implementar y validar las operaciones necesarias para consultar y actualizar la información correspondiente al perfil de una empresa. | 3 | Anhelo Rodrigo Rocca León | Done |
+| 2 | US-12 | Gestión del perfil empresarial | T-34 | Integrar gestión completa del perfil empresarial en móvil | Integrar el formulario de perfil empresarial con los servicios reales del backend y permitir consultar y actualizar la información desde la aplicación móvil. | 3 | Fabio Cesar Vallejo Trujillo | Done |
+| 2 | US-20 | Evaluación de postulaciones | T-35 | Implementar evaluación de postulaciones en backend | Implementar las operaciones necesarias para que una empresa consulte, seleccione o rechace postulaciones recibidas para una campaña. | 3 | Renzo Zamir Revilla Quispe | Done |
+| 2 | US-20 | Evaluación de postulaciones | T-36 | Integrar evaluación de postulaciones en móvil | Conectar las pantallas de listado y detalle de postulantes con los servicios reales de evaluación de postulaciones. | 3 | Leonardo Rafael Garcia Villanueva | Done |
+| 2 | US-21 | Aceptación de una colaboración | T-37 | Implementar aceptación bilateral de condiciones | Implementar el proceso mediante el cual empresa y creador aceptan las condiciones necesarias para formalizar una colaboración. | 3 | Renzo Zamir Revilla Quispe | Done |
+| 2 | US-21 | Aceptación de una colaboración | T-38 | Integrar aceptación de colaboración en móvil | Integrar la experiencia móvil de aceptación o rechazo de las condiciones de colaboración con el backend. | 3 | Leonardo Rafael Garcia Villanueva | Done |
+| 2 | US-22 | Consulta del estado de una colaboración | T-39 | Implementar consulta del ciclo de colaboración | Implementar los servicios necesarios para consultar el estado actual, condiciones y acciones pendientes de una colaboración. | 2 | Renzo Zamir Revilla Quispe | Done |
+| 2 | US-22 | Consulta del estado de una colaboración | T-40 | Integrar seguimiento de colaboración en móvil | Conectar las pantallas correspondientes al seguimiento de una colaboración con los datos reales proporcionados por el backend. | 2 | Leonardo Rafael Garcia Villanueva | Done |
+| 2 | US-23 | Entrega de contenido y evidencias | T-41 | Implementar servicios de entregas y evidencias | Implementar el registro y consulta de entregables y evidencias asociados a una colaboración. | 3 | Renzo Zamir Revilla Quispe | Done |
+| 2 | US-23 | Entrega de contenido y evidencias | T-42 | Integrar registro de entregables en móvil | Integrar las pantallas de entrega de contenido y evidencias con los servicios reales del backend. | 3 | Fabio Cesar Vallejo Trujillo | Done |
+| 2 | TS-02 | Servicios de perfiles y redes sociales | T-43 | Completar servicios de perfiles y redes sociales | Completar los servicios REST necesarios para consultar y actualizar perfiles y gestionar las asociaciones de redes sociales de empresas y creadores. | 3 | Anhelo Rodrigo Rocca León | Done |
+| 2 | TS-04 | Servicios de colaboraciones y entregables | T-44 | Implementar servicios de colaboraciones y entregables | Implementar los servicios REST necesarios para crear, consultar y administrar colaboraciones y sus entregables asociados. | 3 | Renzo Zamir Revilla Quispe | Done |
+| 2 | TS-05 | Servicios de validación, incidencias y compensaciones | T-45 | Implementar servicios de validación e incidencias | Implementar operaciones para validar entregables, registrar y consultar incidencias y mantener la trazabilidad del cumplimiento de las colaboraciones. | 3 | Julio Frank Quispe Serrano | Done |
+| 2 | TS-05 | Servicios de validación, incidencias y compensaciones | T-46 | Implementar consulta y gestión de compensaciones | Implementar las capacidades del backend necesarias para gestionar y consultar el estado de las compensaciones asociadas a las colaboraciones. | 3 | Anhelo Rodrigo Rocca León | Done |
+
+##### 4.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2 se realizaron avances relacionados con el desarrollo de nuevas funcionalidades y servicios que amplían las capacidades de CollabPro. Los cambios fueron gestionados mediante Git y GitHub, siguiendo las convenciones de control de versiones definidas por el equipo.
+
+A continuación, se presentan algunos de los commits realizados durante el desarrollo del proyecto como evidencia del trabajo efectuado durante el Sprint.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| --- | --- | --- | --- | --- | --- |
+| AppMoviles2026/platform | develop | e203138 | feat(identity): complete brand profiles and authorized social access | Brand profiles and authorized social access completed | 2026-11-09 |
+| AppMoviles2026/platform | develop | b31f507 | feat(campaign): complete application evaluation and campaign contracts | Application evaluation and campaign contracts completed | 2026-11-09 |
+| AppMoviles2026/platform | develop | 54de799 | feat(collaboration): implement bilateral agreements and lifecycle | Bilateral agreements and collaboration lifecycle implemented | 2026-11-09 |
+| AppMoviles2026/platform | develop | 095f6c2 | feat(collaboration): implement submissions reviews and revisions | Submission reviews and revisions implemented | 2026-11-09 |
+| AppMoviles2026/platform | develop | 18bba5f | feat(collaboration): implement incidents and collaboration history | Incidents and collaboration history implemented | 2026-11-10 |
+| AppMoviles2026/platform | develop | f1a996e | feat(performance): implement sourced metrics and manual evidence | Sourced metrics and manual evidence implemented | 2026-11-10 |
+| AppMoviles2026/platform | develop | 67d98e1 | feat(performance): implement attribution and verify backend journeys | Attribution implemented and backend journeys verified | 2026-11-10 |
+| AppMoviles2026/platform | develop | 7dfafb5 | feat(billing): implement verified payment method linking | Verified payment method linking implemented | 2026-11-11 |
+| AppMoviles2026/platform | develop | 06c92f0 | feat(billing): implement company subscriptions | Company subscriptions implemented | 2026-11-11 |
+| AppMoviles2026/platform | develop | 67df1d5 | feat(billing): implement compensation lifecycle and payments | Compensation lifecycle and payments implemented | 2026-11-11 |
+
+##### 4.2.2.5. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 2 se amplió el conjunto de pruebas automatizadas para validar las nuevas capacidades desarrolladas en los Bounded Contexts Identity & Profile Management, Campaign Management, Collaboration Management y Billing. Las pruebas se encuentran en el repositorio `AppMoviles2026/platform`, dentro de la ruta `src/test/java/com/collabtech/platform`, y fueron desarrolladas utilizando JUnit 5, Spring Boot Test y Mockito.
+
+La estrategia de testing comprende Unit Tests orientados a verificar reglas de dominio y servicios de aplicación, Integration Tests para comprobar la interacción entre las capas de aplicación, persistencia, seguridad y base de datos, y pruebas de aceptación automatizadas a nivel API que ejecutan escenarios completos mediante solicitudes HTTP reales sobre la aplicación.
+
+Durante este Sprint no se implementaron pruebas bajo el enfoque BDD con archivos `.feature` en lenguaje Gherkin. Las pruebas de aceptación fueron implementadas directamente mediante JUnit y Spring Boot Test, por lo que no se presentan Feature Files ni Step Definitions.
+
+###### Unit Tests
+
+Los Unit Tests validan de manera aislada reglas de negocio, agregados, Value Objects, servicios de dominio y componentes asociados con las funcionalidades incorporadas durante el Sprint 2.
+
+| Test Id | Test Class | Related User Story | Component / Behavior |
+| --- | --- | --- | --- |
+| UT-08 | `BrandProfileDomainTests` | US-12 | Valida las reglas de actualización del perfil empresarial, conservación de identidad, validación de campos y restricciones según el tipo y estado de la cuenta. |
+| UT-09 | `CampaignEvaluationDomainTests` | US-20 | Valida las decisiones de selección y rechazo de postulaciones, control de versiones, razones de rechazo y restricciones aplicadas a postulaciones en estados terminales. |
+| UT-10 | `AgreementDomainTests` | US-21 | Valida el proceso de aceptación bilateral, rechazo, expiración de acuerdos, versiones de condiciones y requisitos necesarios para activar una colaboración. |
+| UT-11 | `DeliveryDomainTests` | US-22, US-23 | Valida el ciclo de entregables, revisiones, correcciones, fechas límite, evidencias y condiciones necesarias para completar una colaboración. |
+| UT-12 | `IncidentDomainTests` | TS-05 | Valida la apertura, resolución, rechazo y retiro de propuestas de incidencia, control de versiones y restricciones de participantes. |
+| UT-13 | `CompensationSchedulingTests` | TS-05 | Valida la ejecución de procesos relacionados con compensaciones y su independencia respecto de otros procesos programados del backend. |
+
+###### Integration Tests
+
+Las pruebas de integración validan el funcionamiento conjunto de controladores REST, servicios de aplicación, seguridad, persistencia y base de datos utilizando el perfil de testing del backend.
+
+| Test Id | Test Class | Related User Story | Component / Behavior |
+| --- | --- | --- | --- |
+| IT-09 | `BrandProfileApiTests` | US-12 | Verifica consulta y actualización del perfil empresarial, control de versiones, autorización por rol, persistencia y protección de información sensible. |
+| IT-10 | `CampaignDiscoveryApplicationApiTests` | US-20 | Verifica la evaluación de postulaciones por parte de una empresa, selección y rechazo, autorización, paginación y control de concurrencia. |
+| IT-11 | `CollaborationApiTests` | US-21, US-22 | Verifica aceptación bilateral de acuerdos, creación de colaboraciones, consulta de estados, autorización de participantes y persistencia del ciclo de colaboración. |
+| IT-12 | `DeliveryApiTests` | US-23 | Verifica registro de entregables, revisiones, correcciones, evidencias, control de versiones, permisos y actualización del progreso de la colaboración. |
+| IT-13 | `IncidentApiTests` | TS-05 | Verifica registro y consulta de incidencias, propuestas de resolución, autorización de participantes, concurrencia y persistencia de cambios. |
+| IT-14 | `CompensationApiTests` | TS-05 | Verifica consulta y gestión del estado de compensaciones, condiciones previas al pago, incidencias asociadas, seguridad e idempotencia de las operaciones. |
+
+###### Acceptance Tests
+
+Las pruebas de aceptación automatizadas se ejecutan sobre la API utilizando el backend de Spring Boot y permiten validar escenarios completos atravesando las capas REST, Application, Domain e Infrastructure.
+
+| Test Id | Automated Scenario | Related User Story | Expected Result |
+| --- | --- | --- | --- |
+| AT-06 | Consulta y actualización del perfil empresarial mediante HTTP | US-12 | La empresa autenticada puede consultar y modificar su perfil y los cambios permanecen almacenados sin alterar sus credenciales ni otras cuentas. |
+| AT-07 | Evaluación de una postulación por parte de una empresa | US-20 | La empresa puede consultar las postulaciones recibidas y seleccionar o rechazar una postulación respetando las reglas de autorización y control de versiones. |
+| AT-08 | Aceptación bilateral y creación de colaboración | US-21 | La colaboración se crea únicamente cuando ambas partes aceptan las condiciones vigentes del acuerdo. |
+| AT-09 | Consulta del estado de una colaboración | US-22 | Los participantes autorizados pueden consultar el estado, obligaciones y progreso de la colaboración sin exponer información a usuarios externos. |
+| AT-10 | Registro y revisión de entregables | US-23 | El creador puede registrar entregables y evidencias, mientras que la empresa puede revisarlos y solicitar correcciones manteniendo el historial de versiones. |
+| AT-11 | Gestión de incidencias y compensaciones | TS-05 | Las incidencias afectan correctamente el ciclo de colaboración y la compensación conserva un estado consistente de acuerdo con el cumplimiento y resolución de la colaboración. |
+
+###### Testing Source Code Repository
+
+Repository: `https://github.com/AppMoviles2026/platform`
+
+Testing source code path:
+
+`src/test/java/com/collabtech/platform`
+
+Durante el Sprint, los tests fueron incorporados junto con las funcionalidades correspondientes en los commits de implementación. Los principales commits relacionados con la suite de testing se presentan a continuación.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| --- | --- | --- | --- | --- | --- |
+| AppMoviles2026/platform | develop | `e203138` | feat(identity): complete brand profiles and authorized social access | — | 2026-11-09 |
+| AppMoviles2026/platform | develop | `b31f507` | feat(campaign): complete application evaluation and campaign contracts | — | 2026-11-09 |
+| AppMoviles2026/platform | develop | `54de799` | feat(collaboration): implement bilateral agreements and lifecycle | — | 2026-11-09 |
+| AppMoviles2026/platform | develop | `095f6c2` | feat(collaboration): implement submissions reviews and revisions | — | 2026-11-09 |
+| AppMoviles2026/platform | develop | `18bba5f` | feat(collaboration): implement incidents and collaboration history | — | 2026-11-10 |
+| AppMoviles2026/platform | develop | `67df1d5` | feat(billing): implement compensation lifecycle and payments | — | 2026-11-11 |
+
+##### 4.2.2.6. Execution Evidence for Sprint Review
+
+Durante el Sprint 2 se ampliaron las funcionalidades de CollabPro relacionadas con la gestión del perfil empresarial, evaluación de postulaciones, aceptación y seguimiento de colaboraciones y registro de entregables y evidencias. Asimismo, se integraron los servicios del backend necesarios para soportar estos procesos dentro del flujo principal de la plataforma.
+
+Como evidencia del trabajo realizado, se presentan capturas de pantalla de las principales funcionalidades implementadas durante este Sprint, junto con un video de demostración que permite visualizar su ejecución, navegación e interacción.
+
+##### 4.2.2.7. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2 se amplió la documentación de los servicios REST del backend de CollabPro mediante OpenAPI 3.1. La especificación se genera desde los controladores Spring Boot y permite consultar rutas, parámetros y modelos de solicitud/respuesta correspondientes a las nuevas funcionalidades implementadas durante esta iteración.
+
+**Swagger UI:** [http://40.75.23.68:8081/swagger-ui/index.html](http://40.75.23.68:8081/swagger-ui/index.html)<br>
+**OpenAPI JSON:** [http://40.75.23.68:8081/v3/api-docs](http://40.75.23.68:8081/v3/api-docs)
+
+La versión documentada amplía los servicios correspondientes a Identity & Profile Management, Campaign Management, Collaboration Management y Billing:
+
+| Servicio / área | Capacidades documentadas | Rutas representativas |
+|---|---|---|
+| Perfil empresarial | Consulta y actualización del perfil empresarial autenticado, incluyendo control de versión de la información. | `GET /api/v1/profiles/me/brand`; `PUT /api/v1/profiles/me/brand`; `GET /api/v1/accounts/me` |
+| Evaluación de postulaciones | Consulta de postulaciones recibidas por una campaña, consulta de detalle y registro de decisiones de selección o rechazo. | `GET /api/v1/campaigns/{id}/applications`; `GET /api/v1/campaigns/{id}/applications/{applicationId}`; `POST /api/v1/campaigns/{id}/applications/{applicationId}/decision` |
+| Acuerdos y colaboraciones | Creación y consulta de acuerdos, aceptación o rechazo de condiciones y creación y seguimiento de colaboraciones. | `POST /api/v1/agreements`; `GET /api/v1/agreements/{id}`; `GET /api/v1/agreements/mine`; `POST /api/v1/agreements/{id}/decisions`; `POST /api/v1/collaborations`; `GET /api/v1/collaborations/{id}`; `GET /api/v1/collaborations/mine` |
+| Entregables y evidencias | Registro, consulta, revisión y corrección de entregables, así como gestión de archivos de evidencia asociados a una colaboración. | `POST/GET /api/v1/collaborations/{id}/deliverables`; `GET /api/v1/deliverables/{id}`; `GET/POST /api/v1/deliverables/{id}/versions`; `POST /api/v1/deliverables/{id}/validation`; `POST /api/v1/deliverables/{id}/rejection`; `POST /api/v1/collaborations/{id}/assets` |
+| Incidencias | Registro y consulta de incidencias, propuestas de resolución y decisiones realizadas por los participantes de una colaboración. | `POST/GET /api/v1/collaborations/{id}/incidents`; `GET /api/v1/incidents/{id}`; `POST/GET /api/v1/incidents/{id}/resolutions`; `POST /api/v1/incidents/{id}/resolutions/{resolutionId}/decisions` |
+| Compensaciones | Consulta del estado de compensaciones, inicio y confirmación del proceso de pago y consulta del historial asociado. | `GET /api/v1/collaborations/{id}/compensation`; `GET /api/v1/compensations/{id}`; `POST /api/v1/collaborations/{id}/payment`; `POST /api/v1/collaborations/{id}/payment/confirmation`; `POST /api/v1/collaborations/{id}/payment/refresh`; `GET /api/v1/collaborations/{id}/compensation/history` |
+
+Las rutas protegidas utilizan autenticación JWT Bearer. Para probarlas desde Swagger, se ejecuta `POST /api/v1/auth/sessions`, se copia el `accessToken` obtenido y se ingresa mediante la opción **Authorize**. A partir de ello, Swagger incorpora el token Bearer en las solicitudes realizadas a los endpoints protegidos.
+
+Las nuevas rutas incorporadas durante el Sprint permiten documentar el flujo que inicia con la gestión de una empresa y la evaluación de postulaciones, continúa con la aceptación bilateral de un acuerdo y la creación de una colaboración, y posteriormente permite gestionar entregables, evidencias, incidencias y compensaciones asociadas.
+
+![Vista general de Swagger UI con los servicios implementados durante Sprint 2](./assets/C04/Sprint2/services/swagger-ui-overview.png)
+
+_Figura. Interfaz Swagger UI de la API desplegada, mostrando los grupos de endpoints disponibles durante el Sprint 2._
+
+##### 4.2.2.8. Software Deployment Evidence for Sprint Review
+
+El backend REST de CollabPro continúa desplegado durante el Sprint 2 en una máquina virtual de Microsoft Azure. La API se encuentra expuesta mediante el puerto 8081 y mantiene como dirección pública `http://40.75.23.68:8081`. Para esta iteración se actualizó el backend desplegado con las funcionalidades incorporadas durante el Sprint 2, incluyendo perfiles empresariales, evaluación de postulaciones, acuerdos, colaboraciones, entregables, incidencias y compensaciones.
+
+| Elemento | Estado observado |
+|---|---|
+| Plataforma de cómputo | Máquina virtual de Azure |
+| Sistema operativo | Ubuntu Server 24.04 LTS |
+| URL base informada | [http://40.75.23.68:8081](http://40.75.23.68:8081) |
+| Documentación interactiva | [Swagger UI](http://40.75.23.68:8081/swagger-ui/index.html) |
+| Especificación de servicios | [OpenAPI JSON](http://40.75.23.68:8081/v3/api-docs), OpenAPI 3.1 |
+| Rama desplegada | `develop` |
+| Puerto del backend | `8081` |
+| Contenedores asociados | Backend CollabPro, MySQL y Mailpit |
+| Transporte publicado | HTTP en el endpoint proporcionado |
+
+El repositorio del backend contiene un `Dockerfile` para construir la imagen de Spring Boot y un archivo `compose.yaml` para gestionar los servicios necesarios para la ejecución de CollabPro. Durante el despliegue del Sprint 2 se actualizó la rama `develop` y se reconstruyeron los contenedores para incorporar los cambios implementados durante la iteración.
+
+La configuración mantiene el backend disponible públicamente mediante el puerto 8081, mientras que los servicios internos utilizados para persistencia y soporte permanecen asociados al entorno de la máquina virtual. La documentación Swagger permite verificar los servicios REST disponibles después de la actualización del despliegue.
+
+La dirección de despliegue continúa utilizando HTTP. Para un entorno productivo se recomienda posteriormente publicar la API mediante HTTPS y un nombre de dominio, evitando exponer directamente la dirección IP de la máquina virtual.
+
+![Máquina virtual de CollabPro en Azure durante Sprint 2](./assets/C04/Sprint2/deployment/azure-vm-overview.png)
+
+_Figura. Portal de Azure mostrando la máquina virtual utilizada para el despliegue del backend de CollabPro durante el Sprint 2._
+
+![Backend de CollabPro desplegado y en ejecución](./assets/C04/Sprint2/deployment/backend-running.png)
+
+_Figura. Evidencia de la ejecución de los servicios correspondientes al backend de CollabPro después de la actualización del Sprint 2._
+
+##### 4.2.2.9. Team Collaboration Insights during Sprint
+
+##### Contribuidores del reporte de CollabPro
+
 ## Conclusiones
 
 **Conclusiones generales**
