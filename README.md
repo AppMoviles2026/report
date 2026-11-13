@@ -361,16 +361,21 @@ Durante la elaboración de al entrega AV2, el equipo CollabTech termino el Sprin
         - [4.2.1.7. Services Documentation Evidence for Sprint Review](#4217-services-documentation-evidence-for-sprint-review)
         - [4.2.1.8. Software Deployment Evidence for Sprint Review](#4218-software-deployment-evidence-for-sprint-review)
         - [4.2.1.9. Team Collaboration Insights during Sprint](#4219-team-collaboration-insights-during-sprint)
-        - [Contribuidores del reporte de CollabPro](#contribuidores-del-reporte-de-collabpro)
+    - [4.3. Validation Interviews](#43-validation-interviews)
+      - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
+      - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
+      - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
   - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
   - [Glosario](#glosario)
   - [Bibliografía](#bibliografía)
+  - [Video About-the-Product](#video-about-the-product)
   - [Anexos](#anexos)
     - [ANEXO A. Repositorios del proyecto](#anexo-a-repositorios-del-proyecto)
     - [ANEXO B. Gestión, diseño y modelado](#anexo-b-gestión-diseño-y-modelado)
     - [ANEXO C. Enlaces a entrevistas](#anexo-c-enlaces-a-entrevistas)
     - [ANEXO D. Despliegues y documentación de servicios](#anexo-d-despliegues-y-documentación-de-servicios)
+    - [ANEXO E. Video About-the-Product](#anexo-e-video-about-the-product)
 
 <div style="page-break-after: always;"></div>
 
@@ -7143,6 +7148,18 @@ Estos resultados constituyen una primera validación cualitativa de la solución
 - Flutter. (s.f.). _Flutter documentation_. https://docs.flutter.dev/
 - Google. (s.f.). _Firebase Cloud Storage documentation_. https://firebase.google.com/docs/storage
 
+## Video About-the-Product
+
+El video About-the-Product presenta la propuesta de valor de CollabPro para pequeñas y medianas empresas y creadores de contenido. Mediante un recorrido por el sistema, explica sus principales funcionalidades y el modelo de negocio. Está dirigido a visitantes del Landing Page y potenciales usuarios interesados en conocer cómo organizar sus campañas y colaboraciones.
+
+| Evidencia | Detalle |
+| --- | --- |
+| Duración | 02:00 |
+| Video en YouTube | [Ver Video About-the-Product](https://www.youtube.com/watch?v=VdEhdZ1mnt0) |
+| Video en OneDrive | [Ver video en OneDrive](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211d989_upc_edu_pe/IQCTlsr-asSyRaIGFcn-TmM2AcJ6jWbSwjlblokS_0pY_cI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yb0LVU) |
+
+[![Video About-the-Product de CollabPro](./assets/C04/AboutTheProduct/about-the-product.png)](https://www.youtube.com/watch?v=VdEhdZ1mnt0)
+
 ## Anexos
 
 ### ANEXO A. Repositorios del proyecto
@@ -7174,3 +7191,9 @@ Estos resultados constituyen una primera validación cualitativa de la solución
 - **URL base de la API:** <http://40.75.23.68:8081>
 - **Swagger UI:** <http://40.75.23.68:8081/swagger-ui/index.html>
 - **Especificación OpenAPI en formato JSON:** <http://40.75.23.68:8081/v3/api-docs>
+
+### ANEXO E. Video About-the-Product
+
+- **Video en YouTube:** [Ver Video About-the-Product](https://www.youtube.com/watch?v=VdEhdZ1mnt0)
+- **Video en OneDrive:** [Ver video en OneDrive](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211d989_upc_edu_pe/IQCTlsr-asSyRaIGFcn-TmM2AcJ6jWbSwjlblokS_0pY_cI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yb0LVU)
+- **Duración:** 02:00.
