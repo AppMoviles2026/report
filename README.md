@@ -361,6 +361,16 @@ Durante la elaboración de al entrega AV2, el equipo CollabTech termino el Sprin
         - [4.2.1.7. Services Documentation Evidence for Sprint Review](#4217-services-documentation-evidence-for-sprint-review)
         - [4.2.1.8. Software Deployment Evidence for Sprint Review](#4218-software-deployment-evidence-for-sprint-review)
         - [4.2.1.9. Team Collaboration Insights during Sprint](#4219-team-collaboration-insights-during-sprint)
+      - [4.2.2. Sprint 2](#422-sprint-2)
+        - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
+        - [4.2.2.2. Aspect Leaders and Collaborators](#4222-aspect-leaders-and-collaborators)
+        - [4.2.2.3. Sprint Backlog 2](#4223-sprint-backlog-2)
+        - [4.2.2.4. Development Evidence for Sprint Review](#4224-development-evidence-for-sprint-review)
+        - [4.2.2.5. Testing Suite Evidence for Sprint Review](#4225-testing-suite-evidence-for-sprint-review)
+        - [4.2.2.6. Execution Evidence for Sprint Review](#4226-execution-evidence-for-sprint-review)
+        - [4.2.2.7. Services Documentation Evidence for Sprint Review](#4227-services-documentation-evidence-for-sprint-review)
+        - [4.2.2.8. Software Deployment Evidence for Sprint Review](#4228-software-deployment-evidence-for-sprint-review)
+        - [4.2.2.9. Team Collaboration Insights during Sprint](#4229-team-collaboration-insights-during-sprint)
     - [4.3. Validation Interviews](#43-validation-interviews)
       - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
       - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -6688,6 +6698,331 @@ _Figura. Configuración de red de Azure que permite el acceso al servicio en el 
 
 ##### 4.2.1.9. Team Collaboration Insights during Sprint
 
+
+#### 4.2.2. Sprint 2
+
+##### 4.2.2.1. Sprint Planning 2
+
+##### 4.2.2.2. Aspect Leaders and Collaborators
+
+##### 4.2.2.3. Sprint Backlog 2
+
+##### 4.2.2.4. Development Evidence for Sprint Review
+
+##### 4.2.2.5. Testing Suite Evidence for Sprint Review
+
+##### 4.2.2.6. Execution Evidence for Sprint Review
+
+##### 4.2.2.7. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2 se amplió el backend de CollabPro para cubrir el ciclo de colaboración entre empresas y creadores: evaluación de postulaciones, aceptación bilateral de condiciones, ejecución y revisión de entregas, resolución de incidencias, operaciones financieras de prueba y consulta de resultados. Se completaron capacidades de Identity & Profile Management y Campaign Management y se incorporaron los servicios de Collaboration Management, Billing & Compensation Management y Performance & Attribution Management.
+
+Esta sección documenta las incorporaciones respecto de la evidencia del Sprint 1. Los servicios de registro, inicio de sesión, recuperación, perfil de creador, vinculación social inicial, publicación y búsqueda de campañas y postulaciones propias se conservan; sus contratos iniciales se encuentran en la sección 4.2.1.7. Las modificaciones de esos contratos se explican aquí, junto con los servicios de los otros tres bounded contexts.
+
+- **URL base de los servicios:** <http://40.75.23.68:8081/api/v1/>
+- **Documentación interactiva:** [Swagger UI](http://40.75.23.68:8081/swagger-ui/index.html).
+- **Contrato publicado:** [OpenAPI JSON](http://40.75.23.68:8081/v3/api-docs).
+- **Código y contratos complementarios:** [CollabPro Platform](https://github.com/AppMoviles2026/platform), directorios `src/main/java/com/collabtech/platform` y `docs`.
+
+![Vista general de Swagger UI del Sprint 2](./assets/C04/Sprint2/services/swagger-ui-overview.png)
+
+Las rutas descritas a continuación parten del prefijo `/api/v1`. Los identificadores de recursos son UUID. El servidor obtiene la identidad y el rol desde una sesión JWT válida; enviar un identificador de empresa o creador en una solicitud no concede permiso para actuar en su nombre. Además del rol, cada servicio comprueba la propiedad del recurso o la participación en la colaboración.
+
+Para consultar un servicio protegido desde Swagger se inicia sesión con `POST /api/v1/auth/sessions`, se copia `accessToken` y se introduce su valor en **Authorize**. Swagger aplica el esquema `bearerAuth`. Los callbacks de proveedores y el webhook financiero tienen validaciones propias; las rutas públicas de atribución permiten redirecciones sin acceso a los datos privados de la colaboración.
+
+Las consultas paginadas utilizan `page` desde cero y `size`, generalmente con valores predeterminados 0 y 20 y tamaño permitido de 1 a 100. Las respuestas incluyen `items`, `total`, `page` y `size`. Una consulta válida sin resultados devuelve una lista vacía con HTTP 200.
+
+Las escrituras versionadas utilizan `expectedVersion`, obtenido de la última consulta del recurso. La aceptación de acuerdos emplea `termsVersion`, que identifica las condiciones inmutables, y la revisión de una entrega también identifica el `submissionId` exacto. Estos valores cumplen propósitos distintos y no deben intercambiarse.
+
+En los comandos que reciben `requestId`, el cliente genera un UUID por operación y conserva ese valor y el mismo contenido al reintentar. Las subidas de archivos utilizan el encabezado `Idempotency-Key`. Esto permite recuperar solicitudes confirmadas cuya respuesta se perdió, sin duplicar entregas, evidencias o intentos financieros. Una clave reutilizada con otro contenido genera un conflicto.
+
+**Identity & Profile Management: perfil empresarial y disponibilidad social**
+
+Se incorporó la consulta y actualización del perfil empresarial propio, que en el Sprint 1 no estaba incluida en la documentación de servicios. El registro ya crea ese perfil; las nuevas rutas completan su información sin crear otro recurso.
+
+- `GET /profiles/me/brand`: consulta `profileId`, `businessName`, `description`, `category`, `location` y `version` del perfil de la empresa autenticada.
+- `PUT /profiles/me/brand`: reemplaza la información editable y devuelve el perfil persistido con su versión vigente. Requiere `businessName` y `expectedVersion`.
+
+El nombre admite hasta 150 caracteres, la descripción hasta 2000 y la categoría y ubicación hasta 150. Los campos opcionales omitidos, nulos o vacíos se guardan como nulos, porque esta actualización reemplaza el conjunto editable. No permite modificar credenciales, tipo de cuenta, propietario o estado. El nombre actualizado también se refleja en la consulta de cuenta; las campañas anteriores conservan el nombre histórico almacenado en su creación.
+
+Ejemplo ilustrativo de actualización, utilizando en `expectedVersion` la versión obtenida al consultar:
+
+```json
+{
+  "businessName": "Ayni Café",
+  "description": "Café peruano de especialidad",
+  "category": "Gastronomía",
+  "location": "Lima",
+  "expectedVersion": 0
+}
+```
+
+Se añadió `GET /social-accounts/{socialId}/access` para que el creador propietario consulte la disponibilidad de su autorización social. Devuelve plataforma, estado, permisos concedidos y faltantes, vencimiento y necesidad de reautorización, sin publicar tokens ni contactar al proveedor durante esa lectura. Distingue `READY`, `EXPIRED`, `REAUTHORIZATION_REQUIRED`, `INSUFFICIENT_SCOPE`, `MISSING_CREDENTIALS`, `REVOKED` y `PROVIDER_NOT_CONFIGURED`.
+
+El ciclo de credenciales incorpora renovación de TikTok cuando existe un refresh token utilizable y reautorización de la misma identidad externa para recuperar permisos o credenciales vencidas, conservando la asociación. Una autorización vigente repetida con los mismos permisos mantiene el tratamiento de duplicado. En Instagram, la credencial de corta duración requiere nuevo consentimiento al vencer; no se documenta una renovación de larga duración inexistente.
+
+Los contratos internos `IdentityProfileFacade` y `SocialAuthorizationFacade` permiten que los otros contextos consulten datos autorizados del perfil y utilicen temporalmente una autorización social. No exponen repositorios de Identity, contraseñas ni tokens en sus recursos REST. El estado local `READY` expresa que las credenciales almacenadas permiten intentar la operación; no certifica que el proveedor no haya revocado el acceso externamente.
+
+**Campaign Management: edición versionada y evaluación de postulantes**
+
+Se ampliaron los borradores y las postulaciones con control de concurrencia, y se incorporó la evaluación empresarial. La exploración, publicación, cierre y descarte de campañas ya descritos en Sprint 1 permanecen disponibles.
+
+**Edición de borradores y condiciones.** `GET /campaigns/{id}` incorpora `version`. El nuevo `PATCH /campaigns/{id}` modifica `title`, `objective`, `description`, `category`, `targetAudience` o `location`, con `expectedVersion` obligatorio. Solo admite campañas en borrador de la empresa propietaria; no cambia propietario ni estado. Los campos omitidos o nulos no se modifican y una cadena vacía permite limpiar los opcionales. Una versión antigua produce HTTP 409 sin aplicar cambios parciales.
+
+`PUT /campaigns/{id}/conditions` admite `expectedVersion` para proteger el reemplazo de requisitos, entregables, fechas y compensación. Se conserva su carácter opcional para compatibilidad con el cliente anterior; los nuevos consumidores deben enviarlo. Tras publicar, los metadatos y las condiciones quedan congelados.
+
+**Postulaciones propias.** Se añadió `PATCH /applications/{id}` con `message` y `expectedVersion` obligatorios. Solo el creador propietario puede editar una postulación `PENDING`. Las rutas PUT y de cancelación del Sprint 1 se conservan. La consulta propia incorpora `decidedAt`, `decidedBy` y `decisionReason`, permitiendo conocer la evaluación empresarial; estos datos pueden ser nulos en registros históricos.
+
+**Evaluación desde la empresa.** Se incorporaron tres operaciones sobre las postulaciones de una campaña propia:
+
+- `GET /campaigns/{id}/applications`: lista paginada de candidatos, con filtro opcional `status`.
+- `GET /campaigns/{id}/applications/{applicationId}`: detalle de la postulación y perfil autorizado del creador.
+- `POST /campaigns/{id}/applications/{applicationId}/decision`: selección o rechazo de una postulación pendiente, utilizando su versión actual.
+
+La respuesta reúne `application` y `creator`, con nombre, biografía, nicho, audiencia, ubicación y referencias públicas de redes activas. No incluye correo, contraseñas ni credenciales sociales. La postulación debe pertenecer a la campaña indicada y la empresa debe ser su propietaria; cerrar la recepción no elimina las propuestas ni impide evaluarlas.
+
+Ejemplo de rechazo:
+
+```json
+{
+  "decision": "REJECTED",
+  "reason": "La propuesta no coincide con el público objetivo de la campaña.",
+  "expectedVersion": 0
+}
+```
+
+Las decisiones de este comando son `SELECTED` y `REJECTED`; el rechazo exige un motivo no vacío de hasta 2000 caracteres. Aunque el enum de estado mostrado en el esquema también incluye `PENDING` y `CANCELLED`, esos valores no constituyen decisiones empresariales válidas. Se registra actor, fecha y motivo, y una decisión concurrente o basada en una versión antigua devuelve conflicto. Seleccionar un creador no acepta condiciones en su nombre, no activa una colaboración ni rechaza automáticamente las otras postulaciones.
+
+![Servicios de Identity y Campaign en Swagger](./assets/C04/Sprint2/services/swagger-identity-campaign.png)
+
+**Collaboration Management: acuerdos y activación**
+
+Este contexto incorpora la formalización bilateral a partir de una postulación seleccionada. El acuerdo conserva una copia inmutable de campaña, participantes, propuesta, requisitos confirmados, cantidades, fechas y compensación. Cambios posteriores en perfiles no sustituyen esas condiciones históricas.
+
+- `POST /agreements`: propone o recupera un acuerdo a partir de `applicationId`; responde HTTP 201 y `Location`.
+- `GET /agreements/{id}`: consulta condiciones, firmas, estado y `collaborationId` cuando existe.
+- `GET /agreements/mine`: lista acuerdos propios con paginación y filtro de estado.
+- `POST /agreements/{id}/decisions`: acepta o rechaza las condiciones mediante `termsVersion` y `decision`.
+- `POST /collaborations`: recupera la activación de un acuerdo ya aceptado por ambas partes, enviando `agreementId`; responde HTTP 201 sin duplicar la colaboración.
+- `GET /collaborations/{id}`: consulta estado, condiciones, avance, plazos, obligaciones y acciones disponibles.
+- `GET /collaborations/mine`: lista colaboraciones propias con paginación y filtro de estado.
+
+Para proponer se envía `applicationId`; para aceptar, cada participante utiliza su propia sesión y el `snapshot.termsVersion` consultado:
+
+```json
+{
+  "termsVersion": "6ca24404-bb04-49f2-b918-c10f59443f54",
+  "decision": "ACCEPT"
+}
+```
+
+Los UUID de los ejemplos son ilustrativos y deben reemplazarse por los devueltos por el servicio. El acuerdo permanece `PENDING` después de la primera aceptación. La segunda lo lleva a `ACCEPTED` y crea una sola colaboración en la misma transacción. Un rechazo o el vencimiento impiden su activación. La aceptación debe registrarse antes de la primera fecha de entrega acordada; el cierre de recepción de postulaciones no es el límite de firma. Una versión de condiciones distinta devuelve `TERMS_CHANGED`.
+
+La colaboración comienza en `ACTIVE`. Su estado posterior depende del progreso y los hechos registrados: `UNDER_REVIEW`, `EXPIRED`, `COMPLETED`, `DISPUTED` o `CANCELLED`. No existe un PATCH genérico para forzar esos estados. `pendingActions` describe tareas del participante y `availableActions` identifica comandos habilitados según rol, fechas y avance.
+
+**Collaboration Management: entregas, versiones y archivos privados**
+
+Cada obligación puede requerir varias piezas. Si el acuerdo exige dos videos, se registran dos entregas independientes y ambas deben aprobarse para completar esa obligación. Una pieza rechazada se corrige mediante una versión nueva; no se reemplaza creando otra pieza que eluda la revisión.
+
+- `POST /collaborations/{id}/deliverables`: registra una pieza y devuelve HTTP 201.
+- `GET /collaborations/{id}/deliverables`: lista piezas con paginación y filtro de estado.
+- `GET /deliverables/{id}`: consulta pieza, contenido y revisión actuales.
+- `GET /deliverables/{id}/versions`: consulta versiones y decisiones históricas.
+- `POST /deliverables/{id}/versions`: presenta una corrección de una pieza rechazada.
+- `POST /deliverables/{id}/validation`: aprueba la versión pendiente.
+- `POST /deliverables/{id}/rejection`: rechaza con observaciones y una fecha futura de corrección.
+- `POST /collaborations/{id}/assets`: sube un archivo privado mediante multipart, campo `file` y encabezado `Idempotency-Key`.
+- `GET /collaboration-assets/{id}` y `GET /collaboration-assets/{id}/content`: consultan metadatos y descargan contenido autorizado.
+
+Solo el creador presenta piezas y correcciones; solo la empresa participante aprueba o rechaza. Cada revisión identifica el `submissionId` exacto y su `expectedVersion`. Los estados de entrega son `PENDING_VALIDATION`, `APPROVED` y `REJECTED`. Las respuestas de mutación incluyen `deliverable`, `affectedSubmissionId` y `replayed`, de modo que repetir una revisión anterior no actúe sobre una corrección posterior.
+
+Ejemplo de rechazo de una versión pendiente:
+
+```json
+{
+  "requestId": "c0f4cfe1-5830-4bfa-a558-ddbc58fb6e8d",
+  "submissionId": "2bcbcdf7-b844-4d2e-a871-e87f772771ac",
+  "expectedVersion": 0,
+  "observations": "Incluir el mensaje del producto definido en las condiciones.",
+  "correctionDeadline": "2026-12-20T18:00:00Z"
+}
+```
+
+La fecha del ejemplo debe ser futura al ejecutar la operación. Las primeras entregas pueden presentarse fuera del plazo original y conservan `late=true`. Las correcciones deben llegar antes del plazo de corrección vigente; las ampliaciones posteriores requieren una resolución bilateral. Una aprobación es definitiva. Todas las piezas presentadas y pendientes de revisión producen `UNDER_REVIEW`; esperar la revisión empresarial no genera por sí solo un vencimiento del creador. La aprobación de todas las cantidades produce `COMPLETED` con fecha del servidor, sin confirmar por ello una compensación pagada.
+
+Las referencias de contenido y evidencia admiten una URL HTTPS o un `assetId`, de forma excluyente. Los archivos aceptados son PDF, PNG, JPEG, WebP y MP4, con límite predeterminado de 10 MiB y comprobación de extensión, MIME y firma binaria. Los archivos y sus metadatos se conservan en MySQL. Antes de adjuntarlos solo su propietario puede acceder; al asociarlos, el acceso se amplía a la contraparte autorizada. Las versiones históricas conservan sus evidencias. Las descargas requieren JWT y utilizan `attachment`, `no-store` y `nosniff`; no se publican enlaces permanentes de acceso libre.
+
+**Collaboration Management: incidencias, resoluciones e historial**
+
+Las incidencias pueden ser abiertas por cualquiera de los participantes durante la ejecución y hasta siete días transcurridos desde la finalización o cancelación registrada. Ese límite se aplica a incidencias nuevas, no al seguimiento de las ya abiertas. Las categorías son `CONDITIONS`, `DELIVERABLE`, `COMPENSATION` y `OTHER`.
+
+- `POST /collaborations/{id}/incidents`: registra descripción, categoría y evidencias, con `requestId`.
+- `GET /collaborations/{id}/incidents`: lista incidencias con paginación y filtro de estado.
+- `GET /incidents/{id}`: consulta detalle, propuesta vigente y acciones permitidas.
+- `POST /incidents/{id}/resolutions`: propone condiciones inmutables de resolución, con `requestId` y `expectedVersion`.
+- `GET /incidents/{id}/resolutions`: consulta propuestas históricas, incluidas rechazadas o retiradas.
+- `POST /incidents/{id}/resolutions/{resolutionId}/decisions`: decide sobre la propuesta exacta.
+- `POST /collaborations/{id}/incident-assets`: permite que cualquiera de los participantes suba evidencia privada.
+- `GET /collaborations/history`: lista las participaciones propias y permite filtrar su estado.
+- `GET /collaborations/history/{id}`: consulta condiciones, firmas y referencias autorizadas del registro histórico.
+- `GET /collaborations/{id}/history`: devuelve la cronología paginada de hechos de esa colaboración.
+
+La incidencia pasa de `OPEN` a `RESOLUTION_PROPOSED` y, tras la aceptación de la contraparte, a `RESOLVED`. Quien propone no puede aceptar su propia propuesta: puede retirarla con `WITHDRAW`; la otra parte puede aceptar con `ACCEPT` o rechazar con `REJECT`. El rechazo exige motivo. Una propuesta rechazada o retirada conserva su historial y devuelve la incidencia a abierta.
+
+Las resoluciones permiten mantener el acuerdo (`KEEP_AGREEMENT`), ampliar una corrección concreta (`EXTEND_CORRECTION`) o cancelar bilateralmente una colaboración no completada (`CANCEL_COLLABORATION`). Una ampliación identifica pieza, versión y nuevo plazo y conserva la revisión original. No se aprueban piezas ni se registran pagos o reembolsos al resolver una incidencia.
+
+Mientras exista alguna incidencia abierta o con propuesta pendiente, la colaboración se presenta como `DISPUTED` y bloquea entregas, correcciones y validaciones. Los plazos siguen transcurriendo. Resolver una de varias incidencias no libera los bloqueos restantes; al cerrar la última se recupera el estado que corresponda al avance y las fechas reales.
+
+El historial conserva firmas, activación, versiones y revisiones, vencimientos, finalización e incidencias. Cada entrada registra secuencia, tipo, fecha y actor cuando se conoce. Los hechos reconstruidos de datos anteriores se identifican como `reconstructed`; no se inventan fechas o participantes. Las referencias a compensación y resultados se obtienen de los contratos publicados de Billing y Performance: que el recurso exista no significa que haya un pago o métricas automáticas disponibles.
+
+![Servicios de Collaboration en Swagger](./assets/C04/Sprint2/services/swagger-collaboration.png)
+
+**Billing & Compensation Management: vinculación financiera y webhooks**
+
+El backend incorpora PayPal exclusivamente en Sandbox. Se distingue la autorización de un medio financiero, la suscripción de una empresa y la compensación de una colaboración. Vincular un medio no realiza una compra ni confirma que haya un pago. En las rutas `/user/{id}`, el identificador corresponde al `accountId` de la cuenta autenticada, no al identificador del perfil.
+
+- `POST /user/{id}/billing`: inicia o recupera una autorización con `requestId` y `client` (`WEB` o `ANDROID`); responde HTTP 202, que indica procesamiento y no una vinculación terminada.
+- `GET /user/{id}/billing`: lista los métodos propios paginados.
+- `GET /billing/authorizations/{id}`: consulta estado, vigencia y URL de aprobación del intento.
+- `POST /billing/authorizations/{id}/cancellation`: cancela un intento pendiente sin deshacer una vinculación terminada.
+- `POST /user/{id}/billing/validation`: comprueba un `methodId` propio y vigente sin cobrar.
+- `GET /billing/paypal/callback`: procesa el retorno de la autorización de pago empresarial.
+- `GET /billing/paypal/identity-callback`: procesa el retorno de identificación del receptor creador.
+- `POST /webhooks/payments`: recibe eventos de PayPal con verificación de firma y deduplicación.
+
+La empresa vincula un medio de propósito `PAYMENT` y el creador un destino `PAYOUT`. Los métodos públicos contienen identificador propio, propósito, estado, proveedor, entorno, etiqueta enmascarada, fecha y versión. Las referencias sensibles del proveedor se conservan cifradas y no aparecen en las respuestas.
+
+El intento distingue `PREPARING`, `PENDING_APPROVAL`, `COMPLETING` y `LINKED`, además de `FAILED`, `CANCELLED` y `EXPIRED`. El cliente abre `approvalUrl` y vuelve a consultar el recurso: regresar del navegador no acredita éxito. Para Android, el retorno utiliza `collabpro://billing-return` con una referencia y el estado, sin tokens; la confirmación se realiza con una consulta autenticada.
+
+El webhook no exige JWT, pero sí las cabeceras `PAYPAL-AUTH-ALGO`, `PAYPAL-CERT-URL`, `PAYPAL-TRANSMISSION-ID`, `PAYPAL-TRANSMISSION-SIG` y `PAYPAL-TRANSMISSION-TIME`, además del cuerpo original. El servidor comprueba la firma con PayPal y el Webhook ID configurado. El inbox conserva el identificador del evento para impedir efectos duplicados. Los eventos financieros se encolan y se reconcilian con el proveedor; recibirlos no equivale automáticamente a activar beneficios o marcar una compensación pagada.
+
+**Billing & Compensation Management: suscripciones empresariales**
+
+Las suscripciones utilizan un catálogo del servidor. El cliente elige un `planId` y no decide precio, moneda o beneficios. El catálogo de demostración documentado contiene Esencial por USD 5 y Crecimiento por USD 10 al mes; son importes de Sandbox, no precios comerciales validados ni una conversión de los planes de la landing.
+
+- `GET /subscription-plans`: consulta planes, importes, periodicidad, beneficios y disponibilidad.
+- `POST /user/{id}/subscription`: crea o recupera un intento, con HTTP 201 y `Location`.
+- `GET /user/{id}/subscription`: consulta la suscripción actual o última; informa `NONE` si no existe.
+- `GET /user/{id}/subscriptions`: consulta el historial paginado.
+- `GET /subscriptions/{id}`: consulta privada con reconciliación del estado.
+- `POST /subscriptions/{id}/refresh`: solicita reconciliación explícita.
+- `POST /subscriptions/{id}/cancellation`: solicita cancelación, que debe confirmar PayPal.
+- `POST /subscriptions/{id}/resume-approval`: recupera la aprobación de un intento pendiente con `expectedVersion`.
+- `GET /billing/paypal/subscription-callback`: procesa el retorno del consentimiento específico de suscripción.
+
+La creación requiere sesión empresarial, un medio `PAYMENT` propio y activo, y este cuerpo ilustrativo:
+
+```json
+{
+  "requestId": "3f4ea491-1a56-407b-9b2d-8acdc36b95ce",
+  "planId": "d487c52b-f3ce-4714-9115-b592378a60dd",
+  "methodId": "ce9bab85-e458-49ae-a926-8593a61d9c1a",
+  "client": "WEB"
+}
+```
+
+Los identificadores de plan y método se obtienen de las consultas previas. La respuesta expone estado, `providerStatus`, `benefitsActive`, `paidThrough`, `approvalUrl`, última comprobación, error y versión. Un HTTP 201 o una aprobación del navegador no prueban un cobro. Para activar beneficios se exige una transacción confirmada y coherente con identidad, plan, importe, moneda y periodo.
+
+La API distingue esperas de aprobación o pago, fallos, suspensión, cancelación y necesidad de reconciliación. Un fallo de cobro no se presenta como una suscripción activa. La cancelación incierta conserva `CANCEL_PENDING`, y una creación pendiente impide iniciar otro contrato paralelo. Los webhooks y el proceso de reconciliación recuperan operaciones pendientes y verifican el estado actual del proveedor sin dejar que un evento antiguo reactive un contrato terminado.
+
+Los planes devuelven beneficios informativos durante el periodo pagado; esta implementación no añade cuotas ni bloqueos comerciales nuevos a campañas o colaboraciones. Los consentimientos de suscripción son distintos del consentimiento de vinculación financiera.
+
+**Billing & Compensation Management: compensaciones de colaboraciones**
+
+La compensación conserva el tipo, descripción, importe y moneda del acuerdo aceptado. Se diferencia de la suscripción de la empresa y no requiere contratar un plan para existir. Los tipos `PRODUCT`, `SERVICE`, `CREDIT` y `BARTER` se presentan como no monetarios y no generan cargos. Para `CASH`, el flujo de pago exige todas las piezas aprobadas, participantes autorizados y ausencia de incidencias que bloqueen la operación.
+
+- `GET /collaborations/{id}/compensation`: consulta condiciones económicas, estado, elegibilidad, bloqueos, fechas y acciones disponibles.
+- `GET /compensations/{id}`: consulta el mismo recurso mediante su identificador financiero.
+- `POST /collaborations/{id}/payment`: inicia un intento o recupera un envío fallido, con `requestId`, `client`, `expectedVersion` y, cuando corresponde a un ingreso nuevo, `methodId`.
+- `POST /collaborations/{id}/payment/confirmation`: confirma expresamente desde la sesión de la empresa, con `requestId` y `expectedVersion`.
+- `POST /collaborations/{id}/payment/refresh`: consulta y reconcilia el resultado existente.
+- `GET /collaborations/{id}/compensation/history`: consulta auditoría financiera paginada.
+- `GET /billing/paypal/compensation-callback`: procesa el retorno del navegador; no captura fondos por sí solo.
+
+El flujo monetario separa dos hechos. Primero, la empresa aprueba una orden y el backend confirma y captura el ingreso mediante Orders V2. Después, Payouts envía al destino verificado del creador. `fundedAt` acredita el ingreso a la plataforma; `paidAt` acredita el pago al creador. Solo un ítem de envío confirmado como `SUCCESS`, con identidad, importe, moneda y transacción comprobados, permite establecer `PAID`.
+
+Los estados explican el avance: `PENDING_DELIVERABLES`, `READY_FOR_PAYMENT`, `AWAITING_COMPANY_APPROVAL`, `CAPTURE_PENDING`, `FUNDED`, `PAYOUT_PENDING`, `PAYMENT_FAILED`, `BLOCKED_INCIDENT`, `NON_MONETARY`, `PAID`, `PAYMENT_REVERSED`, `CANCELLED` o `RECONCILIATION_REQUIRED`. `availableActions` y `unavailableReason` permiten al cliente mostrar la acción realmente habilitada.
+
+Si el ingreso se confirmó y el envío falla, el reintento conserva ese ingreso y no vuelve a cobrar a la empresa. Una incidencia bloquea pasos posteriores, pero no borra pagos ni revierte atómicamente una operación ya despachada al proveedor. No existe un endpoint para forzar `PAID` ni un reembolso automático.
+
+La moneda habilitada por defecto para la demostración es USD. Un acuerdo existente en PEN conserva su importe y devuelve `UNSUPPORTED_PAYMENT_CURRENCY` cuando no puede procesarse; no se convierte silenciosamente. La integración tampoco descuenta automáticamente una comisión del importe acordado para implementar el modelo comercial anunciado en la landing.
+
+![Servicios de Billing en Swagger](./assets/C04/Sprint2/services/swagger-billing.png)
+
+**Performance & Attribution Management: métricas y evidencia**
+
+Este contexto incorpora un reporte por colaboración y separa métricas automáticas de evidencia manual. Toda consulta privada exige ser la empresa o el creador participante. La disponibilidad del reporte no implica que existan estadísticas del proveedor.
+
+- `GET /collaborations/{id}/metrics`: consulta publicaciones, última captura, último intento y disponibilidad de datos.
+- `POST /collaborations/{id}/metrics/refresh`: solicita la actualización autorizada de una publicación mediante `requestId`, `socialId`, `submissionId` y `postId`.
+- `GET /collaborations/{id}/metrics/snapshots`: consulta las capturas históricas paginadas.
+- `POST /collaborations/{id}/evidence`: registra evidencia manual del creador.
+- `GET /collaborations/{id}/evidence`: lista evidencias, con filtro opcional por estado.
+- `GET /performance-evidence/{id}`: consulta evidencia, fuente, periodo y revisión.
+- `POST /performance-evidence/{id}/verification`: registra revisión empresarial con `requestId`, `expectedVersion`, decisión y observaciones.
+- `POST /collaborations/{id}/evidence-assets`: sube un archivo privado mediante multipart e `Idempotency-Key`.
+- `GET /performance-assets/{id}` y `GET /performance-assets/{id}/content`: consultan metadatos y descargan la evidencia autorizada.
+
+**Consulta automática.** El adaptador implementado utiliza TikTok Display API y requiere autorización del creador con permiso `video.list`. La publicación debe corresponder a una versión actual no rechazada de una entrega de la colaboración. El enlace canónico y `postId` deben identificar el mismo video del usuario autorizado. Se conservan únicamente los contadores que el proveedor devuelve: `VIEWS`, `LIKES`, `COMMENTS` y `SHARES`.
+
+Cada captura identifica fuente `AUTOMATED`, proveedor, publicación, versión, fecha y periodo. `LIFETIME` representa contadores acumulados desde la creación del video hasta la consulta, no resultados exclusivos del periodo de campaña. Las capturas no se suman entre sí. Un contador ausente no se reemplaza por cero ni se transforma en ventas o alcance estimado.
+
+Los intentos distinguen `AVAILABLE`, `NO_DATA`, `AUTHORIZATION_REQUIRED`, `INSUFFICIENT_SCOPE`, `PROVIDER_NOT_CONFIGURED`, `UNSUPPORTED_PROVIDER`, `RATE_LIMITED`, `PROVIDER_UNAVAILABLE` e `INVALID_RESPONSE`. Esos resultados pueden responder HTTP 200 porque describen el resultado consultable de la actualización; solo `AVAILABLE` genera una captura válida. Un fallo posterior conserva la captura anterior como `AVAILABLE_STALE`. Una entrega reemplazada o rechazada conserva sus datos como `HISTORICAL_ONLY`.
+
+Instagram admite evidencia manual; no tiene un adaptador de Insights automático en esta implementación. El consentimiento básico de perfil tampoco equivale a permiso para estadísticas de TikTok.
+
+**Evidencia manual.** El creador registra descripción, entre una y diez referencias HTTPS o archivos propios, `observedAt` y `period`; puede añadir `submissionId` y `claimedMetrics`. El periodo debe ser coherente: inicio no posterior a fin, fin no posterior a observación y observación no futura respecto del servidor. Las métricas declaradas deben ser enteros no negativos de tipos admitidos.
+
+La evidencia nace con fuente `MANUAL` y estado `UNVERIFIED`. La empresa puede verificar o rechazar una vez la versión consultada. Un rechazo exige observaciones; `VERIFIED` significa revisión de la empresa y no certificación del proveedor. La evidencia continúa siendo manual y no se mezcla con las capturas automáticas. Los archivos mantienen las restricciones de privacidad, formatos y tamaño de los servicios de entregas.
+
+**Performance & Attribution Management: enlaces, códigos y resultados atribuibles**
+
+Los mecanismos de atribución se asocian a una colaboración y conservan sus propias fuentes y periodos. No se interpretan como ventas comprobadas ni como prueba de causalidad.
+
+- `GET /attribution/destinations`: consulta IDs de destinos aprobados por configuración.
+- `POST /collaborations/{id}/attribution`: crea un enlace `LINK` o un código `CODE`, únicamente desde la empresa participante.
+- `GET /collaborations/{id}/attribution`: consulta mecanismos y resultados con `start` y `end` opcionales, enviados juntos, además de paginación.
+- `POST /attribution/{id}/status`: activa o desactiva un mecanismo con `requestId` y `expectedVersion`.
+- `POST /attribution/{id}/interactions`: registra una consulta o uso de código declarado por la empresa y respaldado por evidencia.
+- `GET /attribution/{id}/interactions`: consulta el registro privado paginado.
+- `GET /public/attribution/{token}`: redirige al destino fijo con HTTP 302 y registra un clic deduplicado.
+- `HEAD /public/attribution/{token}`: devuelve la redirección sin registrar clic ni generar cookie.
+
+Para un `LINK`, la empresa envía `requestId`, `kind`, `label` y `destinationId`. Para un `CODE` omite el destino. El servidor genera el token o código; no acepta una URL arbitraria o un código elegido por el cliente. La respuesta devuelve `trackingUrl` para el enlace o `code` para el código.
+
+El enlace público no revela colaboración, participantes, evidencia o estadísticas. La redirección utiliza un destino HTTPS previamente aprobado, rechaza parámetros que pretendan modificarlo y deja de estar disponible si el destino se retira, el mecanismo se desactiva o la colaboración se cancela. Las visitas normales se deduplican por mecanismo y sesión opaca del navegador; los clientes HTTP pueden utilizar una clave de idempotencia. HEAD y solicitudes identificadas como precarga no incrementan contadores. Estos mecanismos no permiten afirmar que cada clic corresponda a una persona única.
+
+Las declaraciones empresariales admiten `INQUIRY` o `CODE_REDEMPTION`; no permiten declarar `CLICK`, aunque ese valor aparezca en el enum general del esquema. `eventId` identifica el hecho comercial y evita duplicarlo incluso con otro `requestId`. `evidenceId` debe pertenecer al mismo reporte y un uso de código no ejecuta un descuento o cobro. La evidencia rechazada queda fuera de los totales y conserva su auditoría.
+
+Los resultados incluyen `availability`, `period`, `totals`, `demonstrationTotals`, `mechanisms`, `sources` y `warning`. El intervalo utiliza inicio inclusivo y fin exclusivo, y los totales son independientes de la página consultada. `isEstimate` permanece en verdadero; `verifiedSalesAvailable` y `uniquePeopleMeasured` permanecen en falso. Las solicitudes de enlaces, las declaraciones empresariales y los contadores sociales no se suman para producir ventas, ingresos o ROI. Los datos demostrativos se separan de los resultados ordinarios.
+
+![Servicios de Performance y Attribution en Swagger](./assets/C04/Sprint2/services/swagger-performance.png)
+
+**Respuestas, errores e integración entre contextos**
+
+Las creaciones de recursos como entregas, incidencias, mecanismos y suscripciones devuelven HTTP 201 cuando corresponde; la autorización financiera inicial utiliza 202 y las redirecciones públicas de atribución utilizan 302. El significado de negocio se obtiene del cuerpo y su estado: una creación aceptada o un intento procesado no garantizan un pago, una vinculación o un resultado externo exitosos.
+
+Los errores de aplicación utilizan el recurso `ApiError`, formado por `code`, `message` y `fieldErrors`. Este último permite asociar mensajes a campos concretos. Los códigos dependen del contexto y distinguen validación, permisos, versiones, estados y condiciones del proveedor.
+
+| HTTP | Situaciones relevantes del Sprint 2 |
+| --- | --- |
+| 400 | Cuerpo o UUID inválido, paginación fuera de rango, requisito omitido, periodo incoherente o decisión no admitida. |
+| 401 / 403 | Sesión ausente o inválida; rol incorrecto o acceso a recursos ajenos. Los proveedores y webhooks tienen además su validación específica. |
+| 404 | Perfil, campaña, acuerdo, entrega, incidencia, evidencia o recurso financiero no encontrado en el alcance permitido. |
+| 409 | Versión antigua, condiciones cambiadas, duplicado incompatible, colaboración cerrada, requisito financiero incumplido o estado que impide la operación. |
+| 410 | Enlace de atribución desactivado, destino retirado o colaboración cancelada. |
+| 413 / 415 | Archivo demasiado grande o formato incompatible. |
+| 503 | Integración financiera no configurada o proveedor temporalmente no disponible, según la operación. |
+
+Entre los conflictos relevantes se encuentran `CONCURRENT_UPDATE`, `IDEMPOTENCY_CONFLICT`, `TERMS_CHANGED`, `TERMS_EXPIRED`, `STALE_SUBMISSION`, `CORRECTION_WINDOW_CLOSED`, `RESOLUTION_STALE`, `METHOD_REQUIRED` y `PAYMENT_ALREADY_IN_PROGRESS`. El cliente debe volver a consultar y resolver la causa; no cambiar versiones o generar otra intención de pago automáticamente para evitar el conflicto.
+
+La integración DDD utiliza contratos publicados y adaptadores de infraestructura. Campaign proporciona la selección que origina el acuerdo; Identity proporciona perfiles y acceso social autorizado; Collaboration publica condiciones, cumplimiento e incidencias; Billing determina disponibilidad financiera y Performance conserva resultados con su procedencia. Los servicios no necesitan acceder directamente a las tablas o repositorios internos de los otros contextos.
+
+Los hechos de colaboración y entrega se conservan en un outbox junto con las transiciones de negocio. Los consumidores mantienen recibos para deduplicar efectos locales y reintentar fallos. Billing emplea un inbox para los eventos firmados del proveedor y trabajos durables de reconciliación. Estos registros permiten recuperar operaciones tras interrupciones, pero una transacción de base de datos no garantiza por sí sola un único efecto externo: se utilizan claves estables y comprobación del resultado del proveedor.
+
+##### 4.2.2.8. Software Deployment Evidence for Sprint Review
+
+##### 4.2.2.9. Team Collaboration Insights during Sprint
 
 ### 4.3. Validation Interviews
 
