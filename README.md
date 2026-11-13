@@ -6411,13 +6411,416 @@ _Figura. Configuración de red de Azure que permite el acceso al servicio en el 
 
 ##### 4.2.1.9. Team Collaboration Insights during Sprint
 
+
 ### 4.3. Validation Interviews
+
+Se presentan las entrevistas de validación realizadas para evaluar la experiencia propuesta en CollabPro. A diferencia de las entrevistas iniciales de descubrimiento, estas sesiones tienen como finalidad validar si la solución desarrollada responde adecuadamente a las necesidades de los segmentos objetivo, conformados por pequeñas y medianas empresas (Pymes) y creadores de contenido.
+
+El proceso de validación considera la presentación del Landing Page y la aplicación móvil de CollabPro. Durante las sesiones se evaluó si los participantes comprendían la propuesta de valor, identificaban las funcionalidades principales y consideraban que la solución podía facilitar la gestión de campañas y colaboraciones entre empresas y creadores de contenido.
 
 #### 4.3.1. Diseño de Entrevistas
 
+El diseño de las entrevistas de validación establece una estructura para evaluar la experiencia de los usuarios al interactuar con CollabPro. Las sesiones se orientaron a presentar las funcionalidades desarrolladas, identificar posibles dificultades de navegación y recopilar opiniones sobre la utilidad, claridad y facilidad de uso de la plataforma.
+
+Para esta etapa se consideraron dos segmentos objetivo. El primero corresponde a pequeñas y medianas empresas interesadas en promocionar sus productos o servicios mediante colaboraciones con creadores de contenido. El segundo está conformado por creadores de contenido que buscan oportunidades de colaboración con marcas, gestionar entregables y realizar seguimiento a sus compensaciones.
+
+**Objetivo de la validación**
+
+El objetivo principal de las entrevistas de validación es comprobar si los usuarios comprenden el funcionamiento de CollabPro y consideran que sus funcionalidades permiten gestionar colaboraciones de manera organizada y eficiente.
+
+Durante las sesiones se busca validar:
+
+- Si el Landing Page comunica claramente la propuesta de valor de CollabPro.
+- Si los usuarios comprenden los beneficios de la plataforma para cada segmento.
+- Si las empresas pueden identificar las funcionalidades para crear campañas, establecer requisitos y gestionar colaboraciones.
+- Si los creadores de contenido pueden encontrar campañas, comprender sus condiciones y conocer el proceso de postulación.
+- Si los participantes consideran clara la organización de las pantallas y los procesos presentados.
+- Si la plataforma ofrece información suficiente sobre entregables, fechas y compensaciones.
+- Si los usuarios utilizarían CollabPro como alternativa a los métodos tradicionales de gestión de colaboraciones.
+
+**Segmentos objetivo considerados**
+
+| Segmento objetivo | Descripción | Propósito de validación |
+|---|---|---|
+| Pequeñas y Medianas Empresas (Pymes) | Negocios interesados en promocionar productos o servicios mediante campañas con creadores de contenido. | Validar la comprensión del proceso de creación de campañas, selección de colaboradores y seguimiento de entregables. |
+| Creadores de Contenido | Personas que producen contenido digital y buscan oportunidades de colaboración comercial con empresas. | Validar la facilidad para explorar campañas, revisar requisitos, postular y realizar seguimiento de colaboraciones y compensaciones. |
+
+**Artefactos a validar**
+
+| Artefacto | Descripción | Elementos evaluados |
+|---|---|---|
+| Landing Page | Página pública de presentación de CollabPro. | Propuesta de valor, beneficios, diseño visual, planes disponibles y botones de descarga. |
+| Mobile Application | Aplicación móvil de CollabPro para empresas y creadores de contenido. | Registro, inicio de sesión, dashboard, campañas, postulaciones, colaboraciones, entregables y compensaciones. |
+| User Flows | Procesos principales de interacción correspondientes a cada segmento. | Secuencia de navegación, claridad de las acciones y comprensión de las funcionalidades. |
+
+**Metodología de la sesión**
+
+Cada entrevista se desarrolló mediante una demostración guiada del ecosistema de CollabPro. Inicialmente, se presentó el Landing Page y sus principales secciones. Posteriormente, se mostró la aplicación móvil desde la perspectiva correspondiente al segmento del entrevistado.
+
+La sesión siguió la siguiente estructura:
+
+1. Presentación del entrevistado y su actividad.
+2. Explicación general de CollabPro.
+3. Exploración del Landing Page.
+4. Recopilación de opiniones sobre el diseño y la información presentada.
+5. Presentación de la aplicación móvil según el segmento objetivo.
+6. Revisión de los flujos principales de campañas y colaboraciones.
+7. Aplicación de preguntas sobre facilidad de uso, utilidad y dificultades.
+8. Registro de sugerencias y oportunidades de mejora.
+
+**User Flows considerados para la validación**
+
+Los flujos seleccionados corresponden a las operaciones principales de CollabPro para sus dos segmentos objetivo. Estos permiten evaluar la comprensión de las funcionalidades relacionadas con la creación, búsqueda y gestión de campañas, así como el seguimiento de colaboraciones.
+
+**User Flows seleccionados para el segmento Pymes**
+
+Los procesos considerados para este segmento cubren las actividades principales de una empresa dentro de CollabPro, desde el registro hasta la gestión de campañas y colaboradores.
+
+Se consideraron los siguientes procesos:
+
+- Registro e inicio de sesión de una empresa.
+- Visualización del dashboard empresarial.
+- Consulta de campañas activas y sus detalles.
+- Creación de campañas con objetivos, categorías y público objetivo.
+- Definición de requisitos y beneficios de las colaboraciones.
+- Comprensión del proceso de postulación y selección de creadores.
+- Seguimiento de campañas, entregables y compensaciones.
+
+Estos procesos permiten validar si el representante de una empresa comprende cómo utilizar CollabPro para organizar sus campañas y establecer colaboraciones con creadores de contenido.
+
+**User Flows seleccionados para el segmento Creadores de Contenido**
+
+Los procesos considerados para este segmento cubren las actividades principales de un creador de contenido, desde la búsqueda de oportunidades hasta la entrega del contenido solicitado por una empresa.
+
+Se consideraron los siguientes procesos:
+
+- Registro e inicio de sesión de un creador.
+- Visualización del dashboard personal.
+- Exploración de campañas disponibles.
+- Consulta de condiciones y requisitos.
+- Comprensión del proceso de postulación.
+- Revisión del estado de las colaboraciones.
+- Entrega de contenido y evidencias.
+- Consulta de fechas, compensaciones y métodos de pago.
+
+Estos procesos permiten validar si los creadores pueden identificar oportunidades y comprender el procedimiento para participar y gestionar colaboraciones dentro de CollabPro.
+
+**Justificación de selección de User Flows**
+
+Los procesos seleccionados representan las funcionalidades principales de CollabPro y permiten evaluar la comprensión de las tareas más importantes de ambos segmentos.
+
+En el caso de las Pymes, los procesos cubren la creación de campañas, definición de condiciones y administración de colaboraciones. En el caso de los creadores de contenido, abarcan la búsqueda de oportunidades, revisión de requisitos, postulación y seguimiento de entregables y compensaciones.
+
+De esta manera, la validación se enfoca en comprobar si la solución propuesta responde a las necesidades identificadas durante las entrevistas iniciales.
+
+**Guion general de preguntas**
+
+Estas preguntas se utilizaron como guía para obtener información sobre la experiencia de los participantes con el Landing Page y la aplicación móvil de CollabPro.
+
+**Preguntas iniciales**
+
+- ¿A qué te dedicas actualmente?
+- ¿Qué tipo de negocio administras o qué contenido produces?
+- ¿Qué información consideras importante al conocer una plataforma de colaboración entre empresas y creadores?
+
+**Preguntas sobre el Landing Page**
+
+- ¿Qué te pareció el Landing Page que presenta nuestra plataforma?
+- ¿La información presentada te permite comprender el funcionamiento de CollabPro?
+- ¿Qué aspectos del diseño visual consideras que podrían mejorarse?
+
+**Preguntas específicas para el segmento Pymes**
+
+| Momento | Pregunta |
+|---|---|
+| Durante la interacción | ¿Qué tan sencillo o complicado te resultó navegar por la aplicación y comprender las tareas presentadas? |
+| Durante la interacción | ¿Qué funcionalidad considerarías más útil para gestionar colaboraciones con creadores de contenido? |
+| Después de la interacción | ¿Encontraste alguna dificultad, información confusa o proceso innecesario? |
+| Después de la interacción | ¿Qué mejorarías o agregarías para adaptar CollabPro a las necesidades de tu negocio? |
+
+**Preguntas específicas para el segmento Creadores de Contenido**
+
+| Momento | Pregunta |
+|---|---|
+| Durante la interacción | ¿Qué tan sencillo o complicado te resultó encontrar campañas y comprender cómo participar en ellas? |
+| Durante la interacción | ¿Qué funcionalidad te pareció más útil para encontrar oportunidades y colaborar con empresas? |
+| Después de la interacción | ¿Encontraste alguna dificultad o información que no fuera suficientemente clara durante el uso de la aplicación? |
+| Después de la interacción | ¿Qué mejorarías o agregarías para facilitar tu trabajo como creador de contenido? |
+| Cierre | ¿En qué situaciones utilizarías CollabPro en lugar de gestionar colaboraciones directamente por redes sociales? |
+
+**Métricas de observación**
+
+Durante las entrevistas se recopilaron observaciones cualitativas relacionadas con la experiencia de los participantes.
+
+| Métrica | Descripción |
+|---|---|
+| Claridad de la propuesta de valor | Evalúa si el participante comprende los beneficios principales de CollabPro. |
+| Facilidad de navegación | Identifica dificultades para encontrar secciones y comprender los procesos. |
+| Claridad de la información | Evalúa si los requisitos, fechas, entregables y compensaciones son comprensibles. |
+| Utilidad percibida | Recoge la percepción del participante sobre las funcionalidades de la plataforma. |
+| Diseño visual | Evalúa la organización, presentación y atractivo visual de la interfaz. |
+| Comentarios espontáneos | Registra observaciones y sugerencias expresadas durante la entrevista. |
+| Intención de uso | Identifica situaciones en las que el participante consideraría utilizar CollabPro. |
+
 #### 4.3.2. Registro de Entrevistas
 
+Cada entrevista incluye los datos disponibles del participante, el segmento objetivo correspondiente, la duración aproximada de la sesión y un resumen descriptivo de sus principales apreciaciones respecto al Landing Page y la aplicación móvil de CollabPro.
+
+**Primer segmento: Pequeñas y Medianas Empresas (Pymes)**
+
+Para el segmento Pymes, la entrevista se enfocó en validar la experiencia de un representante de negocio al conocer las funcionalidades de CollabPro para gestionar campañas publicitarias y colaboraciones con creadores de contenido.
+
+**User Flows evaluados:**
+
+- Registro e inicio de sesión empresarial.
+- Consulta y administración de campañas.
+- Creación de campañas y definición de requisitos.
+- Gestión de colaboraciones con creadores de contenido.
+
+**Tareas y funcionalidades presentadas al entrevistado:**
+
+- Explorar el Landing Page de CollabPro.
+- Identificar la propuesta de valor del servicio.
+- Conocer los planes disponibles para empresas.
+- Revisar el proceso de registro e inicio de sesión.
+- Explorar el dashboard empresarial.
+- Consultar campañas y sus respectivos detalles.
+- Revisar el proceso de creación de campañas.
+- Comprender el procedimiento de postulación y selección de creadores.
+- Comentar dificultades y sugerencias de mejora.
+
+**Entrevista de validación 1 - Pymes**
+
+**Datos del entrevistado**
+
+| Campo | Detalle |
+| --- | --- |
+| **Nombre y Apellidos** | Frank Loayza |
+| **Edad** | 24 |
+| **Distrito / Zona de residencia** | Santiago de Surco |
+| **Segmento** | Pequeñas y Medianas Empresas (Pymes) |
+| **Inicio en video** | 0:00 |
+| **Fin de video** | 14:36 |
+| **Duración** | 14:36 |
+| **URL del video** | Pendiente |
+| **Screenshot** | ![Entrevista Frank](./assets/C02/Entrevistas/frankValidacion.png) |
+
+**Resumen descriptivo:**
+
+Durante la entrevista de validación, Frank, emprendedor del sector gastronómico que administra un restaurante bajo la modalidad de cocina oculta, evaluó el Landing Page y la aplicación móvil de CollabPro desde la perspectiva de una pequeña empresa interesada en promocionar sus productos mediante colaboraciones con creadores de contenido.
+
+En la primera etapa, el entrevistado exploró el Landing Page, donde se presentaron la propuesta de valor, los beneficios para empresas y creadores, el proceso general de colaboración, los planes disponibles y el formulario de contacto. Frank destacó que el diseño resultaba limpio, minimalista y profesional. Sin embargo, consideró que la presentación era demasiado clásica y estática, por lo que recomendó incorporar mayor dinamismo visual, animaciones, colores más vivos e incluso elementos interactivos que acompañen al usuario durante su navegación.
+
+Posteriormente, se presentó la aplicación móvil desde el segmento empresarial. Durante esta demostración, el participante conoció el proceso de creación de cuentas, el inicio de sesión y el dashboard de empresa, donde se muestran datos generales y campañas activas. También se revisaron ejemplos de campañas existentes y el procedimiento para crear nuevas campañas mediante la definición de objetivos, descripciones, categorías, público objetivo, ubicación y requisitos de colaboración.
+
+Respecto a la experiencia de uso, Frank señaló que la aplicación móvil presentaba una estructura más organizada y visualmente completa que la versión web mostrada inicialmente. Valoró especialmente la secuencia de las funcionalidades, considerando que el proceso para gestionar campañas y colaboraciones resultaba lógico y fácil de comprender. Como sugerencia adicional, manifestó interés en contar con opciones de personalización visual relacionadas con la identidad de su negocio.
+
+Durante la explicación del modelo de colaboración, el entrevistado consultó sobre la posibilidad de trabajar con creadores de contenido internacionales. Su principal inquietud estuvo relacionada con las posibles barreras de idioma y las dificultades de negociación entre empresas y creadores de distintos países. Consideró que facilitar las conexiones internacionales representaría un beneficio importante para la plataforma.
+
+Finalmente, identificó como una posible barrera de adopción la necesidad de descargar una aplicación móvil para acceder al servicio. Desde su perspectiva, contar con una versión accesible directamente desde el navegador permitiría utilizar CollabPro de manera más rápida. En general, mostró una percepción favorable de la organización funcional de la aplicación, aunque recomendó mejorar el atractivo visual del Landing Page y ampliar las posibilidades de acceso y colaboración.
+
+**Principales hallazgos:**
+
+- El Landing Page transmite una imagen profesional, pero requiere mayor dinamismo visual para captar la atención.
+- La aplicación móvil presenta una estructura organizada y una secuencia de navegación comprensible.
+- La creación y administración de campañas se percibe como un proceso lógico.
+- Existe interés en establecer colaboraciones con creadores internacionales.
+- La disponibilidad exclusiva mediante aplicación móvil puede representar una barrera de acceso.
+- La personalización visual podría mejorar la adaptación de la plataforma a la identidad de cada negocio.
+
+**Segundo segmento: Creadores de Contenido**
+
+Para el segmento de creadores de contenido, la entrevista se enfocó en validar la experiencia de búsqueda de campañas, comprensión de requisitos, gestión de colaboraciones y seguimiento de entregables y compensaciones.
+
+**User Flows evaluados:**
+
+- Registro e inicio de sesión del creador.
+- Exploración y búsqueda de campañas disponibles.
+- Consulta de requisitos y condiciones de participación.
+- Gestión de colaboraciones y entregables.
+- Seguimiento de compensaciones.
+
+**Tareas y funcionalidades presentadas al entrevistado:**
+
+- Explorar el Landing Page de CollabPro.
+- Identificar los beneficios para creadores de contenido.
+- Revisar el registro e inicio de sesión.
+- Explorar el dashboard del creador.
+- Buscar campañas disponibles.
+- Revisar condiciones y requisitos de participación.
+- Conocer el proceso de postulación.
+- Consultar colaboraciones y estados de entrega.
+- Revisar información relacionada con pagos y compensaciones.
+- Identificar dificultades y oportunidades de mejora.
+
+**Entrevista de validación 1 - Creadores de Contenido**
+
+**Datos del entrevistado**
+
+| Campo | Detalle |
+| --- | --- |
+| **Nombre y Apellidos** | Britner De la Cruz |
+| **Edad** | 22 |
+| **Distrito / Zona de residencia** | Santiago de Surco |
+| **Segmento** | Creadores de Contenido |
+| **Inicio en video** | 0:00 |
+| **Fin de video** | 13:20 (aproximado) |
+| **Duración** | 13:20 (aproximada) |
+| **URL del video** | Pendiente |
+| **Screenshot** | ![Entrevista Britner](./assets/C02/Entrevistas/britnerValidacion.png) |
+
+**Resumen descriptivo:**
+
+Durante la entrevista de validación, Britner, estudiante y creador de contenido enfocado en videojuegos y periféricos tecnológicos, evaluó el Landing Page y la aplicación móvil de CollabPro desde la perspectiva de un usuario interesado en encontrar oportunidades de colaboración con empresas.
+
+Inicialmente, se presentó el Landing Page, incluyendo su sección principal, los beneficios para empresas y creadores, el funcionamiento general de las colaboraciones, los planes comerciales y el formulario de contacto. El entrevistado manifestó una percepción positiva de su presentación visual, destacando que la información era clara, que el diseño resultaba limpio y que los botones principales, especialmente el de descarga, eran fáciles de identificar. También valoró que los planes y beneficios estuvieran visibles y que la información no se encontrara innecesariamente oculta.
+
+Posteriormente, se presentó la aplicación móvil desde el segmento de creadores de contenido. Durante la demostración, Britner conoció el proceso de registro e inicio de sesión, el dashboard personal, la exploración de campañas y la sección de colaboraciones. También se explicaron las funcionalidades relacionadas con la presentación de entregables, el seguimiento del estado de las colaboraciones y la vinculación de métodos de pago como PayPal.
+
+Respecto a la navegación, el participante señaló que el proceso para explorar campañas y comprender cómo postular resultaba sencillo. Asimismo, destacó como una de las funcionalidades más útiles la posibilidad de revisar campañas disponibles y postular directamente desde la misma plataforma, evitando la necesidad de contactar individualmente con diferentes empresas.
+
+Sin embargo, durante la evaluación identificó algunas dificultades relacionadas con la visibilidad de la información de las campañas. Particularmente, manifestó que los detalles sobre fechas de entrega, requisitos del contenido y compensaciones no resultaban suficientemente evidentes durante la exploración inicial. También mencionó que sería útil contar con filtros por tipo de contenido para encontrar campañas relacionadas con sus intereses, especialmente aquellas vinculadas con tecnología. Posteriormente, el entrevistador le mostró que la plataforma ya contemplaba filtros de búsqueda y una sección detallada con condiciones, requisitos, fechas y entregables, lo que permitió aclarar sus dudas.
+
+En la parte final, Britner explicó que consideraría utilizar CollabPro principalmente cuando necesitara encontrar nuevas marcas o administrar varias colaboraciones simultáneamente. Desde su perspectiva, centralizar las oportunidades, entregables y estados de colaboración en un mismo lugar permitiría mantener una mejor organización que mediante la gestión directa por redes sociales.
+
+En general, el entrevistado mostró una percepción favorable de la plataforma, destacando la facilidad para encontrar campañas y la utilidad de administrar colaboraciones desde una sola aplicación. No obstante, sus comentarios permitieron identificar la necesidad de mejorar la visibilidad de los filtros y presentar de forma más clara los requisitos, fechas y compensaciones desde las primeras etapas de exploración.
+
+**Principales hallazgos:**
+
+- El Landing Page presenta información clara y botones de acción fácilmente identificables.
+- La exploración de campañas y el proceso de postulación se consideran sencillos.
+- Centralizar las oportunidades y colaboraciones representa un beneficio relevante para los creadores.
+- Las fechas, requisitos y compensaciones necesitan mayor visibilidad durante la exploración inicial.
+- Los filtros por categoría o tipo de contenido deben ser más fáciles de identificar.
+- La plataforma resulta especialmente útil para creadores que gestionan múltiples colaboraciones.
+
 #### 4.3.3. Evaluaciones según heurísticas
+
+**UX Heuristics & Principles Evaluation**
+
+**Usability - Inclusive Design - Information Architecture**
+
+La evaluación se enfoca en la experiencia de uso del Landing Page y la aplicación móvil de CollabPro, considerando las observaciones obtenidas durante las entrevistas de validación de los segmentos Pymes y Creadores de Contenido.
+
+Las observaciones permiten identificar oportunidades de mejora relacionadas con la presentación visual, accesibilidad de funcionalidades, visibilidad de información y flexibilidad de acceso.
+
+**Tareas a evaluar**
+
+El alcance de esta evaluación incluye la revisión de las siguientes actividades presentadas durante las entrevistas:
+
+- Comprender la propuesta de valor desde el Landing Page.
+- Identificar los beneficios de CollabPro según el segmento objetivo.
+- Reconocer las opciones de registro e inicio de sesión.
+- Consultar el dashboard correspondiente al usuario.
+- Explorar campañas y sus condiciones.
+- Comprender el proceso de creación de campañas.
+- Identificar los procedimientos de postulación y colaboración.
+- Revisar fechas, requisitos, entregables y compensaciones.
+- Identificar las opciones de búsqueda y filtrado de campañas.
+
+No están incluidas en esta evaluación las siguientes tareas:
+
+- Procesamiento real de pagos y transferencias bancarias.
+- Validación de compensaciones mediante transacciones reales.
+- Evaluación de campañas con participantes internacionales.
+- Pruebas de rendimiento con múltiples usuarios simultáneos.
+- Evaluación de una versión web completa de la aplicación móvil.
+- Validación de todas las funcionalidades mediante tareas autónomas sin asistencia del entrevistador.
+
+**Escala de severidad**
+
+Los problemas identificados se clasifican mediante la siguiente escala:
+
+| Nivel | Descripción |
+|---|---|
+| 1 | Problema superficial que no impide completar las tareas, pero representa una oportunidad de mejora. |
+| 2 | Problema menor que puede generar dificultades o demoras durante la navegación. |
+| 3 | Problema mayor que dificulta significativamente la realización de una tarea. |
+| 4 | Problema crítico que impide continuar con el uso de la plataforma. |
+
+**Tabla resumen**
+
+| # | Problema identificado | Escala de severidad | Heurística / Principio relacionado |
+|---|---|---|---|
+| 1 | El Landing Page presenta una experiencia visual demasiado estática para algunos usuarios. | 1 | Usability: Diseño estético y minimalista |
+| 2 | La información sobre fechas, requisitos y compensaciones no resulta suficientemente visible durante la exploración inicial de campañas. | 2 | Usability: Reconocimiento antes que recuerdo / Information Architecture: Is it findable? |
+| 3 | Los filtros de búsqueda por categoría o tipo de contenido no son fácilmente identificables. | 2 | Usability: Reconocimiento antes que recuerdo / Information Architecture: Labeling System |
+| 4 | La necesidad de utilizar una aplicación móvil puede limitar la flexibilidad de acceso para determinados usuarios. | 2 | Usability: Flexibilidad y eficiencia de uso |
+
+**Descripción de problemas**
+
+**Problema #1: Presentación visual estática del Landing Page**
+
+**Severidad:** 1
+
+**Heurística relacionada:** Usability - Diseño estético y minimalista.
+
+**Problema:**
+
+Durante la entrevista del segmento Pymes, el participante destacó la limpieza y el profesionalismo del Landing Page, pero manifestó que su presentación visual era demasiado clásica y carecía de dinamismo para captar su atención.
+
+Aunque esta observación no representa una dificultad funcional, evidencia una oportunidad para mejorar la experiencia visual y generar mayor interés durante la primera interacción con el producto.
+
+**Recomendación:**
+
+Incorporar animaciones moderadas, transiciones y elementos visuales interactivos que acompañen la exploración del Landing Page, manteniendo la claridad de la información y la identidad profesional de CollabPro.
+
+**Problema #2: Visibilidad insuficiente de condiciones y compensaciones**
+
+**Severidad:** 2
+
+**Heurística relacionada:** Usability - Reconocimiento antes que recuerdo / Information Architecture - Is it findable?
+
+**Problema:**
+
+Durante la entrevista del segmento de creadores de contenido, Britner manifestó dificultades para identificar inicialmente las fechas de entrega, requisitos y condiciones de compensación de las campañas.
+
+Posteriormente, el entrevistador mostró una sección de detalles donde se encontraba esta información, lo que permitió aclarar las dudas. Por lo tanto, el problema observado no corresponde a la ausencia de las funcionalidades, sino a su visibilidad durante la exploración inicial.
+
+**Recomendación:**
+
+Destacar en las tarjetas de campañas la compensación, las fechas relevantes y los principales requisitos, permitiendo que los creadores identifiquen rápidamente las condiciones antes de acceder a la información completa.
+
+**Problema #3: Baja visibilidad de los filtros de búsqueda**
+
+**Severidad:** 2
+
+**Heurística relacionada:** Usability - Reconocimiento antes que recuerdo / Information Architecture - Labeling System.
+
+**Problema:**
+
+Durante la entrevista del segmento de creadores de contenido, el participante sugirió incorporar filtros por tipo de contenido para encontrar campañas relacionadas con sus intereses. Sin embargo, el entrevistador aclaró que la aplicación ya contaba con dicha funcionalidad.
+
+Esta observación evidencia que la ubicación o presentación de los filtros no resultó suficientemente evidente durante la exploración inicial.
+
+**Recomendación:**
+
+Mejorar la visibilidad de las opciones de filtrado mediante etiquetas claras y accesos destacados dentro de la sección de exploración de campañas. Se recomienda mantener categorías reconocibles para los usuarios, como tecnología, gastronomía, entretenimiento y otras áreas de contenido.
+
+**Problema #4: Flexibilidad limitada de acceso mediante aplicación móvil**
+
+**Severidad:** 2
+
+**Heurística relacionada:** Usability - Flexibilidad y eficiencia de uso.
+
+**Problema:**
+
+Durante la entrevista del segmento Pymes, el participante señaló que la necesidad de descargar la aplicación móvil podía representar un paso adicional innecesario para determinados usuarios. Manifestó su preferencia por contar con una alternativa accesible directamente desde el navegador.
+
+Si bien la solución actual está orientada al uso móvil, esta observación evidencia una oportunidad para ampliar los medios de acceso y facilitar la adopción por parte de empresas.
+
+**Recomendación:**
+
+Evaluar el desarrollo futuro de una versión web responsive que permita ejecutar las principales funcionalidades empresariales desde un navegador, manteniendo la aplicación móvil como canal principal.
+
+**Conclusiones de la evaluación**
+
+Las entrevistas de validación permitieron identificar una percepción favorable sobre la organización funcional de CollabPro en ambos segmentos objetivo. En el caso de las Pymes, se destacó la estructura secuencial de la aplicación y la utilidad del proceso de gestión de campañas. En el segmento de creadores de contenido, se valoró especialmente la facilidad para explorar oportunidades y la posibilidad de centralizar colaboraciones.
+
+Asimismo, se identificaron oportunidades de mejora en el dinamismo visual del Landing Page, la visibilidad de información relevante de las campañas, la facilidad para encontrar los filtros y la flexibilidad de acceso a la plataforma.
+
+Estos resultados constituyen una primera validación cualitativa de la solución y permitirán orientar mejoras en futuras iteraciones. No obstante, debido a que las sesiones se realizaron principalmente mediante demostraciones guiadas, será necesario complementar los hallazgos con pruebas de ejecución autónoma de tareas para evaluar de forma más precisa la usabilidad y el éxito de los flujos principales.
+
 
 ## Conclusiones
 
