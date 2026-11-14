@@ -1,5 +1,3 @@
-
-
 <div class="report-cover" align="center" style="width: 100%; text-align: center !important;">
 <p align="center" style="text-align: center !important; width: 100%; margin: 0 0 16px 0;"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="100" alt="Logo UPC" style="display: block; margin: 0 auto;"></p>
 <p align="center" style="text-align: center !important; width: 100%; margin: 0 0 16px 0;">Universidad Peruana de Ciencias Aplicadas<br>Carrera de Ingeniería de Software</p>
@@ -36,7 +34,7 @@
     <td style="border: none; text-align: left; padding: 5px 15px;">Vallejo Trujillo, Fabio Cesar</td>
   </tr>
 </table>
-<p align="center" style="text-align: center !important; width: 100%; margin: 0 0 16px 0;"><br><strong>Período 202620</strong><br><strong>Octubre 2026</strong></p>
+<p align="center" style="text-align: center !important; width: 100%; margin: 0 0 16px 0;"><br><strong>Período 202620</strong><br><strong>Noviembre 2026</strong></p>
 </div>
 
 <div style="page-break-after: always;"></div>
@@ -45,16 +43,16 @@
 
 El objetivo de esta sección es resumir las modificaciones relevantes que se realizan al informe durante el ciclo de vida del proyecto.
 
-| Versión | Fecha      | Autor               | Descripción de modificación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|---------|------------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| V1.0    | 10/09/2026 | Equipo CollabTech   | Creación de la primera versión del informe para la entrega AV1. Se incluyen las secciones preliminares, el Capítulo I (Startup Profile, Solution Profile, Segmentos) y el Capítulo II (Requirements y Strategic DDD).                                                                                                                                                                                                                                                                                                                    |
-| V1.1    | 28/09/2026 | Equipo CollabTech   | Se incorpora la sección 4.1 de Software Configuration Management para CollabPro: entorno, gestión del código fuente, convenciones y configuración propuesta de despliegue.                                                                                                                                                                                                                                                                                                                                                               |
-| V1.2    | 09/10/2026 | Equipo CollabTech   | Se documenta la evidencia de servicios REST y despliegue del backend en Azure; se completa Student Outcome para TB1, se actualizan conclusiones y recomendaciones del sprint y se agregan enlaces de artefactos y entrevistas en Anexos.                                                                                                                                                                                                                                                                                                 |
-| V1.3    | 12/11/2026 | Equipo CollabTech  | Se incorpora la documentación del Sprint 2, se actualiza la documentación de las funcionalidades principales de CollabPro y se completan las evidencias de despliegue del Landing Page y Backend. También, se incorporan las primeras versiones de los videos About-the-Product, About-the-Team y App Validation, los resultados de las entrevistas de validación, y el avance de conclusiones, recomendaciones, bibliografía y anexos. Por último, se actualizan las secciones Project Report Collaboration Insights y Student Outcome. |
+| Versión | Fecha      | Autor             | Descripción de modificación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ------- | ---------- | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| V1.0    | 10/09/2026 | Equipo CollabTech | Creación de la primera versión del informe para la entrega AV1. Se incluyen las secciones preliminares, el Capítulo I (Startup Profile, Solution Profile, Segmentos) y el Capítulo II (Requirements y Strategic DDD).                                                                                                                                                                                                                                                                                                                    |
+| V1.1    | 28/09/2026 | Equipo CollabTech | Se incorpora la sección 4.1 de Software Configuration Management para CollabPro: entorno, gestión del código fuente, convenciones y configuración propuesta de despliegue.                                                                                                                                                                                                                                                                                                                                                               |
+| V1.2    | 09/10/2026 | Equipo CollabTech | Se documenta la evidencia de servicios REST y despliegue del backend en Azure; se completa Student Outcome para TB1, se actualizan conclusiones y recomendaciones del sprint y se agregan enlaces de artefactos y entrevistas en Anexos.                                                                                                                                                                                                                                                                                                 |
+| V1.3    | 12/11/2026 | Equipo CollabTech | Se incorpora la documentación del Sprint 2, se actualiza la documentación de las funcionalidades principales de CollabPro y se completan las evidencias de despliegue del Landing Page y Backend. También, se incorporan las primeras versiones de los videos About-the-Product, About-the-Team y App Validation, los resultados de las entrevistas de validación, y el avance de conclusiones, recomendaciones, bibliografía y anexos. Por último, se actualizan las secciones Project Report Collaboration Insights y Student Outcome. |
+
 <div style="page-break-after: always;"></div>
 
 ## Project Report Collaboration Insights
-
 
 El repositorio para el Project Report se encuentra alojado en la organización de GitHub del equipo: `https://github.com/AppMoviles2026/report`.
 
@@ -104,7 +102,7 @@ Durante la elaboración de al entrega AV2, el equipo CollabTech termino el Sprin
     - [2.2. Entrevistas](#22-entrevistas)
       - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
       - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-          - [**Segmento 1: Pequeñas y Medianas Empresas (Pymes)**](#segmento-1-pequeñas-y-medianas-empresas-pymes)
+        - [**Segmento 1: Pequeñas y Medianas Empresas (Pymes)**](#segmento-1-pequeñas-y-medianas-empresas-pymes)
         - [Resumen Descriptivo de la Entrevista](#resumen-descriptivo-de-la-entrevista)
           - [Características Objetivas y Entorno](#características-objetivas-y-entorno)
           - [Herramientas y Proceso Actual](#herramientas-y-proceso-actual)
@@ -394,11 +392,10 @@ Durante la elaboración de al entrega AV2, el equipo CollabTech termino el Sprin
 
 **ABET EAC - Student Outcome 7:** La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
 
-
-| Criterio específico                                                                                                                         | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|:--------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Quispe Serrano, Julio Frank:**<br><br>**AV1:** Actualicé mis conocimientos investigando de forma autónoma la metodología ágil Lean UX y la técnica de las 5W's y 2H's para redactar correctamente el Solution Profile, los Assumptions y el Canvas del proyecto.<br><br>**TB1:** Apliqué criterios de validación y pruebas a los flujos de registro, diseño adaptable y postulación; profundicé en casos límite y criterios de aceptación para comprobar las historias asignadas.<br><br> **AV2:** Fortalecí mis conocimientos sobre técnicas de investigación y validación de soluciones digitales gracias a la documentación de entrevistas de validación. Esto me permitió profundizar en la recopilación de observaciones de usuarios y en la identificación de oportunidades de mejora para CollabPro. <br><br> **Vallejo Trujillo, Fabio Cesar:**<br><br>**AV1:** Aprendí a utilizar la herramienta UXPressia de manera autodidacta para estructurar el Needfinding (User Personas y Journey Maps) y actualicé mis nociones sobre métricas para el análisis competitivo de plataformas de marketing.<br><br>**TB1:** Profundicé en diseño adaptable y localización al llevar los requisitos de la Landing Page y del perfil creador a interfaces y flujos móviles consistentes.<br><br> **AV2:** Desarrollé conocimientos relacionados con la comunicación audiovisual de productos tecnológicos, aplicándolos en la elaboración de la primera versión del video About-the-Product. Esto implicó organizar y comunicar la propuesta de valor de CollabPro de manera clara.<br><br> **Garcia Villanueva, Leonardo Rafael:**<br><br>**AV1:** En este avance tuve que realizar la especificación de los requisitos del proyecto, y para ello actualicé mis conocimientos técnicos sobre Behavior-Driven Development (BDD), estudiando a fondo la sintaxis del estándar Gherkin para redactar historias de usuario sin ambigüedades.<br><br>**TB1:** Amplié mis conocimientos sobre autenticación, recuperación de acceso y autorización OAuth al trabajar con los flujos de registro, recuperación de cuenta y vinculación social.<br><br> **AV2:** Fortalecí mis habilidades de comunicación y presentación de equipos de desarrollo mediante la elaboración de la primera versión del video About-the-Team, estructurando la información necesaria para presentar a los integrantes y su participación en el proyecto. <br><br>**Revilla Quispe, Renzo Zamir:**<br><br>**AV1:** Tuve que investigar y actualizar mis conocimientos teóricos sobre Domain-Driven Design (DDD) y modelado EventStorming para poder definir correctamente el lenguaje ubicuo y los Bounded Contexts a nivel estratégico.<br><br>**TB1:** Apliqué DDD a los flujos de campañas y postulaciones, profundizando en estados, condiciones, disponibilidad, filtros y reglas de negocio.<br><br> **AV2:** Profundicé mis conocimientos sobre planificación y gestión de proyectos de software mediante la elaboración de la documentación del Sprint 2. Esto me permitió aplicar los principios de desarrollo ágil en la organización de actividades, responsabilidades y evidencias del avance del proyecto.<br><br>**Rocca León, Anhelo:**<br><br>**AV1:** Para el desarrollo de la arquitectura, investigué de manera autónoma los fundamentos del modelo C4 (Context, Container, Component, Code) y cómo aplicarlo para diagramar la infraestructura técnica del sistema.<br><br>**TB1:** Amplié mis conocimientos de diseño de interacción al trabajar en formularios de identidad, consulta de perfil y autorización de redes sociales. <br><br>  **AV2:** Fortalecí mis conocimientos sobre documentación funcional de productos de software al identificar y estructurar las funcionalidades principales de la aplicación, diferenciando los procesos core del negocio de las funcionalidades de soporte. Asimismo, actualicé el registro de versiones y las secciones de colaboración del equipo y Student Outcome, aplicando criterios de organización y trazabilidad documental. | **AV1:** Durante esta entrega, todo el equipo demostró la capacidad de investigar y aplicar metodologías y estándares de la industria (como Lean UX, Gherkin, DDD y C4 Model) que no se dominaban del todo al inicio del ciclo, integrándolos exitosamente en la documentación formal de requerimientos y arquitectura del sistema.<br><br>**TB1:** El equipo convirtió ese aprendizaje en entregables verificables: flujos de usuario y pantallas, endpoints REST organizados por contexto, autenticación JWT, pruebas automatizadas y documentación OpenAPI publicada en el entorno Azure. <br><br> **AV2:**  Durante la entrega AV2, el equipo demostró su capacidad para adquirir y aplicar nuevos conocimientos en diferentes áreas del desarrollo de software. La elaboración de la documentación del Sprint 2, la presentación audiovisual del producto y del equipo, las entrevistas de validación y la documentación funcional permitieron aplicar conocimientos técnicos, metodológicos y comunicativos en situaciones concretas del proyecto. Asimismo, el despliegue y la documentación del Backend evidenciaron la aplicación de conocimientos relacionados con la implementación de soluciones de software. |
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**  | **Quispe Serrano, Julio Frank:**<br><br>**AV1:** Comprendí que estructurar un modelo de negocio B2B requiere investigar constantemente el mercado y validar las hipótesis (Hypothesis Statements) iterativamente para asegurar que el software brinde valor real.<br><br>**TB1:** Reconocí que debo seguir profundizando en pruebas de integración y escenarios negativos para validar los flujos ante datos inválidos, conflictos y cambios de estado.<br><br>**AV2:** Reconocí la importancia de continuar desarrollando habilidades de investigación y validación con usuarios, debido a que las necesidades y expectativas de los usuarios pueden diferir de las suposiciones iniciales del equipo. <br><br>**Vallejo Trujillo, Fabio Cesar:**<br><br>**AV1:** Reconocí la importancia de adaptar las herramientas de investigación a los usuarios reales; entender las frustraciones de los creadores de contenido me exigió buscar continuamente nuevos enfoques de empatía (Empathy Mapping).<br><br>**TB1:** Identifiqué la necesidad de seguir aprendiendo sobre accesibilidad, adaptación a distintos dispositivos e integración de las pantallas con los contratos reales del backend.<br><br> **AV2:** Reconocí la importancia de desarrollar continuamente habilidades de comunicación audiovisual y presentación de productos tecnológicos, ya que transmitir adecuadamente la propuesta de valor es fundamental para facilitar la comprensión de una solución por parte de diferentes audiencias. <br><br>**Garcia Villanueva, Leonardo Rafael:**<br><br>**AV1:** Identifiqué que mis conocimientos sobre Gherkin para la elaboración de las User Stories necesitaban ser reforzados, y también reconocí la necesidad de continuar investigando y aprendiendo sobre la correcta gestión del Product Backlog y la elaboración del Impact Mapping para aplicarlos correctamente durante el desarrollo de este proyecto y así mejorar tanto como mi desempeño como la calidad del proyecto.<br><br>**TB1:** Reconocí que los flujos de autenticación con OAuth dependen de políticas y proveedores externos que pueden cambiar en cualquier momento, por lo que debo mantenerme actualizado y comprobar que estos flujos y la seguridad que se busca continuen funcionando.<br><br> **AV2:** Identifiqué la importancia de fortalecer y ampliar continuamente mis habilidades de comunicación y organización dentro de mi grupo, especialmente para presentar de manera efectiva el trabajo colaborativo y las responsabilidades de un equipo de desarrollo de software. <br><br>**Revilla Quispe, Renzo Zamir:**<br><br>**AV1:** Asimilé que el diseño a nivel estratégico nunca es estático; dominar los flujos de dominio y la delimitación de contextos (Context Mapping) me exigió mantener una postura de estudio constante de la literatura técnica.<br><br>**TB1:** Identifiqué la importancia de continuar estudiando consistencia transaccional, concurrencia e idempotencia para evolucionar los servicios de campañas y postulaciones con seguridad.<br><br> **AV2:** Reconocí la importancia de mantener actualizados mis conocimientos sobre metodologías ágiles y gestión de proyectos, debido a que la planificación y seguimiento de los Sprints requieren una adaptación constante frente a los avances, dificultades y necesidades del equipo. <br><br> **Rocca León, Anhelo:**<br><br>**AV1:** Evidencié la necesidad de consultar fuentes académicas y documentación oficial constantemente para justificar decisiones de arquitectura de bases de datos y garantizar la viabilidad del despliegue tecnológico.<br><br>**TB1:** Reconocí que los flujos deben seguir validándose con usuarios y que debo profundizar en accesibilidad y estados de carga, error y ausencia de conexión.  <br><br>  **AV2:**   Comprendí la importancia de profundizar continuamente en el análisis del negocio para comunicar correctamente el alcance funcional de una solución tecnológica.                                                                                                                                                                                               | **AV1:** Como equipo, comprendemos que el ecosistema de startups y las tecnologías de desarrollo evolucionan rápidamente. Reconocemos que adoptar una postura proactiva hacia la lectura de documentación oficial y literatura especializada es fundamental para el éxito y la escalabilidad del proyecto.<br><br>**TB1:** El equipo identificó nuevas necesidades de aprendizaje en seguridad, integración móvil-backend, pruebas con datos persistentes y experiencia de uso. La evolución del producto requerirá revisar la documentación técnica y validar cada incremento con usuarios y evidencia de ejecución. <br><br> **AV2:** El desarrollo de esta etapa nos permitió reconocer que el aprendizaje permanente es indispensable para construir soluciones de software que respondan adecuadamente a las necesidades de los usuarios. La validación de la aplicación, la revisión de las funcionalidades y la elaboración de los diferentes entregables demostraron la necesidad de investigar, actualizar conocimientos y mejorar continuamente tanto las competencias técnicas como las habilidades de comunicación y colaboración del equipo.                                                                 |
+| Criterio específico                                                                                                                         | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| :------------------------------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Quispe Serrano, Julio Frank:**<br><br>**AV1:** Actualicé mis conocimientos investigando de forma autónoma la metodología ágil Lean UX y la técnica de las 5W's y 2H's para redactar correctamente el Solution Profile, los Assumptions y el Canvas del proyecto.<br><br>**TB1:** Apliqué criterios de validación y pruebas a los flujos de registro, diseño adaptable y postulación; profundicé en casos límite y criterios de aceptación para comprobar las historias asignadas.<br><br> **AV2:** Fortalecí mis conocimientos sobre técnicas de investigación y validación de soluciones digitales gracias a la documentación de entrevistas de validación. Esto me permitió profundizar en la recopilación de observaciones de usuarios y en la identificación de oportunidades de mejora para CollabPro. <br><br> **Vallejo Trujillo, Fabio Cesar:**<br><br>**AV1:** Aprendí a utilizar la herramienta UXPressia de manera autodidacta para estructurar el Needfinding (User Personas y Journey Maps) y actualicé mis nociones sobre métricas para el análisis competitivo de plataformas de marketing.<br><br>**TB1:** Profundicé en diseño adaptable y localización al llevar los requisitos de la Landing Page y del perfil creador a interfaces y flujos móviles consistentes.<br><br> **AV2:** Desarrollé conocimientos relacionados con la comunicación audiovisual de productos tecnológicos, aplicándolos en la elaboración de la primera versión del video About-the-Product. Esto implicó organizar y comunicar la propuesta de valor de CollabPro de manera clara.<br><br> **Garcia Villanueva, Leonardo Rafael:**<br><br>**AV1:** En este avance tuve que realizar la especificación de los requisitos del proyecto, y para ello actualicé mis conocimientos técnicos sobre Behavior-Driven Development (BDD), estudiando a fondo la sintaxis del estándar Gherkin para redactar historias de usuario sin ambigüedades.<br><br>**TB1:** Amplié mis conocimientos sobre autenticación, recuperación de acceso y autorización OAuth al trabajar con los flujos de registro, recuperación de cuenta y vinculación social.<br><br> **AV2:** Fortalecí mis habilidades de comunicación y presentación de equipos de desarrollo mediante la elaboración de la primera versión del video About-the-Team, estructurando la información necesaria para presentar a los integrantes y su participación en el proyecto. <br><br>**Revilla Quispe, Renzo Zamir:**<br><br>**AV1:** Tuve que investigar y actualizar mis conocimientos teóricos sobre Domain-Driven Design (DDD) y modelado EventStorming para poder definir correctamente el lenguaje ubicuo y los Bounded Contexts a nivel estratégico.<br><br>**TB1:** Apliqué DDD a los flujos de campañas y postulaciones, profundizando en estados, condiciones, disponibilidad, filtros y reglas de negocio.<br><br> **AV2:** Profundicé mis conocimientos sobre planificación y gestión de proyectos de software mediante la elaboración de la documentación del Sprint 2. Esto me permitió aplicar los principios de desarrollo ágil en la organización de actividades, responsabilidades y evidencias del avance del proyecto.<br><br>**Rocca León, Anhelo:**<br><br>**AV1:** Para el desarrollo de la arquitectura, investigué de manera autónoma los fundamentos del modelo C4 (Context, Container, Component, Code) y cómo aplicarlo para diagramar la infraestructura técnica del sistema.<br><br>**TB1:** Amplié mis conocimientos de diseño de interacción al trabajar en formularios de identidad, consulta de perfil y autorización de redes sociales. <br><br> **AV2:** Fortalecí mis conocimientos sobre documentación funcional de productos de software al identificar y estructurar las funcionalidades principales de la aplicación, diferenciando los procesos core del negocio de las funcionalidades de soporte. Asimismo, actualicé el registro de versiones y las secciones de colaboración del equipo y Student Outcome, aplicando criterios de organización y trazabilidad documental. | **AV1:** Durante esta entrega, todo el equipo demostró la capacidad de investigar y aplicar metodologías y estándares de la industria (como Lean UX, Gherkin, DDD y C4 Model) que no se dominaban del todo al inicio del ciclo, integrándolos exitosamente en la documentación formal de requerimientos y arquitectura del sistema.<br><br>**TB1:** El equipo convirtió ese aprendizaje en entregables verificables: flujos de usuario y pantallas, endpoints REST organizados por contexto, autenticación JWT, pruebas automatizadas y documentación OpenAPI publicada en el entorno Azure. <br><br> **AV2:** Durante la entrega AV2, el equipo demostró su capacidad para adquirir y aplicar nuevos conocimientos en diferentes áreas del desarrollo de software. La elaboración de la documentación del Sprint 2, la presentación audiovisual del producto y del equipo, las entrevistas de validación y la documentación funcional permitieron aplicar conocimientos técnicos, metodológicos y comunicativos en situaciones concretas del proyecto. Asimismo, el despliegue y la documentación del Backend evidenciaron la aplicación de conocimientos relacionados con la implementación de soluciones de software. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**  | **Quispe Serrano, Julio Frank:**<br><br>**AV1:** Comprendí que estructurar un modelo de negocio B2B requiere investigar constantemente el mercado y validar las hipótesis (Hypothesis Statements) iterativamente para asegurar que el software brinde valor real.<br><br>**TB1:** Reconocí que debo seguir profundizando en pruebas de integración y escenarios negativos para validar los flujos ante datos inválidos, conflictos y cambios de estado.<br><br>**AV2:** Reconocí la importancia de continuar desarrollando habilidades de investigación y validación con usuarios, debido a que las necesidades y expectativas de los usuarios pueden diferir de las suposiciones iniciales del equipo. <br><br>**Vallejo Trujillo, Fabio Cesar:**<br><br>**AV1:** Reconocí la importancia de adaptar las herramientas de investigación a los usuarios reales; entender las frustraciones de los creadores de contenido me exigió buscar continuamente nuevos enfoques de empatía (Empathy Mapping).<br><br>**TB1:** Identifiqué la necesidad de seguir aprendiendo sobre accesibilidad, adaptación a distintos dispositivos e integración de las pantallas con los contratos reales del backend.<br><br> **AV2:** Reconocí la importancia de desarrollar continuamente habilidades de comunicación audiovisual y presentación de productos tecnológicos, ya que transmitir adecuadamente la propuesta de valor es fundamental para facilitar la comprensión de una solución por parte de diferentes audiencias. <br><br>**Garcia Villanueva, Leonardo Rafael:**<br><br>**AV1:** Identifiqué que mis conocimientos sobre Gherkin para la elaboración de las User Stories necesitaban ser reforzados, y también reconocí la necesidad de continuar investigando y aprendiendo sobre la correcta gestión del Product Backlog y la elaboración del Impact Mapping para aplicarlos correctamente durante el desarrollo de este proyecto y así mejorar tanto como mi desempeño como la calidad del proyecto.<br><br>**TB1:** Reconocí que los flujos de autenticación con OAuth dependen de políticas y proveedores externos que pueden cambiar en cualquier momento, por lo que debo mantenerme actualizado y comprobar que estos flujos y la seguridad que se busca continuen funcionando.<br><br> **AV2:** Identifiqué la importancia de fortalecer y ampliar continuamente mis habilidades de comunicación y organización dentro de mi grupo, especialmente para presentar de manera efectiva el trabajo colaborativo y las responsabilidades de un equipo de desarrollo de software. <br><br>**Revilla Quispe, Renzo Zamir:**<br><br>**AV1:** Asimilé que el diseño a nivel estratégico nunca es estático; dominar los flujos de dominio y la delimitación de contextos (Context Mapping) me exigió mantener una postura de estudio constante de la literatura técnica.<br><br>**TB1:** Identifiqué la importancia de continuar estudiando consistencia transaccional, concurrencia e idempotencia para evolucionar los servicios de campañas y postulaciones con seguridad.<br><br> **AV2:** Reconocí la importancia de mantener actualizados mis conocimientos sobre metodologías ágiles y gestión de proyectos, debido a que la planificación y seguimiento de los Sprints requieren una adaptación constante frente a los avances, dificultades y necesidades del equipo. <br><br> **Rocca León, Anhelo:**<br><br>**AV1:** Evidencié la necesidad de consultar fuentes académicas y documentación oficial constantemente para justificar decisiones de arquitectura de bases de datos y garantizar la viabilidad del despliegue tecnológico.<br><br>**TB1:** Reconocí que los flujos deben seguir validándose con usuarios y que debo profundizar en accesibilidad y estados de carga, error y ausencia de conexión. <br><br> **AV2:** Comprendí la importancia de profundizar continuamente en el análisis del negocio para comunicar correctamente el alcance funcional de una solución tecnológica.                                                               | **AV1:** Como equipo, comprendemos que el ecosistema de startups y las tecnologías de desarrollo evolucionan rápidamente. Reconocemos que adoptar una postura proactiva hacia la lectura de documentación oficial y literatura especializada es fundamental para el éxito y la escalabilidad del proyecto.<br><br>**TB1:** El equipo identificó nuevas necesidades de aprendizaje en seguridad, integración móvil-backend, pruebas con datos persistentes y experiencia de uso. La evolución del producto requerirá revisar la documentación técnica y validar cada incremento con usuarios y evidencia de ejecución. <br><br> **AV2:** El desarrollo de esta etapa nos permitió reconocer que el aprendizaje permanente es indispensable para construir soluciones de software que respondan adecuadamente a las necesidades de los usuarios. La validación de la aplicación, la revisión de las funcionalidades y la elaboración de los diferentes entregables demostraron la necesidad de investigar, actualizar conocimientos y mejorar continuamente tanto las competencias técnicas como las habilidades de comunicación y colaboración del equipo.                                                                |
 
 ## Objetivos SMART
 
@@ -896,17 +893,17 @@ Los hallazgos respaldan especialmente el desarrollo de funcionalidades relaciona
 
 **Entrevista 3: Jorge Altamirano**
 
-| Campo                             | Detalle                                                        |
-| --------------------------------- | -------------------------------------------------------------- |
-| **Nombre y Apellidos**            | Jorge Luis Altamirano                                          |
-| **Edad**                          | 28                                                             |
-| **Distrito / Zona de residencia** | San Borja                                                      |
-| **Segmento**                      | Pequeñas y Medianas Empresas (Pymes)                           |
-| **Inicio en video**               | 0:00                                                           |
-| **Fin de video**                  | 11:12                                                          |
-| **Duración**                      | 11:12                                                          |
-| **URL del video**                 | [https://youtu.be/EhL1vlqkHbM](https://youtu.be/EhL1vlqkHbM)   |
-| **Screenshot**                    | ![Entrevista Jorge](./assets/C02/Entrevistas/JorgeLuis.png)   |
+| Campo                             | Detalle                                                      |
+| --------------------------------- | ------------------------------------------------------------ |
+| **Nombre y Apellidos**            | Jorge Luis Altamirano                                        |
+| **Edad**                          | 28                                                           |
+| **Distrito / Zona de residencia** | San Borja                                                    |
+| **Segmento**                      | Pequeñas y Medianas Empresas (Pymes)                         |
+| **Inicio en video**               | 0:00                                                         |
+| **Fin de video**                  | 11:12                                                        |
+| **Duración**                      | 11:12                                                        |
+| **URL del video**                 | [https://youtu.be/EhL1vlqkHbM](https://youtu.be/EhL1vlqkHbM) |
+| **Screenshot**                    | ![Entrevista Jorge](./assets/C02/Entrevistas/JorgeLuis.png)  |
 
 ###### Resumen Descriptivo de la Entrevista
 
@@ -1003,17 +1000,17 @@ La entrevista ofrece una validación parcial de la propuesta de CollabPro y mues
 
 **Entrevista 1: Luis Ángel**
 
-| Campo                             | Detalle                                                           |
-| --------------------------------- | ----------------------------------------------------------------- |
-| **Nombre y Apellidos**            | Luis Ángel                                                        |
-| **Edad**                          | 20                                                   |
-| **Distrito / Zona de residencia** | Santiago de Surco                                                   |
-| **Segmento**                      | Creadores de Contenido                                            |
-| **Inicio en video**               | 0:00                                                              |
-| **Fin de video**                  | 8:45                                                              |
-| **Duración**                      | 8:45                                                              |
-| **URL del video**                 | [https://www.youtube.com/watch?v=vipJiRQga7c](https://www.youtube.com/watch?v=vipJiRQga7c)                    |
-| **Screenshot**                    | ![Entrevista Luis Ángel](./assets/C02/Entrevistas/LuisAngel.png)  |
+| Campo                             | Detalle                                                                                    |
+| --------------------------------- | ------------------------------------------------------------------------------------------ |
+| **Nombre y Apellidos**            | Luis Ángel                                                                                 |
+| **Edad**                          | 20                                                                                         |
+| **Distrito / Zona de residencia** | Santiago de Surco                                                                          |
+| **Segmento**                      | Creadores de Contenido                                                                     |
+| **Inicio en video**               | 0:00                                                                                       |
+| **Fin de video**                  | 8:45                                                                                       |
+| **Duración**                      | 8:45                                                                                       |
+| **URL del video**                 | [https://www.youtube.com/watch?v=vipJiRQga7c](https://www.youtube.com/watch?v=vipJiRQga7c) |
+| **Screenshot**                    | ![Entrevista Luis Ángel](./assets/C02/Entrevistas/LuisAngel.png)                           |
 
 ##### Resumen Descriptivo de la Entrevista
 
@@ -1107,20 +1104,19 @@ Esto respalda la necesidad de desarrollar funciones dentro de la plataforma enfo
 - **Filtros por nicho:** campañas relacionadas con los intereses y tipo de contenido del creador.
 - **Interfaz intuitiva:** navegación rápida, sencilla y con información organizada.
 
-
 **Entrevista 2: Britner De La Cruz**
 
-| Campo                             | Detalle                                                         |
-| --------------------------------- | --------------------------------------------------------------- |
-| **Nombre y Apellidos**            | Britner De La Cruz                                                         |
-| **Edad**                          | 22                                                 |
-| **Distrito / Zona de residencia** | Santiago de Surco                                                 |
-| **Segmento**                      | Creadores de Contenido                                          |
-| **Inicio en video**               | 0:00                                                            |
-| **Fin de video**                  | 3:24                                                            |
-| **Duración**                      | 3:24                                                            |
-| **URL del video**                 | [https://www.youtube.com/watch?v=_zyG4bD_Zr4](https://www.youtube.com/watch?v=_zyG4bD_Zr4)                  |
-| **Screenshot**                    | ![Entrevista Britner](./assets/C02/Entrevistas/Britner.png)     |
+| Campo                             | Detalle                                                                                     |
+| --------------------------------- | ------------------------------------------------------------------------------------------- |
+| **Nombre y Apellidos**            | Britner De La Cruz                                                                          |
+| **Edad**                          | 22                                                                                          |
+| **Distrito / Zona de residencia** | Santiago de Surco                                                                           |
+| **Segmento**                      | Creadores de Contenido                                                                      |
+| **Inicio en video**               | 0:00                                                                                        |
+| **Fin de video**                  | 3:24                                                                                        |
+| **Duración**                      | 3:24                                                                                        |
+| **URL del video**                 | [https://www.youtube.com/watch?v=\_zyG4bD_Zr4](https://www.youtube.com/watch?v=_zyG4bD_Zr4) |
+| **Screenshot**                    | ![Entrevista Britner](./assets/C02/Entrevistas/Britner.png)                                 |
 
 ##### Resumen Descriptivo de la Entrevista
 
@@ -1215,17 +1211,17 @@ Esto respalda la necesidad de desarrollar funciones dentro de la plataforma enfo
 
 ##### Entrevista 3: Katrina Villarreal
 
-| Campo                             | Detalle                                                                                                                                    |
-| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Nombre y Apellidos**            | Katrina Villarreal                                                                                                                         |
-| **Edad**                          | 19                                                                                                                                         |
-| **Distrito / Zona de residencia** | Cercado de Lima                                                                                                                                |
-| **Segmento**                      | Creadores de Contenido                                                                                                                     |
-| **Inicio en video**               | 0:00                                                                                                                                       |
-| **Fin de video**                  | 8:14                                                                                                                                       |
-| **Duración**                      | 8:14                                                                                                                                       |
-| **URL del video**                 | [https://youtu.be/hwh1Y0CnKpk](https://youtu.be/hwh1Y0CnKpk) |
-| **Screenshot**                    | ![Entrevista Katrina Villarreal](./assets/C02/Entrevistas/katrinaVillarreaL.png)                                                           |
+| Campo                             | Detalle                                                                          |
+| --------------------------------- | -------------------------------------------------------------------------------- |
+| **Nombre y Apellidos**            | Katrina Villarreal                                                               |
+| **Edad**                          | 19                                                                               |
+| **Distrito / Zona de residencia** | Cercado de Lima                                                                  |
+| **Segmento**                      | Creadores de Contenido                                                           |
+| **Inicio en video**               | 0:00                                                                             |
+| **Fin de video**                  | 8:14                                                                             |
+| **Duración**                      | 8:14                                                                             |
+| **URL del video**                 | [https://youtu.be/hwh1Y0CnKpk](https://youtu.be/hwh1Y0CnKpk)                     |
+| **Screenshot**                    | ![Entrevista Katrina Villarreal](./assets/C02/Entrevistas/katrinaVillarreaL.png) |
 
 ##### Resumen Descriptivo de la Entrevista
 
@@ -1564,20 +1560,20 @@ Para los creadores deberá facilitar el descubrimiento de campañas según su ni
 
 Las cuatro entrevistas permiten realizar una evaluación más completa de las principales hipótesis planteadas para la solución.
 
-| Hipótesis                                                                                  | Resultado preliminar           | Evidencia encontrada                                                                                                                                                                                                 |
-| ------------------------------------------------------------------------------------------ | ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Las pymes tienen dificultades para administrar colaboraciones mediante canales informales. | **Respaldada**                 | Frank y Andy muestran procesos basados principalmente en mensajes, redes sociales, recomendaciones y coordinación manual.                                                                                            |
-| Las empresas necesitan encontrar creadores adecuados con mayor facilidad.                  | **Respaldada**                 | Frank presenta una red limitada de contactos y Andy identifica la búsqueda de creadores responsables como una de las actividades que más tiempo consume.                                                             |
+| Hipótesis                                                                                  | Resultado preliminar           | Evidencia encontrada                                                                                                                                                                                                  |
+| ------------------------------------------------------------------------------------------ | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Las pymes tienen dificultades para administrar colaboraciones mediante canales informales. | **Respaldada**                 | Frank y Andy muestran procesos basados principalmente en mensajes, redes sociales, recomendaciones y coordinación manual.                                                                                             |
+| Las empresas necesitan encontrar creadores adecuados con mayor facilidad.                  | **Respaldada**                 | Frank presenta una red limitada de contactos y Andy identifica la búsqueda de creadores responsables como una de las actividades que más tiempo consume.                                                              |
 | Las campañas estructuradas pueden reducir problemas de coordinación.                       | **Respaldada**                 | Las cuatro entrevistas muestran que actualmente las condiciones se gestionan mediante canales dispersos y tanto empresas como creadores valoran contar con requisitos, fechas y compensaciones previamente definidos. |
 | Las empresas necesitan controlar los entregables.                                          | **Respaldada**                 | Andy reportó retrasos en publicaciones y actualmente realiza verificaciones manuales, mientras que Frank también necesita comprobar que el creador cumpla lo acordado.                                                |
-| Las métricas centralizadas aportarían valor a las pymes.                                   | **Respaldada**                 | Frank y Andy utilizan métricas para intentar evaluar los resultados y muestran interés por obtener información más clara.                                                                                            |
-| Las pymes pagarían una suscripción mensual.                                                | **Parcialmente respaldada**    | Andy estaría dispuesto si existe ahorro de tiempo y un precio accesible; Frank presenta mayor sensibilidad frente a un costo mensual fijo.                                                                           |
+| Las métricas centralizadas aportarían valor a las pymes.                                   | **Respaldada**                 | Frank y Andy utilizan métricas para intentar evaluar los resultados y muestran interés por obtener información más clara.                                                                                             |
+| Las pymes pagarían una suscripción mensual.                                                | **Parcialmente respaldada**    | Andy estaría dispuesto si existe ahorro de tiempo y un precio accesible; Frank presenta mayor sensibilidad frente a un costo mensual fijo.                                                                            |
 | Los creadores necesitan mayor claridad sobre los requisitos de una colaboración.           | **Respaldada**                 | Luis Ángel considera indispensable conocer toda la información antes de aceptar y Britner reportó requisitos adicionales comunicados después de iniciado el acuerdo.                                                  |
-| Los creadores necesitan conocer previamente la compensación.                               | **Respaldada**                 | Ambos creadores consideran importante conocer qué recibirán antes de aceptar una colaboración.                                                                                                                       |
+| Los creadores necesitan conocer previamente la compensación.                               | **Respaldada**                 | Ambos creadores consideran importante conocer qué recibirán antes de aceptar una colaboración.                                                                                                                        |
 | Los creadores necesitan encontrar campañas relacionadas con su nicho.                      | **Respaldada**                 | Luis Ángel busca propuestas relacionadas con belleza y cuidado personal, mientras que Britner identifica dificultades para encontrar oportunidades relacionadas con videojuegos y tecnología.                         |
-| Los creadores necesitan mayor seguridad respecto al cumplimiento de la compensación.       | **Respaldada preliminarmente** | Britner reportó demoras en pagos y Luis Ángel considera indispensable trabajar con empresas confiables y transparentes.                                                                                              |
-| Una plataforma centralizada reduciría el tiempo invertido en encontrar colaboraciones.     | **Respaldada**                 | Tanto Luis Ángel como Britner consideran ventajoso poder encontrar campañas disponibles en un único lugar, mientras que Frank y Andy también buscan reducir el tiempo destinado a localizar creadores.                 |
-| La confiabilidad de empresas y creadores influye en la decisión de colaborar.               | **Respaldada**                 | Luis Ángel investiga previamente a las marcas y Andy busca referencias sobre la responsabilidad y cumplimiento de los creadores.                                                                                      |
+| Los creadores necesitan mayor seguridad respecto al cumplimiento de la compensación.       | **Respaldada preliminarmente** | Britner reportó demoras en pagos y Luis Ángel considera indispensable trabajar con empresas confiables y transparentes.                                                                                               |
+| Una plataforma centralizada reduciría el tiempo invertido en encontrar colaboraciones.     | **Respaldada**                 | Tanto Luis Ángel como Britner consideran ventajoso poder encontrar campañas disponibles en un único lugar, mientras que Frank y Andy también buscan reducir el tiempo destinado a localizar creadores.                |
+| La confiabilidad de empresas y creadores influye en la decisión de colaborar.              | **Respaldada**                 | Luis Ángel investiga previamente a las marcas y Andy busca referencias sobre la responsabilidad y cumplimiento de los creadores.                                                                                      |
 
 ##### Implicaciones para el MVP
 
@@ -4401,18 +4397,18 @@ A partir de estas decisiones se definieron las relaciones entre los Bounded Cont
 
 **Relaciones entre Bounded Contexts**
 
-| Upstream | Downstream | Relación | Información intercambiada | Justificación |
-| --- | --- | --- | --- | --- |
-| Identity & Profile Management | Campaign Management | Customer / Supplier | Identidad y referencias de empresas y creadores. | Identity & Profile Management proporciona las referencias necesarias para asociar campañas y postulaciones con usuarios válidos. Se utiliza Customer / Supplier porque Campaign Management depende de esta información para ejecutar sus operaciones, pero mantiene sus propias reglas de negocio sin acceder al modelo interno de identidad. |
-| Identity & Profile Management | Billing & Compensation Management | Customer / Supplier | Referencia de la cuenta asociada a suscripciones, medios de pago o compensaciones. | Billing & Compensation Management necesita identificar a los usuarios involucrados en las operaciones económicas. Identity & Profile Management proporciona estas referencias mediante contratos definidos, permitiendo que el contexto financiero administre sus procesos sin asumir responsabilidades relacionadas con la identidad. |
-| Identity & Profile Management | Performance & Attribution Management | Customer / Supplier | Referencias de perfiles y cuentas sociales vinculadas o autorizadas. | Performance & Attribution Management requiere identificar las cuentas sociales relacionadas con los creadores para asociar las métricas obtenidas. Identity & Profile Management administra dichas vinculaciones y proporciona la información necesaria sin exponer directamente sus entidades internas. |
-| Campaign Management | Collaboration Management | Customer / Supplier | Postulación seleccionada y snapshot de las condiciones aceptadas. | Campaign Management administra las campañas y postulaciones hasta la selección de un creador. Collaboration Management utiliza esta información para establecer una colaboración y conservar las condiciones acordadas. El patrón permite que ambos contextos mantengan sus propios ciclos de vida y responsabilidades. |
-| Collaboration Management | Billing & Compensation Management | Customer / Supplier | Confirmación del cumplimiento y elegibilidad de la compensación. | Collaboration Management determina cuándo se cumplen las condiciones necesarias para autorizar una compensación. Billing & Compensation Management utiliza esta información para continuar con el proceso económico, sin incorporar las reglas de validación de entregables dentro de su modelo financiero. |
-| Collaboration Management | Performance & Attribution Management | Customer / Supplier | Referencias de colaboraciones, publicaciones y evidencias utilizadas para medir resultados. | Performance & Attribution Management necesita identificar las colaboraciones y publicaciones que deben analizarse. Collaboration Management proporciona dichas referencias mediante contratos explícitos, permitiendo que los procesos de medición evolucionen independientemente del cumplimiento de las colaboraciones. |
+| Upstream                      | Downstream                           | Relación            | Información intercambiada                                                                   | Justificación                                                                                                                                                                                                                                                                                                                                 |
+| ----------------------------- | ------------------------------------ | ------------------- | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Identity & Profile Management | Campaign Management                  | Customer / Supplier | Identidad y referencias de empresas y creadores.                                            | Identity & Profile Management proporciona las referencias necesarias para asociar campañas y postulaciones con usuarios válidos. Se utiliza Customer / Supplier porque Campaign Management depende de esta información para ejecutar sus operaciones, pero mantiene sus propias reglas de negocio sin acceder al modelo interno de identidad. |
+| Identity & Profile Management | Billing & Compensation Management    | Customer / Supplier | Referencia de la cuenta asociada a suscripciones, medios de pago o compensaciones.          | Billing & Compensation Management necesita identificar a los usuarios involucrados en las operaciones económicas. Identity & Profile Management proporciona estas referencias mediante contratos definidos, permitiendo que el contexto financiero administre sus procesos sin asumir responsabilidades relacionadas con la identidad.        |
+| Identity & Profile Management | Performance & Attribution Management | Customer / Supplier | Referencias de perfiles y cuentas sociales vinculadas o autorizadas.                        | Performance & Attribution Management requiere identificar las cuentas sociales relacionadas con los creadores para asociar las métricas obtenidas. Identity & Profile Management administra dichas vinculaciones y proporciona la información necesaria sin exponer directamente sus entidades internas.                                      |
+| Campaign Management           | Collaboration Management             | Customer / Supplier | Postulación seleccionada y snapshot de las condiciones aceptadas.                           | Campaign Management administra las campañas y postulaciones hasta la selección de un creador. Collaboration Management utiliza esta información para establecer una colaboración y conservar las condiciones acordadas. El patrón permite que ambos contextos mantengan sus propios ciclos de vida y responsabilidades.                       |
+| Collaboration Management      | Billing & Compensation Management    | Customer / Supplier | Confirmación del cumplimiento y elegibilidad de la compensación.                            | Collaboration Management determina cuándo se cumplen las condiciones necesarias para autorizar una compensación. Billing & Compensation Management utiliza esta información para continuar con el proceso económico, sin incorporar las reglas de validación de entregables dentro de su modelo financiero.                                   |
+| Collaboration Management      | Performance & Attribution Management | Customer / Supplier | Referencias de colaboraciones, publicaciones y evidencias utilizadas para medir resultados. | Performance & Attribution Management necesita identificar las colaboraciones y publicaciones que deben analizarse. Collaboration Management proporciona dichas referencias mediante contratos explícitos, permitiendo que los procesos de medición evolucionen independientemente del cumplimiento de las colaboraciones.                     |
 
 **Justificación de los patrones de relación seleccionados**
 
-Para las relaciones internas entre los Bounded Contexts se seleccionó principalmente el patrón **Customer / Supplier**, debido a que existe una dirección clara de dependencia entre un contexto proveedor (*upstream*) y un contexto consumidor (*downstream*). Este patrón permite que el contexto consumidor establezca sus necesidades de información y que el proveedor las atienda mediante contratos definidos, sin que sea necesario compartir sus modelos internos.
+Para las relaciones internas entre los Bounded Contexts se seleccionó principalmente el patrón **Customer / Supplier**, debido a que existe una dirección clara de dependencia entre un contexto proveedor (_upstream_) y un contexto consumidor (_downstream_). Este patrón permite que el contexto consumidor establezca sus necesidades de información y que el proveedor las atienda mediante contratos definidos, sin que sea necesario compartir sus modelos internos.
 
 En CollabPro, esta relación se observa entre **Campaign Management** y **Collaboration Management**, donde el primero proporciona la información de una postulación seleccionada y las condiciones aceptadas para iniciar una colaboración. De manera similar, **Collaboration Management** proporciona a **Billing & Compensation Management** la información necesaria para determinar si corresponde continuar con una compensación. En ambos casos, el intercambio de información permite coordinar las operaciones sin trasladar las reglas de negocio de un contexto hacia otro.
 
@@ -4430,11 +4426,11 @@ De forma similar, **Identity & Profile Management** y **Performance & Attributio
 
 Las principales relaciones con sistemas externos se presentan a continuación:
 
-| Bounded Context | Sistema externo | Patrón | Justificación |
-| --- | --- | --- | --- |
-| Billing & Compensation Management | Proveedor de servicios de pago | Anti-Corruption Layer (ACL) | Permite adaptar las respuestas y estados de operaciones financieras al modelo de suscripciones, transacciones y compensaciones de CollabPro, evitando una dependencia directa de las estructuras del proveedor. |
-| Identity & Profile Management | Proveedores de autenticación y APIs de redes sociales | Anti-Corruption Layer (ACL) | Permite interpretar los mecanismos de autorización y vinculación de cuentas externas sin incorporar directamente sus estructuras dentro del modelo de identidad. |
-| Performance & Attribution Management | APIs de redes sociales | Anti-Corruption Layer (ACL) | Permite transformar los datos de publicaciones y rendimiento en conceptos del dominio, como alcance, impresiones e interacciones, independientemente de los formatos utilizados por cada plataforma. |
+| Bounded Context                      | Sistema externo                                       | Patrón                      | Justificación                                                                                                                                                                                                   |
+| ------------------------------------ | ----------------------------------------------------- | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Billing & Compensation Management    | Proveedor de servicios de pago                        | Anti-Corruption Layer (ACL) | Permite adaptar las respuestas y estados de operaciones financieras al modelo de suscripciones, transacciones y compensaciones de CollabPro, evitando una dependencia directa de las estructuras del proveedor. |
+| Identity & Profile Management        | Proveedores de autenticación y APIs de redes sociales | Anti-Corruption Layer (ACL) | Permite interpretar los mecanismos de autorización y vinculación de cuentas externas sin incorporar directamente sus estructuras dentro del modelo de identidad.                                                |
+| Performance & Attribution Management | APIs de redes sociales                                | Anti-Corruption Layer (ACL) | Permite transformar los datos de publicaciones y rendimiento en conceptos del dominio, como alcance, impresiones e interacciones, independientemente de los formatos utilizados por cada plataforma.            |
 
 Estas integraciones se contemplan mediante contratos y adaptadores ubicados en las capas correspondientes de la arquitectura. Su implementación puede desarrollarse progresivamente conforme se incorporen las capacidades de los distintos Bounded Contexts.
 
@@ -4912,29 +4908,38 @@ Para las empresas, la experiencia se orienta principalmente a la creación y ges
 
 El producto mantiene una estructura visual uniforme en todas sus funcionalidades mediante componentes reutilizables, una paleta cromática común, jerarquías tipográficas consistentes y patrones de interacción similares. Estas decisiones buscan reducir la curva de aprendizaje y permitir que el usuario reconozca rápidamente las acciones principales, los estados de los procesos y la información relevante dentro de cada pantalla.
 
-A continuación una descripción de las funcionalidades principales que ofrece CollabPro. Estas capacidades están relacionadas con la creación, 
+A continuación una descripción de las funcionalidades principales que ofrece CollabPro. Estas capacidades están relacionadas con la creación,
 ejecución y evaluación de colaboraciones que permiten mantener la operación esperada de la plataforma:
 
-**Gestión de campañas**   
-___
-Esta funcionalidad permite a los representantes de las empresas crear y administrar campañas de marketing, definiendo sus objetivos, requisitos de participación, entregables, plazos y compensaciones.  
+**Gestión de campañas**
+
+---
+
+Esta funcionalidad permite a los representantes de las empresas crear y administrar campañas de marketing, definiendo sus objetivos, requisitos de participación, entregables, plazos y compensaciones.
 
 **Descubrimiento y postulación a campañas**
-___
-Permite a los creadores poder explorar las campañas disponibles, aplicar filtros de búsqueda, consultar los requisitos de cada campaña y presentar sus postulaciones de acuerdo con las condiciones establecidas.  
+
+---
+
+Permite a los creadores poder explorar las campañas disponibles, aplicar filtros de búsqueda, consultar los requisitos de cada campaña y presentar sus postulaciones de acuerdo con las condiciones establecidas.
 
 **Gestión de colaboraciones**
-___
+
+---
+
 Esta funcionalidad permite a las empresas de la plataforma evaluar las postulaciones recibidas, seleccionar a los creadores y formalizar las condiciones de colaboración.
 
 **Gestión de entregables y validación**
-___
+
+---
+
 Permite a los creadores presentar los contenidos y evidencias acordados previamente, mientras que las empresas pueden revisar su cumplimiento, aprobarlos o rechazarlos y, a su vez, gestionar incidencias relacionadas.
 
 **Gestión de compensaciones y resultados**
-___
-Esta última funcionalidad principal permite a sus usuario consultar el estado de las compensaciones asociadas a las colaboraciones y, facilita el análisis del rendimiento de las campañas y historial de colaboraciones.
 
+---
+
+Esta última funcionalidad principal permite a sus usuario consultar el estado de las compensaciones asociadas a las colaboraciones y, facilita el análisis del rendimiento de las campañas y historial de colaboraciones.
 
 #### 3.1.1. Style Guidelines
 
@@ -4945,7 +4950,6 @@ El sistema visual busca transmitir principalmente **confianza, profesionalismo, 
 Las decisiones de diseño se implementan mediante un conjunto de componentes reutilizables que permiten mantener consistencia entre pantallas, incluyendo contenedores de información, botones de acción, etiquetas de estado, campos de entrada, selectores y tarjetas navegables.
 
 ![Colors](./assets/C03/StyleGuidelines/StyleGui.png)
-
 
 ##### 3.1.1.1. General Style Guidelines
 
@@ -5004,7 +5008,6 @@ CollabPro utiliza la tipografía proporcionada por el sistema de diseño de Mate
 
 ![Colors](./assets/C03/StyleGuidelines/typography.png)
 ![Colors](./assets/C03/StyleGuidelines/typography1.png)
-
 
 La aplicación utiliza variaciones de tamaño y peso para establecer jerarquía entre los elementos.
 
@@ -5182,8 +5185,6 @@ Este patrón permite que campañas, postulaciones, colaboraciones e historiales 
 
 ![Colors](./assets/C03/StyleGuidelines/components-design-system.png)
 
-
-
 ###### Principios de diseño
 
 **Consistencia**
@@ -5298,7 +5299,6 @@ El creador de contenido necesita principalmente:
 Esta separación permite adaptar la información visible sin crear dos aplicaciones diferentes y mantiene un mismo lenguaje de interacción para los procesos compartidos.
 
 ![Colors](./assets/C03/StyleGuidelines/information-architecture.png)
-
 
 ##### 3.1.2.1. Organization Systems
 
@@ -5657,7 +5657,6 @@ Estos criterios deberán incorporarse progresivamente cuando las historias de us
 
 ![Colors](./assets/C03/StyleGuidelines/searching-system.png)
 
-
 ##### 3.1.2.5. Navigation Systems
 
 CollabPro utiliza un sistema de navegación híbrido compuesto por navegación global mediante una barra inferior y navegación contextual dentro de los diferentes procesos.
@@ -5815,7 +5814,6 @@ Esta adaptación permite reutilizar la misma estructura de navegación mantenien
 
 ![Colors](./assets/C03/StyleGuidelines/navigation-system.png)
 
-
 ### 3.1.3. Landing Page UI Design
 
 La página de presentación de CollabPro organiza la información según las decisiones que necesita tomar una persona antes de utilizar la plataforma. Primero comunica la propuesta de colaboración entre empresas y creadores, luego explica las funcionalidades y los planes, y finalmente ofrece un espacio de contacto y una presentación del equipo. Esta secuencia permite comprender el servicio antes de evaluar sus condiciones o realizar una consulta.
@@ -5836,14 +5834,14 @@ En escritorio, la composición de inicio toma como referencia el patrón Z para 
 
 En los bloques con mayor cantidad de texto, especialmente en funcionalidades y planes, se considera el patrón F como referencia para priorizar los encabezados y el comienzo de cada línea. Los beneficios se presentan mediante títulos breves, listas y grupos separados para que la información principal pueda identificarse sin leer todos los párrafos. Esta organización ayuda a reducir las omisiones que pueden producirse durante una lectura rápida.
 
-| Sección | Decisión de diseño y propósito | Heurísticas aplicadas |
-| --- | --- | --- |
-| Inicio | El mensaje principal tiene mayor jerarquía que el texto de apoyo y los botones indican la acción disponible. La navegación identifica la sección activa para mantener al visitante orientado. | Visibilidad del estado del sistema y Reconocimiento en lugar de recuerdo |
-| Funcionalidades | Los beneficios se agrupan en tarjetas y el proceso se presenta mediante pasos numerados. Esta estructura relaciona la plataforma con acciones conocidas, como crear una campaña, encontrar colaboradores y coordinar el trabajo. | Correspondencia entre el sistema y el mundo real y Reconocimiento en lugar de recuerdo |
-| Planes | Las tarjetas mantienen el mismo orden de nombre, descripción, precio, condiciones, beneficios y acción. En escritorio se muestran juntas para facilitar la comparación y en móvil conservan esa secuencia. | Consistencia y estándares y Reconocimiento en lugar de recuerdo |
-| Contacto | Los campos tienen etiquetas visibles y permiten distinguir los datos obligatorios de los opcionales. La acción de envío permanece deshabilitada mientras falten datos válidos, lo que evita intentar completar una operación incompleta. | Prevención de errores y Reconocimiento en lugar de recuerdo |
-| Sobre nosotros | La descripción del equipo se relaciona con un espacio de video y se limita a la información necesaria para presentar a sus integrantes y su propósito. | Diseño estético y minimalista |
-| Pie de página | Los enlaces complementarios y la acción para volver al inicio permiten continuar la navegación sin recorrer nuevamente toda la página. | Control y libertad del usuario y Flexibilidad y eficiencia de uso |
+| Sección         | Decisión de diseño y propósito                                                                                                                                                                                                           | Heurísticas aplicadas                                                                  |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| Inicio          | El mensaje principal tiene mayor jerarquía que el texto de apoyo y los botones indican la acción disponible. La navegación identifica la sección activa para mantener al visitante orientado.                                            | Visibilidad del estado del sistema y Reconocimiento en lugar de recuerdo               |
+| Funcionalidades | Los beneficios se agrupan en tarjetas y el proceso se presenta mediante pasos numerados. Esta estructura relaciona la plataforma con acciones conocidas, como crear una campaña, encontrar colaboradores y coordinar el trabajo.         | Correspondencia entre el sistema y el mundo real y Reconocimiento en lugar de recuerdo |
+| Planes          | Las tarjetas mantienen el mismo orden de nombre, descripción, precio, condiciones, beneficios y acción. En escritorio se muestran juntas para facilitar la comparación y en móvil conservan esa secuencia.                               | Consistencia y estándares y Reconocimiento en lugar de recuerdo                        |
+| Contacto        | Los campos tienen etiquetas visibles y permiten distinguir los datos obligatorios de los opcionales. La acción de envío permanece deshabilitada mientras falten datos válidos, lo que evita intentar completar una operación incompleta. | Prevención de errores y Reconocimiento en lugar de recuerdo                            |
+| Sobre nosotros  | La descripción del equipo se relaciona con un espacio de video y se limita a la información necesaria para presentar a sus integrantes y su propósito.                                                                                   | Diseño estético y minimalista                                                          |
+| Pie de página   | Los enlaces complementarios y la acción para volver al inicio permiten continuar la navegación sin recorrer nuevamente toda la página.                                                                                                   | Control y libertad del usuario y Flexibilidad y eficiencia de uso                      |
 
 ##### Navegador de escritorio
 
@@ -5915,14 +5913,14 @@ Los botones, las tarjetas de esquinas redondeadas y los iconos mantienen un leng
 
 ##### Aplicación del sistema de diseño y las heurísticas
 
-| Sección | Aplicación visual e interacción | Heurísticas aplicadas |
-| --- | --- | --- |
-| Inicio | El botón principal utiliza un fondo turquesa y la acción secundaria un contorno, lo que permite distinguir su prioridad. La sección activa se identifica mediante color y subrayado, mientras que el selector de idioma muestra la opción elegida. | Visibilidad del estado del sistema y Consistencia y estándares |
-| Funcionalidades | Las tarjetas repiten la relación entre icono, título y descripción. La fotografía de creadores y los pasos del proceso conectan los beneficios con actividades familiares para el público objetivo. | Correspondencia entre el sistema y el mundo real y Consistencia y estándares |
-| Planes | Los contornos definidos separan las tarjetas y el fondo turquesa destaca el plan de crecimiento. Los precios, la periodicidad y las condiciones se ubican en posiciones equivalentes para facilitar la comparación. El cambio de fondo al pasar el cursor permite reconocer la tarjeta sobre la que se está interactuando. | Consistencia y estándares y Reconocimiento en lugar de recuerdo |
-| Contacto | El botón permanece deshabilitado mientras el formulario esté incompleto o contenga datos inválidos. Al completarlo correctamente, se habilita. Durante la simulación se muestra el estado de envío y después una confirmación o un mensaje de error que permite identificar el problema. | Prevención de errores, Visibilidad del estado del sistema y Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de los errores |
-| Sobre nosotros | El texto y la portada del video forman un grupo claramente delimitado. El símbolo de reproducción permite reconocer la función del recurso sin añadir instrucciones extensas. | Diseño estético y minimalista y Reconocimiento en lugar de recuerdo |
-| Pie de página | El fondo oscuro diferencia el cierre de la página y agrupa los enlaces complementarios. Las acciones de descarga y regreso al inicio conservan símbolos y etiquetas reconocibles. | Consistencia y estándares y Control y libertad del usuario |
+| Sección         | Aplicación visual e interacción                                                                                                                                                                                                                                                                                            | Heurísticas aplicadas                                                                                                                    |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Inicio          | El botón principal utiliza un fondo turquesa y la acción secundaria un contorno, lo que permite distinguir su prioridad. La sección activa se identifica mediante color y subrayado, mientras que el selector de idioma muestra la opción elegida.                                                                         | Visibilidad del estado del sistema y Consistencia y estándares                                                                           |
+| Funcionalidades | Las tarjetas repiten la relación entre icono, título y descripción. La fotografía de creadores y los pasos del proceso conectan los beneficios con actividades familiares para el público objetivo.                                                                                                                        | Correspondencia entre el sistema y el mundo real y Consistencia y estándares                                                             |
+| Planes          | Los contornos definidos separan las tarjetas y el fondo turquesa destaca el plan de crecimiento. Los precios, la periodicidad y las condiciones se ubican en posiciones equivalentes para facilitar la comparación. El cambio de fondo al pasar el cursor permite reconocer la tarjeta sobre la que se está interactuando. | Consistencia y estándares y Reconocimiento en lugar de recuerdo                                                                          |
+| Contacto        | El botón permanece deshabilitado mientras el formulario esté incompleto o contenga datos inválidos. Al completarlo correctamente, se habilita. Durante la simulación se muestra el estado de envío y después una confirmación o un mensaje de error que permite identificar el problema.                                   | Prevención de errores, Visibilidad del estado del sistema y Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de los errores |
+| Sobre nosotros  | El texto y la portada del video forman un grupo claramente delimitado. El símbolo de reproducción permite reconocer la función del recurso sin añadir instrucciones extensas.                                                                                                                                              | Diseño estético y minimalista y Reconocimiento en lugar de recuerdo                                                                      |
+| Pie de página   | El fondo oscuro diferencia el cierre de la página y agrupa los enlaces complementarios. Las acciones de descarga y regreso al inicio conservan símbolos y etiquetas reconocibles.                                                                                                                                          | Consistencia y estándares y Control y libertad del usuario                                                                               |
 
 ##### Navegador de escritorio
 
@@ -5990,7 +5988,7 @@ Los espacios “about the product” y “about the team” forman parte del dis
 
 #### 3.1.4.1. Mobile Applications Wireframes
 
-Se muestran la distribución del contenido y los controles de cada pantalla mediante textos negros y componentes en escala de grises. 
+Se muestran la distribución del contenido y los controles de cada pantalla mediante textos negros y componentes en escala de grises.
 La información relacionada se reúne en tarjetas, mientras que los títulos y el espacio entre bloques permiten distinguir los grupos y reconocer su importancia.
 Cada Wireflow esta organizado por User Goal.
 Dentro de esta organización, los campos indican qué datos se solicitan y los botones permiten identificar la acción principal.
@@ -6007,16 +6005,16 @@ En los listados y las pantallas de detalle, el patrón F se considera como refer
 
 El contenido se distribuye en una sola columna, desde el contexto de la pantalla hasta la acción principal. Este recorrido se complementa con la organización descrita para los listados y detalles, mientras que los formularios y las explicaciones del servicio utilizan grupos de campos y pasos numerados para orientar al usuario.
 
-| **Pantallas** | **Decisión de diseño y propósito** | **Heurísticas aplicadas** |
-| --- | --- | --- |
-| Presentación y explicación del servicio | Las tarjetas separan los públicos y los pasos numerados explican las tareas de cada rol antes del registro. | Correspondencia entre el sistema y el mundo real y ayuda y documentación. |
-| Registro, acceso y recuperación | Los campos se agrupan antes de la acción principal. Volver, Ya tengo cuenta y Olvidé mi contraseña ofrecen alternativas visibles según el contexto. | Reconocimiento en lugar de recuerdo y control y libertad del usuario. |
-| Inicio de empresa y creador | El resumen precede a las actividades pendientes. Las tarjetas reúnen accesos frecuentes para reducir la búsqueda entre niveles. | Visibilidad del estado del sistema y flexibilidad y eficiencia de uso. |
-| Campañas y colaboraciones | Las tarjetas repiten nombre, estado, fecha y acceso al detalle. Esta organización por entidad y estado facilita identificar actividades relevantes. | Consistencia y estándares y visibilidad del estado del sistema. |
-| Creación de campaña | Los dos pasos separan información general y condiciones. El formato de fecha y los campos de requisitos, entregables y compensación explicitan los datos necesarios. | Prevención de errores y reconocimiento en lugar de recuerdo. |
-| Exploración y detalle de campaña | La búsqueda y las categorías preceden al listado. Las condiciones se muestran antes de postular para que la decisión tenga un contexto claro. | Flexibilidad y eficiencia de uso y prevención de errores. |
-| Detalle de colaboración | Seguimiento reúne los estados del acuerdo y la entrega. Próxima acción explica la tarea pendiente junto a su botón. | Visibilidad del estado del sistema y ayuda y documentación. |
-| Perfiles y redes sociales | Los datos se agrupan según el rol. Las redes muestran su estado y explican la autorización necesaria antes de vincular una cuenta. | Reconocimiento en lugar de recuerdo y visibilidad del estado del sistema. |
+| **Pantallas**                           | **Decisión de diseño y propósito**                                                                                                                                   | **Heurísticas aplicadas**                                                 |
+| --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Presentación y explicación del servicio | Las tarjetas separan los públicos y los pasos numerados explican las tareas de cada rol antes del registro.                                                          | Correspondencia entre el sistema y el mundo real y ayuda y documentación. |
+| Registro, acceso y recuperación         | Los campos se agrupan antes de la acción principal. Volver, Ya tengo cuenta y Olvidé mi contraseña ofrecen alternativas visibles según el contexto.                  | Reconocimiento en lugar de recuerdo y control y libertad del usuario.     |
+| Inicio de empresa y creador             | El resumen precede a las actividades pendientes. Las tarjetas reúnen accesos frecuentes para reducir la búsqueda entre niveles.                                      | Visibilidad del estado del sistema y flexibilidad y eficiencia de uso.    |
+| Campañas y colaboraciones               | Las tarjetas repiten nombre, estado, fecha y acceso al detalle. Esta organización por entidad y estado facilita identificar actividades relevantes.                  | Consistencia y estándares y visibilidad del estado del sistema.           |
+| Creación de campaña                     | Los dos pasos separan información general y condiciones. El formato de fecha y los campos de requisitos, entregables y compensación explicitan los datos necesarios. | Prevención de errores y reconocimiento en lugar de recuerdo.              |
+| Exploración y detalle de campaña        | La búsqueda y las categorías preceden al listado. Las condiciones se muestran antes de postular para que la decisión tenga un contexto claro.                        | Flexibilidad y eficiencia de uso y prevención de errores.                 |
+| Detalle de colaboración                 | Seguimiento reúne los estados del acuerdo y la entrega. Próxima acción explica la tarea pendiente junto a su botón.                                                  | Visibilidad del estado del sistema y ayuda y documentación.               |
+| Perfiles y redes sociales               | Los datos se agrupan según el rol. Las redes muestran su estado y explican la autorización necesaria antes de vincular una cuenta.                                   | Reconocimiento en lugar de recuerdo y visibilidad del estado del sistema. |
 
 ##### Diseño inclusivo
 
@@ -6135,39 +6133,51 @@ Esta captura corresponde a la continuación del contenido de Inicio.
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
 ##### User Goal 1 - Configurar identidad comercial
+
 ![UG01](assets/C03/MobileApplicationsUI/Wireflow/Wireflow1-UG01.png)
 
 ##### User Goal 2 - Crear y validar perfil profesional
+
 ![UG02](assets/C03/MobileApplicationsUI/Wireflow/Wireflow2-UG02.png)
 
 ##### User Goal 3 - Acceder a la plataforma de forma segura
+
 ![UG03](assets/C03/MobileApplicationsUI/Wireflow/Wireflow3-UG03.png)
 
 ##### User Goal 4 - Publicar oportunidad de colaboración
+
 ![UG04](assets/C03/MobileApplicationsUI/Wireflow/Wireflow4-UG04.png)
 
 ##### User Goal 5 - Encontrar y asegurar colaboraciones
+
 ![UG05](assets/C03/MobileApplicationsUI/Wireflow/Wireflow5-UG05.png)
 
 ##### User Goal 6 - Contratar al creador ideal
+
 ![UG06](assets/C03/MobileApplicationsUI/Wireflow/Wireflow6-UG06.png)
 
 ##### User Goal 7 - Demostrar trabajo y gestión financiera
+
 ![UG07](assets/C03/MobileApplicationsUI/Wireflow/Wireflow7-UG07.png)
 
 ##### User Goal 8 - Controlar calidad del contenido
+
 ![UG08](assets/C03/MobileApplicationsUI/Wireflow/Wireflow8-UG08.png)
 
 ##### User Goal 9 - Resolver conflictos comerciales
+
 ![UG09](assets/C03/MobileApplicationsUI/Wireflow/Wireflow9-UG09.png)
 
 ##### User Goal 10 - Configurar operaciones financieras
+
 ![UG10](assets/C03/MobileApplicationsUI/Wireflow/Wireflow10-UG10.png)
 
 ##### User Goal 11 - Desbloquear herramientas premium
+
 ![UG11](assets/C03/MobileApplicationsUI/Wireflow/Wireflow11-UG11.png)
 
 ##### User Goal 12 - Evaluar el ROI y mantener historial
+
 ![UG12](assets/C03/MobileApplicationsUI/Wireflow/Wireflow12-UG12.png)
 
 #### 3.1.4.3. Mobile Applications Mock-ups
@@ -6178,16 +6188,16 @@ Los mockups presentan la apariencia visual de la aplicación al aplicar el siste
 
 ##### Aplicación del sistema de diseño y las heurísticas
 
-| **Pantallas** | **Aplicación visual y propósito** | **Heurísticas aplicadas** |
-| --- | --- | --- |
-| Presentación y explicación del servicio | La marca mantiene su representación habitual. Las tarjetas distinguen los roles y los botones principales destacan las acciones para conocer el servicio o comenzar. | Consistencia y estándares y correspondencia entre el sistema y el mundo real. |
-| Registro, acceso y recuperación | Los campos conservan forma y separación. El botón con relleno distingue la acción principal de los enlaces y botones con contorno. | Consistencia y estándares y reconocimiento en lugar de recuerdo. |
-| Inicio de ambos roles | Las cifras y los títulos destacan el resumen. Las etiquetas sobre fondos claros contextualizan las actividades pendientes y la barra inferior identifica la sección activa. | Visibilidad del estado del sistema y flexibilidad y eficiencia de uso. |
-| Campañas y colaboraciones | Las tarjetas repiten la jerarquía de título, estado, datos y enlace. Los estados escritos conservan su significado sin depender del color. | Consistencia y estándares y visibilidad del estado del sistema. |
-| Creación de campaña | El indicador de paso utiliza el color de marca. Los chips distinguen la categoría elegida y los campos mantienen visibles las indicaciones necesarias antes de publicar. | Reconocimiento en lugar de recuerdo y prevención de errores. |
-| Exploración y detalle de campaña | Los filtros distinguen la selección y las tarjetas separan información y condiciones. Postular a esta campaña se destaca después de los compromisos. | Reconocimiento en lugar de recuerdo y prevención de errores. |
-| Detalle de colaboración | Los valores del seguimiento destacan frente a sus etiquetas. Entregar contenido y evidencia tiene mayor jerarquía que las consultas de compensación e incidencias. | Visibilidad del estado del sistema y diseño estético y minimalista. |
-| Perfiles y redes sociales | Las etiquetas contextualizan los valores. Guardar perfil y Vincular Instagram destacan como acciones principales, y Sin vincular comunica el estado de la red. | Consistencia y estándares y visibilidad del estado del sistema. |
+| **Pantallas**                           | **Aplicación visual y propósito**                                                                                                                                           | **Heurísticas aplicadas**                                                     |
+| --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| Presentación y explicación del servicio | La marca mantiene su representación habitual. Las tarjetas distinguen los roles y los botones principales destacan las acciones para conocer el servicio o comenzar.        | Consistencia y estándares y correspondencia entre el sistema y el mundo real. |
+| Registro, acceso y recuperación         | Los campos conservan forma y separación. El botón con relleno distingue la acción principal de los enlaces y botones con contorno.                                          | Consistencia y estándares y reconocimiento en lugar de recuerdo.              |
+| Inicio de ambos roles                   | Las cifras y los títulos destacan el resumen. Las etiquetas sobre fondos claros contextualizan las actividades pendientes y la barra inferior identifica la sección activa. | Visibilidad del estado del sistema y flexibilidad y eficiencia de uso.        |
+| Campañas y colaboraciones               | Las tarjetas repiten la jerarquía de título, estado, datos y enlace. Los estados escritos conservan su significado sin depender del color.                                  | Consistencia y estándares y visibilidad del estado del sistema.               |
+| Creación de campaña                     | El indicador de paso utiliza el color de marca. Los chips distinguen la categoría elegida y los campos mantienen visibles las indicaciones necesarias antes de publicar.    | Reconocimiento en lugar de recuerdo y prevención de errores.                  |
+| Exploración y detalle de campaña        | Los filtros distinguen la selección y las tarjetas separan información y condiciones. Postular a esta campaña se destaca después de los compromisos.                        | Reconocimiento en lugar de recuerdo y prevención de errores.                  |
+| Detalle de colaboración                 | Los valores del seguimiento destacan frente a sus etiquetas. Entregar contenido y evidencia tiene mayor jerarquía que las consultas de compensación e incidencias.          | Visibilidad del estado del sistema y diseño estético y minimalista.           |
+| Perfiles y redes sociales               | Las etiquetas contextualizan los valores. Guardar perfil y Vincular Instagram destacan como acciones principales, y Sin vincular comunica el estado de la red.              | Consistencia y estándares y visibilidad del estado del sistema.               |
 
 ##### Diseño inclusivo
 
@@ -6353,18 +6363,18 @@ Esta captura corresponde a la continuación del contenido de Inicio.
 
 ![UG12](./assets/C03/MobileApplicationsUI/UserFlow/UserFlow12-UG12.png)
 
-#### 3.1.4.5. Mobile Applications Prototyping  
+#### 3.1.4.5. Mobile Applications Prototyping
 
-##### Pymes  
+##### Pymes
 
-El prototipado de la App Pyme busca simular la experiencia de los representantes de pequeñas y medianas empresas al utilizar CollabPro. 
+El prototipado de la App Pyme busca simular la experiencia de los representantes de pequeñas y medianas empresas al utilizar CollabPro.
 Mediante prototipos interactivos en Figma, se representan las principales pantallas, la navegación y las interacciones definidas en los User Flows, considerando tanto los recorridos esperados como los estados alternativos.
 ![Screenshot Prototyping](./assets/C03/MobileApplicationsUI/Prototyping/pymes.png)
-[Video del prototyping para pymes en CollabPro Figma](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c803_upc_edu_pe/IQBQXGjIXGrmQ75axqsoKAByAQMhLumSaWrarDadO4NNQAw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=48mNJk)  
+[Video del prototyping para pymes en CollabPro Figma](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c803_upc_edu_pe/IQBQXGjIXGrmQ75axqsoKAByAQMhLumSaWrarDadO4NNQAw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=48mNJk)
 
-##### Creador  
+##### Creador
 
-El prototipado de la App Creador tiene como objetivo simular la experiencia de los creadores de contenido dentro de CollabPro. 
+El prototipado de la App Creador tiene como objetivo simular la experiencia de los creadores de contenido dentro de CollabPro.
 A través de prototipos interactivos en Figma, se representan las pantallas, la navegación y las interacciones correspondientes a los User Flows, incluyendo los recorridos principales y sus alternativas.
 ![Screenshot Prototyping](./assets/C03/MobileApplicationsUI/Prototyping/creador.png)
 [Vidoe del prototyping para creador en CollabPro Figma](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c803_upc_edu_pe/IQCb-mwYqjFPR5tUyzRrSetFAaDYayt0aYLJoRZPxJf2BIc?e=3cdeb3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
@@ -6441,8 +6451,8 @@ Se recomienda aplicar formato automático antes de integrar cambios y ejecutar v
 | Componente             | Destino de despliegue                                                                                                                | Configuración                                                                                                                                                                                                  |
 | :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Landing page           | Hosting estático con HTTPS (GitHub Pages)                                                                                            | Compilar/minificar assets si corresponde, publicar solo desde `main` o una etiqueta de release, verificar rutas, formulario/enlaces y renderizado móvil. La decisión del proveedor queda pendiente.            |
-| RESTful Web Services   | Azure Virtual Machine (despliegue verificado para Sprint 1); Azure App Service permanece como alternativa propuesta                    | API disponible en `http://40.75.23.68:8081`. La ruta pública utiliza HTTP; para un entorno productivo se debe publicar detrás de HTTPS. La evidencia de Sprint Review registra el estado observado en la VM.  |
-| MySQL                  | Azure Database for MySQL (destino propuesto; ubicación del entorno desplegado pendiente de confirmar)                                   | Crear esquema mediante migraciones versionadas, restringir red/usuarios, habilitar respaldos y separar credenciales por ambiente. Nunca exponer el puerto de base de datos a Internet público.                 |
+| RESTful Web Services   | Azure Virtual Machine (despliegue verificado para Sprint 1); Azure App Service permanece como alternativa propuesta                  | API disponible en `http://40.75.23.68:8081`. La ruta pública utiliza HTTP; para un entorno productivo se debe publicar detrás de HTTPS. La evidencia de Sprint Review registra el estado observado en la VM.   |
+| MySQL                  | Azure Database for MySQL (destino propuesto; ubicación del entorno desplegado pendiente de confirmar)                                | Crear esquema mediante migraciones versionadas, restringir red/usuarios, habilitar respaldos y separar credenciales por ambiente. Nunca exponer el puerto de base de datos a Internet público.                 |
 | Apps Android y Flutter | Distribución de prueba mediante Firebase App Distribution o canal interno equivalente; publicación final según plataformas acordadas | Generar builds firmados desde pipeline/entorno controlado. Llaves de firma y credenciales de publicación se guardan fuera del repositorio. Probar instalación, permisos y URL del backend antes de distribuir. |
 
 ### 4.2. Landing Page & Mobile Application Implementation
@@ -6455,17 +6465,17 @@ El Sprint Planning 1 tiene como objetivo definir el alcance de la primera iterac
 
 Durante la planificación se revisaron los User Stories asignados al Sprint 1 y su contribución a una primera versión funcional de CollabPro. El alcance busca permitir que empresas y creadores conozcan la propuesta de valor de la plataforma y, al mismo tiempo, establecer los servicios necesarios para soportar registro, autenticación, gestión de perfiles, campañas y postulaciones.
 
-| Sprint # | Sprint 1 |
-| --- | --- |
-| **Sprint Planning Background** | El Sprint 1 corresponde a la primera iteración de desarrollo de CollabPro. El equipo priorizó las primeras 18 User Stories del Product Backlog, incluyendo funcionalidades de la Landing Page y capacidades iniciales del backend correspondientes a identidad, perfiles, campañas y postulaciones. |
-| **Date** | 2026-10-09 |
-| **Time** | 09:00 AM |
-| **Location** | Microsoft Teams |
-| **Prepared By** | Renzo Zamir Revilla Quispe |
-| **Attendees (to planning meeting)** | Todo el equipo |
-| **Sprint 1 Goal** | Nuestro enfoque es desarrollar una primera versión funcional de CollabPro que permita presentar claramente la propuesta de valor a empresas y creadores y establecer las principales capacidades de backend requeridas para iniciar su interacción con la plataforma. Esto será validado cuando los usuarios puedan conocer el funcionamiento de CollabPro y se encuentren disponibles las capacidades correspondientes a registro, autenticación, perfil, búsqueda y consulta de campañas, creación y definición de campañas y postulación a oportunidades de colaboración. |
-| **Sprint 1 Velocity** | 44 Story Points |
-| **Sum of Story Points** | 44 Story Points |
+| Sprint #                            | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**      | El Sprint 1 corresponde a la primera iteración de desarrollo de CollabPro. El equipo priorizó las primeras 18 User Stories del Product Backlog, incluyendo funcionalidades de la Landing Page y capacidades iniciales del backend correspondientes a identidad, perfiles, campañas y postulaciones.                                                                                                                                                                                                                                                                          |
+| **Date**                            | 2026-10-09                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Time**                            | 09:00 AM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Location**                        | Microsoft Teams                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Prepared By**                     | Renzo Zamir Revilla Quispe                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Attendees (to planning meeting)** | Todo el equipo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Sprint 1 Goal**                   | Nuestro enfoque es desarrollar una primera versión funcional de CollabPro que permita presentar claramente la propuesta de valor a empresas y creadores y establecer las principales capacidades de backend requeridas para iniciar su interacción con la plataforma. Esto será validado cuando los usuarios puedan conocer el funcionamiento de CollabPro y se encuentren disponibles las capacidades correspondientes a registro, autenticación, perfil, búsqueda y consulta de campañas, creación y definición de campañas y postulación a oportunidades de colaboración. |
+| **Sprint 1 Velocity**               | 44 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Sum of Story Points**             | 44 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 ##### 4.2.1.2. Aspect Leaders and Collaborators
 
@@ -6475,11 +6485,11 @@ La distribución no implica exclusividad sobre la implementación, ya que todos 
 
 | Team Member (Last Name, First Name) | Mobile Architecture & Domain Integration Leader (L) / Collaborator (C) | Campaign & Collaboration Implementation Leader (L) / Collaborator (C) | Mobile UX/UI & Design System Leader (L) / Collaborator (C) | Navigation & Interaction Flows Leader (L) / Collaborator (C) | Testing & Quality Assurance Leader (L) / Collaborator (C) |
 | ----------------------------------- | :--------------------------------------------------------------------: | :-------------------------------------------------------------------: | :--------------------------------------------------------: | :----------------------------------------------------------: | :-------------------------------------------------------: |
-| Quispe Serrano, Julio Frank         |                                 C                                  |                                   C                                   |                             C                              |                              C                               |                             **L**                             |
+| Quispe Serrano, Julio Frank         |                                   C                                    |                                   C                                   |                             C                              |                              C                               |                           **L**                           |
 | Revilla Quispe, Renzo Zamir         |                                   C                                    |                                 **L**                                 |                             C                              |                              C                               |                             C                             |
 | Vallejo Trujillo, Fabio Cesar       |                                   C                                    |                                   C                                   |                           **L**                            |                              C                               |                             C                             |
 | Garcia Villanueva, Leonardo Rafael  |                                   C                                    |                                   C                                   |                             C                              |                            **L**                             |                             C                             |
-| Rocca Leon, Anhelo Rodrigo          |                                   **L**                                    |                                   C                                   |                             C                              |                              C                               |                           C                           |
+| Rocca Leon, Anhelo Rodrigo          |                                 **L**                                  |                                   C                                   |                             C                              |                              C                               |                             C                             |
 
 **Mobile Architecture & Domain Integration**
 
@@ -6515,40 +6525,39 @@ _Nota. Elaboración propia._
 
 Trello: [https://trello.com/b/2D9IrqkO/collabpro-sprint-1](https://trello.com/b/2D9IrqkO/collabpro-sprint-1)
 
-| Sprint 1 | User Story Id | User Story Title | Work-Item / Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
-| --- | --- | --- | --- | --- | --- | ---: | --- | --- |
-| 1 | US-01 | Presentación de CollabPro para empresas | T-01 | Implementar propuesta de valor para empresas | Implementar en la Landing Page la propuesta de valor y los principales beneficios de CollabPro dirigidos a pequeñas y medianas empresas. | 1 | Renzo Zamir Revilla Quispe | Done |
-| 1 | US-02 | Presentación de CollabPro para creadores | T-02 | Implementar propuesta de valor para creadores | Implementar en la Landing Page la propuesta de valor y los principales beneficios dirigidos a creadores de contenido. | 1 | Fabio Cesar Vallejo Trujillo | Done |
-| 1 | US-03 | Información sobre el funcionamiento de CollabPro para empresas | T-03 | Implementar sección de funcionamiento para empresas | Implementar una sección que explique a las empresas las principales etapas del proceso de colaboración dentro de CollabPro. | 2 | Renzo Zamir Revilla Quispe | Done |
-| 1 | US-04 | Información sobre el funcionamiento de CollabPro para creadores | T-04 | Implementar sección de funcionamiento para creadores | Implementar una sección que explique a los creadores las etapas de búsqueda, postulación, aceptación, entrega y validación. | 2 | Renzo Zamir Revilla Quispe | Done |
-| 1 | US-05 | Contacto con CollabPro | T-05 | Implementar formulario de contacto | Implementar el formulario de contacto con los campos requeridos y sus respectivas validaciones. | 2 | Anhelo Rodrigo Rocca León | Done |
-| 1 | US-05 | Contacto con CollabPro | T-06 | Implementar confirmación de contacto | Implementar una confirmación visual cuando una consulta sea enviada correctamente. | 1 | Julio Frank Quispe Serrano | Done |
-| 1 | US-06 | Cambio de idioma | T-07 | Implementar selector de idioma | Implementar el selector que permita visualizar la Landing Page en español o inglés. | 2 | Fabio Cesar Vallejo Trujillo | Done |
-| 1 | US-06 | Cambio de idioma | T-08 | Mantener idioma seleccionado | Mantener el idioma seleccionado durante la navegación dentro de la Landing Page. | 1 | Anhelo Rodrigo Rocca León | Done |
-| 1 | US-07 | Compatibilidad visual de la Landing Page con varios dispositivos | T-09 | Implementar diseño responsive | Adaptar la Landing Page para su correcta visualización en dispositivos móviles y computadoras. | 3 | Fabio Cesar Vallejo Trujillo | Done |
-| 1 | US-07 | Compatibilidad visual de la Landing Page con varios dispositivos | T-10 | Validar comportamiento responsive | Validar la visualización en distintos tamaños y orientaciones de pantalla. | 2 | Julio Frank Quispe Serrano | Done |
-| 1 | US-08 | Registro desde la Landing Page | T-11 | Implementar acceso al registro de empresa | Implementar desde la Landing Page el acceso al proceso de registro correspondiente a una empresa. | 1 | Leonardo Rafael Garcia Villanueva | Done |
-| 1 | US-08 | Registro desde la Landing Page | T-12 | Implementar acceso al registro de creador | Implementar desde la Landing Page el acceso al proceso de registro correspondiente a un creador de contenido. | 1 | Leonardo Rafael Garcia Villanueva | Done |
-| 1 | US-17 | Búsqueda de campañas | T-13 | Implementar búsqueda de campañas | Implementar la consulta de campañas publicadas utilizando los criterios de búsqueda disponibles. | 3 | Renzo Zamir Revilla Quispe | Done |
-| 1 | US-17 | Búsqueda de campañas | T-14 | Implementar filtros de campañas | Implementar los filtros por categoría, ubicación, tipo de compensación y demás criterios establecidos. | 2 | Renzo Zamir Revilla Quispe | Done |
-| 1 | US-18 | Consulta de condiciones de una campaña | T-15 | Implementar consulta de detalle de campaña | Permitir consultar objetivo, requisitos, entregables, fechas, compensación y estado de una campaña. | 2 | Renzo Zamir Revilla Quispe | Done |
-| 1 | US-19 | Postulación a campaña | T-16 | Implementar registro de postulación | Implementar el proceso mediante el cual un creador puede registrar una postulación a una campaña. | 3 | Renzo Zamir Revilla Quispe | Done |
-| 1 | US-19 | Postulación a campaña | T-17 | Implementar validaciones de postulación | Validar duplicidad, requisitos obligatorios y disponibilidad de la campaña antes de registrar la postulación. | 2 | Julio Frank Quispe Serrano | Done |
-| 1 | US-19 | Postulación a campaña | T-18 | Implementar actualización de postulación | Permitir actualizar una postulación mientras esta permanezca en estado pendiente. | 2 | Renzo Zamir Revilla Quispe | Done |
-| 1 | US-10 | Registro de creador | T-19 | Implementar registro de creador | Implementar el servicio para crear una cuenta correspondiente a un creador de contenido. | 3 | Anhelo Rodrigo Rocca León | Done |
-| 1 | US-10 | Registro de creador | T-20 | Validar registro de creador | Validar información obligatoria, formato de correo y existencia previa de la cuenta. | 2 | Julio Frank Quispe Serrano | Done |
-| 1 | US-11 | Inicio de sesión y recuperación de cuenta | T-21 | Implementar inicio de sesión | Implementar la autenticación de usuarios mediante sus credenciales de acceso. | 3 | Anhelo Rodrigo Rocca León | Done |
-| 1 | US-11 | Inicio de sesión y recuperación de cuenta | T-22 | Implementar recuperación de cuenta | Implementar la solicitud de recuperación y restablecimiento de contraseña. | 3 | Leonardo Rafael Garcia Villanueva | Done |
-| 1 | US-13 | Gestión del perfil de creadores | T-23 | Implementar consulta de perfil de creador | Permitir obtener la información correspondiente al perfil del creador autenticado. | 2 | Anhelo Rodrigo Rocca León | Done |
-| 1 | US-13 | Gestión del perfil de creadores | T-24 | Implementar actualización de perfil de creador | Permitir modificar la información disponible del perfil del creador. | 2 | Fabio Cesar Vallejo Trujillo | Done |
-| 1 | US-14 | Vinculación de redes sociales | T-25 | Implementar autorización de red social | Implementar el inicio del proceso de autorización para vincular una cuenta social. | 3 | Anhelo Rodrigo Rocca León | Done |
-| 1 | US-14 | Vinculación de redes sociales | T-26 | Procesar vinculación de red social | Procesar la respuesta de autorización y registrar las redes sociales vinculadas al perfil. | 3 | Leonardo Rafael Garcia Villanueva | Done |
-| 1 | US-15 | Creación de campaña | T-27 | Implementar creación de campaña | Implementar el registro de los datos generales requeridos para crear una campaña. | 3 | Renzo Zamir Revilla Quispe | Done |
-| 1 | US-15 | Creación de campaña | T-28 | Implementar publicación de campaña | Implementar la operación para publicar una campaña cuando cuente con la información requerida. | 2 | Renzo Zamir Revilla Quispe | Done |
-| 1 | US-16 | Definición de condiciones de campaña | T-29 | Implementar condiciones de campaña | Implementar el registro de requisitos, entregables, plazos y compensación de una campaña. | 3 | Renzo Zamir Revilla Quispe | Done |
-| 1 | US-09 | Registro de empresa | T-30 | Implementar registro de empresa | Implementar el servicio para crear una cuenta correspondiente a una empresa. | 3 | Anhelo Rodrigo Rocca León | Done |
-| 1 | US-09 | Registro de empresa | T-31 | Validar registro de empresa | Validar la información obligatoria y evitar la creación de cuentas empresariales duplicadas. | 2 | Julio Frank Quispe Serrano | Done |
-
+| Sprint 1 | User Story Id | User Story Title                                                 | Work-Item / Task Id | Task Title                                           | Description                                                                                                                              | Estimation (Hours) | Assigned To                       | Status |
+| -------- | ------------- | ---------------------------------------------------------------- | ------------------- | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -----------------: | --------------------------------- | ------ |
+| 1        | US-01         | Presentación de CollabPro para empresas                          | T-01                | Implementar propuesta de valor para empresas         | Implementar en la Landing Page la propuesta de valor y los principales beneficios de CollabPro dirigidos a pequeñas y medianas empresas. |                  1 | Renzo Zamir Revilla Quispe        | Done   |
+| 1        | US-02         | Presentación de CollabPro para creadores                         | T-02                | Implementar propuesta de valor para creadores        | Implementar en la Landing Page la propuesta de valor y los principales beneficios dirigidos a creadores de contenido.                    |                  1 | Fabio Cesar Vallejo Trujillo      | Done   |
+| 1        | US-03         | Información sobre el funcionamiento de CollabPro para empresas   | T-03                | Implementar sección de funcionamiento para empresas  | Implementar una sección que explique a las empresas las principales etapas del proceso de colaboración dentro de CollabPro.              |                  2 | Renzo Zamir Revilla Quispe        | Done   |
+| 1        | US-04         | Información sobre el funcionamiento de CollabPro para creadores  | T-04                | Implementar sección de funcionamiento para creadores | Implementar una sección que explique a los creadores las etapas de búsqueda, postulación, aceptación, entrega y validación.              |                  2 | Renzo Zamir Revilla Quispe        | Done   |
+| 1        | US-05         | Contacto con CollabPro                                           | T-05                | Implementar formulario de contacto                   | Implementar el formulario de contacto con los campos requeridos y sus respectivas validaciones.                                          |                  2 | Anhelo Rodrigo Rocca León         | Done   |
+| 1        | US-05         | Contacto con CollabPro                                           | T-06                | Implementar confirmación de contacto                 | Implementar una confirmación visual cuando una consulta sea enviada correctamente.                                                       |                  1 | Julio Frank Quispe Serrano        | Done   |
+| 1        | US-06         | Cambio de idioma                                                 | T-07                | Implementar selector de idioma                       | Implementar el selector que permita visualizar la Landing Page en español o inglés.                                                      |                  2 | Fabio Cesar Vallejo Trujillo      | Done   |
+| 1        | US-06         | Cambio de idioma                                                 | T-08                | Mantener idioma seleccionado                         | Mantener el idioma seleccionado durante la navegación dentro de la Landing Page.                                                         |                  1 | Anhelo Rodrigo Rocca León         | Done   |
+| 1        | US-07         | Compatibilidad visual de la Landing Page con varios dispositivos | T-09                | Implementar diseño responsive                        | Adaptar la Landing Page para su correcta visualización en dispositivos móviles y computadoras.                                           |                  3 | Fabio Cesar Vallejo Trujillo      | Done   |
+| 1        | US-07         | Compatibilidad visual de la Landing Page con varios dispositivos | T-10                | Validar comportamiento responsive                    | Validar la visualización en distintos tamaños y orientaciones de pantalla.                                                               |                  2 | Julio Frank Quispe Serrano        | Done   |
+| 1        | US-08         | Registro desde la Landing Page                                   | T-11                | Implementar acceso al registro de empresa            | Implementar desde la Landing Page el acceso al proceso de registro correspondiente a una empresa.                                        |                  1 | Leonardo Rafael Garcia Villanueva | Done   |
+| 1        | US-08         | Registro desde la Landing Page                                   | T-12                | Implementar acceso al registro de creador            | Implementar desde la Landing Page el acceso al proceso de registro correspondiente a un creador de contenido.                            |                  1 | Leonardo Rafael Garcia Villanueva | Done   |
+| 1        | US-17         | Búsqueda de campañas                                             | T-13                | Implementar búsqueda de campañas                     | Implementar la consulta de campañas publicadas utilizando los criterios de búsqueda disponibles.                                         |                  3 | Renzo Zamir Revilla Quispe        | Done   |
+| 1        | US-17         | Búsqueda de campañas                                             | T-14                | Implementar filtros de campañas                      | Implementar los filtros por categoría, ubicación, tipo de compensación y demás criterios establecidos.                                   |                  2 | Renzo Zamir Revilla Quispe        | Done   |
+| 1        | US-18         | Consulta de condiciones de una campaña                           | T-15                | Implementar consulta de detalle de campaña           | Permitir consultar objetivo, requisitos, entregables, fechas, compensación y estado de una campaña.                                      |                  2 | Renzo Zamir Revilla Quispe        | Done   |
+| 1        | US-19         | Postulación a campaña                                            | T-16                | Implementar registro de postulación                  | Implementar el proceso mediante el cual un creador puede registrar una postulación a una campaña.                                        |                  3 | Renzo Zamir Revilla Quispe        | Done   |
+| 1        | US-19         | Postulación a campaña                                            | T-17                | Implementar validaciones de postulación              | Validar duplicidad, requisitos obligatorios y disponibilidad de la campaña antes de registrar la postulación.                            |                  2 | Julio Frank Quispe Serrano        | Done   |
+| 1        | US-19         | Postulación a campaña                                            | T-18                | Implementar actualización de postulación             | Permitir actualizar una postulación mientras esta permanezca en estado pendiente.                                                        |                  2 | Renzo Zamir Revilla Quispe        | Done   |
+| 1        | US-10         | Registro de creador                                              | T-19                | Implementar registro de creador                      | Implementar el servicio para crear una cuenta correspondiente a un creador de contenido.                                                 |                  3 | Anhelo Rodrigo Rocca León         | Done   |
+| 1        | US-10         | Registro de creador                                              | T-20                | Validar registro de creador                          | Validar información obligatoria, formato de correo y existencia previa de la cuenta.                                                     |                  2 | Julio Frank Quispe Serrano        | Done   |
+| 1        | US-11         | Inicio de sesión y recuperación de cuenta                        | T-21                | Implementar inicio de sesión                         | Implementar la autenticación de usuarios mediante sus credenciales de acceso.                                                            |                  3 | Anhelo Rodrigo Rocca León         | Done   |
+| 1        | US-11         | Inicio de sesión y recuperación de cuenta                        | T-22                | Implementar recuperación de cuenta                   | Implementar la solicitud de recuperación y restablecimiento de contraseña.                                                               |                  3 | Leonardo Rafael Garcia Villanueva | Done   |
+| 1        | US-13         | Gestión del perfil de creadores                                  | T-23                | Implementar consulta de perfil de creador            | Permitir obtener la información correspondiente al perfil del creador autenticado.                                                       |                  2 | Anhelo Rodrigo Rocca León         | Done   |
+| 1        | US-13         | Gestión del perfil de creadores                                  | T-24                | Implementar actualización de perfil de creador       | Permitir modificar la información disponible del perfil del creador.                                                                     |                  2 | Fabio Cesar Vallejo Trujillo      | Done   |
+| 1        | US-14         | Vinculación de redes sociales                                    | T-25                | Implementar autorización de red social               | Implementar el inicio del proceso de autorización para vincular una cuenta social.                                                       |                  3 | Anhelo Rodrigo Rocca León         | Done   |
+| 1        | US-14         | Vinculación de redes sociales                                    | T-26                | Procesar vinculación de red social                   | Procesar la respuesta de autorización y registrar las redes sociales vinculadas al perfil.                                               |                  3 | Leonardo Rafael Garcia Villanueva | Done   |
+| 1        | US-15         | Creación de campaña                                              | T-27                | Implementar creación de campaña                      | Implementar el registro de los datos generales requeridos para crear una campaña.                                                        |                  3 | Renzo Zamir Revilla Quispe        | Done   |
+| 1        | US-15         | Creación de campaña                                              | T-28                | Implementar publicación de campaña                   | Implementar la operación para publicar una campaña cuando cuente con la información requerida.                                           |                  2 | Renzo Zamir Revilla Quispe        | Done   |
+| 1        | US-16         | Definición de condiciones de campaña                             | T-29                | Implementar condiciones de campaña                   | Implementar el registro de requisitos, entregables, plazos y compensación de una campaña.                                                |                  3 | Renzo Zamir Revilla Quispe        | Done   |
+| 1        | US-09         | Registro de empresa                                              | T-30                | Implementar registro de empresa                      | Implementar el servicio para crear una cuenta correspondiente a una empresa.                                                             |                  3 | Anhelo Rodrigo Rocca León         | Done   |
+| 1        | US-09         | Registro de empresa                                              | T-31                | Validar registro de empresa                          | Validar la información obligatoria y evitar la creación de cuentas empresariales duplicadas.                                             |                  2 | Julio Frank Quispe Serrano        | Done   |
 
 ##### 4.2.1.4. Development Evidence for Sprint Review
 
@@ -6556,17 +6565,17 @@ Durante el Sprint 1 se realizaron avances relacionados con la documentación y d
 
 A continuación, se presentan algunos de los commits realizados durante el desarrollo del proyecto como evidencia del trabajo efectuado durante el Sprint.
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-| --- | --- | --- | --- | --- | --- |
-| AppMoviles2026/report | main | 7f7bf6d | docs: added requirements specification | Requirements specification added | 2026-09-18 |
-| AppMoviles2026/report | main | 9a370c6 | docs: add strategic and tactical DDD documentation | Strategic and tactical DDD documentation added | 2026-09-18 |
-| AppMoviles2026/report | main | e5ccaa5 | docs: update README with storytelling diagrams | Storytelling diagrams added to README | 2026-09-18 |
-| AppMoviles2026/report | main | 35d6813 | docs: update README to include Bounded Context Canvases for various management domains | Bounded Context Canvases documentation added | 2026-09-18 |
-| AppMoviles2026/report | main | 1a45ab3 | doc: add conclutions and interview | Conclusions and interview documentation added | 2026-09-18 |
-| AppMoviles2026/report | main | 294c3e3 | docs: update README to include database design diagrams for various bounded contexts | Database design diagrams added for bounded contexts | 2026-09-18 |
-| AppMoviles2026/report | main | d821931 | docs: fixed minor gramatic details | Minor grammatical corrections applied | 2026-09-18 |
-| AppMoviles2026/report | main | 198b9e2 | docs: fixed minor gramatic detail | Minor documentation correction applied | 2026-09-18 |
-| AppMoviles2026/report | main | 0a273ec | doc: update | General project documentation updated | 2026-09-18 |
+| Repository            | Branch | Commit Id | Commit Message                                                                         | Commit Message Body                                 | Committed on (Date) |
+| --------------------- | ------ | --------- | -------------------------------------------------------------------------------------- | --------------------------------------------------- | ------------------- |
+| AppMoviles2026/report | main   | 7f7bf6d   | docs: added requirements specification                                                 | Requirements specification added                    | 2026-09-18          |
+| AppMoviles2026/report | main   | 9a370c6   | docs: add strategic and tactical DDD documentation                                     | Strategic and tactical DDD documentation added      | 2026-09-18          |
+| AppMoviles2026/report | main   | e5ccaa5   | docs: update README with storytelling diagrams                                         | Storytelling diagrams added to README               | 2026-09-18          |
+| AppMoviles2026/report | main   | 35d6813   | docs: update README to include Bounded Context Canvases for various management domains | Bounded Context Canvases documentation added        | 2026-09-18          |
+| AppMoviles2026/report | main   | 1a45ab3   | doc: add conclutions and interview                                                     | Conclusions and interview documentation added       | 2026-09-18          |
+| AppMoviles2026/report | main   | 294c3e3   | docs: update README to include database design diagrams for various bounded contexts   | Database design diagrams added for bounded contexts | 2026-09-18          |
+| AppMoviles2026/report | main   | d821931   | docs: fixed minor gramatic details                                                     | Minor grammatical corrections applied               | 2026-09-18          |
+| AppMoviles2026/report | main   | 198b9e2   | docs: fixed minor gramatic detail                                                      | Minor documentation correction applied              | 2026-09-18          |
+| AppMoviles2026/report | main   | 0a273ec   | doc: update                                                                            | General project documentation updated               | 2026-09-18          |
 
 ##### 4.2.1.5. Testing Suite Evidence for Sprint Review
 
@@ -6580,42 +6589,42 @@ Durante este Sprint no se implementaron pruebas bajo el enfoque BDD con archivos
 
 Los Unit Tests validan de manera aislada reglas de negocio, agregados, Value Objects, servicios de dominio, handlers y componentes de seguridad.
 
-| Test Id | Test Class | Related User Story | Component / Behavior |
-| --- | --- | --- | --- |
-| UT-01 | `RegistrationDomainTests` | US-09, US-10 | Valida la creación de cuentas de empresa y creador, la asignación correcta del tipo de cuenta, perfiles iniciales y validaciones de contraseña. |
-| UT-02 | `RegistrationHandlersTests` | US-09, US-10 | Valida el procesamiento de los comandos de registro, hash de contraseña, persistencia y rechazo de correos previamente registrados. |
-| UT-03 | `PasswordHasherTests` | US-09, US-10, US-11 | Comprueba que las contraseñas sean almacenadas mediante hash, empleando valores de salt diferentes y evitando almacenar el texto original. |
-| UT-04 | `JwtSessionSecurityTests` | US-11 | Valida la emisión y verificación de tokens JWT, expiración, firma, revocación y rechazo de tokens inválidos. |
-| UT-05 | `SecretCipherTests` | US-14 | Comprueba el cifrado de credenciales asociadas a proveedores externos y el rechazo de información alterada. |
-| UT-06 | `CampaignDomainTests` | US-15, US-16 | Valida las reglas del agregado Campaign para definición de condiciones, fechas, compensación, publicación, cierre y estados permitidos. |
-| UT-07 | `ApplicationDomainTests` | US-19 | Valida elegibilidad, requisitos obligatorios, creación de postulaciones, actualización, cancelación y restricciones según el estado de la postulación. |
+| Test Id | Test Class                  | Related User Story  | Component / Behavior                                                                                                                                   |
+| ------- | --------------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| UT-01   | `RegistrationDomainTests`   | US-09, US-10        | Valida la creación de cuentas de empresa y creador, la asignación correcta del tipo de cuenta, perfiles iniciales y validaciones de contraseña.        |
+| UT-02   | `RegistrationHandlersTests` | US-09, US-10        | Valida el procesamiento de los comandos de registro, hash de contraseña, persistencia y rechazo de correos previamente registrados.                    |
+| UT-03   | `PasswordHasherTests`       | US-09, US-10, US-11 | Comprueba que las contraseñas sean almacenadas mediante hash, empleando valores de salt diferentes y evitando almacenar el texto original.             |
+| UT-04   | `JwtSessionSecurityTests`   | US-11               | Valida la emisión y verificación de tokens JWT, expiración, firma, revocación y rechazo de tokens inválidos.                                           |
+| UT-05   | `SecretCipherTests`         | US-14               | Comprueba el cifrado de credenciales asociadas a proveedores externos y el rechazo de información alterada.                                            |
+| UT-06   | `CampaignDomainTests`       | US-15, US-16        | Valida las reglas del agregado Campaign para definición de condiciones, fechas, compensación, publicación, cierre y estados permitidos.                |
+| UT-07   | `ApplicationDomainTests`    | US-19               | Valida elegibilidad, requisitos obligatorios, creación de postulaciones, actualización, cancelación y restricciones según el estado de la postulación. |
 
 ###### Integration Tests
 
 Las pruebas de integración validan el funcionamiento conjunto de controladores REST, servicios de aplicación, seguridad, persistencia y base de datos utilizando el perfil de testing del backend.
 
-| Test Id | Test Class | Related User Story | Component / Behavior |
-| --- | --- | --- | --- |
-| IT-01 | `RegistrationApiTests` | US-09, US-10 | Verifica registro de empresas y creadores, validaciones de entrada, prevención de cuentas duplicadas, persistencia y rollback ante errores. |
-| IT-02 | `IdentityLifecycleApiTests` | US-11, US-13, US-14 | Verifica inicio de sesión, recuperación de cuenta, actualización de perfil, sesiones protegidas y vinculación de redes sociales. |
-| IT-03 | `RecoveryMailpitTests` | US-11 | Comprueba la generación y entrega del correo correspondiente al proceso de recuperación de cuenta. |
-| IT-04 | `SocialOAuthAdapterTests` | US-14 | Valida la integración del adaptador OAuth para TikTok e Instagram mediante respuestas HTTP controladas y almacenamiento seguro de credenciales. |
-| IT-05 | `CampaignPreparationApiTests` | US-15, US-16 | Verifica creación de campañas, definición y actualización de condiciones, publicación, autorización por rol, persistencia e idempotencia. |
-| IT-06 | `CampaignDiscoveryApplicationApiTests` | US-17, US-18, US-19 | Verifica búsqueda y filtrado de campañas, consulta de detalle, validación de elegibilidad y creación, consulta, actualización y cancelación de postulaciones. |
-| IT-07 | `BackendMigrationUpgradeTests` | Soporte técnico del Sprint | Valida que las migraciones Flyway puedan actualizar una base de datos existente sin eliminar cuentas, sesiones o estados pendientes. |
-| IT-08 | `CollabproPlatformApplicationTests` | Soporte técnico del Sprint | Comprueba que el contexto completo de Spring Boot pueda inicializarse correctamente con el perfil de testing. |
+| Test Id | Test Class                             | Related User Story         | Component / Behavior                                                                                                                                          |
+| ------- | -------------------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| IT-01   | `RegistrationApiTests`                 | US-09, US-10               | Verifica registro de empresas y creadores, validaciones de entrada, prevención de cuentas duplicadas, persistencia y rollback ante errores.                   |
+| IT-02   | `IdentityLifecycleApiTests`            | US-11, US-13, US-14        | Verifica inicio de sesión, recuperación de cuenta, actualización de perfil, sesiones protegidas y vinculación de redes sociales.                              |
+| IT-03   | `RecoveryMailpitTests`                 | US-11                      | Comprueba la generación y entrega del correo correspondiente al proceso de recuperación de cuenta.                                                            |
+| IT-04   | `SocialOAuthAdapterTests`              | US-14                      | Valida la integración del adaptador OAuth para TikTok e Instagram mediante respuestas HTTP controladas y almacenamiento seguro de credenciales.               |
+| IT-05   | `CampaignPreparationApiTests`          | US-15, US-16               | Verifica creación de campañas, definición y actualización de condiciones, publicación, autorización por rol, persistencia e idempotencia.                     |
+| IT-06   | `CampaignDiscoveryApplicationApiTests` | US-17, US-18, US-19        | Verifica búsqueda y filtrado de campañas, consulta de detalle, validación de elegibilidad y creación, consulta, actualización y cancelación de postulaciones. |
+| IT-07   | `BackendMigrationUpgradeTests`         | Soporte técnico del Sprint | Valida que las migraciones Flyway puedan actualizar una base de datos existente sin eliminar cuentas, sesiones o estados pendientes.                          |
+| IT-08   | `CollabproPlatformApplicationTests`    | Soporte técnico del Sprint | Comprueba que el contexto completo de Spring Boot pueda inicializarse correctamente con el perfil de testing.                                                 |
 
 ###### Acceptance Tests
 
 Las pruebas de aceptación automatizadas se ejecutan sobre la API utilizando un servidor Spring Boot real iniciado en un puerto de testing. Estos escenarios atraviesan las capas REST, Application, Domain e Infrastructure, permitiendo validar el comportamiento esperado desde la perspectiva de los User Stories.
 
-| Test Id | Automated Scenario | Related User Story | Expected Result |
-| --- | --- | --- | --- |
-| AT-01 | Registro de empresa y creador mediante HTTP real | US-09, US-10 | La API registra correctamente la cuenta y su perfil correspondiente y retorna HTTP 201 sin exponer la contraseña. |
-| AT-02 | Inicio de sesión y acceso al perfil mediante HTTP real | US-11, US-13 | El usuario obtiene una sesión válida y puede acceder a los recursos protegidos correspondientes a su perfil. |
-| AT-03 | Creación y persistencia de campaña mediante HTTP real | US-15 | Una empresa autenticada puede crear una campaña y la información permanece almacenada correctamente. |
-| AT-04 | Búsqueda y detalle de campañas | US-17, US-18 | El creador puede consultar campañas publicadas mediante criterios de búsqueda y acceder al detalle y condiciones de una campaña. |
-| AT-05 | Flujo completo de postulación | US-19 | El creador puede postular, consultar, actualizar y cancelar una postulación respetando las validaciones y estados definidos. |
+| Test Id | Automated Scenario                                     | Related User Story | Expected Result                                                                                                                  |
+| ------- | ------------------------------------------------------ | ------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| AT-01   | Registro de empresa y creador mediante HTTP real       | US-09, US-10       | La API registra correctamente la cuenta y su perfil correspondiente y retorna HTTP 201 sin exponer la contraseña.                |
+| AT-02   | Inicio de sesión y acceso al perfil mediante HTTP real | US-11, US-13       | El usuario obtiene una sesión válida y puede acceder a los recursos protegidos correspondientes a su perfil.                     |
+| AT-03   | Creación y persistencia de campaña mediante HTTP real  | US-15              | Una empresa autenticada puede crear una campaña y la información permanece almacenada correctamente.                             |
+| AT-04   | Búsqueda y detalle de campañas                         | US-17, US-18       | El creador puede consultar campañas publicadas mediante criterios de búsqueda y acceder al detalle y condiciones de una campaña. |
+| AT-05   | Flujo completo de postulación                          | US-19              | El creador puede postular, consultar, actualizar y cancelar una postulación respetando las validaciones y estados definidos.     |
 
 ###### Testing Source Code Repository
 
@@ -6627,13 +6636,13 @@ Testing source code path:
 
 Durante el Sprint, los tests fueron incorporados junto con las funcionalidades correspondientes en los commits de implementación. Los principales commits relacionados con la suite de testing se presentan a continuación.
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-| --- | --- | --- | --- | --- | --- |
-| AppMoviles2026/platform | develop | `1966dba` | feat: added auth endpoints for brands and creators (US09 and US10) | — | 2026-10-05 |
-| AppMoviles2026/platform | develop | `9325b94` | feat: added login endpoints (US11, US13, US14) for identity context | — | 2026-10-05 |
-| AppMoviles2026/platform | develop | `31ba1b9` | feat: added campaign creation and conditions (US15 and US16) for campaign context | — | 2026-10-05 |
-| AppMoviles2026/platform | develop | `f2b1faa` | feat: added campaign filters and postulations (US17 and US19) for campaigh context | — | 2026-10-05 |
-| AppMoviles2026/platform | develop | `aac2f6f` | feat: implemented JWT for login | — | 2026-10-07 |
+| Repository              | Branch  | Commit Id | Commit Message                                                                     | Commit Message Body | Committed on (Date) |
+| ----------------------- | ------- | --------- | ---------------------------------------------------------------------------------- | ------------------- | ------------------- |
+| AppMoviles2026/platform | develop | `1966dba` | feat: added auth endpoints for brands and creators (US09 and US10)                 | —                   | 2026-10-05          |
+| AppMoviles2026/platform | develop | `9325b94` | feat: added login endpoints (US11, US13, US14) for identity context                | —                   | 2026-10-05          |
+| AppMoviles2026/platform | develop | `31ba1b9` | feat: added campaign creation and conditions (US15 and US16) for campaign context  | —                   | 2026-10-05          |
+| AppMoviles2026/platform | develop | `f2b1faa` | feat: added campaign filters and postulations (US17 and US19) for campaigh context | —                   | 2026-10-05          |
+| AppMoviles2026/platform | develop | `aac2f6f` | feat: implemented JWT for login                                                    | —                   | 2026-10-07          |
 
 ##### 4.2.1.6. Execution Evidence for Sprint Review
 
@@ -6658,15 +6667,14 @@ Durante el Sprint 1 se documentaron los servicios REST del backend de CollabPro 
 
 La versión documentada expone 22 rutas relacionadas con los casos de uso implementados en Identity & Profile Management y Campaign Management:
 
-| Servicio / área | Capacidades documentadas | Rutas representativas |
-|---|---|---|
-| Identity y autenticación | Registro de empresas y creadores, inicio de sesión, recuperación/restablecimiento de contraseña y consulta de la cuenta actual. | `POST /api/v1/auth/brands`, `/creators`, `/sessions`, `/recovery-requests`, `/password-resets`; `GET /api/v1/accounts/me` |
-| Perfil y redes sociales | Consulta/actualización del perfil de creador; inicio de autorización OAuth, callback, consulta de resultado y listado de redes vinculadas. | `GET/PUT /api/v1/profiles/me/creator`; `/api/v1/social-accounts/{platform}/authorizations`, `/callback`, `/authorizations/{authorizationId}`, `/me` |
-| Campañas | Exploración paginada, consulta de detalle, campañas propias, creación, definición de condiciones, publicación, cierre y descarte de borradores. | `GET/POST /api/v1/campaigns`; `/campaigns/published`, `/campaigns/mine`, `/campaigns/{id}`, `/campaigns/{id}/conditions`, `/publication`, `/closure` |
-| Postulaciones | Envío, listado propio, detalle, edición y cancelación; las solicitudes de creación aceptan `Idempotency-Key` para proteger reintentos. | `POST /api/v1/campaigns/{id}/applications`; `GET /api/v1/applications/mine`, `/applications/{id}`; `PUT /api/v1/applications/{id}`; `POST /api/v1/applications/{id}/cancellation` |
+| Servicio / área          | Capacidades documentadas                                                                                                                        | Rutas representativas                                                                                                                                                             |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Identity y autenticación | Registro de empresas y creadores, inicio de sesión, recuperación/restablecimiento de contraseña y consulta de la cuenta actual.                 | `POST /api/v1/auth/brands`, `/creators`, `/sessions`, `/recovery-requests`, `/password-resets`; `GET /api/v1/accounts/me`                                                         |
+| Perfil y redes sociales  | Consulta/actualización del perfil de creador; inicio de autorización OAuth, callback, consulta de resultado y listado de redes vinculadas.      | `GET/PUT /api/v1/profiles/me/creator`; `/api/v1/social-accounts/{platform}/authorizations`, `/callback`, `/authorizations/{authorizationId}`, `/me`                               |
+| Campañas                 | Exploración paginada, consulta de detalle, campañas propias, creación, definición de condiciones, publicación, cierre y descarte de borradores. | `GET/POST /api/v1/campaigns`; `/campaigns/published`, `/campaigns/mine`, `/campaigns/{id}`, `/campaigns/{id}/conditions`, `/publication`, `/closure`                              |
+| Postulaciones            | Envío, listado propio, detalle, edición y cancelación; las solicitudes de creación aceptan `Idempotency-Key` para proteger reintentos.          | `POST /api/v1/campaigns/{id}/applications`; `GET /api/v1/applications/mine`, `/applications/{id}`; `PUT /api/v1/applications/{id}`; `POST /api/v1/applications/{id}/cancellation` |
 
 Las rutas protegidas usan JWT Bearer. Para probarlas desde Swagger, se ejecuta `POST /api/v1/auth/sessions`, se copia `accessToken` y se ingresa en **Authorize**; el control añade el esquema Bearer al realizar solicitudes. Las rutas de registro, autenticación, recuperación y callback OAuth son públicas según su propósito. Los errores de autenticación y autorización se devuelven como HTTP 401 y 403, respectivamente. La vinculación de Instagram/TikTok necesita credenciales OAuth y callbacks registrados en los proveedores; la documentación no representa una autorización social simulada. Los bounded contexts Collaboration, Billing y Performance no exponen todavía rutas en la API desplegada.
-
 
 ![Vista general de Swagger UI con los grupos de rutas de CollabPro](./assets/C04/Sprint1/services/swagger-ui-overview.png)
 
@@ -6676,14 +6684,14 @@ _Figura. Interfaz Swagger UI de la API desplegada, mostrando los grupos de endpo
 
 El backend REST de CollabPro se desplegó para la revisión del Sprint 1 en una máquina virtual de Microsoft Azure. La API queda expuesta en el puerto 8081 y la dirección pública informada es `http://40.75.23.68:8081`. Durante la verificación del 9 de octubre de 2026, Swagger UI (`/swagger-ui/index.html`) y el contrato OpenAPI (`/v3/api-docs`) respondieron con HTTP 200; el documento identifica el servicio como **CollabPro API**, versión **v1**, y publica 22 rutas.
 
-| Elemento | Estado observado |
-|---|---|
-| Plataforma de cómputo | Máquina virtual de Azure |
-| URL base informada | [http://40.75.23.68:8081](http://40.75.23.68:8081) |
-| Documentación interactiva | [Swagger UI](http://40.75.23.68:8081/swagger-ui/index.html) |
-| Especificación de servicios | [OpenAPI JSON](http://40.75.23.68:8081/v3/api-docs), OpenAPI 3.1 |
-| Verificación registrada | Swagger UI y OpenAPI disponibles con HTTP 200 el 9 de octubre de 2026 |
-| Transporte publicado | HTTP en el endpoint proporcionado |
+| Elemento                    | Estado observado                                                      |
+| --------------------------- | --------------------------------------------------------------------- |
+| Plataforma de cómputo       | Máquina virtual de Azure                                              |
+| URL base informada          | [http://40.75.23.68:8081](http://40.75.23.68:8081)                    |
+| Documentación interactiva   | [Swagger UI](http://40.75.23.68:8081/swagger-ui/index.html)           |
+| Especificación de servicios | [OpenAPI JSON](http://40.75.23.68:8081/v3/api-docs), OpenAPI 3.1      |
+| Verificación registrada     | Swagger UI y OpenAPI disponibles con HTTP 200 el 9 de octubre de 2026 |
+| Transporte publicado        | HTTP en el endpoint proporcionado                                     |
 
 El repositorio del backend contiene un `Dockerfile` para construir la imagen de Spring Boot y `compose.yaml` para levantar localmente la API, MySQL y Mailpit. La URL pública confirma la disponibilidad de la API; por sí sola no identifica dónde se aloja MySQL ni confirma que la VM utilice exactamente el mismo archivo Compose. Por ello, las capturas de Azure deben mostrar la VM y su configuración efectiva, sin incluir secretos.
 
@@ -6698,7 +6706,6 @@ _Figura. Portal de Azure mostrando la máquina virtual utilizada para el desplie
 _Figura. Configuración de red de Azure que permite el acceso al servicio en el puerto 8081._
 
 ##### 4.2.1.9. Team Collaboration Insights during Sprint
-
 
 #### 4.2.2. Sprint 2
 
@@ -7005,15 +7012,15 @@ Las creaciones de recursos como entregas, incidencias, mecanismos y suscripcione
 
 Los errores de aplicación utilizan el recurso `ApiError`, formado por `code`, `message` y `fieldErrors`. Este último permite asociar mensajes a campos concretos. Los códigos dependen del contexto y distinguen validación, permisos, versiones, estados y condiciones del proveedor.
 
-| HTTP | Situaciones relevantes del Sprint 2 |
-| --- | --- |
-| 400 | Cuerpo o UUID inválido, paginación fuera de rango, requisito omitido, periodo incoherente o decisión no admitida. |
-| 401 / 403 | Sesión ausente o inválida; rol incorrecto o acceso a recursos ajenos. Los proveedores y webhooks tienen además su validación específica. |
-| 404 | Perfil, campaña, acuerdo, entrega, incidencia, evidencia o recurso financiero no encontrado en el alcance permitido. |
-| 409 | Versión antigua, condiciones cambiadas, duplicado incompatible, colaboración cerrada, requisito financiero incumplido o estado que impide la operación. |
-| 410 | Enlace de atribución desactivado, destino retirado o colaboración cancelada. |
-| 413 / 415 | Archivo demasiado grande o formato incompatible. |
-| 503 | Integración financiera no configurada o proveedor temporalmente no disponible, según la operación. |
+| HTTP      | Situaciones relevantes del Sprint 2                                                                                                                     |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 400       | Cuerpo o UUID inválido, paginación fuera de rango, requisito omitido, periodo incoherente o decisión no admitida.                                       |
+| 401 / 403 | Sesión ausente o inválida; rol incorrecto o acceso a recursos ajenos. Los proveedores y webhooks tienen además su validación específica.                |
+| 404       | Perfil, campaña, acuerdo, entrega, incidencia, evidencia o recurso financiero no encontrado en el alcance permitido.                                    |
+| 409       | Versión antigua, condiciones cambiadas, duplicado incompatible, colaboración cerrada, requisito financiero incumplido o estado que impide la operación. |
+| 410       | Enlace de atribución desactivado, destino retirado o colaboración cancelada.                                                                            |
+| 413 / 415 | Archivo demasiado grande o formato incompatible.                                                                                                        |
+| 503       | Integración financiera no configurada o proveedor temporalmente no disponible, según la operación.                                                      |
 
 Entre los conflictos relevantes se encuentran `CONCURRENT_UPDATE`, `IDEMPOTENCY_CONFLICT`, `TERMS_CHANGED`, `TERMS_EXPIRED`, `STALE_SUBMISSION`, `CORRECTION_WINDOW_CLOSED`, `RESOLUTION_STALE`, `METHOD_REQUIRED` y `PAYMENT_ALREADY_IN_PROGRESS`. El cliente debe volver a consultar y resolver la causa; no cambiar versiones o generar otra intención de pago automáticamente para evitar el conflicto.
 
@@ -7053,18 +7060,18 @@ Durante las sesiones se busca validar:
 
 **Segmentos objetivo considerados**
 
-| Segmento objetivo | Descripción | Propósito de validación |
-|---|---|---|
-| Pequeñas y Medianas Empresas (Pymes) | Negocios interesados en promocionar productos o servicios mediante campañas con creadores de contenido. | Validar la comprensión del proceso de creación de campañas, selección de colaboradores y seguimiento de entregables. |
-| Creadores de Contenido | Personas que producen contenido digital y buscan oportunidades de colaboración comercial con empresas. | Validar la facilidad para explorar campañas, revisar requisitos, postular y realizar seguimiento de colaboraciones y compensaciones. |
+| Segmento objetivo                    | Descripción                                                                                             | Propósito de validación                                                                                                              |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Pequeñas y Medianas Empresas (Pymes) | Negocios interesados en promocionar productos o servicios mediante campañas con creadores de contenido. | Validar la comprensión del proceso de creación de campañas, selección de colaboradores y seguimiento de entregables.                 |
+| Creadores de Contenido               | Personas que producen contenido digital y buscan oportunidades de colaboración comercial con empresas.  | Validar la facilidad para explorar campañas, revisar requisitos, postular y realizar seguimiento de colaboraciones y compensaciones. |
 
 **Artefactos a validar**
 
-| Artefacto | Descripción | Elementos evaluados |
-|---|---|---|
-| Landing Page | Página pública de presentación de CollabPro. | Propuesta de valor, beneficios, diseño visual, planes disponibles y botones de descarga. |
+| Artefacto          | Descripción                                                           | Elementos evaluados                                                                                           |
+| ------------------ | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Landing Page       | Página pública de presentación de CollabPro.                          | Propuesta de valor, beneficios, diseño visual, planes disponibles y botones de descarga.                      |
 | Mobile Application | Aplicación móvil de CollabPro para empresas y creadores de contenido. | Registro, inicio de sesión, dashboard, campañas, postulaciones, colaboraciones, entregables y compensaciones. |
-| User Flows | Procesos principales de interacción correspondientes a cada segmento. | Secuencia de navegación, claridad de las acciones y comprensión de las funcionalidades. |
+| User Flows         | Procesos principales de interacción correspondientes a cada segmento. | Secuencia de navegación, claridad de las acciones y comprensión de las funcionalidades.                       |
 
 **Metodología de la sesión**
 
@@ -7144,36 +7151,36 @@ Estas preguntas se utilizaron como guía para obtener información sobre la expe
 
 **Preguntas específicas para el segmento Pymes**
 
-| Momento | Pregunta |
-|---|---|
-| Durante la interacción | ¿Qué tan sencillo o complicado te resultó navegar por la aplicación y comprender las tareas presentadas? |
-| Durante la interacción | ¿Qué funcionalidad considerarías más útil para gestionar colaboraciones con creadores de contenido? |
-| Después de la interacción | ¿Encontraste alguna dificultad, información confusa o proceso innecesario? |
-| Después de la interacción | ¿Qué mejorarías o agregarías para adaptar CollabPro a las necesidades de tu negocio? |
+| Momento                   | Pregunta                                                                                                 |
+| ------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Durante la interacción    | ¿Qué tan sencillo o complicado te resultó navegar por la aplicación y comprender las tareas presentadas? |
+| Durante la interacción    | ¿Qué funcionalidad considerarías más útil para gestionar colaboraciones con creadores de contenido?      |
+| Después de la interacción | ¿Encontraste alguna dificultad, información confusa o proceso innecesario?                               |
+| Después de la interacción | ¿Qué mejorarías o agregarías para adaptar CollabPro a las necesidades de tu negocio?                     |
 
 **Preguntas específicas para el segmento Creadores de Contenido**
 
-| Momento | Pregunta |
-|---|---|
-| Durante la interacción | ¿Qué tan sencillo o complicado te resultó encontrar campañas y comprender cómo participar en ellas? |
-| Durante la interacción | ¿Qué funcionalidad te pareció más útil para encontrar oportunidades y colaborar con empresas? |
+| Momento                   | Pregunta                                                                                                         |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Durante la interacción    | ¿Qué tan sencillo o complicado te resultó encontrar campañas y comprender cómo participar en ellas?              |
+| Durante la interacción    | ¿Qué funcionalidad te pareció más útil para encontrar oportunidades y colaborar con empresas?                    |
 | Después de la interacción | ¿Encontraste alguna dificultad o información que no fuera suficientemente clara durante el uso de la aplicación? |
-| Después de la interacción | ¿Qué mejorarías o agregarías para facilitar tu trabajo como creador de contenido? |
-| Cierre | ¿En qué situaciones utilizarías CollabPro en lugar de gestionar colaboraciones directamente por redes sociales? |
+| Después de la interacción | ¿Qué mejorarías o agregarías para facilitar tu trabajo como creador de contenido?                                |
+| Cierre                    | ¿En qué situaciones utilizarías CollabPro en lugar de gestionar colaboraciones directamente por redes sociales?  |
 
 **Métricas de observación**
 
 Durante las entrevistas se recopilaron observaciones cualitativas relacionadas con la experiencia de los participantes.
 
-| Métrica | Descripción |
-|---|---|
-| Claridad de la propuesta de valor | Evalúa si el participante comprende los beneficios principales de CollabPro. |
-| Facilidad de navegación | Identifica dificultades para encontrar secciones y comprender los procesos. |
-| Claridad de la información | Evalúa si los requisitos, fechas, entregables y compensaciones son comprensibles. |
-| Utilidad percibida | Recoge la percepción del participante sobre las funcionalidades de la plataforma. |
-| Diseño visual | Evalúa la organización, presentación y atractivo visual de la interfaz. |
-| Comentarios espontáneos | Registra observaciones y sugerencias expresadas durante la entrevista. |
-| Intención de uso | Identifica situaciones en las que el participante consideraría utilizar CollabPro. |
+| Métrica                           | Descripción                                                                        |
+| --------------------------------- | ---------------------------------------------------------------------------------- |
+| Claridad de la propuesta de valor | Evalúa si el participante comprende los beneficios principales de CollabPro.       |
+| Facilidad de navegación           | Identifica dificultades para encontrar secciones y comprender los procesos.        |
+| Claridad de la información        | Evalúa si los requisitos, fechas, entregables y compensaciones son comprensibles.  |
+| Utilidad percibida                | Recoge la percepción del participante sobre las funcionalidades de la plataforma.  |
+| Diseño visual                     | Evalúa la organización, presentación y atractivo visual de la interfaz.            |
+| Comentarios espontáneos           | Registra observaciones y sugerencias expresadas durante la entrevista.             |
+| Intención de uso                  | Identifica situaciones en las que el participante consideraría utilizar CollabPro. |
 
 #### 4.3.2. Registro de Entrevistas
 
@@ -7206,17 +7213,17 @@ Para el segmento Pymes, la entrevista se enfocó en validar la experiencia de un
 
 **Datos del entrevistado**
 
-| Campo | Detalle |
-| --- | --- |
-| **Nombre y Apellidos** | Frank Loayza |
-| **Edad** | 24 |
-| **Distrito / Zona de residencia** | Santiago de Surco |
-| **Segmento** | Pequeñas y Medianas Empresas (Pymes) |
-| **Inicio en video** | 0:00 |
-| **Fin de video** | 14:36 |
-| **Duración** | 14:36 |
-| **URL del video** | Pendiente |
-| **Screenshot** | ![Entrevista Frank](./assets/C02/Entrevistas/frankValidacion.png) |
+| Campo                             | Detalle                                                               |
+| --------------------------------- | --------------------------------------------------------------------- |
+| **Nombre y Apellidos**            | Frank Loayza                                                          |
+| **Edad**                          | 24                                                                    |
+| **Distrito / Zona de residencia** | Santiago de Surco                                                     |
+| **Segmento**                      | Pequeñas y Medianas Empresas (Pymes)                                  |
+| **Inicio en video**               | 0:00                                                                  |
+| **Fin de video**                  | 14:36                                                                 |
+| **Duración**                      | 14:36                                                                 |
+| **URL del video**                 | [Video validación frank](https://www.youtube.com/watch?v=WXB9Q7h5j-M) |
+| **Screenshot**                    | ![Entrevista Frank](./assets/C02/Entrevistas/frankValidacion.png)     |
 
 **Resumen descriptivo:**
 
@@ -7270,17 +7277,17 @@ Para el segmento de creadores de contenido, la entrevista se enfocó en validar 
 
 **Datos del entrevistado**
 
-| Campo | Detalle |
-| --- | --- |
-| **Nombre y Apellidos** | Britner De la Cruz |
-| **Edad** | 22 |
-| **Distrito / Zona de residencia** | Santiago de Surco |
-| **Segmento** | Creadores de Contenido |
-| **Inicio en video** | 0:00 |
-| **Fin de video** | 13:20 (aproximado) |
-| **Duración** | 13:20 (aproximada) |
-| **URL del video** | Pendiente |
-| **Screenshot** | ![Entrevista Britner](./assets/C02/Entrevistas/britnerValidacion.png) |
+| Campo                             | Detalle                                                               |
+| --------------------------------- | --------------------------------------------------------------------- |
+| **Nombre y Apellidos**            | Britner De la Cruz                                                    |
+| **Edad**                          | 22                                                                    |
+| **Distrito / Zona de residencia** | Santiago de Surco                                                     |
+| **Segmento**                      | Creadores de Contenido                                                |
+| **Inicio en video**               | 0:00                                                                  |
+| **Fin de video**                  | 13:20 (aproximado)                                                    |
+| **Duración**                      | 13:20 (aproximada)                                                    |
+| **URL del video**                 | [Video validación frank](https://www.youtube.com/watch?v=S89OqGkui78) |
+| **Screenshot**                    | ![Entrevista Britner](./assets/C02/Entrevistas/britnerValidacion.png) |
 
 **Resumen descriptivo:**
 
@@ -7344,21 +7351,21 @@ No están incluidas en esta evaluación las siguientes tareas:
 
 Los problemas identificados se clasifican mediante la siguiente escala:
 
-| Nivel | Descripción |
-|---|---|
-| 1 | Problema superficial que no impide completar las tareas, pero representa una oportunidad de mejora. |
-| 2 | Problema menor que puede generar dificultades o demoras durante la navegación. |
-| 3 | Problema mayor que dificulta significativamente la realización de una tarea. |
-| 4 | Problema crítico que impide continuar con el uso de la plataforma. |
+| Nivel | Descripción                                                                                         |
+| ----- | --------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial que no impide completar las tareas, pero representa una oportunidad de mejora. |
+| 2     | Problema menor que puede generar dificultades o demoras durante la navegación.                      |
+| 3     | Problema mayor que dificulta significativamente la realización de una tarea.                        |
+| 4     | Problema crítico que impide continuar con el uso de la plataforma.                                  |
 
 **Tabla resumen**
 
-| # | Problema identificado | Escala de severidad | Heurística / Principio relacionado |
-|---|---|---|---|
-| 1 | El Landing Page presenta una experiencia visual demasiado estática para algunos usuarios. | 1 | Usability: Diseño estético y minimalista |
-| 2 | La información sobre fechas, requisitos y compensaciones no resulta suficientemente visible durante la exploración inicial de campañas. | 2 | Usability: Reconocimiento antes que recuerdo / Information Architecture: Is it findable? |
-| 3 | Los filtros de búsqueda por categoría o tipo de contenido no son fácilmente identificables. | 2 | Usability: Reconocimiento antes que recuerdo / Information Architecture: Labeling System |
-| 4 | La necesidad de utilizar una aplicación móvil puede limitar la flexibilidad de acceso para determinados usuarios. | 2 | Usability: Flexibilidad y eficiencia de uso |
+| #   | Problema identificado                                                                                                                   | Escala de severidad | Heurística / Principio relacionado                                                       |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---------------------------------------------------------------------------------------- |
+| 1   | El Landing Page presenta una experiencia visual demasiado estática para algunos usuarios.                                               | 1                   | Usability: Diseño estético y minimalista                                                 |
+| 2   | La información sobre fechas, requisitos y compensaciones no resulta suficientemente visible durante la exploración inicial de campañas. | 2                   | Usability: Reconocimiento antes que recuerdo / Information Architecture: Is it findable? |
+| 3   | Los filtros de búsqueda por categoría o tipo de contenido no son fácilmente identificables.                                             | 2                   | Usability: Reconocimiento antes que recuerdo / Information Architecture: Labeling System |
+| 4   | La necesidad de utilizar una aplicación móvil puede limitar la flexibilidad de acceso para determinados usuarios.                       | 2                   | Usability: Flexibilidad y eficiencia de uso                                              |
 
 **Descripción de problemas**
 
@@ -7434,7 +7441,6 @@ Asimismo, se identificaron oportunidades de mejora en el dinamismo visual del La
 
 Estos resultados constituyen una primera validación cualitativa de la solución y permitirán orientar mejoras en futuras iteraciones. No obstante, debido a que las sesiones se realizaron principalmente mediante demostraciones guiadas, será necesario complementar los hallazgos con pruebas de ejecución autónoma de tareas para evaluar de forma más precisa la usabilidad y el éxito de los flujos principales.
 
-
 #### 4.2.2. Sprint 2
 
 ##### 4.2.2.1. Sprint Planning 2
@@ -7445,17 +7451,17 @@ Durante la planificación se revisaron las funcionalidades necesarias para ampli
 
 A nivel técnico, el Sprint incluye la ampliación de los servicios relacionados con perfiles y redes sociales, así como los servicios necesarios para soportar colaboraciones, entregables, validaciones, incidencias y compensaciones.
 
-| Sprint # | Sprint 2 |
-| --- | --- |
-| **Sprint Planning Background** | El Sprint 2 corresponde a la segunda iteración de desarrollo de CollabPro. El equipo priorizó nueve elementos del Product Backlog relacionados con el registro y gestión empresarial, evaluación de postulaciones, formalización y seguimiento de colaboraciones, entrega de evidencias y ampliación de los servicios que soportan estos procesos. |
-| **Date** | 2026-11-13 |
-| **Time** | 09:00 AM |
-| **Location** | Microsoft Teams |
-| **Prepared By** | Renzo Zamir Revilla Quispe |
-| **Attendees (to planning meeting)** | Todo el equipo |
-| **Sprint 2 Goal** | Nuestro enfoque es ampliar la versión funcional de CollabPro para cubrir el proceso que inicia con la gestión de la empresa y la evaluación de postulaciones y continúa con la formalización y ejecución inicial de una colaboración. Esto será validado cuando una empresa pueda administrar su perfil, revisar postulaciones y aceptar una colaboración, mientras que ambas partes puedan consultar su estado y el creador pueda registrar los entregables y evidencias correspondientes. Asimismo, los servicios de backend deberán soportar los perfiles, redes sociales, colaboraciones, entregables y procesos asociados definidos para esta iteración. |
-| **Sprint 2 Velocity** | 35 Story Points |
-| **Sum of Story Points** | 35 Story Points |
+| Sprint #                            | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**      | El Sprint 2 corresponde a la segunda iteración de desarrollo de CollabPro. El equipo priorizó nueve elementos del Product Backlog relacionados con el registro y gestión empresarial, evaluación de postulaciones, formalización y seguimiento de colaboraciones, entrega de evidencias y ampliación de los servicios que soportan estos procesos.                                                                                                                                                                                                                                                                                                            |
+| **Date**                            | 2026-11-13                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Time**                            | 09:00 AM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Location**                        | Microsoft Teams                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Prepared By**                     | Renzo Zamir Revilla Quispe                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Attendees (to planning meeting)** | Todo el equipo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Sprint 2 Goal**                   | Nuestro enfoque es ampliar la versión funcional de CollabPro para cubrir el proceso que inicia con la gestión de la empresa y la evaluación de postulaciones y continúa con la formalización y ejecución inicial de una colaboración. Esto será validado cuando una empresa pueda administrar su perfil, revisar postulaciones y aceptar una colaboración, mientras que ambas partes puedan consultar su estado y el creador pueda registrar los entregables y evidencias correspondientes. Asimismo, los servicios de backend deberán soportar los perfiles, redes sociales, colaboraciones, entregables y procesos asociados definidos para esta iteración. |
+| **Sprint 2 Velocity**               | 35 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Sum of Story Points**             | 35 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
 ##### 4.2.2.2. Aspect Leaders and Collaborators
 
@@ -7464,12 +7470,12 @@ Durante el Sprint 2 el trabajo se distribuyó considerando los principales aspec
 La distribución no implica exclusividad sobre la implementación, ya que los integrantes del equipo participan en el desarrollo, integración y revisión de las funcionalidades del producto. Esta clasificación permite evidenciar la responsabilidad principal asumida por cada integrante durante el Sprint.
 
 | Team Member (Last Name, First Name) | Mobile Architecture & Domain Integration Leader (L) / Collaborator (C) | Campaign & Collaboration Implementation Leader (L) / Collaborator (C) | Mobile UX/UI & Design System Leader (L) / Collaborator (C) | Navigation & Interaction Flows Leader (L) / Collaborator (C) | Testing & Quality Assurance Leader (L) / Collaborator (C) |
-| --- | :---: | :---: | :---: | :---: | :---: |
-| Quispe Serrano, Julio Frank | C | C | C | C | **L** |
-| Revilla Quispe, Renzo Zamir | C | **L** | C | C | C |
-| Vallejo Trujillo, Fabio Cesar | C | C | **L** | C | C |
-| Garcia Villanueva, Leonardo Rafael | C | C | C | **L** | C |
-| Rocca Leon, Anhelo Rodrigo | **L** | C | C | C | C |
+| ----------------------------------- | :--------------------------------------------------------------------: | :-------------------------------------------------------------------: | :--------------------------------------------------------: | :----------------------------------------------------------: | :-------------------------------------------------------: |
+| Quispe Serrano, Julio Frank         |                                   C                                    |                                   C                                   |                             C                              |                              C                               |                           **L**                           |
+| Revilla Quispe, Renzo Zamir         |                                   C                                    |                                 **L**                                 |                             C                              |                              C                               |                             C                             |
+| Vallejo Trujillo, Fabio Cesar       |                                   C                                    |                                   C                                   |                           **L**                            |                              C                               |                             C                             |
+| Garcia Villanueva, Leonardo Rafael  |                                   C                                    |                                   C                                   |                             C                              |                            **L**                             |                             C                             |
+| Rocca Leon, Anhelo Rodrigo          |                                 **L**                                  |                                   C                                   |                             C                              |                              C                               |                             C                             |
 
 **Mobile Architecture & Domain Integration**
 
@@ -7507,23 +7513,23 @@ _Nota. Elaboración propia._
 
 Trello: https://trello.com/b/ya1jsqLp/collabpro-sprint-2
 
-| Sprint 2 | User Story Id | User Story Title | Work-Item / Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
-| --- | --- | --- | --- | --- | --- | ---: | --- | --- |
-| 2 | US-09 | Registro de empresa | T-32 | Verificar registro empresarial | Verificar el flujo previamente implementado para el registro de una cuenta empresarial y sus validaciones correspondientes. | 2 | Julio Frank Quispe Serrano | Done |
-| 2 | US-12 | Gestión del perfil empresarial | T-33 | Implementar servicios de perfil empresarial | Implementar y validar las operaciones necesarias para consultar y actualizar la información correspondiente al perfil de una empresa. | 3 | Anhelo Rodrigo Rocca León | Done |
-| 2 | US-12 | Gestión del perfil empresarial | T-34 | Integrar gestión completa del perfil empresarial en móvil | Integrar el formulario de perfil empresarial con los servicios reales del backend y permitir consultar y actualizar la información desde la aplicación móvil. | 3 | Fabio Cesar Vallejo Trujillo | Done |
-| 2 | US-20 | Evaluación de postulaciones | T-35 | Implementar evaluación de postulaciones en backend | Implementar las operaciones necesarias para que una empresa consulte, seleccione o rechace postulaciones recibidas para una campaña. | 3 | Renzo Zamir Revilla Quispe | Done |
-| 2 | US-20 | Evaluación de postulaciones | T-36 | Integrar evaluación de postulaciones en móvil | Conectar las pantallas de listado y detalle de postulantes con los servicios reales de evaluación de postulaciones. | 3 | Leonardo Rafael Garcia Villanueva | Done |
-| 2 | US-21 | Aceptación de una colaboración | T-37 | Implementar aceptación bilateral de condiciones | Implementar el proceso mediante el cual empresa y creador aceptan las condiciones necesarias para formalizar una colaboración. | 3 | Renzo Zamir Revilla Quispe | Done |
-| 2 | US-21 | Aceptación de una colaboración | T-38 | Integrar aceptación de colaboración en móvil | Integrar la experiencia móvil de aceptación o rechazo de las condiciones de colaboración con el backend. | 3 | Leonardo Rafael Garcia Villanueva | Done |
-| 2 | US-22 | Consulta del estado de una colaboración | T-39 | Implementar consulta del ciclo de colaboración | Implementar los servicios necesarios para consultar el estado actual, condiciones y acciones pendientes de una colaboración. | 2 | Renzo Zamir Revilla Quispe | Done |
-| 2 | US-22 | Consulta del estado de una colaboración | T-40 | Integrar seguimiento de colaboración en móvil | Conectar las pantallas correspondientes al seguimiento de una colaboración con los datos reales proporcionados por el backend. | 2 | Leonardo Rafael Garcia Villanueva | Done |
-| 2 | US-23 | Entrega de contenido y evidencias | T-41 | Implementar servicios de entregas y evidencias | Implementar el registro y consulta de entregables y evidencias asociados a una colaboración. | 3 | Renzo Zamir Revilla Quispe | Done |
-| 2 | US-23 | Entrega de contenido y evidencias | T-42 | Integrar registro de entregables en móvil | Integrar las pantallas de entrega de contenido y evidencias con los servicios reales del backend. | 3 | Fabio Cesar Vallejo Trujillo | Done |
-| 2 | TS-02 | Servicios de perfiles y redes sociales | T-43 | Completar servicios de perfiles y redes sociales | Completar los servicios REST necesarios para consultar y actualizar perfiles y gestionar las asociaciones de redes sociales de empresas y creadores. | 3 | Anhelo Rodrigo Rocca León | Done |
-| 2 | TS-04 | Servicios de colaboraciones y entregables | T-44 | Implementar servicios de colaboraciones y entregables | Implementar los servicios REST necesarios para crear, consultar y administrar colaboraciones y sus entregables asociados. | 3 | Renzo Zamir Revilla Quispe | Done |
-| 2 | TS-05 | Servicios de validación, incidencias y compensaciones | T-45 | Implementar servicios de validación e incidencias | Implementar operaciones para validar entregables, registrar y consultar incidencias y mantener la trazabilidad del cumplimiento de las colaboraciones. | 3 | Julio Frank Quispe Serrano | Done |
-| 2 | TS-05 | Servicios de validación, incidencias y compensaciones | T-46 | Implementar consulta y gestión de compensaciones | Implementar las capacidades del backend necesarias para gestionar y consultar el estado de las compensaciones asociadas a las colaboraciones. | 3 | Anhelo Rodrigo Rocca León | Done |
+| Sprint 2 | User Story Id | User Story Title                                      | Work-Item / Task Id | Task Title                                                | Description                                                                                                                                                   | Estimation (Hours) | Assigned To                       | Status |
+| -------- | ------------- | ----------------------------------------------------- | ------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------: | --------------------------------- | ------ |
+| 2        | US-09         | Registro de empresa                                   | T-32                | Verificar registro empresarial                            | Verificar el flujo previamente implementado para el registro de una cuenta empresarial y sus validaciones correspondientes.                                   |                  2 | Julio Frank Quispe Serrano        | Done   |
+| 2        | US-12         | Gestión del perfil empresarial                        | T-33                | Implementar servicios de perfil empresarial               | Implementar y validar las operaciones necesarias para consultar y actualizar la información correspondiente al perfil de una empresa.                         |                  3 | Anhelo Rodrigo Rocca León         | Done   |
+| 2        | US-12         | Gestión del perfil empresarial                        | T-34                | Integrar gestión completa del perfil empresarial en móvil | Integrar el formulario de perfil empresarial con los servicios reales del backend y permitir consultar y actualizar la información desde la aplicación móvil. |                  3 | Fabio Cesar Vallejo Trujillo      | Done   |
+| 2        | US-20         | Evaluación de postulaciones                           | T-35                | Implementar evaluación de postulaciones en backend        | Implementar las operaciones necesarias para que una empresa consulte, seleccione o rechace postulaciones recibidas para una campaña.                          |                  3 | Renzo Zamir Revilla Quispe        | Done   |
+| 2        | US-20         | Evaluación de postulaciones                           | T-36                | Integrar evaluación de postulaciones en móvil             | Conectar las pantallas de listado y detalle de postulantes con los servicios reales de evaluación de postulaciones.                                           |                  3 | Leonardo Rafael Garcia Villanueva | Done   |
+| 2        | US-21         | Aceptación de una colaboración                        | T-37                | Implementar aceptación bilateral de condiciones           | Implementar el proceso mediante el cual empresa y creador aceptan las condiciones necesarias para formalizar una colaboración.                                |                  3 | Renzo Zamir Revilla Quispe        | Done   |
+| 2        | US-21         | Aceptación de una colaboración                        | T-38                | Integrar aceptación de colaboración en móvil              | Integrar la experiencia móvil de aceptación o rechazo de las condiciones de colaboración con el backend.                                                      |                  3 | Leonardo Rafael Garcia Villanueva | Done   |
+| 2        | US-22         | Consulta del estado de una colaboración               | T-39                | Implementar consulta del ciclo de colaboración            | Implementar los servicios necesarios para consultar el estado actual, condiciones y acciones pendientes de una colaboración.                                  |                  2 | Renzo Zamir Revilla Quispe        | Done   |
+| 2        | US-22         | Consulta del estado de una colaboración               | T-40                | Integrar seguimiento de colaboración en móvil             | Conectar las pantallas correspondientes al seguimiento de una colaboración con los datos reales proporcionados por el backend.                                |                  2 | Leonardo Rafael Garcia Villanueva | Done   |
+| 2        | US-23         | Entrega de contenido y evidencias                     | T-41                | Implementar servicios de entregas y evidencias            | Implementar el registro y consulta de entregables y evidencias asociados a una colaboración.                                                                  |                  3 | Renzo Zamir Revilla Quispe        | Done   |
+| 2        | US-23         | Entrega de contenido y evidencias                     | T-42                | Integrar registro de entregables en móvil                 | Integrar las pantallas de entrega de contenido y evidencias con los servicios reales del backend.                                                             |                  3 | Fabio Cesar Vallejo Trujillo      | Done   |
+| 2        | TS-02         | Servicios de perfiles y redes sociales                | T-43                | Completar servicios de perfiles y redes sociales          | Completar los servicios REST necesarios para consultar y actualizar perfiles y gestionar las asociaciones de redes sociales de empresas y creadores.          |                  3 | Anhelo Rodrigo Rocca León         | Done   |
+| 2        | TS-04         | Servicios de colaboraciones y entregables             | T-44                | Implementar servicios de colaboraciones y entregables     | Implementar los servicios REST necesarios para crear, consultar y administrar colaboraciones y sus entregables asociados.                                     |                  3 | Renzo Zamir Revilla Quispe        | Done   |
+| 2        | TS-05         | Servicios de validación, incidencias y compensaciones | T-45                | Implementar servicios de validación e incidencias         | Implementar operaciones para validar entregables, registrar y consultar incidencias y mantener la trazabilidad del cumplimiento de las colaboraciones.        |                  3 | Julio Frank Quispe Serrano        | Done   |
+| 2        | TS-05         | Servicios de validación, incidencias y compensaciones | T-46                | Implementar consulta y gestión de compensaciones          | Implementar las capacidades del backend necesarias para gestionar y consultar el estado de las compensaciones asociadas a las colaboraciones.                 |                  3 | Anhelo Rodrigo Rocca León         | Done   |
 
 ##### 4.2.2.4. Development Evidence for Sprint Review
 
@@ -7531,18 +7537,18 @@ Durante el Sprint 2 se realizaron avances relacionados con el desarrollo de nuev
 
 A continuación, se presentan algunos de los commits realizados durante el desarrollo del proyecto como evidencia del trabajo efectuado durante el Sprint.
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-| --- | --- | --- | --- | --- | --- |
-| AppMoviles2026/platform | develop | e203138 | feat(identity): complete brand profiles and authorized social access | Brand profiles and authorized social access completed | 2026-11-09 |
-| AppMoviles2026/platform | develop | b31f507 | feat(campaign): complete application evaluation and campaign contracts | Application evaluation and campaign contracts completed | 2026-11-09 |
-| AppMoviles2026/platform | develop | 54de799 | feat(collaboration): implement bilateral agreements and lifecycle | Bilateral agreements and collaboration lifecycle implemented | 2026-11-09 |
-| AppMoviles2026/platform | develop | 095f6c2 | feat(collaboration): implement submissions reviews and revisions | Submission reviews and revisions implemented | 2026-11-09 |
-| AppMoviles2026/platform | develop | 18bba5f | feat(collaboration): implement incidents and collaboration history | Incidents and collaboration history implemented | 2026-11-10 |
-| AppMoviles2026/platform | develop | f1a996e | feat(performance): implement sourced metrics and manual evidence | Sourced metrics and manual evidence implemented | 2026-11-10 |
-| AppMoviles2026/platform | develop | 67d98e1 | feat(performance): implement attribution and verify backend journeys | Attribution implemented and backend journeys verified | 2026-11-10 |
-| AppMoviles2026/platform | develop | 7dfafb5 | feat(billing): implement verified payment method linking | Verified payment method linking implemented | 2026-11-11 |
-| AppMoviles2026/platform | develop | 06c92f0 | feat(billing): implement company subscriptions | Company subscriptions implemented | 2026-11-11 |
-| AppMoviles2026/platform | develop | 67df1d5 | feat(billing): implement compensation lifecycle and payments | Compensation lifecycle and payments implemented | 2026-11-11 |
+| Repository              | Branch  | Commit Id | Commit Message                                                         | Commit Message Body                                          | Committed on (Date) |
+| ----------------------- | ------- | --------- | ---------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------- |
+| AppMoviles2026/platform | develop | e203138   | feat(identity): complete brand profiles and authorized social access   | Brand profiles and authorized social access completed        | 2026-11-09          |
+| AppMoviles2026/platform | develop | b31f507   | feat(campaign): complete application evaluation and campaign contracts | Application evaluation and campaign contracts completed      | 2026-11-09          |
+| AppMoviles2026/platform | develop | 54de799   | feat(collaboration): implement bilateral agreements and lifecycle      | Bilateral agreements and collaboration lifecycle implemented | 2026-11-09          |
+| AppMoviles2026/platform | develop | 095f6c2   | feat(collaboration): implement submissions reviews and revisions       | Submission reviews and revisions implemented                 | 2026-11-09          |
+| AppMoviles2026/platform | develop | 18bba5f   | feat(collaboration): implement incidents and collaboration history     | Incidents and collaboration history implemented              | 2026-11-10          |
+| AppMoviles2026/platform | develop | f1a996e   | feat(performance): implement sourced metrics and manual evidence       | Sourced metrics and manual evidence implemented              | 2026-11-10          |
+| AppMoviles2026/platform | develop | 67d98e1   | feat(performance): implement attribution and verify backend journeys   | Attribution implemented and backend journeys verified        | 2026-11-10          |
+| AppMoviles2026/platform | develop | 7dfafb5   | feat(billing): implement verified payment method linking               | Verified payment method linking implemented                  | 2026-11-11          |
+| AppMoviles2026/platform | develop | 06c92f0   | feat(billing): implement company subscriptions                         | Company subscriptions implemented                            | 2026-11-11          |
+| AppMoviles2026/platform | develop | 67df1d5   | feat(billing): implement compensation lifecycle and payments           | Compensation lifecycle and payments implemented              | 2026-11-11          |
 
 ##### 4.2.2.5. Testing Suite Evidence for Sprint Review
 
@@ -7556,40 +7562,40 @@ Durante este Sprint no se implementaron pruebas bajo el enfoque BDD con archivos
 
 Los Unit Tests validan de manera aislada reglas de negocio, agregados, Value Objects, servicios de dominio y componentes asociados con las funcionalidades incorporadas durante el Sprint 2.
 
-| Test Id | Test Class | Related User Story | Component / Behavior |
-| --- | --- | --- | --- |
-| UT-08 | `BrandProfileDomainTests` | US-12 | Valida las reglas de actualización del perfil empresarial, conservación de identidad, validación de campos y restricciones según el tipo y estado de la cuenta. |
-| UT-09 | `CampaignEvaluationDomainTests` | US-20 | Valida las decisiones de selección y rechazo de postulaciones, control de versiones, razones de rechazo y restricciones aplicadas a postulaciones en estados terminales. |
-| UT-10 | `AgreementDomainTests` | US-21 | Valida el proceso de aceptación bilateral, rechazo, expiración de acuerdos, versiones de condiciones y requisitos necesarios para activar una colaboración. |
-| UT-11 | `DeliveryDomainTests` | US-22, US-23 | Valida el ciclo de entregables, revisiones, correcciones, fechas límite, evidencias y condiciones necesarias para completar una colaboración. |
-| UT-12 | `IncidentDomainTests` | TS-05 | Valida la apertura, resolución, rechazo y retiro de propuestas de incidencia, control de versiones y restricciones de participantes. |
-| UT-13 | `CompensationSchedulingTests` | TS-05 | Valida la ejecución de procesos relacionados con compensaciones y su independencia respecto de otros procesos programados del backend. |
+| Test Id | Test Class                      | Related User Story | Component / Behavior                                                                                                                                                     |
+| ------- | ------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| UT-08   | `BrandProfileDomainTests`       | US-12              | Valida las reglas de actualización del perfil empresarial, conservación de identidad, validación de campos y restricciones según el tipo y estado de la cuenta.          |
+| UT-09   | `CampaignEvaluationDomainTests` | US-20              | Valida las decisiones de selección y rechazo de postulaciones, control de versiones, razones de rechazo y restricciones aplicadas a postulaciones en estados terminales. |
+| UT-10   | `AgreementDomainTests`          | US-21              | Valida el proceso de aceptación bilateral, rechazo, expiración de acuerdos, versiones de condiciones y requisitos necesarios para activar una colaboración.              |
+| UT-11   | `DeliveryDomainTests`           | US-22, US-23       | Valida el ciclo de entregables, revisiones, correcciones, fechas límite, evidencias y condiciones necesarias para completar una colaboración.                            |
+| UT-12   | `IncidentDomainTests`           | TS-05              | Valida la apertura, resolución, rechazo y retiro de propuestas de incidencia, control de versiones y restricciones de participantes.                                     |
+| UT-13   | `CompensationSchedulingTests`   | TS-05              | Valida la ejecución de procesos relacionados con compensaciones y su independencia respecto de otros procesos programados del backend.                                   |
 
 ###### Integration Tests
 
 Las pruebas de integración validan el funcionamiento conjunto de controladores REST, servicios de aplicación, seguridad, persistencia y base de datos utilizando el perfil de testing del backend.
 
-| Test Id | Test Class | Related User Story | Component / Behavior |
-| --- | --- | --- | --- |
-| IT-09 | `BrandProfileApiTests` | US-12 | Verifica consulta y actualización del perfil empresarial, control de versiones, autorización por rol, persistencia y protección de información sensible. |
-| IT-10 | `CampaignDiscoveryApplicationApiTests` | US-20 | Verifica la evaluación de postulaciones por parte de una empresa, selección y rechazo, autorización, paginación y control de concurrencia. |
-| IT-11 | `CollaborationApiTests` | US-21, US-22 | Verifica aceptación bilateral de acuerdos, creación de colaboraciones, consulta de estados, autorización de participantes y persistencia del ciclo de colaboración. |
-| IT-12 | `DeliveryApiTests` | US-23 | Verifica registro de entregables, revisiones, correcciones, evidencias, control de versiones, permisos y actualización del progreso de la colaboración. |
-| IT-13 | `IncidentApiTests` | TS-05 | Verifica registro y consulta de incidencias, propuestas de resolución, autorización de participantes, concurrencia y persistencia de cambios. |
-| IT-14 | `CompensationApiTests` | TS-05 | Verifica consulta y gestión del estado de compensaciones, condiciones previas al pago, incidencias asociadas, seguridad e idempotencia de las operaciones. |
+| Test Id | Test Class                             | Related User Story | Component / Behavior                                                                                                                                                |
+| ------- | -------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| IT-09   | `BrandProfileApiTests`                 | US-12              | Verifica consulta y actualización del perfil empresarial, control de versiones, autorización por rol, persistencia y protección de información sensible.            |
+| IT-10   | `CampaignDiscoveryApplicationApiTests` | US-20              | Verifica la evaluación de postulaciones por parte de una empresa, selección y rechazo, autorización, paginación y control de concurrencia.                          |
+| IT-11   | `CollaborationApiTests`                | US-21, US-22       | Verifica aceptación bilateral de acuerdos, creación de colaboraciones, consulta de estados, autorización de participantes y persistencia del ciclo de colaboración. |
+| IT-12   | `DeliveryApiTests`                     | US-23              | Verifica registro de entregables, revisiones, correcciones, evidencias, control de versiones, permisos y actualización del progreso de la colaboración.             |
+| IT-13   | `IncidentApiTests`                     | TS-05              | Verifica registro y consulta de incidencias, propuestas de resolución, autorización de participantes, concurrencia y persistencia de cambios.                       |
+| IT-14   | `CompensationApiTests`                 | TS-05              | Verifica consulta y gestión del estado de compensaciones, condiciones previas al pago, incidencias asociadas, seguridad e idempotencia de las operaciones.          |
 
 ###### Acceptance Tests
 
 Las pruebas de aceptación automatizadas se ejecutan sobre la API utilizando el backend de Spring Boot y permiten validar escenarios completos atravesando las capas REST, Application, Domain e Infrastructure.
 
-| Test Id | Automated Scenario | Related User Story | Expected Result |
-| --- | --- | --- | --- |
-| AT-06 | Consulta y actualización del perfil empresarial mediante HTTP | US-12 | La empresa autenticada puede consultar y modificar su perfil y los cambios permanecen almacenados sin alterar sus credenciales ni otras cuentas. |
-| AT-07 | Evaluación de una postulación por parte de una empresa | US-20 | La empresa puede consultar las postulaciones recibidas y seleccionar o rechazar una postulación respetando las reglas de autorización y control de versiones. |
-| AT-08 | Aceptación bilateral y creación de colaboración | US-21 | La colaboración se crea únicamente cuando ambas partes aceptan las condiciones vigentes del acuerdo. |
-| AT-09 | Consulta del estado de una colaboración | US-22 | Los participantes autorizados pueden consultar el estado, obligaciones y progreso de la colaboración sin exponer información a usuarios externos. |
-| AT-10 | Registro y revisión de entregables | US-23 | El creador puede registrar entregables y evidencias, mientras que la empresa puede revisarlos y solicitar correcciones manteniendo el historial de versiones. |
-| AT-11 | Gestión de incidencias y compensaciones | TS-05 | Las incidencias afectan correctamente el ciclo de colaboración y la compensación conserva un estado consistente de acuerdo con el cumplimiento y resolución de la colaboración. |
+| Test Id | Automated Scenario                                            | Related User Story | Expected Result                                                                                                                                                                 |
+| ------- | ------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| AT-06   | Consulta y actualización del perfil empresarial mediante HTTP | US-12              | La empresa autenticada puede consultar y modificar su perfil y los cambios permanecen almacenados sin alterar sus credenciales ni otras cuentas.                                |
+| AT-07   | Evaluación de una postulación por parte de una empresa        | US-20              | La empresa puede consultar las postulaciones recibidas y seleccionar o rechazar una postulación respetando las reglas de autorización y control de versiones.                   |
+| AT-08   | Aceptación bilateral y creación de colaboración               | US-21              | La colaboración se crea únicamente cuando ambas partes aceptan las condiciones vigentes del acuerdo.                                                                            |
+| AT-09   | Consulta del estado de una colaboración                       | US-22              | Los participantes autorizados pueden consultar el estado, obligaciones y progreso de la colaboración sin exponer información a usuarios externos.                               |
+| AT-10   | Registro y revisión de entregables                            | US-23              | El creador puede registrar entregables y evidencias, mientras que la empresa puede revisarlos y solicitar correcciones manteniendo el historial de versiones.                   |
+| AT-11   | Gestión de incidencias y compensaciones                       | TS-05              | Las incidencias afectan correctamente el ciclo de colaboración y la compensación conserva un estado consistente de acuerdo con el cumplimiento y resolución de la colaboración. |
 
 ###### Testing Source Code Repository
 
@@ -7601,14 +7607,14 @@ Testing source code path:
 
 Durante el Sprint, los tests fueron incorporados junto con las funcionalidades correspondientes en los commits de implementación. Los principales commits relacionados con la suite de testing se presentan a continuación.
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-| --- | --- | --- | --- | --- | --- |
-| AppMoviles2026/platform | develop | `e203138` | feat(identity): complete brand profiles and authorized social access | — | 2026-11-09 |
-| AppMoviles2026/platform | develop | `b31f507` | feat(campaign): complete application evaluation and campaign contracts | — | 2026-11-09 |
-| AppMoviles2026/platform | develop | `54de799` | feat(collaboration): implement bilateral agreements and lifecycle | — | 2026-11-09 |
-| AppMoviles2026/platform | develop | `095f6c2` | feat(collaboration): implement submissions reviews and revisions | — | 2026-11-09 |
-| AppMoviles2026/platform | develop | `18bba5f` | feat(collaboration): implement incidents and collaboration history | — | 2026-11-10 |
-| AppMoviles2026/platform | develop | `67df1d5` | feat(billing): implement compensation lifecycle and payments | — | 2026-11-11 |
+| Repository              | Branch  | Commit Id | Commit Message                                                         | Commit Message Body | Committed on (Date) |
+| ----------------------- | ------- | --------- | ---------------------------------------------------------------------- | ------------------- | ------------------- |
+| AppMoviles2026/platform | develop | `e203138` | feat(identity): complete brand profiles and authorized social access   | —                   | 2026-11-09          |
+| AppMoviles2026/platform | develop | `b31f507` | feat(campaign): complete application evaluation and campaign contracts | —                   | 2026-11-09          |
+| AppMoviles2026/platform | develop | `54de799` | feat(collaboration): implement bilateral agreements and lifecycle      | —                   | 2026-11-09          |
+| AppMoviles2026/platform | develop | `095f6c2` | feat(collaboration): implement submissions reviews and revisions       | —                   | 2026-11-09          |
+| AppMoviles2026/platform | develop | `18bba5f` | feat(collaboration): implement incidents and collaboration history     | —                   | 2026-11-10          |
+| AppMoviles2026/platform | develop | `67df1d5` | feat(billing): implement compensation lifecycle and payments           | —                   | 2026-11-11          |
 
 ##### 4.2.2.6. Execution Evidence for Sprint Review
 
@@ -7625,14 +7631,14 @@ Durante el Sprint 2 se amplió la documentación de los servicios REST del backe
 
 La versión documentada amplía los servicios correspondientes a Identity & Profile Management, Campaign Management, Collaboration Management y Billing:
 
-| Servicio / área | Capacidades documentadas | Rutas representativas |
-|---|---|---|
-| Perfil empresarial | Consulta y actualización del perfil empresarial autenticado, incluyendo control de versión de la información. | `GET /api/v1/profiles/me/brand`; `PUT /api/v1/profiles/me/brand`; `GET /api/v1/accounts/me` |
-| Evaluación de postulaciones | Consulta de postulaciones recibidas por una campaña, consulta de detalle y registro de decisiones de selección o rechazo. | `GET /api/v1/campaigns/{id}/applications`; `GET /api/v1/campaigns/{id}/applications/{applicationId}`; `POST /api/v1/campaigns/{id}/applications/{applicationId}/decision` |
-| Acuerdos y colaboraciones | Creación y consulta de acuerdos, aceptación o rechazo de condiciones y creación y seguimiento de colaboraciones. | `POST /api/v1/agreements`; `GET /api/v1/agreements/{id}`; `GET /api/v1/agreements/mine`; `POST /api/v1/agreements/{id}/decisions`; `POST /api/v1/collaborations`; `GET /api/v1/collaborations/{id}`; `GET /api/v1/collaborations/mine` |
-| Entregables y evidencias | Registro, consulta, revisión y corrección de entregables, así como gestión de archivos de evidencia asociados a una colaboración. | `POST/GET /api/v1/collaborations/{id}/deliverables`; `GET /api/v1/deliverables/{id}`; `GET/POST /api/v1/deliverables/{id}/versions`; `POST /api/v1/deliverables/{id}/validation`; `POST /api/v1/deliverables/{id}/rejection`; `POST /api/v1/collaborations/{id}/assets` |
-| Incidencias | Registro y consulta de incidencias, propuestas de resolución y decisiones realizadas por los participantes de una colaboración. | `POST/GET /api/v1/collaborations/{id}/incidents`; `GET /api/v1/incidents/{id}`; `POST/GET /api/v1/incidents/{id}/resolutions`; `POST /api/v1/incidents/{id}/resolutions/{resolutionId}/decisions` |
-| Compensaciones | Consulta del estado de compensaciones, inicio y confirmación del proceso de pago y consulta del historial asociado. | `GET /api/v1/collaborations/{id}/compensation`; `GET /api/v1/compensations/{id}`; `POST /api/v1/collaborations/{id}/payment`; `POST /api/v1/collaborations/{id}/payment/confirmation`; `POST /api/v1/collaborations/{id}/payment/refresh`; `GET /api/v1/collaborations/{id}/compensation/history` |
+| Servicio / área             | Capacidades documentadas                                                                                                          | Rutas representativas                                                                                                                                                                                                                                                                             |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Perfil empresarial          | Consulta y actualización del perfil empresarial autenticado, incluyendo control de versión de la información.                     | `GET /api/v1/profiles/me/brand`; `PUT /api/v1/profiles/me/brand`; `GET /api/v1/accounts/me`                                                                                                                                                                                                       |
+| Evaluación de postulaciones | Consulta de postulaciones recibidas por una campaña, consulta de detalle y registro de decisiones de selección o rechazo.         | `GET /api/v1/campaigns/{id}/applications`; `GET /api/v1/campaigns/{id}/applications/{applicationId}`; `POST /api/v1/campaigns/{id}/applications/{applicationId}/decision`                                                                                                                         |
+| Acuerdos y colaboraciones   | Creación y consulta de acuerdos, aceptación o rechazo de condiciones y creación y seguimiento de colaboraciones.                  | `POST /api/v1/agreements`; `GET /api/v1/agreements/{id}`; `GET /api/v1/agreements/mine`; `POST /api/v1/agreements/{id}/decisions`; `POST /api/v1/collaborations`; `GET /api/v1/collaborations/{id}`; `GET /api/v1/collaborations/mine`                                                            |
+| Entregables y evidencias    | Registro, consulta, revisión y corrección de entregables, así como gestión de archivos de evidencia asociados a una colaboración. | `POST/GET /api/v1/collaborations/{id}/deliverables`; `GET /api/v1/deliverables/{id}`; `GET/POST /api/v1/deliverables/{id}/versions`; `POST /api/v1/deliverables/{id}/validation`; `POST /api/v1/deliverables/{id}/rejection`; `POST /api/v1/collaborations/{id}/assets`                           |
+| Incidencias                 | Registro y consulta de incidencias, propuestas de resolución y decisiones realizadas por los participantes de una colaboración.   | `POST/GET /api/v1/collaborations/{id}/incidents`; `GET /api/v1/incidents/{id}`; `POST/GET /api/v1/incidents/{id}/resolutions`; `POST /api/v1/incidents/{id}/resolutions/{resolutionId}/decisions`                                                                                                 |
+| Compensaciones              | Consulta del estado de compensaciones, inicio y confirmación del proceso de pago y consulta del historial asociado.               | `GET /api/v1/collaborations/{id}/compensation`; `GET /api/v1/compensations/{id}`; `POST /api/v1/collaborations/{id}/payment`; `POST /api/v1/collaborations/{id}/payment/confirmation`; `POST /api/v1/collaborations/{id}/payment/refresh`; `GET /api/v1/collaborations/{id}/compensation/history` |
 
 Las rutas protegidas utilizan autenticación JWT Bearer. Para probarlas desde Swagger, se ejecuta `POST /api/v1/auth/sessions`, se copia el `accessToken` obtenido y se ingresa mediante la opción **Authorize**. A partir de ello, Swagger incorpora el token Bearer en las solicitudes realizadas a los endpoints protegidos.
 
@@ -7646,17 +7652,17 @@ _Figura. Interfaz Swagger UI de la API desplegada, mostrando los grupos de endpo
 
 El backend REST de CollabPro continúa desplegado durante el Sprint 2 en una máquina virtual de Microsoft Azure. La API se encuentra expuesta mediante el puerto 8081 y mantiene como dirección pública `http://40.75.23.68:8081`. Para esta iteración se actualizó el backend desplegado con las funcionalidades incorporadas durante el Sprint 2, incluyendo perfiles empresariales, evaluación de postulaciones, acuerdos, colaboraciones, entregables, incidencias y compensaciones.
 
-| Elemento | Estado observado |
-|---|---|
-| Plataforma de cómputo | Máquina virtual de Azure |
-| Sistema operativo | Ubuntu Server 24.04 LTS |
-| URL base informada | [http://40.75.23.68:8081](http://40.75.23.68:8081) |
-| Documentación interactiva | [Swagger UI](http://40.75.23.68:8081/swagger-ui/index.html) |
+| Elemento                    | Estado observado                                                 |
+| --------------------------- | ---------------------------------------------------------------- |
+| Plataforma de cómputo       | Máquina virtual de Azure                                         |
+| Sistema operativo           | Ubuntu Server 24.04 LTS                                          |
+| URL base informada          | [http://40.75.23.68:8081](http://40.75.23.68:8081)               |
+| Documentación interactiva   | [Swagger UI](http://40.75.23.68:8081/swagger-ui/index.html)      |
 | Especificación de servicios | [OpenAPI JSON](http://40.75.23.68:8081/v3/api-docs), OpenAPI 3.1 |
-| Rama desplegada | `develop` |
-| Puerto del backend | `8081` |
-| Contenedores asociados | Backend CollabPro, MySQL y Mailpit |
-| Transporte publicado | HTTP en el endpoint proporcionado |
+| Rama desplegada             | `develop`                                                        |
+| Puerto del backend          | `8081`                                                           |
+| Contenedores asociados      | Backend CollabPro, MySQL y Mailpit                               |
+| Transporte publicado        | HTTP en el endpoint proporcionado                                |
 
 El repositorio del backend contiene un `Dockerfile` para construir la imagen de Spring Boot y un archivo `compose.yaml` para gestionar los servicios necesarios para la ejecución de CollabPro. Durante el despliegue del Sprint 2 se actualizó la rama `develop` y se reconstruyeron los contenedores para incorporar los cambios implementados durante la iteración.
 
@@ -7700,15 +7706,14 @@ _Figura. Evidencia de la ejecución de los servicios correspondientes al backend
 1. Publicar el servicio de Azure detrás de HTTPS y un dominio estable; mantener MySQL sin exposición pública y gestionar credenciales y secretos mediante configuración segura del entorno.
 2. Automatizar despliegues y pruebas de humo, y ejecutar recorridos de extremo a extremo contra datos persistentes para comprobar autenticación, permisos, errores, paginación y retorno OAuth antes de cada entrega.
 
-
 ## Video About-the-Product
 
 El video About-the-Product presenta la propuesta de valor de CollabPro para pequeñas y medianas empresas y creadores de contenido. Mediante un recorrido por el sistema, explica sus principales funcionalidades y el modelo de negocio. Está dirigido a visitantes del Landing Page y potenciales usuarios interesados en conocer cómo organizar sus campañas y colaboraciones.
 
-| Evidencia | Detalle |
-| --- | --- |
-| Duración | 02:00 |
-| Video en YouTube | [Ver Video About-the-Product](https://www.youtube.com/watch?v=VdEhdZ1mnt0) |
+| Evidencia         | Detalle                                                                                                                                                                                                                                                                                                                                               |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Duración          | 02:00                                                                                                                                                                                                                                                                                                                                                 |
+| Video en YouTube  | [Ver Video About-the-Product](https://www.youtube.com/watch?v=VdEhdZ1mnt0)                                                                                                                                                                                                                                                                            |
 | Video en OneDrive | [Ver video en OneDrive](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211d989_upc_edu_pe/IQCTlsr-asSyRaIGFcn-TmM2AcJ6jWbSwjlblokS_0pY_cI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yb0LVU) |
 
 [![Video About-the-Product de CollabPro](./assets/C04/AboutTheProduct/about-the-product.png)](https://www.youtube.com/watch?v=VdEhdZ1mnt0)
@@ -7721,20 +7726,21 @@ El video incluye los testimonios de cada miembro del equipo ante la cámara, don
 
 Tabla de contenido
 
-| Sección | Inicio | Fin | Logros alcanzados |
-|---|---:|---:|---|
-| Testimonio de Renzo Revilla | 00:00 | 01:02 | 
+| Sección                     | Inicio |   Fin | Logros alcanzados |
+| --------------------------- | -----: | ----: | ----------------- |
+| Testimonio de Renzo Revilla |  00:00 | 01:02 |
+
 • Desarrolló conocimientos sobre cómo organizar un sistema de software según las responsabilidades y reglas del negocio.
 • Fortaleció su capacidad para establecer las condiciones y reglas que determinan el funcionamiento de las campañas y postulaciones.
 • Reconoció la importancia de aprender a prevenir conflictos y operaciones duplicadas cuando varios procesos modifican información simultáneamente. |
-| Testimonio de Julio Quispe | 01:02 | 01:50 | 
+| Testimonio de Julio Quispe | 01:02 | 01:50 |
 • Fortaleció sus conocimientos sobre metodologías de diseño centradas en el usuario y su aplicación en la elaboración de propuestas de software.
 • Desarrolló su capacidad para comprobar el correcto funcionamiento de las funcionalidades, considerando errores, situaciones límite y criterios de aceptación.
 • Comprendió que las necesidades de los usuarios deben investigarse y validarse continuamente, en lugar de basarse únicamente en suposiciones iniciales. |
 | Testimonio de Anhelo Rocca | 01:50 | 02:34 | • Amplió sus conocimientos sobre arquitectura de software, comprendiendo cómo representar la estructura de un sistema desde diferentes niveles de detalle.
 • Fortaleció sus habilidades para diseñar interfaces y formularios que faciliten la interacción de los usuarios con la aplicación.
 • Reconoció la necesidad de seguir validando las interfaces con usuarios y mejorar aspectos como accesibilidad, tiempos de carga y manejo de errores. |
-| Testimonio de Leonardo Garcia | 02:34 | 03:31 | 
+| Testimonio de Leonardo Garcia | 02:34 | 03:31 |
 • Mejoró su capacidad para especificar requisitos mediante historias de usuario claras, precisas y con menor posibilidad de interpretaciones ambiguas.
 • Amplió sus conocimientos sobre mecanismos de autenticación y autorización, comprendiendo las consideraciones de seguridad relacionadas con el acceso a las cuentas.
 • Reconoció la importancia de seguir aprendiendo sobre la organización y priorización de requisitos para orientar adecuadamente el desarrollo del proyecto. |
@@ -7777,7 +7783,8 @@ Tabla de contenido
 - **Repositorio del reporte:** <https://github.com/AppMoviles2026/report>
 - **Repositorio del backend:** <https://github.com/AppMoviles2026/platform>
 - **Repositorio del sitio web:** <https://github.com/AppMoviles2026/website>
-- **Repositorio de la aplicación móvil:** <https://github.com/AppMoviles2026/mobile-app>
+- **Repositorio de la aplicación móvil original:** <https://github.com/AppMoviles2026/mobile-app>
+- **Repositorio de la aplicación móvil desarrollada con Flutter:** <https://github.com/AppMoviles2026/mobile-flutter-app>
 
 ### ANEXO B. Gestión, diseño y modelado
 
@@ -7813,3 +7820,8 @@ Tabla de contenido
 - **Video en YouTube:** [Ver Video About-the-Team](https://www.youtube.com/watch?v=gdVG7tXH9Zs)
 - **Video en OneDrive:** [Ver video en OneDrive](https://upcedupe-my.sharepoint.com/:f:/g/personal/u20231h059_upc_edu_pe/IgBuWlG_2hzkR43ual4iE7XsATsTazJbGRbB_7b1wvppOps?e=IDDzmb)
 - **Duración:** 04:25.
+
+### ANEXO G. Videos de entrevistas de validación
+
+- **Entrevista de validación a Frank:** <https://www.youtube.com/watch?v=WXB9Q7h5j-M>
+- **Entrevista de validación a Britner:** <https://www.youtube.com/watch?v=S89OqGkui78>
