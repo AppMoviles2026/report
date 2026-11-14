@@ -7723,31 +7723,29 @@ Tabla de contenido
 
 | Sección | Inicio | Fin | Logros alcanzados |
 |---|---:|---:|---|
-| Testimonio de Renzo Revilla | 00:00 | 00:00 | 
+| Testimonio de Renzo Revilla | 00:00 | 01:02 | 
 • Desarrolló conocimientos sobre cómo organizar un sistema de software según las responsabilidades y reglas del negocio.
 • Fortaleció su capacidad para establecer las condiciones y reglas que determinan el funcionamiento de las campañas y postulaciones.
 • Reconoció la importancia de aprender a prevenir conflictos y operaciones duplicadas cuando varios procesos modifican información simultáneamente. |
-| Testimonio de Julio Quispe | 00:00 | 00:00 | 
+| Testimonio de Julio Quispe | 01:02 | 01:50 | 
 • Fortaleció sus conocimientos sobre metodologías de diseño centradas en el usuario y su aplicación en la elaboración de propuestas de software.
 • Desarrolló su capacidad para comprobar el correcto funcionamiento de las funcionalidades, considerando errores, situaciones límite y criterios de aceptación.
 • Comprendió que las necesidades de los usuarios deben investigarse y validarse continuamente, en lugar de basarse únicamente en suposiciones iniciales. |
-| Testimonio de Anhelo Rocca | 00:00 | 00:00 | • Amplió sus conocimientos sobre arquitectura de software, comprendiendo cómo representar la estructura de un sistema desde diferentes niveles de detalle.
+| Testimonio de Anhelo Rocca | 01:50 | 02:34 | • Amplió sus conocimientos sobre arquitectura de software, comprendiendo cómo representar la estructura de un sistema desde diferentes niveles de detalle.
 • Fortaleció sus habilidades para diseñar interfaces y formularios que faciliten la interacción de los usuarios con la aplicación.
 • Reconoció la necesidad de seguir validando las interfaces con usuarios y mejorar aspectos como accesibilidad, tiempos de carga y manejo de errores. |
-| Testimonio de Leonardo Garcia | 00:00 | 00:00 | 
+| Testimonio de Leonardo Garcia | 02:34 | 03:31 | 
 • Mejoró su capacidad para especificar requisitos mediante historias de usuario claras, precisas y con menor posibilidad de interpretaciones ambiguas.
 • Amplió sus conocimientos sobre mecanismos de autenticación y autorización, comprendiendo las consideraciones de seguridad relacionadas con el acceso a las cuentas.
 • Reconoció la importancia de seguir aprendiendo sobre la organización y priorización de requisitos para orientar adecuadamente el desarrollo del proyecto. |
-| Testimonio de Fabio Vallejo | 00:00 | 00:00 | • Desarrolló habilidades para comprender las necesidades y dificultades de los usuarios mediante técnicas de investigación y análisis de experiencia de usuario.
+| Testimonio de Fabio Vallejo | 03:31 | 04:26 | • Desarrolló habilidades para comprender las necesidades y dificultades de los usuarios mediante técnicas de investigación y análisis de experiencia de usuario.
 • Fortaleció su capacidad para adaptar las interfaces a distintos dispositivos, manteniendo una experiencia de uso coherente.
 • Identificó la necesidad de profundizar en accesibilidad e integración con los servicios del sistema para ofrecer interfaces funcionales y fáciles de utilizar. |
 
 ![./assets/C04/AboutTheTeam/about-the-team.png](./assets/C04/AboutTheTeam/about-the-team.png)
 
-[Video About-the-Team en Youtube](https://www.youtube.com/watch?v) |
-[Video About-the-Team en OneDrive](https://upcedupe-my.sharepoint.com/) |
-
-## Glosario
+[Video About-the-Team en Youtube](https://www.youtube.com/watch?v=gdVG7tXH9Zs) |
+[Video About-the-Team en OneDrive](https://upcedupe-my.sharepoint.com/:f:/g/personal/u20231h059_upc_edu_pe/IgBuWlG_2hzkR43ual4iE7XsATsTazJbGRbB_7b1wvppOps?e=IDDzmb) |
 
 ## Bibliografía
 
@@ -7812,6 +7810,6 @@ Tabla de contenido
 
 ### ANEXO F. Video About-the-Team
 
-- **Video en YouTube:** [Ver Video About-the-Team](https://www.youtube.com/watch?v)
-- **Video en OneDrive:** [Ver video en OneDrive](https://upcedupe-my.sharepoint.com/)
-- **Duración:** 00:00.
+- **Video en YouTube:** [Ver Video About-the-Team](https://www.youtube.com/watch?v=gdVG7tXH9Zs)
+- **Video en OneDrive:** [Ver video en OneDrive](https://upcedupe-my.sharepoint.com/:f:/g/personal/u20231h059_upc_edu_pe/IgBuWlG_2hzkR43ual4iE7XsATsTazJbGRbB_7b1wvppOps?e=IDDzmb)
+- **Duración:** 04:25.
